@@ -13,7 +13,7 @@ Do not expose anything in `reference/` to Work until the blind nominal design ha
 
 ## Order of work
 
-1. Run `environment_setup.ps1` manually.
+1. Install Ubuntu under WSL and run `environment_setup.ps1`; scientific Python executes inside Linux.
 2. Open this folder in ChatGPT desktop Work.
 3. Give Work `prompts/01_environment_smoke_test.txt`.
 4. Review the smoke-test result in normal Chat.

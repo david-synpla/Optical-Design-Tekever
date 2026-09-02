@@ -1,7 +1,7 @@
 # Work Operating Instructions
 
 1. Work only inside the `Optical Design - Tekever` folder unless explicitly instructed otherwise.
-2. Use the Python interpreter path recorded in `python_path.txt`.
+2. Run scientific Python through Ubuntu on WSL, using the Linux interpreter path recorded in `python_path.txt`.
 3. Read `requirements/eo_requirements.yaml`, `benchmark_protocol.md`, and `design_state.md` before a design run.
 4. Never read `reference/` during the blind phase.
 5. Use Optiland as the primary optical engine.

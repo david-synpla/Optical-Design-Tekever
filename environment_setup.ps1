@@ -1,32 +1,23 @@
 $ErrorActionPreference = 'Stop'
 
-$ProjectRoot = 'C:\Users\david\OneDrive - Synopsis Planet\Documents\ChatGPT\Optical Design - Tekever'
-$VenvRoot = Join-Path $env:LOCALAPPDATA 'ChatGPTOptics\venvs\tekever'
-$BundledPython = 'C:\Users\david\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+$ProjectRoot = $PSScriptRoot
+$Distro = 'Ubuntu'
 
-Set-Location -LiteralPath $ProjectRoot
-New-Item -ItemType Directory -Force -Path (Split-Path $VenvRoot) | Out-Null
-
-if (-not (Test-Path $VenvRoot)) {
-    if (Get-Command py -ErrorAction SilentlyContinue) {
-        py -3.12 -m venv $VenvRoot
-    }
-    elseif (Test-Path -LiteralPath $BundledPython) {
-        & $BundledPython -m venv $VenvRoot
-    }
-    else {
-        throw 'Python 3.12 was not found. Install it or restore the Codex bundled runtime.'
-    }
+if (-not (Get-Command wsl.exe -ErrorAction SilentlyContinue)) {
+    throw 'wsl.exe is unavailable. Install WSL and Ubuntu before running this setup.'
 }
 
-$Python = Join-Path $VenvRoot 'Scripts\python.exe'
-& $Python -m pip install --upgrade pip
-& $Python -m pip install 'optiland==0.6.2' pyyaml pandas matplotlib pytest
+$InstalledDistros = @(& wsl.exe --list --quiet) -replace "`0", ''
+if ($InstalledDistros -notcontains $Distro) {
+    throw "The $Distro WSL distribution is not installed."
+}
 
-$Python | Set-Content -Encoding ASCII 'python_path.txt'
-& $Python -m pip freeze | Set-Content -Encoding ASCII 'requirements-lock.txt'
-& $Python 'src\verify_env.py'
+$LinuxProjectRoot = (& wsl.exe -d $Distro -- wslpath -a -u $ProjectRoot).Trim()
+if ($LASTEXITCODE -ne 0 -or -not $LinuxProjectRoot) {
+    throw 'Could not translate the Windows project path for WSL.'
+}
 
-Write-Host ''
-Write-Host 'Environment ready.'
-Write-Host "Python: $Python"
+& wsl.exe -d $Distro -- bash "$LinuxProjectRoot/environment_setup_wsl.sh"
+if ($LASTEXITCODE -ne 0) {
+    throw "WSL environment setup failed with exit code $LASTEXITCODE."
+}
