@@ -1,0 +1,7 @@
+Read WORK_GUIDE.md, benchmark_protocol.md, requirements/eo_requirements.yaml, and design_state.md. Do not read reference/.
+
+Implement only the architecture currently specified in design_state.md. Do not reconsider architecture selection.
+
+Build a reproducible Optiland model for the EO telescope, verify first-order properties, then perform a nominal optimization under the benchmark policy. Use no more than three materially distinct optimization attempts. Preserve the explicit source requirements. Any extra numerical objective must be identified as a benchmark assumption, not a customer requirement.
+
+Create the required run directory and outputs defined in benchmark_protocol.md, then update design_state.md with concise conclusions and the most useful next action.

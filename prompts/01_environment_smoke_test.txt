@@ -1,0 +1,10 @@
+Use the local `Optical Design - Tekever` folder. Read WORK_GUIDE.md but do not begin optical design.
+
+Task:
+1. Locate the Python interpreter from python_path.txt.
+2. Verify Python and Optiland import correctly.
+3. Run src/verify_env.py.
+4. Confirm that a basic Optiland sample can be instantiated and traced.
+5. Do not install anything unless the existing environment is broken.
+6. Do not read reference/.
+7. Return only: environment status, package versions, any error, and whether we are ready for optical design.
