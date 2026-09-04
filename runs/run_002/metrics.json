@@ -1,0 +1,347 @@
+{
+  "run_id": "run_002",
+  "stage": "physical baseline and minimal corrector comparison",
+  "sampling": {
+    "fields_deg": [
+      0.0,
+      0.2864,
+      0.4048,
+      0.5019
+    ],
+    "wavelengths_um": [
+      0.43,
+      0.55,
+      0.65,
+      0.8
+    ]
+  },
+  "benchmark_assumptions": {
+    "primary_clear_diameter_mm": 130.0,
+    "secondary_clear_diameter_mm": 58.0,
+    "entrance_obscuration_diameter_mm": 58.0,
+    "corrector_clear_diameter_mm": 20.0,
+    "aperture_throughput_excludes_reflection_coating_and_spider_losses": true
+  },
+  "software": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "optiland": "0.6.2",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "candidates": [
+    {
+      "name": "bare_obstructed",
+      "efl_mm": 794.1660947151679,
+      "f_number": 6.19971470660692,
+      "track_mm": 317.61596583,
+      "rms_spot_radius_um": [
+        [
+          3.745436684761784,
+          3.745436684761784,
+          3.745436684761784,
+          3.745436684761784
+        ],
+        [
+          2.254653640777356,
+          2.254653640777356,
+          2.254653640777356,
+          2.254653640777356
+        ],
+        [
+          4.633802586608896,
+          4.633802586608896,
+          4.633802586608896,
+          4.633802586608896
+        ],
+        [
+          8.365695297688125,
+          8.365695297688125,
+          8.365695297688125,
+          8.365695297688125
+        ]
+      ],
+      "worst_rms_spot_radius_um": 8.365695297688125,
+      "throughput_fraction_by_field_and_wavelength": [
+        [
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377
+        ],
+        [
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655
+        ],
+        [
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069
+        ],
+        [
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313
+        ]
+      ],
+      "maximum_f_tan_distortion_percent_at_0p55um": 0.00628107223076767
+    },
+    {
+      "name": "fused_silica_singlet",
+      "efl_mm": 794.2029000015499,
+      "f_number": 6.20000202972079,
+      "track_mm": 318.68372614,
+      "rms_spot_radius_um": [
+        [
+          6.641595810821123,
+          5.79608625582621,
+          5.401674584209777,
+          5.0243802243518285
+        ],
+        [
+          3.687770277128194,
+          3.066354834998426,
+          2.817439425431591,
+          2.6135462436866668
+        ],
+        [
+          3.505147263516698,
+          3.645418453929933,
+          3.7734881656602073,
+          3.9287146530082073
+        ],
+        [
+          6.327738883381917,
+          6.85604123702561,
+          7.122430913712347,
+          7.387367737863377
+        ]
+      ],
+      "worst_rms_spot_radius_um": 7.387367737863377,
+      "throughput_fraction_by_field_and_wavelength": [
+        [
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377
+        ],
+        [
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655
+        ],
+        [
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069
+        ],
+        [
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313
+        ]
+      ],
+      "maximum_f_tan_distortion_percent_at_0p55um": 0.008665566356231376
+    },
+    {
+      "name": "cemented_N_BK7_N_F2_doublet",
+      "efl_mm": 794.2029005590584,
+      "f_number": 6.20000203407302,
+      "track_mm": 319.55237273,
+      "rms_spot_radius_um": [
+        [
+          7.498592384279703,
+          5.164782972488132,
+          4.173399884809673,
+          3.301471597946139
+        ],
+        [
+          5.604596685509417,
+          2.6279322197482506,
+          1.8234370221160263,
+          1.721649718627552
+        ],
+        [
+          5.7169545296861015,
+          3.5753377066487415,
+          3.8955205032465936,
+          4.614612555936789
+        ],
+        [
+          7.611595339347157,
+          6.839031920722943,
+          7.522245819180517,
+          8.38327020361814
+        ]
+      ],
+      "worst_rms_spot_radius_um": 8.38327020361814,
+      "throughput_fraction_by_field_and_wavelength": [
+        [
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377
+        ],
+        [
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655
+        ],
+        [
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069
+        ],
+        [
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313
+        ]
+      ],
+      "maximum_f_tan_distortion_percent_at_0p55um": 0.018794869982560403
+    },
+    {
+      "name": "curved_image_diagnostic",
+      "efl_mm": 794.1660947151679,
+      "f_number": 6.19971470660692,
+      "track_mm": 317.64390596,
+      "rms_spot_radius_um": [
+        [
+          1.8667619670748297,
+          1.8667619670748297,
+          1.8667619670748297,
+          1.8667619670748297
+        ],
+        [
+          2.723729051312823,
+          2.723729051312823,
+          2.723729051312823,
+          2.723729051312823
+        ],
+        [
+          3.7772182648943704,
+          3.7772182648943704,
+          3.7772182648943704,
+          3.7772182648943704
+        ],
+        [
+          4.986251237520746,
+          4.986251237520746,
+          4.986251237520746,
+          4.986251237520746
+        ]
+      ],
+      "worst_rms_spot_radius_um": 4.986251237520746,
+      "throughput_fraction_by_field_and_wavelength": [
+        [
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377,
+          0.7955138236828377
+        ],
+        [
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655,
+          0.7949921752738655
+        ],
+        [
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069,
+          0.7942097026604069
+        ],
+        [
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313,
+          0.7918622848200313
+        ]
+      ],
+      "maximum_f_tan_distortion_percent_at_0p55um": 0.032655478670883455
+    }
+  ],
+  "selected": "bare_obstructed",
+  "architecture_status": "Cassegrain family retained provisionally; minimal correctors rejected; flat-field limitation triggers architecture revisit",
+  "finite_800m_focus": {
+    "best_secondary_to_image_distance_mm": 318.4601406406296,
+    "detector_shift_from_infinity_mm": 0.8441748106296245,
+    "mechanism_choice": "detector refocus",
+    "status": "paraxial/full-ray on-axis model; mechanical implementation not designed"
+  },
+  "selected_mtf_at_detector_nyquist": [
+    {
+      "tangential": 0.06675275674568344,
+      "sagittal": 0.06675275674568344
+    },
+    {
+      "tangential": 0.10809367309019362,
+      "sagittal": 0.14094006063609404
+    },
+    {
+      "tangential": 0.0474455923954405,
+      "sagittal": 0.12854789298119104
+    },
+    {
+      "tangential": 0.023467481283987145,
+      "sagittal": 0.01928237235763034
+    }
+  ],
+  "tma_screening_diagnostic": {
+    "status": "screening evidence only; not a developed Run 002 candidate",
+    "sampling": "0.55 um at the same four fields as Run 002",
+    "attempts": [
+      {
+        "name": "fixed_secondary_seed",
+        "effective_focal_length_mm": -815.786,
+        "rms_spot_radius_um_by_field": [
+          7.1,
+          3.27,
+          3.71,
+          7.84
+        ],
+        "conclusion": "Rejected at screening level because it missed the required focal length and converged toward a weak tertiary."
+      },
+      {
+        "name": "released_secondary_seed",
+        "parameters": {
+          "secondary_radius_mm": -383.33373,
+          "primary_conic": -1.15218742,
+          "secondary_conic": -6.41899951,
+          "tertiary_radius_mm": -1457.30254,
+          "tertiary_conic": -2.93018854,
+          "secondary_to_tertiary_mm": 313.478698,
+          "tertiary_to_detector_mm": -7.26094452
+        },
+        "effective_focal_length_mm": -794.2029000022573,
+        "effective_focal_length_magnitude_mm": 794.2029000022573,
+        "f_number_signed": -6.200002029726312,
+        "rms_spot_radius_um_by_field": [
+          4.742631,
+          2.877194,
+          3.30648,
+          5.81674
+        ],
+        "tertiary_clear_footprint_radius_mm": 7.47165,
+        "image_footprint_radius_mm": 6.97371,
+        "tertiary_to_detector_clearance_mm": 7.26094452,
+        "conclusion": "Nominal flat-field performance improved, but the impractical tertiary-to-detector clearance and unmodelled self-obscuration make this evidence for a future run, not a candidate design."
+      }
+    ]
+  },
+  "unmet_or_unverified": [
+    "No supplied customer image-quality, distortion, obscuration, package or mass limits exist.",
+    "Flat-field corner image quality and detector-Nyquist MTF remain weak.",
+    "Spider diffraction, mirror coating losses, baffle geometry and stray light are not modelled.",
+    "Thermal compensation and tolerances remain unverified."
+  ]
+}

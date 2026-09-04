@@ -1,12 +1,14 @@
 # Current Design State
 
-Phase: blind benchmark - architecture selected; preliminary model complete
+Phase: blind benchmark - Run 002 complete; architecture exploration reopened; paused for workflow-v2
 Telescope: EO only
-Architecture: on-axis two-conic-mirror Cassegrain-type baseline; evaluate a minimal near-focus spherical field corrector
+Architecture: on-axis two-conic-mirror Cassegrain-type remains a viable baseline but is not selected or frozen; tested minimal correctors rejected
 
 ## Design history
 
 - 2026-09-04: `WORK_GUIDE.md` was updated after the initial Track A design invocation and completion of `run_001`. The updated operating rules apply prospectively. `run_001` remains unchanged as the pre-update baseline. `BENCHMARK_TRACKS.md` was requested for the governing reread but was not present in the project, so no subsequent optical-design run was started.
+- 2026-09-04: `BENCHMARK_TRACKS.md` became available and Run 002 compared the physical two-mirror baseline with minimal singlet and cemented-achromat correctors, explicitly modelled apertures, and verified the 800 m finite-conjugate focus shift.
+- 2026-09-04: Human intervention stopped extension of Run 002 into detailed TMA or renewed architecture optimization and required a pause until workflow-v2 is installed. The already-running bounded TMA sweep was allowed to finish and is retained only as screening evidence for a separate future run.
 
 ## Fixed source requirements
 
@@ -25,15 +27,22 @@ See `requirements/eo_requirements.yaml`.
 - The estimated secondary footprint is 42.6% of the entrance-pupil diameter before mechanical margin. Explicit obscuration and vignetting remain unmodelled.
 - The secondary conic of approximately -6.58 is a manufacturing/metrology risk.
 - Full-aperture catadioptric and unobscured off-axis/three-mirror families were rejected at screening level because their large corrector or alignment/metrology burden is not yet justified.
+- Run 002 confirms that the explicitly obstructed bare two-mirror baseline remains viable, with approximately 79.5% aperture throughput before spider, coating and baffle losses, but remains flat-field limited.
+- A 4 mm fused-silica singlet modestly improves the corner while degrading the center and adding wavelength dependence; its added complexity is not justified.
+- A 5.5 mm cemented N-BK7/N-F2 achromat improves parts of the middle field but does not improve the worst field sufficiently to justify three refracting surfaces, two glasses and a cemented interface.
+- Full-ray on-axis optimization verifies that the 800 m finite conjugate requires approximately +0.844 mm detector refocus relative to infinity.
+- A curved-image diagnostic confirms field curvature as the dominant remaining limitation for the flat IMX545, justifying reopened architecture exploration.
+- A bounded TMA seed sweep showed potentially improved nominal flat-field performance, but the promising seed had only approximately 7.3 mm tertiary-to-detector clearance and nearly overlapping ray footprints. It is screening evidence only, not a developed Run 002 design.
 
 ## Open decisions for Chat
 
-- whether a minimal near-focus spherical corrector materially improves corner MTF without unacceptable color, cost or sensitivity;
-- physical secondary size, primary hole, baffles and resulting obscuration/vignetting;
-- optimization merit-function balance between MTF/spot, obscuration, conic strength and corrector simplicity;
-- whether the 800 m focus requirement is handled by detector refocus, group motion, or passive depth of focus;
+- which architecture to investigate after the workflow-v2 files are installed and read;
+- whether a separately developed TMA can provide practical mechanical clearance without self-obscuration;
+- physical primary hole, spider, baffles and resulting obscuration/vignetting;
+- practical detector-refocus mechanism for the verified 800 m focus shift;
+- tolerance, thermal and stray-light performance;
 - practical packaging/manufacturing constraints to add, if they existed in the original project.
 
 ## Last reviewed run
 
-run_001 - Track A first-order architecture screening
+run_002 - Track A physical baseline and minimal-corrector comparison; architecture work paused pending workflow-v2
