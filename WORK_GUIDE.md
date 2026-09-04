@@ -2,11 +2,12 @@
 
 1. Work only inside the `Optical Design - Tekever` project unless explicitly instructed otherwise.
 
-2. Run scientific Python through Ubuntu on WSL, using the project’s configured Linux Python environment. Do not fall back to the bundled ChatGPT/Codex Windows Python unless explicitly authorized.
+2. Run scientific Python through Ubuntu on WSL, using the project's configured Linux Python environment. Do not fall back to the bundled ChatGPT/Codex Windows Python unless explicitly authorized.
 
-3. Before any optical-design run, read:
+3. Before a substantive optical-design run, read:
    - `requirements/eo_requirements.yaml`
    - `OPTICAL_DESIGN_RULES.md`
+   - `DESIGN_WORKFLOW.md`
    - `BENCHMARK_TRACKS.md`
    - `benchmark_protocol.md`
    - `design_state.md`
@@ -15,11 +16,11 @@
 
 5. Use Optiland as the primary optical-design and ray-tracing engine unless a task genuinely requires another tool.
 
-6. Use reproducible scripts rather than notebooks for design, optimization, analysis, and reporting.
+6. Use reproducible scripts rather than notebooks for design, optimization, analysis and reporting.
 
-7. Do not install extra packages unless the task cannot reasonably be completed with the existing environment. If additional software is required, justify it briefly and keep the environment reproducible.
+7. Do not install extra packages unless the requested task cannot reasonably be completed with the existing environment. If additional software is required, justify it briefly and keep the environment reproducible.
 
-8. During Track A, do not perform broad external searches for existing telescope architectures or known solutions to this TEKEVER requirement set. General optical-engineering knowledge is allowed. During Track B, use the supplied research briefing and only perform further external research if explicitly authorized.
+8. During Track A, do not perform broad external searches for existing telescope architectures or known solutions to this TEKEVER requirement set. General optical-engineering knowledge is allowed. During Track B, use the approved research briefing and only perform further external research when permitted by the benchmark instructions.
 
 9. Do not invent missing customer requirements. Clearly distinguish:
    - explicit customer requirements;
@@ -28,33 +29,60 @@
    - design choices;
    - optimization results.
 
-10. Architecture exploration is governed by `OPTICAL_DESIGN_RULES.md` and `BENCHMARK_TRACKS.md`.
-    - During exploratory stages, consider materially different architecture families where appropriate.
-    - Do not lock onto the first plausible design without comparison.
-    - Once an architecture has been deliberately selected or frozen for a particular candidate, do not silently change it. Record and justify any later architecture change.
+10. Manage architecture exploration, candidate branching and lifecycle state according to `DESIGN_WORKFLOW.md`.
+    - maintain stable candidate identities;
+    - preserve meaningful competing branches;
+    - park rather than prematurely discard candidates that may become useful again;
+    - do not preserve weak alternatives solely to create variety;
+    - start a new candidate for a materially different architecture;
+    - normally start a new run when the engineering question or architecture changes materially.
 
 11. Use staged optimization and engineering judgement.
-    - Do not exhaustively optimize every possible architecture.
-    - Spend detailed optimization effort on the most promising candidates.
-    - Preserve meaningful failed or rejected alternatives with concise reasons.
-    - Avoid arbitrary limits on the number of exploratory architectures, while keeping expensive optimization work efficient.
+    - screen broadly and cheaply;
+    - spend detailed optimization effort on the most promising candidates;
+    - verify physical effects before freezing a candidate;
+    - preserve concise evidence for rejected or parked alternatives.
 
-12. Optical performance is not the only objective. Treat manufacturability, robustness, complexity, engineering risk, and expected cost as design considerations throughout the process.
+12. Apply the resource/stopping rules in `DESIGN_WORKFLOW.md`.
+    - normally stop a substantive run after about 30 minutes of active optical-design/optimization work or about 10 substantial computational searches, whichever comes first;
+    - normally permit no more than 5 materially distinct optimization attempts for one candidate at one development stage;
+    - declare a stage plateaued after 3 consecutive materially distinct attempts without meaningful improvement;
+    - use about 5% optical-metric improvement or a clear engineering/Pareto improvement as the default definition of meaningful progress;
+    - do not pretend to know the user's remaining ChatGPT/Codex quota percentage unless a reliable programmatic signal is actually available;
+    - when a default budget is reached, finish the currently executing optimizer, preserve the best result, make an explicit candidate decision, close the run, and report;
+    - request additional budget rather than silently extending a run indefinitely.
 
-13. Prefer compact decision-oriented outputs over long prose. Keep detailed numerical data in files.
+13. Optical performance is not the only objective. Treat manufacturability, robustness, complexity, engineering risk, packaging and expected cost as design considerations throughout the process.
 
-14. Save every meaningful design result under a new `runs/run_XXX/` directory or equivalent track-specific structure. Never overwrite a previous meaningful run.
+14. Prefer compact decision-oriented outputs over long prose. Keep detailed numerical data in files.
 
-15. Every serious candidate must be reproducible from saved code, prescription/configuration, assumptions, wavelength and field sampling, optimization criteria, and software environment information.
+15. Save every meaningful design result under a new immutable `runs/run_XXX/` directory. Never overwrite a previous meaningful run.
 
-16. Record any human correction that materially changes the optical design, assumptions, optimization strategy, model implementation, or engineering judgement. Human intervention is part of the benchmark.
+16. When practical, include `metadata.json` in each run identifying:
+    - track;
+    - candidate ID(s);
+    - purpose;
+    - stage;
+    - parent run where relevant;
+    - substantial search/optimizer count;
+    - materially distinct attempt count;
+    - plateau status.
 
-17. Before accessing any known TEKEVER reference design, freeze and commit the best blind candidate in accordance with `OPTICAL_DESIGN_RULES.md`.
+17. Every serious candidate must be reproducible from saved code, prescription/configuration, assumptions, wavelength and field sampling, optimization criteria and software environment information.
 
-18. At the end of each substantive design invocation, report concisely:
-   - best current result;
-   - failed or unmet constraints;
-   - important assumptions;
-   - architecture status;
-   - manufacturability/cost concerns;
-   - the single most useful next action.
+18. Keep `design_state.md` as the concise current candidate/engineering dashboard. Do not use it as a transcript.
+
+19. Record any human correction that materially changes the optical design, assumptions, optimization strategy, model implementation or engineering judgement. Human intervention is part of the benchmark. Procedural workflow changes should be recorded separately from optical-design corrections.
+
+20. Before accessing the known TEKEVER reference design, freeze and commit the relevant blind-track portfolio in accordance with `DESIGN_WORKFLOW.md`.
+
+21. For final frozen candidates, prepare the independent OpticStudio/Zemax handoff described in `ZEMAX_HANDOFF.md`. Do not silently alter the prescription merely to make export easier.
+
+22. At the end of each substantive design invocation, report concisely:
+    - best current result(s);
+    - candidate status changes;
+    - failed or unmet constraints;
+    - important assumptions;
+    - resource/stopping-budget status;
+    - manufacturability/cost concerns;
+    - the single most useful next action.
