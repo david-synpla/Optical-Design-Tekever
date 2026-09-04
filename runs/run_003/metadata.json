@@ -1,0 +1,16 @@
+{
+  "track": "A",
+  "run_id": "run_003",
+  "candidate_ids": [
+    "A04"
+  ],
+  "parent_run": "run_002",
+  "purpose": "Can a coaxial TMA retain a meaningful flat-field advantage while clearing a centered detector and both crossing beam legs?",
+  "development_stage": "screening",
+  "substantial_optimizer_search_count": 3,
+  "materially_distinct_attempt_count": 3,
+  "plateau_counter": 3,
+  "plateau_status": "plateaued",
+  "candidate_decision": "REJECTED",
+  "resource_note": "Closed immediately after the third running attempt; user reported 14% remaining five-hour quota."
+}

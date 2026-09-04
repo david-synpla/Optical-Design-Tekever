@@ -1,0 +1,7 @@
+surface,comment,radius_mm,thickness_mm,conic,material_after,clear_aperture,status
+0,object,inf,inf,0,air,none,screening seed only
+1,entrance obscuration plane,inf,180.0,0,air,r=29-65 mm annulus,screening seed only
+2,primary mirror,-600.0,-180.0,-1.15218742,mirror,r<=65 mm,screening seed only
+3,secondary mirror,-383.33373,313.478698,-6.41899951,mirror,r<=29 mm,screening seed only
+4,tertiary mirror,-1457.30254,-7.26094452,-2.93018854,mirror,r<=30 mm,screening seed only
+5,flat detector,inf,0,0,air,active diagonal 13.91 mm,physically obstructs incoming beam

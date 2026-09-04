@@ -1,0 +1,247 @@
+{
+  "run_id": "run_003",
+  "track": "A",
+  "candidate_id": "A04",
+  "engineering_question": "Can a coaxial TMA retain a meaningful flat-field advantage while clearing a centered detector and both crossing beam legs?",
+  "benchmark_assumptions": {
+    "detector_keepout_radius_mm": 7.955663642701536,
+    "keepout_basis": "active sensor half-diagonal plus 1.0 mm radial benchmark margin; not a customer requirement",
+    "primary_clear_radius_mm": 65.0,
+    "secondary_clear_radius_mm": 29.0,
+    "tertiary_clear_radius_mm": 30.0
+  },
+  "sampling": {
+    "fields_deg": [
+      0.0,
+      0.2864,
+      0.4048,
+      0.5019
+    ],
+    "wavelengths_um": [
+      0.43,
+      0.55,
+      0.65,
+      0.8
+    ],
+    "optimization_wavelength_um": 0.55
+  },
+  "software": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "optiland": "0.6.2",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "cases": [
+    {
+      "name": "run_002_seed",
+      "parameters": {
+        "secondary_radius_mm": -383.33373,
+        "primary_conic": -1.15218742,
+        "secondary_conic": -6.41899951,
+        "tertiary_radius_mm": -1457.30254,
+        "tertiary_conic": -2.93018854,
+        "secondary_to_tertiary_mm": 313.478698,
+        "tertiary_to_detector_return_mm": 7.26094452
+      },
+      "metrics": {
+        "efl_mm": -794.2029006081661,
+        "f_number": -6.200002034456383,
+        "rms_spot_radius_um_by_field": [
+          4.693901172738929,
+          2.96067044471851,
+          3.108749772873902,
+          4.9198502405546405
+        ],
+        "secondary_to_tertiary_beam_min_radius_at_detector_plane_mm_by_field": [
+          0.5941130058654706,
+          2.841564548712179,
+          4.447042575366335,
+          5.765327284912141
+        ],
+        "primary_to_secondary_beam_min_radius_at_detector_plane_mm_by_field": [
+          46.17712309421274,
+          41.11447354850697,
+          41.22378399663121,
+          41.31450538086086
+        ],
+        "minimum_detector_plane_ray_clearance_mm_by_field": [
+          0.5941130058654706,
+          2.841564548712179,
+          4.447042575366335,
+          5.765327284912141
+        ],
+        "throughput_fraction_by_field": [
+          0.7592592592592593,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.7777777777777778
+        ],
+        "tertiary_footprint_radius_mm_by_field": [
+          0.5765635812491753,
+          4.465374982073723,
+          6.087960467410023,
+          7.417996573524651
+        ]
+      }
+    },
+    {
+      "name": "attempt_1",
+      "parameters": {
+        "secondary_radius_mm": -369.0021548234158,
+        "primary_conic": -1.1531362418228104,
+        "secondary_conic": -5.668997438896978,
+        "tertiary_radius_mm": -769.7178264602898,
+        "tertiary_conic": -11.31970430215845,
+        "secondary_to_tertiary_mm": 312.356179498669,
+        "tertiary_to_detector_return_mm": 28.58719064685741
+      },
+      "metrics": {
+        "efl_mm": -794.3601518711911,
+        "f_number": -6.201229627745112,
+        "rms_spot_radius_um_by_field": [
+          3.0305367011744258,
+          1.8955315913943975,
+          3.0798369206440475,
+          5.197244534847934
+        ],
+        "secondary_to_tertiary_beam_min_radius_at_detector_plane_mm_by_field": [
+          2.2484615704327258,
+          0.3403884973966887,
+          1.3446093877274614,
+          2.5937966467533564
+        ],
+        "primary_to_secondary_beam_min_radius_at_detector_plane_mm_by_field": [
+          43.74535219662298,
+          38.91693149906844,
+          39.00656188416758,
+          39.080843205960434
+        ],
+        "minimum_detector_plane_ray_clearance_mm_by_field": [
+          2.2484615704327258,
+          0.3403884973966887,
+          1.3446093877274614,
+          2.5937966467533564
+        ],
+        "throughput_fraction_by_field": [
+          0.7592592592592593,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.7777777777777778
+        ],
+        "tertiary_footprint_radius_mm_by_field": [
+          2.254244699856156,
+          6.100189200502385,
+          7.72782748323721,
+          9.06574947310718
+        ]
+      }
+    },
+    {
+      "name": "attempt_2",
+      "parameters": {
+        "secondary_radius_mm": -478.12397940022714,
+        "primary_conic": -0.8178769229148599,
+        "secondary_conic": -6.224226865613981,
+        "tertiary_radius_mm": -160.48941192689435,
+        "tertiary_conic": -0.26925286002268484,
+        "secondary_to_tertiary_mm": 382.07144145007703,
+        "tertiary_to_detector_return_mm": 185.94169475592824
+      },
+      "metrics": {
+        "efl_mm": 793.9458261316171,
+        "f_number": 6.1979951640755395,
+        "rms_spot_radius_um_by_field": [
+          1.4193904014372962,
+          3.782308924963197,
+          6.459174801463989,
+          9.705940352893148
+        ],
+        "secondary_to_tertiary_beam_min_radius_at_detector_plane_mm_by_field": [
+          2.408470528351686,
+          0.2999650828211652,
+          0.29493495604895037,
+          0.5302792859731456
+        ],
+        "primary_to_secondary_beam_min_radius_at_detector_plane_mm_by_field": [
+          34.25280297507446,
+          30.34022906324862,
+          30.35475092161191,
+          30.366689816798736
+        ],
+        "minimum_detector_plane_ray_clearance_mm_by_field": [
+          2.408470528351686,
+          0.2999650828211652,
+          0.29493495604895037,
+          0.5302792859731456
+        ],
+        "throughput_fraction_by_field": [
+          0.7592592592592593,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.7777777777777778
+        ],
+        "tertiary_footprint_radius_mm_by_field": [
+          14.609756773911233,
+          18.544798850578765,
+          20.20632621277746,
+          21.578709527060866
+        ]
+      }
+    },
+    {
+      "name": "attempt_3",
+      "parameters": {
+        "secondary_radius_mm": -524.2074579036746,
+        "primary_conic": -1.0071925056388178,
+        "secondary_conic": -5.18415686351497,
+        "tertiary_radius_mm": -196.38888513238297,
+        "tertiary_conic": -0.6223345332117669,
+        "secondary_to_tertiary_mm": 386.14969173245555,
+        "tertiary_to_detector_return_mm": 247.19927747014142
+      },
+      "metrics": {
+        "efl_mm": 815.5787533418354,
+        "f_number": 6.366874165413729,
+        "rms_spot_radius_um_by_field": [
+          76.70072074850869,
+          80.28926912665116,
+          79.58300567494209,
+          77.19670948014014
+        ],
+        "secondary_to_tertiary_beam_min_radius_at_detector_plane_mm_by_field": [
+          4.8429237598628205,
+          2.510057026507626,
+          1.959383520828839,
+          1.5259501957399688
+        ],
+        "primary_to_secondary_beam_min_radius_at_detector_plane_mm_by_field": [
+          28.057027706762252,
+          24.639240126035943,
+          24.563044361563428,
+          24.50056656590676
+        ],
+        "minimum_detector_plane_ray_clearance_mm_by_field": [
+          4.8429237598628205,
+          2.510057026507626,
+          1.959383520828839,
+          1.5259501957399688
+        ],
+        "throughput_fraction_by_field": [
+          0.7592592592592593,
+          0.7777777777777778,
+          0.7777777777777778,
+          0.7777777777777778
+        ],
+        "tertiary_footprint_radius_mm_by_field": [
+          18.276135112316336,
+          22.122456473921652,
+          23.742445805894636,
+          25.080173211671973
+        ]
+      }
+    }
+  ],
+  "decision": "REJECT A04 coaxial topology at screening stage",
+  "plateau": "three materially distinct attempts without a physically valid meaningful improvement",
+  "omitted_outputs": "MTF and wavefront plots omitted because no physically clear candidate survived screening"
+}
