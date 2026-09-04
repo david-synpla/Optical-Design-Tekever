@@ -1,0 +1,306 @@
+{
+  "run_id": "run_001",
+  "stage": "first-order architecture screening",
+  "source_requirements": {
+    "spectral_band_um": [
+      0.43,
+      0.8
+    ],
+    "horizontal_fov_deg": 0.81,
+    "ifov_urad_per_pixel": 3.45,
+    "f_number": 6.2,
+    "minimum_focus_distance_m": 800
+  },
+  "derived": {
+    "target_efl_mm": 794.2029,
+    "target_epd_mm": 128.0972,
+    "active_fov_deg": [
+      0.809645,
+      0.593006
+    ],
+    "corner_field_deg": 0.5019,
+    "paraxial_800m_to_infinity_focus_shift_mm": 0.7892,
+    "detector_nyquist_cy_per_mm": 182.48175182481754
+  },
+  "benchmark_assumptions": {
+    "field_samples_deg": [
+      0.0,
+      0.2864,
+      0.4048,
+      0.5019
+    ],
+    "wavelength_samples_um": [
+      0.43,
+      0.55,
+      0.65,
+      0.8
+    ],
+    "selection_basis": "polychromatic RMS spot, geometry, manufacturability, complexity and comparative cost"
+  },
+  "candidates": [
+    {
+      "name": "scaled_achromatic_doublet",
+      "effective_focal_length_mm": 794.0335299018392,
+      "f_number": 6.198679829862318,
+      "entrance_pupil_diameter_mm": 128.0972,
+      "total_track_mm": 805.1899519263712,
+      "fields_deg": [
+        0.0,
+        0.2864,
+        0.4048,
+        0.5019
+      ],
+      "wavelengths_um": [
+        0.43,
+        0.55,
+        0.65,
+        0.8
+      ],
+      "rms_spot_radius_um_by_field_and_wavelength": [
+        [
+          119.27449140296224,
+          9.309227157946367,
+          17.635779243078854,
+          110.53317670448578
+        ],
+        [
+          117.65559237073145,
+          10.903332489287944,
+          16.03510418708669,
+          108.90525766744447
+        ],
+        [
+          116.04393052360471,
+          12.534482423411617,
+          14.47134608057877,
+          107.28453400197834
+        ],
+        [
+          114.3142552617578,
+          14.318752249932029,
+          12.840127872219107,
+          105.5450529524506
+        ]
+      ],
+      "worst_rms_spot_radius_um": 119.27449140296224,
+      "distortion_percent": null,
+      "relative_illumination": null
+    },
+    {
+      "name": "scaled_air_spaced_triplet",
+      "effective_focal_length_mm": 794.6663023882171,
+      "f_number": 6.203619613763745,
+      "entrance_pupil_diameter_mm": 128.0972,
+      "total_track_mm": 741.0057845785022,
+      "fields_deg": [
+        0.0,
+        0.2864,
+        0.4048,
+        0.5019
+      ],
+      "wavelengths_um": [
+        0.43,
+        0.55,
+        0.65,
+        0.8
+      ],
+      "rms_spot_radius_um_by_field_and_wavelength": [
+        [
+          131.87014518917044,
+          7.324804238822293,
+          25.907826955871325,
+          133.66566098596888
+        ],
+        [
+          130.5396780394019,
+          9.894638733607753,
+          25.29707278312736,
+          132.2358784947512
+        ],
+        [
+          129.2453451119009,
+          12.401717158982478,
+          24.906493068330477,
+          130.83745427988504
+        ],
+        [
+          127.89099713895199,
+          15.067976464081687,
+          24.742117966822654,
+          129.36543859143526
+        ]
+      ],
+      "worst_rms_spot_radius_um": 133.66566098596888,
+      "distortion_percent": null,
+      "relative_illumination": null
+    },
+    {
+      "name": "scaled_multi_element_telephoto",
+      "effective_focal_length_mm": 793.8848513062565,
+      "f_number": 6.197519159718218,
+      "entrance_pupil_diameter_mm": 128.0972,
+      "total_track_mm": 663.3745038650509,
+      "fields_deg": [
+        0.0,
+        0.2864,
+        0.4048,
+        0.5019
+      ],
+      "wavelengths_um": [
+        0.43,
+        0.55,
+        0.65,
+        0.8
+      ],
+      "rms_spot_radius_um_by_field_and_wavelength": [
+        [
+          202.13420540885798,
+          35.11049713852379,
+          38.97033849854697,
+          167.05416880759267
+        ],
+        [
+          202.15382150003958,
+          35.11654533753933,
+          38.979784206049715,
+          167.0797628834962
+        ],
+        [
+          202.17348560748283,
+          35.12258413082678,
+          38.98928045887649,
+          167.10535522224632
+        ],
+        [
+          202.19474353131753,
+          35.12908558541286,
+          38.9995768204059,
+          167.13295029563304
+        ]
+      ],
+      "worst_rms_spot_radius_um": 202.19474353131753,
+      "distortion_percent": null,
+      "relative_illumination": null
+    },
+    {
+      "name": "two_conic_mirrors",
+      "effective_focal_length_mm": 794.1660947151679,
+      "f_number": 6.19971470660692,
+      "entrance_pupil_diameter_mm": 128.0972,
+      "total_track_mm": 317.61596583,
+      "fields_deg": [
+        0.0,
+        0.2864,
+        0.4048,
+        0.5019
+      ],
+      "wavelengths_um": [
+        0.43,
+        0.55,
+        0.65,
+        0.8
+      ],
+      "rms_spot_radius_um_by_field_and_wavelength": [
+        [
+          3.4162820101334446,
+          3.4162820101334446,
+          3.4162820101334446,
+          3.4162820101334446
+        ],
+        [
+          2.0493149643600406,
+          2.0493149643600406,
+          2.0493149643600406,
+          2.0493149643600406
+        ],
+        [
+          4.973535469730871,
+          4.973535469730871,
+          4.973535469730871,
+          4.973535469730871
+        ],
+        [
+          8.835196056021191,
+          8.835196056021191,
+          8.835196056021191,
+          8.835196056021191
+        ]
+      ],
+      "worst_rms_spot_radius_um": 8.835196056021191,
+      "distortion_percent": null,
+      "relative_illumination": null
+    }
+  ],
+  "selected_for_next_stage": "two_conic_mirrors, with a possible small field-corrector group",
+  "unverified_or_failed_constraints": [
+    "Physical secondary obstruction and baffle vignetting are not yet modelled.",
+    "Distortion and relative illumination were not evaluated in this screen.",
+    "Thermal behavior, tolerances, coatings and stray light remain unevaluated.",
+    "The 800 m object distance requires a later finite-conjugate/refocus model.",
+    "No customer image-quality, package or distortion limit was supplied."
+  ],
+  "selected_candidate_details": {
+    "primary_ray_footprint_radius_mm": 63.99970111605986,
+    "secondary_ray_footprint_radius_mm": 27.285582496812076,
+    "image_ray_footprint_radius_mm": 6.976420857471441,
+    "estimated_linear_obscuration_ratio": 0.4260137223422851,
+    "note": "Footprint estimate only; explicit obscuration/vignetting was not modelled.",
+    "nyquist_frequency_cy_per_mm": 182.48175182481754,
+    "geometric_mtf_at_nyquist_by_field": [
+      {
+        "tangential": 0.024550025453221658,
+        "sagittal": 0.024550025453221658
+      },
+      {
+        "tangential": 0.12470318897951006,
+        "sagittal": 0.16279814201915982
+      },
+      {
+        "tangential": 0.039769862796009484,
+        "sagittal": 0.15053004388630287
+      },
+      {
+        "tangential": 0.015741113308163364,
+        "sagittal": 0.006702624044969505
+      }
+    ],
+    "rms_wavefront_error_waves_0p55um_vs_normalized_field": [
+      0.19710286466410815,
+      0.18729221020178885,
+      0.1585142005946795,
+      0.11436894293471964,
+      0.07581515861481904,
+      0.11252548851055383,
+      0.2146560325899175,
+      0.34780803398125076,
+      0.5050145141578453
+    ],
+    "airy_radius_um_at_0p55um": 4.160008568133243,
+    "rms_spot_radius_um": [
+      [
+        3.4162820101334446,
+        3.4162820101334446,
+        3.4162820101334446,
+        3.4162820101334446
+      ],
+      [
+        2.0493149643600406,
+        2.0493149643600406,
+        2.0493149643600406,
+        2.0493149643600406
+      ],
+      [
+        4.973535469730871,
+        4.973535469730871,
+        4.973535469730871,
+        4.973535469730871
+      ],
+      [
+        8.835196056021191,
+        8.835196056021191,
+        8.835196056021191,
+        8.835196056021191
+      ]
+    ]
+  }
+}
