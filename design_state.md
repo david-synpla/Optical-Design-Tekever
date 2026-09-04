@@ -4,6 +4,10 @@ Phase: blind benchmark - architecture selected; preliminary model complete
 Telescope: EO only
 Architecture: on-axis two-conic-mirror Cassegrain-type baseline; evaluate a minimal near-focus spherical field corrector
 
+## Design history
+
+- 2026-09-04: `WORK_GUIDE.md` was updated after the initial Track A design invocation and completion of `run_001`. The updated operating rules apply prospectively. `run_001` remains unchanged as the pre-update baseline. `BENCHMARK_TRACKS.md` was requested for the governing reread but was not present in the project, so no subsequent optical-design run was started.
+
 ## Fixed source requirements
 
 See `requirements/eo_requirements.yaml`.
