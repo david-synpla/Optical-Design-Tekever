@@ -1,0 +1,6 @@
+surface,comment,radius_mm,thickness_mm,conic,material_after,clear_aperture
+0,object,inf,inf,0,air,none
+1,entrance obscuration plane,inf,180.0,0,air,r=29-65 mm annulus
+2,primary mirror,-600.0,-180.0,-1.1620106,mirror,r<=65 mm
+3,secondary mirror,-385.7,317.61596583,-6.58144493,mirror,r<=29 mm
+4,flat detector,inf,0,0,air,active diagonal 13.91 mm

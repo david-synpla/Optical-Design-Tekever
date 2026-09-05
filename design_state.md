@@ -1,22 +1,22 @@
 # Current Design State
 
 Track: A - autonomous / uninformed
-Stage: architecture exploration complete; portfolio verification/freeze remains outstanding
+Stage: blind Track A portfolio frozen
 Workflow: v3 active after Run 002
-Track status: architecture exploration closed after Run 004; no blind candidate is frozen. Do not open another architecture family without explicit user instruction.
+Track status: FROZEN at the separate Track A freeze milestone after Run 004. Track B has not begun; do not modify Track A or access Track B research/reference material except under the benchmark's next explicitly authorized stage.
 
 ## Candidate portfolio
 
 | ID | Architecture / genealogy | Status | Best evidence | Main strength | Main risk |
 |---|---|---|---|---|---|
-| A01 | On-axis two-conic-mirror Cassegrain-type baseline | PARKED | Runs 001-002 | Compact, achromatic, approximately 794.2 mm EFL and f/6.2; remains viable | Flat-field image quality and detector-Nyquist MTF are weak; substantial obscuration and strong secondary conic |
+| A01 | On-axis two-conic-mirror Cassegrain-type baseline | FROZEN | Runs 001-002 and Track A freeze milestone | Sole final Track A candidate; compact, achromatic, approximately 794.2 mm EFL and f/6.2 | Flat-field image quality and detector-Nyquist MTF are weak; substantial obscuration, strong secondary conic and unresolved engineering verification |
 | A02 | A01 derivative with 4 mm fused-silica near-focus singlet | REJECTED | Run 002 | Modest corner improvement | Degrades the center, adds chromatic dependence and does not justify two added surfaces/cell complexity |
 | A03 | A01 derivative with 5.5 mm cemented N-BK7/N-F2 corrector | REJECTED | Run 002 | Improves portions of the middle field | Worst-field performance remains weak; three refracting surfaces, two glasses and cemented-interface burden are unjustified |
 | A04 | Coaxial three-mirror anastigmat branch | REJECTED | Run 003 | Nominal seed suggested improved flat-field performance | Three distinct physical-clearance attempts plateaued; centered detector obstructs the pre-tertiary beam |
 | A05 | All-refractive long-focus family screened as scaled doublet, triplet and multi-element telephoto | REJECTED | Run 001 | Unobscured conventional optical path | Approximately 0.1-0.2 mm band-edge RMS spots plus unfavorable length, glass mass and thermal behavior |
 | A06 | Off-axis/decentered three-mirror reflective branch derived from the A04 topology finding | PARKED | Run 004 | A tilted tertiary can remove the sampled detector/beam conflict | No screened prescription combines credible clearance with a flat-field benefit over A01; extra alignment/metrology and package burden is unjustified |
 
-No candidate is currently `ACTIVE` or `FROZEN`. A06 is not promoted to development. A01 remains the preserved baseline. Track A architecture exploration is complete; this is not a claim that the full track verification or blind portfolio freeze is complete.
+A01 is the sole frozen final Track A candidate and recommendation. A06 remains parked outside the final portfolio; A02-A05 remain rejected. The freeze records unresolved verification honestly and does not claim production readiness.
 
 ## Established conclusions
 
@@ -31,13 +31,12 @@ No candidate is currently `ACTIVE` or `FROZEN`. A06 is not promoted to developme
 - Run 003 proves that A04's nominal spot advantage is physically unusable with a centered detector: the Run 002 seed provides only 0.59 mm minimum pre-tertiary beam radius at the detector plane versus the 6.96 mm active half-diagonal (7.96 mm with the screening margin).
 - Three materially distinct A04 attempts failed the detector-clearance screen. The best EFL-restored long-return attempt reached approximately 793.95 mm EFL and 1.4-9.7 um RMS but only 0.29 mm minimum clearance. A hard-clearance attempt degraded to approximately 77-80 um RMS and still did not clear the detector.
 
-## Open engineering questions
+## Frozen unresolved items
 
-1. What limitations must be recorded when preserving A01 for the blind portfolio?
-2. What final verification and independent handoff are justified for A01 without reopening architecture exploration?
-3. What primary-hole, spider and baffle geometry is practical for any preserved coaxial reflective candidate?
-4. What detector-refocus mechanism can provide the verified finite-conjugate travel over the operating temperature range?
-5. How do tolerances, thermal behavior, stray light, coating losses and manufacturing/metrology burden alter the candidate ranking?
+1. A01's full-field 800 m performance and physical detector-refocus mechanism are unresolved.
+2. Tolerances, thermal behavior from -25 to +50 C, coating performance and environmental qualification are unresolved.
+3. Primary hole, spider, baffles, detector envelope, housing, stray light and relative illumination remain undesigned or unverified.
+4. Manufacturing/metrology planning, alignment tooling, cost estimate and independent Zemax validation remain outstanding.
 
 ## Resource and plateau status
 
@@ -58,11 +57,12 @@ No candidate is currently `ACTIVE` or `FROZEN`. A06 is not promoted to developme
 - 2026-09-04: Run 003 rejected A04's coaxial topology after three distinct attempts failed the centered-detector clearance screen. The user requested a prompt conclusion after reporting 14% remaining five-hour quota; no additional search was started.
 - 2026-09-05: User authorized only a bounded Run 004 A06 screen, with promotion to one final development run only if clearly promising; otherwise park/reject and close architecture exploration. No further architecture family may be opened without explicit user instruction. This is procedural governance, not an optical correction.
 - Run 004 internal model audit corrected detector keepout placement to the actual on-axis image centroid and used exact field normalization. Earlier nominal-origin clearance metrics are superseded by `runs/run_004/audit.json`. This correction was autonomous, not supplied by the user.
+- 2026-09-05: Human requested a separate Track A freeze milestone before any Track B or reference access. A01 was frozen as the sole final candidate with unresolved limitations; A06 remains parked outside the final portfolio.
 
 ## Most useful next work
 
-Prepare A01's remaining verification/limitations and blind-portfolio freeze scope. Do not open another architecture family, start A06 development, expose Track B research or read the hidden reference as a consequence of this screening closure.
+Await explicit instruction for the next benchmark stage. Do not begin Track B, inspect Track B research, access `reference/`, or modify the frozen Track A portfolio in the meantime.
 
 ## Last reviewed run
 
-run_004 - Track A A06 off-axis/decentered three-mirror screen; five-attempt cap reached, A06 parked, architecture exploration complete
+Track A freeze milestone - A01 frozen as sole final candidate after Run 004; limitations and evidence preserved

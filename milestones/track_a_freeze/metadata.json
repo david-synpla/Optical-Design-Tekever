@@ -1,0 +1,25 @@
+{
+  "milestone": "track_a_freeze",
+  "track": "A",
+  "freeze_date": "2026-09-05",
+  "workflow": "v3_applied_prospectively_after_run_002",
+  "supporting_runs": ["run_001", "run_002", "run_003", "run_004"],
+  "portfolio": {
+    "recommended_frozen_candidates": ["A01"],
+    "parked_outside_final_portfolio": ["A06"],
+    "rejected": ["A02", "A03", "A04", "A05"]
+  },
+  "a01_source_run": "run_002",
+  "known_workflow_v3_substantial_searches": 8,
+  "known_workflow_v3_materially_distinct_attempts": 8,
+  "pre_v3_resource_counters": "not reliably recorded; not reconstructed",
+  "unresolved_item_count": 9,
+  "production_ready": false,
+  "requirements_fully_verified": false,
+  "independent_zemax_validation_complete": false,
+  "track_b_started": false,
+  "track_b_research_accessed": false,
+  "reference_accessed": false,
+  "human_optical_corrections": 0,
+  "freeze_scope": "best defensible blind Track A portfolio with explicit unresolved limitations"
+}
