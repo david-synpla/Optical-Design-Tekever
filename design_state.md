@@ -1,9 +1,9 @@
 # Current Design State
 
 Track: A - autonomous / uninformed
-Stage: candidate screening and development
+Stage: architecture exploration complete; portfolio verification/freeze remains outstanding
 Workflow: v3 active after Run 002
-Track status: open; no blind candidate is frozen
+Track status: architecture exploration closed after Run 004; no blind candidate is frozen. Do not open another architecture family without explicit user instruction.
 
 ## Candidate portfolio
 
@@ -14,9 +14,9 @@ Track status: open; no blind candidate is frozen
 | A03 | A01 derivative with 5.5 mm cemented N-BK7/N-F2 corrector | REJECTED | Run 002 | Improves portions of the middle field | Worst-field performance remains weak; three refracting surfaces, two glasses and cemented-interface burden are unjustified |
 | A04 | Coaxial three-mirror anastigmat branch | REJECTED | Run 003 | Nominal seed suggested improved flat-field performance | Three distinct physical-clearance attempts plateaued; centered detector obstructs the pre-tertiary beam |
 | A05 | All-refractive long-focus family screened as scaled doublet, triplet and multi-element telephoto | REJECTED | Run 001 | Unobscured conventional optical path | Approximately 0.1-0.2 mm band-edge RMS spots plus unfavorable length, glass mass and thermal behavior |
-| A06 | Off-axis/decentered three-mirror reflective branch derived from the A04 topology finding | PROPOSED | Run 003 engineering conclusion | May remove the centered-detector beam conflict while retaining achromatic flat-field correction | Alignment, fabrication, metrology, packaging and optimization burden are unverified |
+| A06 | Off-axis/decentered three-mirror reflective branch derived from the A04 topology finding | PARKED | Run 004 | A tilted tertiary can remove the sampled detector/beam conflict | No screened prescription combines credible clearance with a flat-field benefit over A01; extra alignment/metrology and package burden is unjustified |
 
-No candidate is currently `ACTIVE` or `FROZEN`. A06 is the proposed next screening branch; A01 is preserved for later comparison rather than rejected.
+No candidate is currently `ACTIVE` or `FROZEN`. A06 is not promoted to development. A01 remains the preserved baseline. Track A architecture exploration is complete; this is not a claim that the full track verification or blind portfolio freeze is complete.
 
 ## Established conclusions
 
@@ -33,8 +33,8 @@ No candidate is currently `ACTIVE` or `FROZEN`. A06 is the proposed next screeni
 
 ## Open engineering questions
 
-1. Can A06 provide a physically clear off-axis/decentered three-mirror layout with a meaningful flat-field advantage over A01?
-2. Is A06's expected alignment/metrology burden justified relative to parked A01?
+1. What limitations must be recorded when preserving A01 for the blind portfolio?
+2. What final verification and independent handoff are justified for A01 without reopening architecture exploration?
 3. What primary-hole, spider and baffle geometry is practical for any preserved coaxial reflective candidate?
 4. What detector-refocus mechanism can provide the verified finite-conjugate travel over the operating temperature range?
 5. How do tolerances, thermal behavior, stray light, coating losses and manufacturing/metrology burden alter the candidate ranking?
@@ -45,6 +45,8 @@ No candidate is currently `ACTIVE` or `FROZEN`. A06 is the proposed next screeni
 - Run 003 used 3 substantial searches and 3 materially distinct A04 screening attempts; all failed to produce a physically valid improvement, so the stage plateaued.
 - A02 and A03 are closed as rejected derivatives. A01 is parked after its minimal-corrector development branch failed to resolve the structural flat-field limitation.
 - A04 is rejected in its coaxial form. Any off-axis/decentered three-mirror work belongs to A06 and a new run.
+- Run 004 screened only A06 in five substantial searches/five distinct attempts, reaching the candidate-stage attempt cap. No sixth search is authorized. No formal three-attempt plateau is claimed: clearance and optical metrics traded against each other, and attempt 5 made negligible progress.
+- Run 004's matched 3 x 3 field/pupil audit gives A01 a worst flat-field RMS of 8.63 um. A06 attempt 1 clears the detector by 26.03 mm but has 169.05 um worst RMS; attempt 2 reaches 30.62 um but intersects the active detector; attempts 4/5 give about 59.4 um and 7.61 mm clearance versus the 7.96 mm circular screening keepout. No useful flat-field advantage was established.
 - The user reported 14% remaining in the five-hour quota while Run 003's final attempt was executing; the running attempt was allowed to finish and the run was then closed without further searches.
 
 ## Procedural and human-intervention history
@@ -54,11 +56,13 @@ No candidate is currently `ACTIVE` or `FROZEN`. A06 is the proposed next screeni
 - 2026-09-04: Human intervention stopped extension of Run 002 into detailed TMA optimization. An already-running bounded seed sweep was retained only as screening evidence for a later candidate/run.
 - 2026-09-04: Workflow v3 replaced the six governing workflow files after Run 002. This is a procedural benchmark milestone, not an optical-design correction; Runs 001 and 002 remain immutable historical evidence.
 - 2026-09-04: Run 003 rejected A04's coaxial topology after three distinct attempts failed the centered-detector clearance screen. The user requested a prompt conclusion after reporting 14% remaining five-hour quota; no additional search was started.
+- 2026-09-05: User authorized only a bounded Run 004 A06 screen, with promotion to one final development run only if clearly promising; otherwise park/reject and close architecture exploration. No further architecture family may be opened without explicit user instruction. This is procedural governance, not an optical correction.
+- Run 004 internal model audit corrected detector keepout placement to the actual on-axis image centroid and used exact field normalization. Earlier nominal-origin clearance metrics are superseded by `runs/run_004/audit.json`. This correction was autonomous, not supplied by the user.
 
 ## Most useful next work
 
-When resource budget permits, open Run 004 to screen A06's off-axis/decentered reflective topology for ray clearance, image quality and credible manufacture, with parked A01 as the comparison baseline.
+Prepare A01's remaining verification/limitations and blind-portfolio freeze scope. Do not open another architecture family, start A06 development, expose Track B research or read the hidden reference as a consequence of this screening closure.
 
 ## Last reviewed run
 
-run_003 - Track A A04 coaxial-TMA physical-feasibility screen; plateaued and rejected
+run_004 - Track A A06 off-axis/decentered three-mirror screen; five-attempt cap reached, A06 parked, architecture exploration complete

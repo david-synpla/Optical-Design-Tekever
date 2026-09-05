@@ -1,0 +1,33 @@
+{
+  "track": "A",
+  "run_id": "run_004",
+  "candidate_ids": [
+    "A06"
+  ],
+  "parent_run": "run_003",
+  "comparison_baseline": "A01 / run_002",
+  "purpose": "Screen detector clearance, flat-field benefit and engineering burden of A06 only",
+  "development_stage": "screening",
+  "status": "closed",
+  "opened_at_utc": "2026-09-05T11:03:30Z",
+  "closed_at_utc": "2026-09-05T11:13:12.3514373Z",
+  "substantial_optimizer_search_count": 5,
+  "materially_distinct_attempt_count": 5,
+  "optimizer_wall_seconds": 129.41399025917053,
+  "plateau_status": "not declared; mixed optical/clearance tradeoffs",
+  "stop_reason": "candidate-stage five-attempt cap",
+  "candidate_decision": "PARKED",
+  "promoted_to_final_development_run": false,
+  "track_a_architecture_exploration": "COMPLETE",
+  "additional_architecture_families": "prohibited without explicit user instruction",
+  "track_portfolio_frozen": false,
+  "software": {
+    "optiland": "0.6.2",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "human_optical_corrections": 0,
+  "procedural_instruction": "User bounded A06 scope and required terminal promotion-or-closure decision",
+  "internal_correction": "Detector centering and exact field normalization corrected; audit supersedes early clearance",
+  "reference_accessed": false
+}
