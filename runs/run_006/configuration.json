@@ -1,0 +1,93 @@
+{
+  "parameter_names": [
+    "primary_f_number",
+    "paraxial_backfocus_mm",
+    "primary_conic",
+    "lens1_front_curvature",
+    "lens1_back_curvature",
+    "lens2_front_curvature",
+    "lens2_back_curvature",
+    "lens_gap_mm",
+    "detector_shift_mm",
+    "secondary_radius_fractional_change"
+  ],
+  "initial": [
+    2.5,
+    100.0,
+    -0.7,
+    0.002,
+    -0.002,
+    -0.002,
+    0.002,
+    8.0,
+    0.0,
+    0.0
+  ],
+  "best": [
+    3.4999207388558737,
+    159.99800834390027,
+    -0.6383070282144638,
+    -0.002191163834242456,
+    -0.005240446566740032,
+    0.012177832429483585,
+    0.014255388854411067,
+    2.922297425735615,
+    19.61634898341375,
+    -0.07999899854897807
+  ],
+  "bounds": [
+    [
+      2.0,
+      60,
+      -0.999,
+      -0.025,
+      -0.025,
+      -0.025,
+      -0.025,
+      2,
+      -25,
+      -0.08
+    ],
+    [
+      3.5,
+      160,
+      -0.01,
+      0.025,
+      0.025,
+      0.025,
+      0.025,
+      25,
+      25,
+      0.08
+    ]
+  ],
+  "wavelengths_um": [
+    0.43,
+    0.5,
+    0.55,
+    0.65,
+    0.725,
+    0.8
+  ],
+  "screen_fields": [
+    [
+      0,
+      0
+    ],
+    [
+      0.4033777571956111,
+      0.2954426932585042
+    ],
+    [
+      0.8067555143912222,
+      0
+    ],
+    [
+      0.8067555143912222,
+      0.5908853865170084
+    ]
+  ],
+  "merit": "10 um spot normalization + 10 um field-scale proxy, modest curvature regularizer",
+  "seed_derivation": "f1=speed*D; M=F/f1; separation=(F-backfocus)/(M+1); q=f1-separation; R2=-2*q*(separation+backfocus)/(separation+backfocus-q)",
+  "assumptions": "Primary speed 2.5/backfocus 100 mm initial, broad bounded variables, 4/3 mm lens thickness, BK7/F2; no customer limits implied"
+}

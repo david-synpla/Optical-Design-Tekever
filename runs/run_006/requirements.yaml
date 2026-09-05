@@ -1,0 +1,28 @@
+benchmark: TEKEVER EO telescope
+status: blind input
+
+source_explicit_requirements:
+  wavelength_um: [0.43, 0.80]
+  horizontal_fov_deg: 0.81
+  instantaneous_fov_urad_per_pixel: 3.45
+  f_number: 6.2
+  sensor: Sony IMX545
+  array_px: [4096, 3000]
+  pixel_pitch_um: [2.74, 2.74]
+  listed_sensor_size_mm: [11.31, 8.24]
+  minimum_focus_distance_m: 800
+  operating_temperature_C: [-25, 50]
+
+chat_preprocessed_first_order_values:
+  active_array_size_from_pitch_mm: [11.22304, 8.22000]
+  effective_focal_length_from_ifov_mm: 794.2029
+  horizontal_fov_from_active_array_and_ifov_deg: 0.809645
+  vertical_fov_from_active_array_and_ifov_deg: 0.593006
+  entrance_pupil_diameter_if_f_number_is_exact_mm: 128.0972
+  paraxial_focus_shift_800m_to_infinity_mm: 0.7892
+
+notes:
+  - The listed sensor size is slightly larger than array_px times pixel_pitch. For field calculations, use the active pixel array unless a manufacturer active-area specification establishes otherwise.
+  - The focus shift is only a thin-lens first-order estimate, not a mechanical focus-travel requirement.
+  - No image-quality, distortion, package-size, mass, obscuration, element-count, material, transmission, stray-light, or tolerance requirement is present in the supplied input.
+  - Do not silently convert missing requirements into customer requirements. Any extra value used for optimization must be labeled as a benchmark assumption.

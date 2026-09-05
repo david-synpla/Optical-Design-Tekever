@@ -1,0 +1,29 @@
+{
+  "track": "B",
+  "run_id": "006",
+  "candidate_ids": [
+    "B04"
+  ],
+  "stage": "screening",
+  "parent_run": null,
+  "preceding_screen": "005",
+  "purpose": "Determine whether a fresh two-lens CDK co-design warrants physical development",
+  "substantial_search_count": 1,
+  "materially_distinct_attempt_count": 1,
+  "plateau": false,
+  "optimizer_seconds": 14.262723108,
+  "closed_utc": "2026-09-05T11:51:19.330010+00:00",
+  "decision": "ACTIVE for physical-model screening; no final-performance claim",
+  "track_a_seed_used": false,
+  "reference_accessed": false,
+  "stop_reason": "Seed feasibility question answered; physical pupil model is next engineering question",
+  "export_recovery": "Initial CSV exporter failed on Plane.conic after metrics/configuration saved. Complete CSV recovered without optimizer rerun; partial CSV retained.",
+  "versions": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "optiland": "0.6.1",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "model_sha256": "16222243b3966aa584ce87651d0ddf053d881eb89409d9fc21591b91b3fe7665",
+  "audit_sha256": "7ad723613115f667276cbd5c1b69b57c653caa4842985606079c9e384ac8169c"
+}

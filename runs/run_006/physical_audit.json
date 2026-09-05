@@ -1,0 +1,520 @@
+{
+  "secondary_radius_with_1mm_margin": 34.41936210693512,
+  "primary_hole_radius_with_1mm_margin": 20.20842365784746,
+  "lens1_radius_with_1mm_margin": 16.75676082218577,
+  "lens2_radius_with_1mm_margin": 16.218056731591908,
+  "lens_edge_thickness_mm": [
+    3.570577356571821,
+    3.2830399237132672
+  ],
+  "lens_gap_at_common_edge_mm": 5.230200936854855,
+  "vertex_positions_mm": [
+    1.1368683772161603e-13,
+    -228.83350366226713,
+    55.99930292036507,
+    59.99930292036507,
+    62.92160034610068,
+    65.92160034610069,
+    179.614357327314
+  ],
+  "vertex_extent_mm": 408.44786098958116,
+  "primary_clear_diameter_mm": 128.09724170172979,
+  "geometric_on_axis_area_fraction": 0.7112073942034915,
+  "worst_masked_monochromatic_rms_um": 7.889749564053429,
+  "records": [
+    {
+      "field": [
+        -0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 6.206784076166791
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.573260062608632
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.889749564053213
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.8424326550798655
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.560210688204318
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.1957403555390975
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 3.499819254652488
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.237908511741465
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.5053672853325395
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.4982876985921
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.299820959815803
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.065236115573278
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 6.206784076166868
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.5732600626086715
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.889749564053361
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.842432655080079
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.560210688204328
+    },
+    {
+      "field": [
+        -0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.195740355539028
+    },
+    {
+      "field": [
+        0,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 3.296743819288761
+    },
+    {
+      "field": [
+        0,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.2016049378418208
+    },
+    {
+      "field": [
+        0,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.1838186045430654
+    },
+    {
+      "field": [
+        0,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.234663002977231
+    },
+    {
+      "field": [
+        0,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.3089283506040608
+    },
+    {
+      "field": [
+        0,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.4871751244688105
+    },
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.7375099127676448,
+      "monochromatic_centered_rms_um": 5.7865089475732905
+    },
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.7375099127676448,
+      "monochromatic_centered_rms_um": 3.682405837021338
+    },
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.7375099127676448,
+      "monochromatic_centered_rms_um": 3.235173454104861
+    },
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.7375099127676448,
+      "monochromatic_centered_rms_um": 3.2664609822101043
+    },
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.7375099127676448,
+      "monochromatic_centered_rms_um": 3.6336181940764973
+    },
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.7375099127676448,
+      "monochromatic_centered_rms_um": 4.13850079518583
+    },
+    {
+      "field": [
+        0,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 3.2967438192884337
+    },
+    {
+      "field": [
+        0,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.201604937841344
+    },
+    {
+      "field": [
+        0,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.1838186045424894
+    },
+    {
+      "field": [
+        0,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.2346630029768226
+    },
+    {
+      "field": [
+        0,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.308928350603553
+    },
+    {
+      "field": [
+        0,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.7248215701823949,
+      "monochromatic_centered_rms_um": 2.4871751244684073
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 6.206784076166747
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.5732600626087425
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.889749564053429
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.842432655080099
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.560210688204288
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        -0.5908853865170084
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.19574035553903
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 3.499819254652592
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.237908511741503
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.505367285332604
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.498287698592131
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.2998209598159
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.7208564631245044,
+      "monochromatic_centered_rms_um": 4.065236115573456
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.43,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 6.2067840761667705
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.5,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.573260062608512
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.55,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.889749564053222
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.65,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.842432655079978
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.725,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.560210688204231
+    },
+    {
+      "field": [
+        0.8067555143912222,
+        0.5908853865170084
+      ],
+      "wavelength_um": 0.8,
+      "sampled_ray_survival": 0.71847739888977,
+      "monochromatic_centered_rms_um": 7.195740355539104
+    }
+  ],
+  "assumptions": [
+    "1 mm radial sizing margins are benchmark choices, not detector/mechanical specifications",
+    "Mask uses straight segments at secondary vertex and primary vertex; mirror sag/cell details need nonsequential audit",
+    "Ray survival on hexapolar rings is sampling-dependent, not a calibrated radiometric throughput",
+    "RMS here is centered per wavelength; do not compare it directly to common-centroid broadband merit",
+    "No spider, actual baffles, detector package, coatings, ghosts, thermal or tolerances"
+  ],
+  "status": "Further physical model required; not a verified or frozen optical design"
+}
