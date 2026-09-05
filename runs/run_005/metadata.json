@@ -1,0 +1,38 @@
+{
+  "track": "B",
+  "run_id": "005",
+  "candidate_ids": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14"
+  ],
+  "stage": "architecture screening",
+  "purpose": "Identify branches worth development through a broad inexpensive comparison",
+  "parent_run": null,
+  "track_a_seed_used": false,
+  "reference_accessed": false,
+  "start_utc": "2026-09-05T11:43:10.019198+00:00",
+  "end_utc": "2026-09-05T11:43:10.363252+00:00",
+  "substantial_search_count": 0,
+  "materially_distinct_optimizer_attempt_count": 0,
+  "plateau": false,
+  "stop_reason": "Broad first-order/research gate answered; detailed optical performance remains unknown",
+  "environment": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "script_sha256": "947912781f2591db6952405d75ddf9b65a3d53ae56a7c91b4a3196d98f90a19c"
+}

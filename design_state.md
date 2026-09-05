@@ -13,3 +13,9 @@ The source specifies 430–800 nm, 0.81 deg horizontal field, 3.45 urad/pixel, f
 Resource status: zero Track B optimizers/attempts. Per-run 30 active minutes/10 searches; per-candidate-stage five distinct attempts, three non-improving attempts to plateau. End a run when its engineering question is answered. No remaining account quota inferred.
 
 Human intervention: 2026-09-05 explicit authorization to begin independent Track B using the supplied research and continue autonomously; procedural transition only. See initialization milestone for provenance.
+
+## Run 005 decision
+
+Run 005 closed the broad architecture gate with zero substantial searches. B01/B02/B03 remain ACTIVE as COTS measurement/integration comparators, with first-order mismatches and full-band/thermal performance unresolved. B04/B05/B06 are ACTIVE for separate custom screening runs. B07–B14 are PARKED with explicit engineering reasons in runs/run_005/summary.md. These are provisional branches, not a proven Pareto frontier.
+
+Fresh calculations and six-wavelength clear-pupil MTF/ensquared-energy references are in runs/run_005/metrics.json. They are not candidate performance. The next action is Run 006: independently derive and co-design a B04 CDK seed. Track B remains unfrozen.

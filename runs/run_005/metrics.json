@@ -1,0 +1,223 @@
+{
+  "target": {
+    "efl_mm": 794.2028985507247,
+    "epd_mm": 128.09724170172979,
+    "f_number": 6.2,
+    "active_width_mm": 11.223040000000001,
+    "active_height_mm": 8.22,
+    "horizontal_fov_deg": 0.8096446464181261,
+    "vertical_fov_deg": 0.5930060243075531,
+    "thin_lens_800m_focus_shift_mm": 0.7892313173327818,
+    "nyquist_lpmm": 182.4817518248175
+  },
+  "frequencies_lpmm": [
+    50.0,
+    100.0,
+    150.0,
+    182.4817518248175
+  ],
+  "clear_pupil_diffraction": [
+    {
+      "wavelength_um": 0.43,
+      "cutoff_lpmm": 375.0937734433608,
+      "airy_diameter_um": 6.505039999999999,
+      "mtf": [
+        0.830781147995375,
+        0.6646193829531372,
+        0.5047482725786829,
+        0.40595834698008815
+      ],
+      "ensquared_energy_1_2_3_pixels": [
+        0.5469362451904849,
+        0.8357298436839692,
+        0.8771281985072974
+      ]
+    },
+    {
+      "wavelength_um": 0.5,
+      "cutoff_lpmm": 322.5806451612903,
+      "airy_diameter_um": 7.564,
+      "mtf": [
+        0.803440973903089,
+        0.6117119994658002,
+        0.4300317220546847,
+        0.3202469643197852
+      ],
+      "ensquared_energy_1_2_3_pixels": [
+        0.4491983930768269,
+        0.8174233034067213,
+        0.8525547850606164
+      ]
+    },
+    {
+      "wavelength_um": 0.55,
+      "cutoff_lpmm": 293.2551319648094,
+      "airy_diameter_um": 8.320400000000001,
+      "mtf": [
+        0.7839690895443862,
+        0.5743929221295024,
+        0.37837076297490857,
+        0.26232159812590344
+      ],
+      "ensquared_energy_1_2_3_pixels": [
+        0.39131574556616455,
+        0.7923970744858388,
+        0.8436580334607084
+      ]
+    },
+    {
+      "wavelength_um": 0.65,
+      "cutoff_lpmm": 248.13895781637714,
+      "airy_diameter_um": 9.833200000000001,
+      "mtf": [
+        0.745189098929603,
+        0.5011332535568177,
+        0.2801830240554431,
+        0.15673964864693024
+      ],
+      "ensquared_energy_1_2_3_pixels": [
+        0.30116504192014626,
+        0.7200799441535617,
+        0.8352420943931993
+      ]
+    },
+    {
+      "wavelength_um": 0.725,
+      "cutoff_lpmm": 222.4694104560623,
+      "airy_diameter_um": 10.9678,
+      "mtf": [
+        0.7162671209795487,
+        0.4475827199799238,
+        0.21193829731476532,
+        0.08897071095118192
+      ],
+      "ensquared_energy_1_2_3_pixels": [
+        0.2509886978394804,
+        0.6572202615778251,
+        0.8235237143200957
+      ]
+    },
+    {
+      "wavelength_um": 0.8,
+      "cutoff_lpmm": 201.61290322580646,
+      "airy_diameter_um": 12.1024,
+      "mtf": [
+        0.687503915879142,
+        0.39541871009267887,
+        0.1493724553406,
+        0.03458501112330249
+      ],
+      "ensquared_energy_1_2_3_pixels": [
+        0.2116982885993195,
+        0.59451532544217,
+        0.8018004919581043
+      ]
+    }
+  ],
+  "cots_first_order": [
+    {
+      "id": "B01",
+      "label": "C5 + nominal 0.63 reducer",
+      "efl_mm": 787.5,
+      "epd_mm": 127,
+      "f_number": 6.200787401574803,
+      "ifov_urad": 3.47936507936508,
+      "efl_error_percent": -0.8439781021897907,
+      "f_number_error_percent": 0.012700025400036452,
+      "horizontal_fov_deg": 0.8165357994381824,
+      "compliance": "Nominal mismatch or unverified adjustment; no assumed customer tolerance"
+    },
+    {
+      "id": "B01-spacing",
+      "label": "C5 tuned EFL (hypothesis)",
+      "efl_mm": 794.2028985507247,
+      "epd_mm": 127,
+      "f_number": 6.253566130320667,
+      "ifov_urad": 3.45,
+      "efl_error_percent": 0.0,
+      "f_number_error_percent": 0.8639698438817289,
+      "horizontal_fov_deg": 0.8096446464181261,
+      "compliance": "Nominal mismatch or unverified adjustment; no assumed customer tolerance"
+    },
+    {
+      "id": "B02",
+      "label": "Nikon nominal 800/6.3",
+      "efl_mm": 800,
+      "epd_mm": 126.98412698412699,
+      "f_number": 6.3,
+      "ifov_urad": 3.4250000000000003,
+      "efl_error_percent": 0.7299270072992581,
+      "f_number_error_percent": 1.6129032258064502,
+      "horizontal_fov_deg": 0.8037778493651165,
+      "compliance": "Nominal mismatch or unverified adjustment; no assumed customer tolerance"
+    },
+    {
+      "id": "B09",
+      "label": "130/650 Newtonian + target relay",
+      "efl_mm": 794.2028985507247,
+      "epd_mm": 130,
+      "f_number": 6.109253065774806,
+      "ifov_urad": 3.45,
+      "efl_error_percent": 0.0,
+      "f_number_error_percent": -1.4636602294386125,
+      "horizontal_fov_deg": 0.8096446464181261,
+      "compliance": "Nominal mismatch or unverified adjustment; no assumed customer tolerance"
+    },
+    {
+      "id": "B14",
+      "label": "Canon 800 stopped to nominal 6.2",
+      "efl_mm": 800,
+      "epd_mm": 129.03225806451613,
+      "f_number": 6.2,
+      "ifov_urad": 3.4250000000000003,
+      "efl_error_percent": 0.7299270072992581,
+      "f_number_error_percent": 0.0,
+      "horizontal_fov_deg": 0.8037778493651165,
+      "compliance": "Nominal mismatch or unverified adjustment; no assumed customer tolerance"
+    }
+  ],
+  "assumptions": [
+    "Equal wavelength weights; no source/QE provided",
+    "Ideal clear circular pupil, incoherent imaging, no aberrations or obscuration",
+    "EE is optical energy in a centered square, before detector response",
+    "3x3 detector field grid is a screening sampling choice, not full verification"
+  ],
+  "field_grid_deg": [
+    [
+      -0.40482232320906303,
+      -0.29650301215377656
+    ],
+    [
+      -0.40482232320906303,
+      0.0
+    ],
+    [
+      -0.40482232320906303,
+      0.29650301215377656
+    ],
+    [
+      0.0,
+      -0.29650301215377656
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.29650301215377656
+    ],
+    [
+      0.40482232320906303,
+      -0.29650301215377656
+    ],
+    [
+      0.40482232320906303,
+      0.0
+    ],
+    [
+      0.40482232320906303,
+      0.29650301215377656
+    ]
+  ]
+}
