@@ -36,3 +36,11 @@ Per-run limits remain about 30 active minutes / 10 substantial searches; candida
 Next: bounded B04 physical-pupil and EFL-restoration investigation, then separate B05/B06 screens. Include matched-pupil diffraction metrics and finite-conjugate assessment before promotion. All candidates still lack temperature verification; no final Track B freeze or reference access is justified.
 
 Human intervention: user authorized the Track B transition, supplied research and diffraction-aware evaluation guidance. These are recorded methodological inputs, not autonomous discoveries. No subsequent human optical corrections. Autonomous corrections: Optiland CSV geometry uses k for the conic; failed export recovered without rerunning optimization. See runs/run_006/summary.md.
+
+## Run 007 update — 2026-09-06
+
+B04 remains ACTIVE: explicit entrance obstruction, primary hole and finite optical apertures; 794.202899 mm EFL / f/6.2 restored. Worst sampled six-wavelength/nine-field RMS is 7.4446 um. 800 m detector refocus +0.788753 mm gives 7.3816 um worst RMS. No additional sampled field clipping beyond the 35.5 mm-radius obstruction; geometric clear area about 69.3%, before coating/spider/baffle losses.
+
+Matched-pupil scalar diffraction is now evaluated: 550 nm corner MTF X/Y about 0.136/0.194 at 50 lp/mm and 0.072/0.096 at 100 lp/mm; corner 2-pixel-square EE 0.111 versus matched ideal 0.412. Field correction remains materially incomplete; these are trade metrics, not customer limits. Selected finer-sampling checks agree within 0.001 absolute MTF/EE.
+
+Run 007 closes with two optimizer calls (joint solve and scalar finite refocus), one distinct B04 attempt; B04 screening total is two of five attempts. No plateau. Next is the independently seeded B05 co-designed Cassegrain/corrector comparison in Run 008. No thermal/stray-light/tolerance or final track verification is claimed. See runs/run_007/summary.md.

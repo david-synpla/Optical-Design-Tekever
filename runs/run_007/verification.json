@@ -1,0 +1,96 @@
+{
+  "equal_area_grid_illumination": [
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "full_pupil_area_fraction": 0.6930545182972367
+    }
+  ],
+  "lens_edge_thickness_mm": [
+    3.5424498175089196,
+    3.337987491224243
+  ],
+  "convergence": [
+    {
+      "field": [
+        0,
+        0
+      ],
+      "wavelength_um": 0.55,
+      "max_mtf_difference": 0.0009635417100488097,
+      "max_ee_difference": 0.0009711727627970124
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_mtf_difference": 0.0007316463840974022,
+      "max_ee_difference": 0.0005016907819736793
+    }
+  ],
+  "geometric_clear_area_expected": 0.6927887319383026,
+  "replay": true,
+  "efl_verified": true,
+  "hash_verified": true,
+  "limitations": "No spider/coating radiometry/detailed baffles/thermal/tolerances; geometric area is not transmitted energy."
+}
