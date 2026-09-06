@@ -1,0 +1,57 @@
+{
+  "vertex_span_mm": 283.36811841984655,
+  "lens_edges_mm": [
+    3.018758801171406,
+    5.371026427218764
+  ],
+  "lens_airgap_min_mm": 14.559318449983895,
+  "secondary_radius_mm": -310.4817449172851,
+  "secondary_conic": -5.999814582564461,
+  "sensitivity": [
+    {
+      "perturbation": "nominal",
+      "mm": 0,
+      "center_corner_worst_rms_um": [
+        0.33731537343128826,
+        0.5762790692848281
+      ]
+    },
+    {
+      "perturbation": "detector",
+      "mm": -0.02,
+      "center_corner_worst_rms_um": [
+        1.639428461401068,
+        1.2521592953889165
+      ]
+    },
+    {
+      "perturbation": "detector",
+      "mm": 0.02,
+      "center_corner_worst_rms_um": [
+        1.420333008501165,
+        1.6589566210621314
+      ]
+    },
+    {
+      "perturbation": "secondary",
+      "mm": -0.01,
+      "center_corner_worst_rms_um": [
+        5.258173855768392,
+        5.487809335171264
+      ]
+    },
+    {
+      "perturbation": "secondary",
+      "mm": 0.01,
+      "center_corner_worst_rms_um": [
+        5.478257625557283,
+        5.065452807436154
+      ]
+    }
+  ],
+  "convergence_max_abs_differences": [
+    0.0009693529047978267,
+    0.0013103096238223089
+  ],
+  "note": "Conic magnitude alone is not a manufacturing metric. Compare radius, actual departure, slope and sensitivity."
+}

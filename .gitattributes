@@ -1,0 +1,6 @@
+# Preserve exact bytes for the new archived run and its hashed source scripts.
+# Scope deliberately excludes historical Track A and earlier Track B results.
+runs/run_008/** -text
+src/track_b_run008*.py -text
+# Run 007's hashed model was authored with LF; retain those bytes on Windows.
+runs/run_007/model.py -text

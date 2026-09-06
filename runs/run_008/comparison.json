@@ -1,0 +1,112 @@
+{
+  "candidates": {
+    "B04": {
+      "worst_rms_um": 7.444576813789914,
+      "efl_mm": 794.2028985507245,
+      "primary_radius_mm": -898.8531704022664,
+      "primary_conic": -0.6383071278838512,
+      "secondary_radius_mm": -929.6551746399175,
+      "secondary_conic": 0.0,
+      "vertex_span_mm": 412.4467866566863,
+      "max_abs_common_centroid_scale_error_percent": 0.09201250425125984,
+      "sensitivity": [
+        {
+          "perturbation": "nominal",
+          "mm": 0,
+          "center_corner_worst_rms_um": [
+            5.801256814660817,
+            7.448154972886518
+          ]
+        },
+        {
+          "perturbation": "detector",
+          "mm": -0.02,
+          "center_corner_worst_rms_um": [
+            7.1038997811201705,
+            6.5357221406367545
+          ]
+        },
+        {
+          "perturbation": "detector",
+          "mm": 0.02,
+          "center_corner_worst_rms_um": [
+            4.498695757873634,
+            8.463385259802887
+          ]
+        },
+        {
+          "perturbation": "secondary",
+          "mm": -0.01,
+          "center_corner_worst_rms_um": [
+            3.219033174827249,
+            9.53218058892291
+          ]
+        },
+        {
+          "perturbation": "secondary",
+          "mm": 0.01,
+          "center_corner_worst_rms_um": [
+            8.383728067303025,
+            5.782695577940124
+          ]
+        }
+      ],
+      "finite_focus": 0.7887529359881029
+    },
+    "B05": {
+      "worst_rms_um": 0.7985352305615956,
+      "efl_mm": 794.2028985507245,
+      "primary_radius_mm": -760.0300475611773,
+      "primary_conic": -1.316741971924042,
+      "secondary_radius_mm": -541.9007433554357,
+      "secondary_conic": -11.999713021373452,
+      "vertex_span_mm": 329.03756708731254,
+      "max_abs_common_centroid_scale_error_percent": 0.10077306979376921,
+      "sensitivity": [
+        {
+          "perturbation": "nominal",
+          "mm": 0,
+          "center_corner_worst_rms_um": [
+            0.5769359135041171,
+            0.798325508118858
+          ]
+        },
+        {
+          "perturbation": "detector",
+          "mm": -0.02,
+          "center_corner_worst_rms_um": [
+            1.8799296718597132,
+            1.2939588075657749
+          ]
+        },
+        {
+          "perturbation": "detector",
+          "mm": 0.02,
+          "center_corner_worst_rms_um": [
+            1.1626125737533541,
+            1.934634374659198
+          ]
+        },
+        {
+          "perturbation": "secondary",
+          "mm": -0.01,
+          "center_corner_worst_rms_um": [
+            3.245795779788481,
+            3.979529440765921
+          ]
+        },
+        {
+          "perturbation": "secondary",
+          "mm": 0.01,
+          "center_corner_worst_rms_um": [
+            3.964062277287384,
+            3.254090766264561
+          ]
+        }
+      ],
+      "finite_focus": 0.789583518095494
+    }
+  },
+  "assumptions": "Perturbations are diagnostic magnitudes, not manufacturing tolerances; no refocus after perturbation. Spacing changes keep other physical vertices fixed.",
+  "limits": "No thermal model or dn/dT; changes in construction cannot be inferred from these one-at-a-time spacing sensitivities."
+}

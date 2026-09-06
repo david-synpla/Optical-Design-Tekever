@@ -1,0 +1,29 @@
+{
+  "track": "B",
+  "run_id": "008",
+  "candidate_ids": [
+    "B05"
+  ],
+  "status": "CLOSED",
+  "stage": "screening",
+  "decision": "Advance B05 to development; preserve attempt 1 lower-risk baseline and attempt 2 compact alternative",
+  "selected_variants": [
+    "root attempt 1",
+    "attempt_02"
+  ],
+  "parent_run": null,
+  "substantial_search_count": 4,
+  "materially_distinct_attempt_count": 2,
+  "candidate_stage_attempts_total": 2,
+  "plateau": false,
+  "searches": [
+    "attempt 1 joint solve",
+    "attempt 1 finite refocus",
+    "attempt 2 manufacture-constrained joint solve",
+    "attempt 2 finite refocus"
+  ],
+  "stop_reason": "Architecture comparison answered; preserve real packaging/metrology/refocus trade before further optimization",
+  "closed_utc": "2026-09-06T21:50:54.225383+00:00",
+  "track_a_geometry_used": false,
+  "reference_accessed": false
+}

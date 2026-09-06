@@ -1,0 +1,11 @@
+{
+  "track": "B",
+  "candidate": "B05",
+  "run": "008",
+  "attempt": 2,
+  "substantial_search_count": 1,
+  "nfev": 70,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "seconds": 58.25465708400003,
+  "script_sha256": "3a6a296f034d619114591656906c7b61cdf077adc24d65b9f9c7087318ba2da7"
+}

@@ -1,0 +1,36 @@
+{
+  "track": "B",
+  "candidate_ids": [
+    "B05"
+  ],
+  "run_id": "008",
+  "parent_run": null,
+  "stage": "screening",
+  "purpose": "Screen independently seeded co-designed two-conic Cassegrain and two-lens corrector against B04",
+  "start_utc": "2026-09-06T21:39:48.367296+00:00",
+  "end_utc": "2026-09-06T21:41:08.409247+00:00",
+  "wall_seconds": 80.041985328,
+  "substantial_search_count": 2,
+  "materially_distinct_attempt_count": 1,
+  "candidate_stage_attempts_total": 1,
+  "searches": [
+    "physical joint design",
+    "finite-conjugate scalar refocus"
+  ],
+  "plateau": false,
+  "assumptions": [
+    "Seed: primary f/2.4, backfocus 85 mm, paraboloid, secondary classical conic derived from magnification; weak lenses",
+    "No B04 optimized geometry used; shared analysis implementation only",
+    "Fixed mechanical aperture sizes",
+    "Ideal coatings/no spider or detailed baffles",
+    "Equal spectral weights for geometric merit",
+    "Uniform geometric scale enforces 550 nm paraxial EFL; aperture diameter fixed"
+  ],
+  "versions": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "optiland": "0.6.1",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "script_sha256": "7ef2756c6f7e2f307e2e023c5116c7f02a7a148544a3e37959233718c08348f1"
+}
