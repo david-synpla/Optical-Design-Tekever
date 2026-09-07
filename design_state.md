@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: B — independent research-informed optical design
-Stage: Run 013 matched thermal/material study CLOSED; saved Run 012 B09 solve awaits verification
+Stage: Runs 012 (B09 hybrid) and 013 (matched thermal/material study) CLOSED; performance/cost portfolio retained
 Workflow: v3; Track B remains OPEN, not frozen.
 Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen. Its results remain immutable. reference/ remains unread.
 
@@ -16,7 +16,7 @@ Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen.
 | B05 attempt 1 | Corrected two-conic Cassegrain | ACTIVE — provisional lower-risk baseline | Run 010: focus alone restores all 24 diagnostic specimens to <=1.063 um sampled RMS; smaller secondary-shape and image-scale burden |
 | B05 attempt 2 | Compact corrected Cassegrain variant | ACTIVE — compact alternative | ~45.7 mm shorter than attempt 1; retains useful trade despite greater secondary fabrication, focus recovery and image-scale sensitivity |
 | B06 | Unobscured off-axis three-conic TMA | ACTIVE — higher alignment/metrology burden | Focus alone inadequate in Run 010; focus plus secondary X/Y tilt retains mid-frequency/EE advantage, with residual figure and registration risks |
-| B09 | Stock Newtonian mirrors + custom small corrector/extender | ACTIVE — cost-conscious lane | Run 011 reopens this modelable hybrid; separate bounded Run 012 next |
+| B09 | Stock Newtonian mirrors + custom small corrector/extender | ACTIVE — provisional economical hybrid | Run012: 7.972 um dense RMS; two stock-nominal mirrors and two custom spherical lenses; lower corner MTF/EE, production savings unverified |
 | B07–B08, B10–B14 | Other screened architecture families | PARKED | Run 005 reopening reasons remain authoritative; no blanket family rejection |
 
 ## Latest matched evidence
@@ -52,7 +52,11 @@ Run 010 closed in 19.8 minutes elapsed including coding/reporting/tooling. Zero 
 
 Run 013 completed the prioritized matched thermal comparison without changing nominal shapes. Silica-like mirrors and a 1.2 ppm/K effective frame retain dense endpoint RMS of 0.799–0.801 / 0.544–0.627 / 1.337–1.383 um for B05-1 / B05-2 / B06. Thermal focus travel is about 0.04 / 0.05 / 0.09 mm maximum. A 24 ppm/K frame needs up to 1.37 / 1.76 / 3.23 mm and retains more aberration even after compensation. These are material scenarios, not selected hardware or qualification. Cold/hot 800 m checks require roughly 0.8 mm additional range-focus travel. See runs/run_013/summary.md for diffraction, image scale, finite-range and limitation details.
 
-Next: finish verification of the saved Run012 B09 solve, then compare its performance/cost/risk evidence with the retained portfolio. For subsequent performance development, define a concrete support/actuator/window interface; do not start another nominal shape search or freeze Track B from uniform-temperature results alone.
+Run012 verification is complete. B09 reaches 794.202541 mm paraxial EFL and f/6.199997, with 7.972 um dense full-band RMS and 7.897 um at 800 m after 0.8123 mm refocus. At the nominal 550 nm positive corner, MTF100 is 0.053/0.072 and EE2 is 0.225 versus a 0.590 matched-pupil limit. Its lower performance is preserved as an explicit trade for stock mirrors and simpler custom spherical optics, not rejected against an invented IQ threshold. Current optical cost/NRE/qualification comparisons are in runs/run_012/summary.md.
+
+B09 remains provisional: corner centroids overrun the fixed active rectangle by 10.47/7.67 um; the 0.485 mm lens edge gap misses a soft assembly target; stock substrate/coatings, thermal behavior, real cells/window and production economics are unverified. Its initial backward-path wavefront model and incorrect fold helper were corrected without changing powered shapes or separations. Use runs/run_012/verified_model.py; original model.py and before_opl_correction/ preserve audit history and must not supply diffraction scores.
+
+Next: define a common detector/window, range-plus-thermal focus and mechanical datum interface, then perform a bounded B09 thermal/support check. Prepare common-quantity supplier RFQ specifications to replace qualitative economic classes. Do not start another nominal shape search or freeze Track B from the current evidence alone.
 
 User supplied the detailed Run 010 investigation scope and standing authorization to push completed work in this repository. Earlier milestones and exact lineage remain in runs/run_008, runs/run_009 and their committed metadata.
 

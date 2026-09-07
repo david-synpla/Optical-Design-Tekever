@@ -1,0 +1,37 @@
+{
+  "track": "B",
+  "run_id": "012",
+  "candidate_ids": [
+    "B09"
+  ],
+  "stage": "hybrid development",
+  "status": "CLOSED",
+  "start_utc": "2026-09-07T12:36:03.156890+00:00",
+  "last_checkpoint_utc": "2026-09-07T12:36:40.124177+00:00",
+  "substantial_search_count": 3,
+  "materially_distinct_attempt_count": 1,
+  "primary_radius_mm": -1300,
+  "primary_conic": -1,
+  "stock_nominal_not_measured": true,
+  "primary_optimized": false,
+  "glass_choices": [
+    "N-BK7",
+    "N-F2"
+  ],
+  "model_sha256": "de76d10b038599b617fa1653995c47e670faef5453c5ecd32a9c8a9757f0c4a7",
+  "versions": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "optiland": "0.6.1",
+    "scipy": "1.18.1"
+  },
+  "end_utc": "2026-09-07T13:03:38.789511+00:00",
+  "decision": "Retain B09 provisional economical hybrid; qualification and production cost unverified",
+  "verified_model": "verified_model.py",
+  "original_model_usage": "Audit-only solver history; invalid initial folded/OPL helpers",
+  "nominal_shape_attempt_count": 1,
+  "finite_focus_solves_including_invalid_repeat": 2,
+  "plateau": false,
+  "reference_accessed": false,
+  "priority_pause": "B09 verification paused for completed/pushed Run013 matched thermal study",
+  "active_engineering_minutes_upper_estimate": 25
+}

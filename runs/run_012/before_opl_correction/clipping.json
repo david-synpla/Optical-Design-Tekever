@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "entrance_fraction": 0.8680555555555556,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "entrance_fraction": 0.8663194444444444,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "entrance_fraction": 0.8680555555555556,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "entrance_fraction": 0.8585069444444444,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "entrance_fraction": 0.875,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "entrance_fraction": 0.8585069444444444,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "entrance_fraction": 0.86328125,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "entrance_fraction": 0.8637152777777778,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "entrance_fraction": 0.86328125,
+      "additional_clipping_fraction_of_clear_pupil": 0.0
+    }
+  ],
+  "pupil_samples": 2304
+}

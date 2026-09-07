@@ -1,0 +1,14 @@
+{
+  "minimum_forward_stop_to_primary_z_mm": 2.4244707510920915,
+  "on_axis_550nm_opd_rms_waves": 0.09656605999768923,
+  "maximum_fold_error_mm": 2.8421709430404007e-13,
+  "signed_corner_centroid_overrun_xy_mm": [
+    0.010474706935340805,
+    0.00766887224953372
+  ],
+  "central_polychromatic_axis_scale_mm": [
+    794.1818320886441,
+    794.1818320886092
+  ],
+  "max_diffraction_sampling_change": 0.0022206697344929194
+}

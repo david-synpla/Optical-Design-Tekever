@@ -1,0 +1,81 @@
+"""B09 evidence and provisional cost/performance portfolio; no new search."""
+import json,hashlib,shutil,csv
+from datetime import datetime,timezone
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import track_b_run012_newtonian as M
+def read(name):return json.loads((M.OUT/name).read_text())
+def main():
+    x=read('attempt_01.json')['parameters'];dense=read('dense.json');finite=read('finite_800m.json');diff=read('diffraction.json')['rows'];clip=read('clipping.json')['rows'];sens=read('sensitivity.json')
+    op=M.build(x,folded=True);pres=[]
+    for i,s in enumerate(op.surfaces):
+        if i==0:continue
+        g=s.geometry
+        pres.append(dict(surface=i,x_mm=float(g.cs.x),y_mm=float(g.cs.y),z_mm=float(g.cs.z),tilt_y_rad=float(g.cs.ry),radius_mm=float(g.radius) if np.isfinite(float(g.radius)) else None,conic=float(getattr(g,'k',0)),reflective=s.interaction_model.is_reflective,material=getattr(s.material_post,'name','air'),aperture=s.aperture.to_dict() if s.aperture else None))
+    M.save('physical_prescription.json',dict(parameters=x,surfaces=pres,source_model='verified_model.py',original_solver_model='model.py',stock_mirrors_are_nominal_not_measured=True))
+    # Verify forward traversal of the entrance-to-primary segment and realistic OPD.
+    o=M.build(x);p=M.ScalarFFTPSF(o,(0,0),.55,num_rays=128,grid_size=512,strategy='centroid_sphere',remove_tilt=False,robust_trim_std=0);d=p.get_data((0,0),.55);valid=d.intensity>0
+    min_forward=float(np.min(np.asarray(o.surfaces.z)[2]-np.asarray(o.surfaces.z)[1]));assert min_forward>0
+    opd_rms=float(np.std(d.opd[valid]));assert opd_rms<1
+    fold=read('physical_fold.json')['rows'];assert all(r['different_survival_count']==0 for r in fold)
+    centers=np.array([r['centroid_mm'] for r in dense['rows']]);over=np.max(abs(centers),axis=0)-np.array([M.W,M.H])/2
+    # Finite angular derivative around axis, independent of paraxial EFL.
+    eps=1e-4;scale_fields=[(eps,0),(-eps,0),(0,eps),(0,-eps)]
+    cs=np.array([r['centroid_mm'] for r in M.geometric(x,n=16,fields=scale_fields)['rows']]);jac=np.column_stack([cs[0]-cs[1],cs[2]-cs[3]])/(2*eps*np.radians(M.ANG))
+    M.save('audit.json',dict(minimum_forward_stop_to_primary_z_mm=min_forward,on_axis_550nm_opd_rms_waves=opd_rms,maximum_fold_error_mm=max(r['max_coordinate_error_mm'] for r in fold),signed_corner_centroid_overrun_xy_mm=over.tolist(),central_polychromatic_axis_scale_mm=np.linalg.norm(jac,axis=0).tolist(),max_diffraction_sampling_change=max(r['max_mtf_ee_change'] for r in read('diffraction_convergence.json')['rows'])))
+    lines=['# Run 012 — B09 cost-conscious hybrid development','',
+    '**Decision: retain B09 as a provisional economical hybrid option alongside B05 and B06.** It has a credible traced nominal and a useful cost/manufacturing hypothesis, with a substantial corner-image-quality penalty. It is not qualified or proven cheaper in production. B01/B03 remain empirical COTS alternatives with unverified optical performance, not low optical scores.','',
+    'Run013 thermal work took priority: this run paused after the in-flight solve and resumed verification after the thermal milestone was committed and pushed. Original solver output and invalid preliminary verification remain preserved.','',
+    '## Prescription and requirement evidence','',
+    f"The independently seeded nominal uses a stock-like 130 mm, 650 mm focal-length paraboloid (R=-1300 mm, K=-1), a 47 mm minor-axis flat, and two 35 mm-diameter custom spherical N-BK7/N-F2 lenses. Entrance pupil {M.D:.6f} mm; effective focal length {dense['efl_mm']:.6f} mm; f/{dense['f_number']:.6f}. The four lens curvatures and three separations were solved; no Track A, B05 or B06 geometry was used as a seed.",'',
+    f"Dense 25-field, six-wavelength 430–800 nm tracing with 2304 equal-area pupil rays gives worst RMS **{dense['worst_rms_um']:.3f} um**. At 800 m it is **{finite['metrics']['worst_rms_um']:.3f} um**, after **{finite['extra_path_focus_mm']:.4f} mm** added image-path focus. The focus search converged; the nominal shape solve reached its 120-evaluation cap, so its saved geometry is a bounded checkpoint, not a converged optimum.",'',
+    f"Central polychromatic angular image scales are {np.linalg.norm(jac,axis=0)[0]:.3f}/{np.linalg.norm(jac,axis=0)[1]:.3f} mm. At the source angular corners, centroid overrun relative to the fixed active rectangle is {over[0]*1000:.2f}/{over[1]*1000:.2f} um in X/Y. Thus paraxial EFL agreement does not close exact active-field registration. No distortion or image-quality acceptance threshold was invented.",'',
+    f"The sampled intentionally transmitted pupil fraction is {min(r['entrance_fraction'] for r in clip):.4f}–{max(r['entrance_fraction'] for r in clip):.4f}; additional clipping of those clear rays is {max(r['additional_clipping_fraction_of_clear_pupil'] for r in clip):.4f}. This includes a field-dependent ideal flat shadow and four 0.5 mm spider vanes. Real substrate edges, hub, cell, tube and detector housing are not yet modelled. Expected throughput is this geometric factor times two mirror reflectances, four lens-surface transmissions, glass and window transmission; actual spectral coating data is missing.",'',
+    '## Diffraction-aware performance comparison','',
+    'Common nominal infinity focus; 550 nm positive detector corner below. MTF values are X/Y at the stated frequencies. Each EE is actual / its own transmitted-pupil diffraction limit. These are monochromatic metrics at common focus, not averaged-MTF broadband claims. B09 uses a 384-point pupil grid (768 convergence checks); comparison designs use archived Run010 nominal data.','',
+    '| Candidate | Dense nominal RMS, um | MTF50 | MTF100 | MTF150 | MTF Nyquist | EE 2x2 actual / ideal |',
+    '|---|---:|---:|---:|---:|---:|---:|']
+    curves=[]
+    for cid,rms in [('B09',dense['worst_rms_um']),('B05-1',.8001627),('B05-2',.57644985),('B06',1.36013975)]:
+        rows=diff if cid=='B09' else json.loads((M.ROOT/f'runs/run_010/{cid}/diffraction_nominal.json').read_text())['rows']
+        d=next(r for r in rows if r['wavelength_um']==.55 and r['field'][0]>0 and r['field'][1]>0);a=d['actual']
+        cells=' | '.join(f"{xx:.3f}/{yy:.3f}" for xx,yy in zip(a['mtf_x'],a['mtf_y']))
+        lines.append(f"| {cid} | {rms:.3f} | {cells} | {a['ee2']:.3f}/{d['matched']['ee2']:.3f} |")
+        curves.append((cid,a,d['matched']))
+    lines+=['','B09 retains useful center performance but gives up considerable corner contrast and energy concentration. At 430/550/800 nm its corner metrics are saved separately in diffraction.json; it is not judged from Nyquist alone. The nominal RMS is about 10x B05-1 and 5.9x B06, while energy/contrast losses are less directly related to those ratios. Keep it because fewer custom optics and simpler mirror tests may justify that sacrifice; customer utility and supplier quotations remain necessary.','',
+    '## Manufacturing, packaging and sensitivity','',
+    f"Two of four optical elements are stock-nominal mirrors; one of three powered elements is COTS. Four custom powered surfaces are spherical, compared with B05's two custom conic mirrors plus four lens surfaces, or B06's three custom off-axis conic mirrors. The 35 mm lens edge thicknesses are {M.physical(x)['lens_edge_thickness_mm'][0]:.3f}/{M.physical(x)['lens_edge_thickness_mm'][1]:.3f} mm; the inter-lens edge gap is {M.physical(x)['airgap_edge_mm']:.3f} mm. That misses the solver's soft 0.5 mm assembly target slightly; it is not a customer requirement, and must be reconciled with a real spacer/drawing before release.",'',
+    f"The primary-to-flat axial distance is 480 mm, first lens lies {M.physical(x)['folded_first_lens_x_mm']:.3f} mm outboard, and detector lies {M.physical(x)['folded_detector_x_mm']:.3f} mm outboard. This is a long side-exit layout rather than a compact B05 replacement. Those are optical locations, not housing dimensions or mass. A stock OTA is a procurement source; custom cells, spider, barrel and detector mechanics are still required.",'',
+    'Six one-at-a-time diagnostics are in sensitivity.json: +/-0.1% primary radius, +/-100 urad flat tilt and +/-10 um first-lens decenter. They are assumed perturbations, not supplier tolerances. Radius error needs roughly +/-0.97 mm focus and recovers near 8 um RMS. Flat tilt and lens decenter leave centered RMS near 8 um, but pointing and detector registration are not compensated or qualified. This is much narrower evidence than Run010 and must not be presented as equal robustness maturity.','',
+    'Stock substrate, long support CTE, spider thermal gradients, lens dn/dT, window and cell stress remain unverified for B09. The completed B05/B06 Run013 study shows why a material/support choice and range-plus-thermal focus allocation are needed; its numbers are not transferred to B09.','',
+    '## Provisional economic portfolio','',
+    'Relative classes below are engineering judgement from custom optical count, test difficulty and integration effort; they are not prices, schedules or production-yield forecasts. The labels describe potential products, not a forced three-winner outcome.','',
+    '| Dimension | B09 economical hybrid | B05 balanced custom, variants retained | B06 higher mid-frequency/EE performance | B01/B03 stock-SCT route |',
+    '|---|---|---|---|---|',
+    '| Procurement / recurring cost | Potentially low/moderate; stock mirrors plus two small custom lenses | Moderate/high custom optical set | High-risk off-axis mirror manufacture and metrology | Low/moderate stock set; production terms unknown |',
+    '| NRE | Moderate corrector and custom mechanical package | Moderate/high custom mirror tests and corrector/cells | High alignment, off-axis datums, test fixtures and cells | Low bench characterization initially; rehousing can raise it |',
+    '| Alignment / manufacture | Familiar paraboloid and flat tests; lens centration/collimation | Coaxial but custom secondary metrology; focus comparatively forgiving | Three off-axis conics; coupled pointing/alignment controls | Preserve factory matched optics and datums; moving-primary shift/backlash risk |',
+    '| Integration / packaging | Long axial path and lateral detector; spacer clearance open | More compact; high obscuration, real cell/window open | Unobscured beam with packaging clearance evidence; real body/cells open | Compact catalogue assembly; detector/reducer geometry and qualification open |',
+    '| Thermal / schedule risk | Not yet modelled; stock lot and substrate/coating data missing | Uniform-temperature scenarios available; real structure/window pending | Uniform-temperature scenarios available; support mismatch more demanding | Proprietary model absent; physical bench and chamber evidence needed |',
+    '| Optical evidence / sacrifice | Modelled ~8 um worst RMS and reduced corner MTF/EE | Modelled ~0.6–0.8 um with strong high-frequency trade | Modelled ~1.36 um with higher mid-frequency/EE, not all-frequency winner | IQ presently unverified; disclosed pupil/EFL mismatch is a separate fact |','',
+    'Current procurement anchors were checked on 2026-09-07 in Run011: the Sky-Watcher donor OTA is GBP229, while a replacement primary-only offer is EUR70.65; neither is a qualified production BOM. The C5/reducer stock subtotal is USD879.90; Nikon complete-lens offer GBP4,999. These original-currency retail anchors exclude custom optics, mechanics, coatings, acceptance tests, landed cost and qualification. See [Run011 procurement sources](../run_011/summary.md).','',
+    'RFQ package needed next: measured primary/flat set (substrate, radius, figure, roughness, coatings, lot continuity); two spherical lenses with drawings, centration and broadband coatings; mirror cells/spider/relay barrel and range-plus-thermal focus mechanism; matching B05 and B06 optic/test-fixture packages at common quantities. No RFQ was sent and no purchasing action was taken.','',
+    'B01/B03 must be evaluated with supplier data or assembled-system measurements before rehousing. Missing proprietary prescriptions mean unverified performance, not poor performance. Retaining factory datums can preserve the economic argument; custom optical compensation without a model or measured system identification could erase it. The exact 127 mm aperture/EFL mismatch remains unresolved independently of image quality.','',
+    '## Corrections, resource use and next step','',
+    f"Physical fold mapping agrees within {max(r['max_coordinate_error_mm'] for r in fold):.2g} mm and has matching sampled survival. The initial folded helper incorrectly relied on negative refractive index instead of Optiland's reflection flag; fixed in verified_model.py. More significantly, the initial entrance plane crossed the parabolic sag, creating backward OPL segments and invalid FFT values. Moving that numerical stop 4 mm ahead of the vertex restores forward propagation (minimum {min_forward:.3f} mm) and plausible on-axis 550 nm OPD RMS {opd_rms:.3f} waves. Powered radii, conics and their separations remain unchanged. Original solver model and before_opl_correction/ outputs are audit-only and must not be used for diffraction ranking.",'',
+    f"After correction the 384-to-768 pupil convergence change is at most {max(r['max_mtf_ee_change'] for r in read('diffraction_convergence.json')['rows']):.5f} in MTF/EE. Reproduction: use verified_model.py plus verification.py and the saved parameters. The original model.py preserves the solve history. Requirements are unchanged; implementation corrections are not customer requirement changes.",'',
+    'One nominal shape attempt (evaluation cap reached); one final finite-focus solve plus its preserved pre-correction repeat; bounded dense/fold/FFT and six sensitivity diagnostics. No new architecture or second nominal optimization was started. Active engineering time is conservatively estimated below 25 minutes excluding the Run013 priority pause; no plateau claim is warranted from one attempt.','',
+    'Next most useful action: define a shared detector/window, range-plus-thermal focus and mechanical datum specification, then apply a bounded B09 thermal/support/interface check using measured or explicitly bracketed stock material properties. Obtain supplier/bench evidence before claiming production economics or freezing the portfolio. Track B remains OPEN; its low-cost gate is advanced, not declared fully qualified.']
+    (M.OUT/'summary.md').write_text('\n'.join(lines)+'\n')
+    fig,ax=plt.subplots(1,2,figsize=(10,3.8))
+    for cid,a,ideal in curves:ax[0].plot(M.FREQ,a['mtf_x'],'o-',label=cid)
+    ax[0].set(xlabel='Spatial frequency (lp/mm)',ylabel='MTF X',title='550 nm positive corner, nominal');ax[0].legend();ax[0].grid(alpha=.3)
+    names=[c[0] for c in curves];actual=[c[1]['ee2'] for c in curves];ideal=[c[2]['ee2'] for c in curves];z=np.arange(4)
+    ax[1].bar(z-.18,actual,width=.36,label='Actual');ax[1].bar(z+.18,ideal,width=.36,label='Matched pupil ideal');ax[1].set_xticks(z,names);ax[1].set(ylabel='Energy fraction',title='2x2-pixel ensquared energy');ax[1].legend();fig.tight_layout();fig.savefig(M.OUT/'portfolio_comparison.png',dpi=160)
+    for name in ['track_b_run012_report.py','track_b_run012_sensitivity.py']:shutil.copy2(M.ROOT/'src'/name,M.OUT/name)
+    meta=read('metadata.json');meta.update(status='CLOSED',end_utc=datetime.now(timezone.utc).isoformat(),decision='Retain B09 provisional economical hybrid; qualification and production cost unverified',verified_model='verified_model.py',original_model_usage='Audit-only solver history; invalid initial folded/OPL helpers',substantial_search_count=3,nominal_shape_attempt_count=1,finite_focus_solves_including_invalid_repeat=2,plateau=False,reference_accessed=False,priority_pause='B09 verification paused for completed/pushed Run013 matched thermal study',active_engineering_minutes_upper_estimate=25)
+    M.save('metadata.json',meta)
+    (M.OUT/'SHA256SUMS.txt').write_text(''.join(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(M.OUT).as_posix()}\n' for p in sorted(M.OUT.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.txt' and '__pycache__' not in p.parts))
+if __name__=='__main__':main()

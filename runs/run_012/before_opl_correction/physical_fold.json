@@ -1,0 +1,599 @@
+{
+  "rows": [
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8663194444444444,
+      "folded_survival": 0.8663194444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8663194444444444,
+      "folded_survival": 0.8663194444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8663194444444444,
+      "folded_survival": 0.8663194444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8663194444444444,
+      "folded_survival": 0.8663194444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8663194444444444,
+      "folded_survival": 0.8663194444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8663194444444444,
+      "folded_survival": 0.8663194444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        -0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8680555555555556,
+      "folded_survival": 0.8680555555555556,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.875,
+      "folded_survival": 0.875,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.875,
+      "folded_survival": 0.875,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.875,
+      "folded_survival": 0.875,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.875,
+      "folded_survival": 0.875,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.875,
+      "folded_survival": 0.875,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.0
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.875,
+      "folded_survival": 0.875,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.0,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8585069444444444,
+      "folded_survival": 0.8585069444444444,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        -0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8637152777777778,
+      "folded_survival": 0.8637152777777778,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.8421709430404007e-13,
+      "unfolded_survival": 0.8637152777777778,
+      "folded_survival": 0.8637152777777778,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8637152777777778,
+      "folded_survival": 0.8637152777777778,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8637152777777778,
+      "folded_survival": 0.8637152777777778,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8637152777777778,
+      "folded_survival": 0.8637152777777778,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.0
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.8637152777777778,
+      "folded_survival": 0.8637152777777778,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.43,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.5,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.55,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.65,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.725,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    },
+    {
+      "field": [
+        0.8067627158338472,
+        0.5908952190231926
+      ],
+      "wavelength_um": 0.8,
+      "max_coordinate_error_mm": 2.2737367544323206e-13,
+      "unfolded_survival": 0.86328125,
+      "folded_survival": 0.86328125,
+      "different_survival_count": 0
+    }
+  ],
+  "correction": "Set actual reflection flag; archived solve used unfolded model and its geometry is unchanged."
+}

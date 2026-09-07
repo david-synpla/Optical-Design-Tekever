@@ -1,0 +1,144 @@
+{
+  "parameters": [
+    0.003620433551564968,
+    0.016405501349663336,
+    0.00022755195650503375,
+    -0.0061404001051408134,
+    580.6896269009242,
+    3.016685215604142,
+    77.47947106043094
+  ],
+  "surfaces": [
+    {
+      "surface": 1,
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "z_mm": 0.0,
+      "tilt_y_rad": 0.0,
+      "radius_mm": null,
+      "conic": 0.0,
+      "reflective": false,
+      "material": "air",
+      "aperture": {
+        "type": "NewtonianPupil",
+        "r_max": 64.04862085086489,
+        "r_min": 0,
+        "vane_width_mm": 0.5,
+        "note": "Field-dependent projected 45-degree flat and orthogonal plane spider; substrate/cell footprint requires drawing"
+      }
+    },
+    {
+      "surface": 2,
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "z_mm": 4.0,
+      "tilt_y_rad": 0.0,
+      "radius_mm": -1300.0,
+      "conic": -1.0,
+      "reflective": true,
+      "material": "air",
+      "aperture": {
+        "type": "RadialAperture",
+        "r_max": 65.0,
+        "r_min": 0
+      }
+    },
+    {
+      "surface": 3,
+      "x_mm": 0.0,
+      "y_mm": 0.0,
+      "z_mm": -476.0,
+      "tilt_y_rad": 0.7853981633974483,
+      "radius_mm": null,
+      "conic": 0.0,
+      "reflective": true,
+      "material": "air",
+      "aperture": {
+        "type": "EllipticalAperture",
+        "a": 33.23401871576773,
+        "b": 23.5,
+        "offset_x": 0,
+        "offset_y": 0
+      }
+    },
+    {
+      "surface": 4,
+      "x_mm": 100.68962690092417,
+      "y_mm": 0.0,
+      "z_mm": -476.0,
+      "tilt_y_rad": 1.5707963267948966,
+      "radius_mm": 276.21001345757065,
+      "conic": 0.0,
+      "reflective": false,
+      "material": "N-BK7",
+      "aperture": {
+        "type": "RadialAperture",
+        "r_max": 17.5,
+        "r_min": 0
+      }
+    },
+    {
+      "surface": 5,
+      "x_mm": 104.68962690092417,
+      "y_mm": 0.0,
+      "z_mm": -476.0,
+      "tilt_y_rad": 1.5707963267948966,
+      "radius_mm": 60.95516245960514,
+      "conic": 0.0,
+      "reflective": false,
+      "material": "air",
+      "aperture": {
+        "type": "RadialAperture",
+        "r_max": 17.5,
+        "r_min": 0
+      }
+    },
+    {
+      "surface": 6,
+      "x_mm": 107.70631211652835,
+      "y_mm": 0.0,
+      "z_mm": -476.0,
+      "tilt_y_rad": 1.5707963267948966,
+      "radius_mm": 4394.600755620744,
+      "conic": 0.0,
+      "reflective": false,
+      "material": "N-F2",
+      "aperture": {
+        "type": "RadialAperture",
+        "r_max": 17.5,
+        "r_min": 0
+      }
+    },
+    {
+      "surface": 7,
+      "x_mm": 110.70631211652835,
+      "y_mm": 0.0,
+      "z_mm": -476.0,
+      "tilt_y_rad": 1.5707963267948966,
+      "radius_mm": -162.8558372218756,
+      "conic": 0.0,
+      "reflective": false,
+      "material": "air",
+      "aperture": {
+        "type": "RadialAperture",
+        "r_max": 17.5,
+        "r_min": 0
+      }
+    },
+    {
+      "surface": 8,
+      "x_mm": 188.18578317695926,
+      "y_mm": 0.0,
+      "z_mm": -476.0,
+      "tilt_y_rad": 1.5707963267948966,
+      "radius_mm": null,
+      "conic": 0.0,
+      "reflective": false,
+      "material": "air",
+      "aperture": null
+    }
+  ],
+  "source_model": "verified_model.py",
+  "original_solver_model": "model.py",
+  "stock_mirrors_are_nominal_not_measured": true
+}
