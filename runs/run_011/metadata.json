@@ -1,0 +1,20 @@
+{
+  "run_id": "011",
+  "human_intervention": "User added permanent cost-conscious lane and pre-freeze evidence gate. Run010 commit recovered after credit interruption without numerical rerun.",
+  "stage": "cost-conscious selection gate",
+  "reference_accessed": false,
+  "candidate_ids": [
+    "B09",
+    "B01",
+    "B03",
+    "B02"
+  ],
+  "substantial_search_count": 0,
+  "decision": "Develop B09 in Run012; retain B01/B03 empirical fallback; maintain B05/B06 thermal lane",
+  "start_utc": "2026-09-07T12:27:18Z",
+  "status": "CLOSED",
+  "end_utc": "2026-09-07T12:30:34.9091346Z",
+  "track": "B",
+  "nominal_shape_attempts": 0,
+  "track_a_untouched": true
+}

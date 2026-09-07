@@ -1,0 +1,221 @@
+Continue the current TEKEVER optical-design work from the repository's actual current state.
+
+Do not abandon or restart the planned B05/B06 engineering-development work. The matched tolerance/alignment/compensator and subsequent thermal/material studies remain necessary.
+
+However, add an explicit **parallel cost-conscious / COTS-maximised development lane** to Track B.
+
+## New project-level objective
+
+The final recommendation must not optimise optical performance alone.
+
+TEKEVER may rationally prefer a somewhat lower-performance telescope if it offers a large reduction in:
+
+* optical procurement cost;
+* non-recurring engineering;
+* manufacturing complexity;
+* alignment/metrology burden;
+* supply-chain risk;
+* production cost;
+* development time.
+
+Therefore Track B must ultimately produce a **performance-versus-cost/risk portfolio**, not simply one maximum-performance design.
+
+At least one credible **lower-cost alternative** must be developed far enough to compare meaningfully against B05 and B06 before Track B is frozen.
+
+Do not reject a cheaper design merely because its nominal optical metrics are worse than B05/B06. Determine instead how much performance is sacrificed and what engineering/cost advantage is gained.
+
+## Existing low-cost candidates
+
+Revisit the existing Track B portfolio, especially:
+
+* B01 — Celestron C5/SCT + stock reducer;
+* B03 — retained COTS SCT optical set with custom UAV-suitable mechanics;
+* B09 — Newtonian/COTS-mirror architecture with corrector/extender;
+* B02 — Nikon 800 mm f/6.3 where useful as a complete-COTS reference;
+* any other previously screened architecture that has a genuinely strong COTS or low-manufacturing-cost argument.
+
+Do not reopen every parked architecture indiscriminately.
+
+First determine which **one or two** low-cost routes have the highest probability of becoming useful TEKEVER products.
+
+B09 deserves particular attention because Run 005 explicitly identified it as a potentially low-cost architecture with high mirror/OTA COTS potential, while allowing a custom relay/corrector to address the exact detector/interface requirements.
+
+B01/B03 deserve continued consideration because their optical sets are substantially COTS and therefore may provide a very different cost/NRE point from B05/B06.
+
+## Important distinction
+
+"COTS" is not itself the requirement.
+
+Maximise COTS only where doing so produces a meaningful economic or development advantage.
+
+A hybrid system using:
+
+* a stock primary/mirror set or commercial telescope optics;
+* a small custom corrector or relay;
+* custom lightweight mechanics;
+* a custom detector/focus interface
+
+may be preferable to either:
+
+1. a completely stock commercial product that does not meet the needs, or
+2. a completely custom high-performance optical system.
+
+Search explicitly for such hybrid solutions.
+
+## Work alongside the current B05/B06 research
+
+Do not replace the current B05/B06 engineering comparison.
+
+Instead maintain two development lanes:
+
+### Performance lane
+
+* B05 attempt 1
+* B05 attempt 2
+* B06
+
+Continue matched:
+
+* tolerance sensitivity;
+* alignment/compensator studies;
+* thermal/material assessment;
+* physical integration.
+
+### Cost-conscious lane
+
+Actively advance at least one low-cost/COTS-maximised candidate to the point where it can be compared against the performance lane.
+
+Use a separate bounded run or clearly separated run scope according to the existing repository workflow.
+
+Do not consume the B05/B06 engineering run budget by mixing unrelated optimisation searches into it.
+
+## Low-cost candidate selection gate
+
+Before committing substantial optimisation effort, perform a short evidence-based comparison of the credible cheap routes.
+
+For each candidate assess:
+
+* expected optical hardware cost class;
+* expected custom-optics content;
+* number and difficulty of custom powered surfaces;
+* likely NRE;
+* mechanical adaptation needed;
+* alignment/metrology difficulty;
+* mass/volume implications;
+* thermal concerns;
+* detector-interface complexity;
+* availability/supply risk;
+* production scalability;
+* available optical evidence;
+* missing evidence that would require supplier data or physical testing.
+
+Use current real COTS products and realistic procurement information where research access permits.
+
+Record dates and sources for current products/prices. Do not treat retail price as final production cost.
+
+Do not invent proprietary prescriptions.
+
+If a commercial system cannot be simulated credibly without unavailable prescription data, state that explicitly and define the minimum empirical measurement needed.
+
+## Develop at least one cheap architecture
+
+After the selection gate, advance at least one lower-cost candidate.
+
+Preference should be given to an architecture that can actually be engineered/modelled rather than remaining only a product brochure comparison.
+
+For example, if justified by the evidence, B09 could use a conventional/COTS paraboloidal primary and flat secondary with a deliberately designed small corrector/extender/relay to meet the required approximately:
+
+* 794.2 mm effective focal length;
+* 128.1 mm entrance pupil;
+* f/6.2;
+* IMX545 active field;
+* 430–800 nm band;
+* infinity and 800 m conjugates.
+
+This is an example, not an instruction to force B09 to win.
+
+Likewise investigate whether B01/B03 can be made materially more suitable through limited custom adaptation without destroying their cost advantage.
+
+## Performance evaluation
+
+Evaluate the developed cheap candidate using, as far as technically possible, the same framework used for B05/B06:
+
+* field coverage;
+* RMS spot size;
+* MTF at 50/100/150/Nyquist;
+* 2×2 pixel ensquared energy;
+* EFL/image scale;
+* physical aperture/vignetting;
+* 800 m focus/refocus;
+* packaging implications;
+* sensitivity where practical;
+* thermal issues;
+* expected throughput.
+
+Do not demand that it equal B05 or B06.
+
+Instead quantify the performance loss.
+
+## Cost/performance comparison
+
+Introduce an explicit qualitative/semi-quantitative Pareto comparison.
+
+At minimum distinguish:
+
+1. **Low-cost / maximum-COTS**
+2. **Balanced custom** — likely represented by B05 if it survives engineering development
+3. **Maximum-performance** — potentially B06
+
+For each report:
+
+* optical performance;
+* optical complexity;
+* custom element count;
+* likely manufacturing difficulty;
+* alignment difficulty;
+* expected NRE class;
+* expected recurring-cost class;
+* integration risk;
+* thermal/qualification burden;
+* expected development schedule/risk;
+* key uncertainties.
+
+Do not invent precise euro costs where supplier evidence is absent.
+
+Use cost bands or relative cost indices if necessary, and state how they were constructed.
+
+Where possible, identify which components should eventually be sent for supplier RFQ so that these estimates can be replaced by quotations.
+
+## Portfolio rule
+
+From this point onward, **do not freeze Track B solely because B05 or B06 reaches satisfactory engineering maturity**.
+
+Before final architecture selection, either:
+
+A. retain at least one lower-cost/COTS or hybrid option that has credible performance and engineering evidence;
+
+or
+
+B. demonstrate clearly why the lower-cost routes fail to offer an acceptable performance/cost trade.
+
+The eventual recommendation may therefore contain multiple product concepts rather than a single winner, for example:
+
+* economical/COTS-heavy option;
+* balanced option;
+* premium/high-performance option.
+
+That is acceptable and may be preferable for a client proposal.
+
+## Immediate action
+
+First inspect the current repository and any work already underway.
+
+If the current B05/B06 sensitivity run has already started, do not disrupt or restart successful work. Complete it according to its existing bounded scope.
+
+In parallel or immediately following it, establish the low-cost selection gate described above and advance the best cheap candidate.
+
+Update `design_state.md` so that the low-cost lane is explicitly part of the future Track B roadmap and cannot silently disappear merely because B05/B06 have better nominal optical performance.
+
+Preserve all previous benchmark and run evidence.
+
+Proceed autonomously and commit completed work according to existing repository conventions.

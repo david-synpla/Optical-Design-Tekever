@@ -317,6 +317,18 @@ Do not manufacture artificial "cheap", "balanced", or "high-performance" designs
 
 ## 12. Track freeze
 
+### Track B cost-conscious evidence gate (user instruction, 2026-09-07)
+
+Maintain both a performance lane (B05 variants/B06 engineering and thermal work)
+and a cost-conscious lane. Before Track B final selection/freeze, either retain
+at least one credibly evaluated lower-cost COTS/hybrid option or document why
+the investigated low-cost routes fail to offer an acceptable performance/cost
+trade. Performance-lane maturity alone does not satisfy this gate. Compare
+procurement, NRE, manufacturing, alignment, supply and qualification risks;
+do not treat retail prices as production quotations or require the cheaper
+candidate to equal the leading optical metrics. Use separate bounded runs.
+See Run 011 for the initial selection gate and source request.
+
 Before a track is declared complete:
 
 1. complete the required verification for every candidate being preserved;

@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: B — independent research-informed optical design
-Stage: Run 010 alignment/tolerance and compensator comparison CLOSED; next thermal/material development
+Stage: Run 010 engineering comparison and Run 011 cost-conscious selection gate CLOSED; two development lanes active
 Workflow: v3; Track B remains OPEN, not frozen.
 Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen. Its results remain immutable. reference/ remains unread.
 
@@ -16,7 +16,8 @@ Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen.
 | B05 attempt 1 | Corrected two-conic Cassegrain | ACTIVE — provisional lower-risk baseline | Run 010: focus alone restores all 24 diagnostic specimens to <=1.063 um sampled RMS; smaller secondary-shape and image-scale burden |
 | B05 attempt 2 | Compact corrected Cassegrain variant | ACTIVE — compact alternative | ~45.7 mm shorter than attempt 1; retains useful trade despite greater secondary fabrication, focus recovery and image-scale sensitivity |
 | B06 | Unobscured off-axis three-conic TMA | ACTIVE — higher alignment/metrology burden | Focus alone inadequate in Run 010; focus plus secondary X/Y tilt retains mid-frequency/EE advantage, with residual figure and registration risks |
-| B07–B14 | Other screened architecture families | PARKED | Run 005 reopening reasons remain authoritative; no blanket family rejection |
+| B09 | Stock Newtonian mirrors + custom small corrector/extender | ACTIVE — cost-conscious lane | Run 011 reopens this modelable hybrid; separate bounded Run 012 next |
+| B07–B08, B10–B14 | Other screened architecture families | PARKED | Run 005 reopening reasons remain authoritative; no blanket family rejection |
 
 ## Latest matched evidence
 
@@ -52,3 +53,11 @@ Run 010 closed in 19.8 minutes elapsed including coding/reporting/tooling. Zero 
 Next: one bounded matched thermal/material comparison of all three retained variants across -25 to +50 C, using their unchanged nominal prescriptions and explicit compensator policies. Parameterize missing mirror substrates, structure CTE, glass/window properties and support interfaces; separate material assumptions from requirements. Do not start another nominal shape search or freeze Track B from the sensitivity results alone.
 
 User supplied the detailed Run 010 investigation scope and standing authorization to push completed work in this repository. Earlier milestones and exact lineage remain in runs/run_008, runs/run_009 and their committed metadata.
+
+## Permanent cost-conscious lane and freeze gate
+
+User instruction 2026-09-07 adds a permanent economic/COTS lane. Run 011 selects B09 for immediate independent hybrid development in Run 012; B01/B03 remain the empirical stock-SCT fallback. Current retail anchors and limitations are in runs/run_011/summary.md. B05/B06 thermal/material work remains necessary and receives its own budget. No low-cost route is rejected merely for lower nominal optical performance.
+
+Track B cannot freeze solely on performance-lane maturity. Retain a credibly evaluated lower-cost option or demonstrate why the investigated lower-cost routes offer no acceptable performance/cost trade. Produce a measured/modelled performance-versus-NRE/recurring-cost/risk portfolio, with no fabricated monetary quotations. This gate is also in DESIGN_WORKFLOW.md.
+
+Recovery note: Run 010 numerical work was complete; its commit was interrupted by the approval service credit limit. Hashes passed and commit 110ee1c was pushed on resumption without repeating analyses. Run 011 is a separate scope, not an extension of the Run 010 budget.
