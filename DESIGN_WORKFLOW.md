@@ -329,6 +329,12 @@ do not treat retail prices as production quotations or require the cheaper
 candidate to equal the leading optical metrics. Use separate bounded runs.
 See Run 011 for the initial selection gate and source request.
 
+The already-planned matched B05/B06 thermal/material study has priority as the
+next performance-lane development step; cost-lane work must not replace or
+consume its budget. For proprietary COTS designs, distinguish unverified
+performance due to unavailable prescriptions from poor predicted performance.
+Do not assign a poor optical score merely because a model is unavailable.
+
 Before a track is declared complete:
 
 1. complete the required verification for every candidate being preserved;

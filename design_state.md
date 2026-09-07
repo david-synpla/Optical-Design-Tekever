@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: B — independent research-informed optical design
-Stage: Run 010 engineering comparison and Run 011 cost-conscious selection gate CLOSED; two development lanes active
+Stage: Run 013 matched thermal/material study CLOSED; saved Run 012 B09 solve awaits verification
 Workflow: v3; Track B remains OPEN, not frozen.
 Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen. Its results remain immutable. reference/ remains unread.
 
@@ -44,19 +44,23 @@ B06 retains ~6.00 mm boundary clearance in its compensated stress specimen. B05'
 
 No actual detector-window specification was supplied. Hypothetical 0.5/1 mm N-BK7 windows were tested separately; a 1 mm window needs ~0.34–0.35 mm additional detector refocus. These are parameterized interface scenarios, not Sony specifications or nominal design additions.
 
-All candidates still lack the required -25 to +50 C thermal/material analysis, actual coating/substrate/structure choices, field registration closure, stray-light validation, surface-figure/measurement-noise allocation and independent OpticStudio validation. Source/QE-weighted broadband PSF/MTF remains open. Mass, housing dimensions, throughput and monetary cost are not established.
+Run 013 now provides matched uniform-temperature/material scenarios over -25 to +50 C. Hardware qualification remains open: actual coating/substrate/structure choices, gradients and stress, field registration, stray light, surface figure, measurement noise and independent OpticStudio validation. Source/QE-weighted broadband PSF/MTF remains open. Mass, housing dimensions, throughput and monetary cost are not established.
 
 ## Resource state and next action
 
 Run 010 closed in 19.8 minutes elapsed including coding/reporting/tooling. Zero iterative optimizer calls, zero shape/architecture attempts; nine substantial analysis batches plus diagnostic checks. Exact nominal replay, rigid-body invariants, selected diffraction convergence, data ranges and Track A freeze hashes pass. No quota interruption or human optical correction occurred in this run.
 
-Next: one bounded matched thermal/material comparison of all three retained variants across -25 to +50 C, using their unchanged nominal prescriptions and explicit compensator policies. Parameterize missing mirror substrates, structure CTE, glass/window properties and support interfaces; separate material assumptions from requirements. Do not start another nominal shape search or freeze Track B from the sensitivity results alone.
+Run 013 completed the prioritized matched thermal comparison without changing nominal shapes. Silica-like mirrors and a 1.2 ppm/K effective frame retain dense endpoint RMS of 0.799–0.801 / 0.544–0.627 / 1.337–1.383 um for B05-1 / B05-2 / B06. Thermal focus travel is about 0.04 / 0.05 / 0.09 mm maximum. A 24 ppm/K frame needs up to 1.37 / 1.76 / 3.23 mm and retains more aberration even after compensation. These are material scenarios, not selected hardware or qualification. Cold/hot 800 m checks require roughly 0.8 mm additional range-focus travel. See runs/run_013/summary.md for diffraction, image scale, finite-range and limitation details.
+
+Next: finish verification of the saved Run012 B09 solve, then compare its performance/cost/risk evidence with the retained portfolio. For subsequent performance development, define a concrete support/actuator/window interface; do not start another nominal shape search or freeze Track B from uniform-temperature results alone.
 
 User supplied the detailed Run 010 investigation scope and standing authorization to push completed work in this repository. Earlier milestones and exact lineage remain in runs/run_008, runs/run_009 and their committed metadata.
 
 ## Permanent cost-conscious lane and freeze gate
 
 User instruction 2026-09-07 adds a permanent economic/COTS lane. Run 011 selects B09 for immediate independent hybrid development in Run 012; B01/B03 remain the empirical stock-SCT fallback. Current retail anchors and limitations are in runs/run_011/summary.md. B05/B06 thermal/material work remains necessary and receives its own budget. No low-cost route is rejected merely for lower nominal optical performance.
+
+Priority correction: Run012 paused after its in-flight solve so Run013 thermal work proceeded before further cost-lane development. Thermal work has now completed its bounded scope. B01/B02/B03 full-band image quality is presently unverified because proprietary prescriptions or measurements are unavailable; it is not scored as poor predicted performance. Their disclosed EFL/aperture mismatches are separate geometric evidence.
 
 Track B cannot freeze solely on performance-lane maturity. Retain a credibly evaluated lower-cost option or demonstrate why the investigated lower-cost routes offer no acceptable performance/cost trade. Produce a measured/modelled performance-versus-NRE/recurring-cost/risk portfolio, with no fabricated monetary quotations. This gate is also in DESIGN_WORKFLOW.md.
 

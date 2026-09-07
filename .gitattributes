@@ -11,3 +11,7 @@ src/track_b_run009*.py -text
 runs/run_010/** -text
 src/track_b_run010*.py -text
 runs/run_011/** -text
+runs/run_012/** -text
+src/track_b_run012*.py -text
+runs/run_013/** -text
+src/track_b_run013*.py -text

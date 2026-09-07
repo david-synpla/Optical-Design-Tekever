@@ -1,0 +1,28 @@
+{
+  "temperature_range_C": [
+    -25,
+    50
+  ],
+  "run_id": "013",
+  "status": "CLOSED",
+  "priority_note": "User prioritizes performance-lane thermal work; Run012 paused after in-flight solve, verification resumes afterward.",
+  "supersedes": null,
+  "nominal_temperature_C": 20,
+  "start_utc": "2026-09-07T12:37:44.1011921Z",
+  "candidate_ids": [
+    "B05-1",
+    "B05-2",
+    "B06"
+  ],
+  "nominal_shape_optimization": false,
+  "purpose": "Priority matched uniform-temperature/material/compensator study, retaining nominal shapes",
+  "track": "B",
+  "end_utc": "2026-09-07T12:50:49.619229+00:00",
+  "substantial_analysis_batches": 7,
+  "implementation_check_repeats": 2,
+  "shape_optimizer_count": 0,
+  "shape_attempts": 0,
+  "plateau": false,
+  "reference_accessed": false,
+  "decision": "Retain all three; low-CTE support is preferred scenario, not hardware selection"
+}
