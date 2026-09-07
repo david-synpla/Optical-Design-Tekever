@@ -1,0 +1,11 @@
+{
+  "resumed_utc": "2026-09-07T06:44:15.422224+00:00",
+  "completed_optimizer_repeated": false,
+  "prior_json_and_hash_passed": true,
+  "prior_replay_passed": true,
+  "explicit_pupil_dense_trace_passed": true,
+  "verification_seconds": 11.697637487000009,
+  "additional_search_count": 1,
+  "additional_distinct_architecture_attempts": 0,
+  "script_sha256": "4998ae7d7a45b26aabb1caadbb585f3c17e7c8b93fbc4030ea2494f888b9aaf6"
+}

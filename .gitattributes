@@ -4,3 +4,6 @@ runs/run_008/** -text
 src/track_b_run008*.py -text
 # Run 007's hashed model was authored with LF; retain those bytes on Windows.
 runs/run_007/model.py -text
+# Preserve hashes of the independent B06 screening archive.
+runs/run_009/** -text
+src/track_b_run009*.py -text

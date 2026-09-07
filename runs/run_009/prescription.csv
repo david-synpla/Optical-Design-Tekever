@@ -1,0 +1,7 @@
+surface,radius_mm,thickness_mm,conic,material,aperture
+0,inf,inf,0,air,none
+1,inf,238.973819541842,0,air,"{'type': 'OffsetRadialAperture', 'r_max': 64.04862085086489, 'r_min': 0, 'offset_x': 0, 'offset_y': 115.0}"
+2,-512.3889668069191,-228.973819541842,-0.9139403456382597,mirror,"{'type': 'OffsetRadialAperture', 'r_max': 67.6266689638703, 'r_min': 0, 'offset_x': 0.0, 'offset_y': 114.92410792630795}"
+3,-142.840590291725,194.6277466105657,-11.566704867003077,mirror,"{'type': 'OffsetRadialAperture', 'r_max': 11.233760263926662, 'r_min': 0, 'offset_x': 0.0, 'offset_y': 12.688251869962667}"
+4,-198.05239889792392,-289.00241340317245,-0.2548467544808362,mirror,"{'type': 'OffsetRadialAperture', 'r_max': 32.897605718776745, 'r_min': 0, 'offset_x': 0.0, 'offset_y': -41.534085886110276}"
+5,inf,0.0,0,air,none

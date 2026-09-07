@@ -1,0 +1,28 @@
+{
+  "track": "B",
+  "candidate_ids": [
+    "B06"
+  ],
+  "run": "009",
+  "parent_run": null,
+  "stage": "screening",
+  "purpose": "Can a fresh off-axis-pupil three-mirror topology clear itself and justify development?",
+  "start_utc": "2026-09-06T22:57:08.758844+00:00",
+  "end_utc": "2026-09-06T22:57:10.051761+00:00",
+  "substantial_search_count": 2,
+  "materially_distinct_attempt_count": 1,
+  "plateau": false,
+  "versions": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "optiland": "0.6.1",
+    "scipy": "1.18.1"
+  },
+  "assumptions": [
+    "Petzval sum zero seed condition",
+    "Off-axis pupil offsets 85/100/115 mm",
+    "2 mm mirror patch/slab margins and 1 mm active-detector margin",
+    "Coatings/thermal/tolerances unmodeled",
+    "Circular bounds enclose active rectangular detector; no customer packaging limit"
+  ],
+  "script_sha256": "d89b934dc67e51344836306e6184533187ef447a2ae4f920b4df2c9a0aec352c"
+}

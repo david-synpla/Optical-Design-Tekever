@@ -1,0 +1,39 @@
+{
+  "mirrors": [
+    {
+      "surface": 2,
+      "radius_mm": -512.3889668069191,
+      "conic": -0.9139403456382597,
+      "patch_center_y_mm": 114.92410792630795,
+      "patch_radius_mm": 67.6266689638703,
+      "parent_radial_extent_mm": 182.55077689017827,
+      "max_meridional_slope": 0.3580118208751046,
+      "vertex_sphere_departure_um": 1013.8209362151258,
+      "note": "Departure over off-axis meridian relative to parent vertex-radius sphere, NOT best-fit sphere or figure tolerance"
+    },
+    {
+      "surface": 3,
+      "radius_mm": -142.840590291725,
+      "conic": -11.566704867003077,
+      "patch_center_y_mm": 12.688251869962667,
+      "patch_radius_mm": 11.233760263926662,
+      "parent_radial_extent_mm": 23.92201213388933,
+      "max_meridional_slope": 0.14700058439166483,
+      "vertex_sphere_departure_um": 144.05199111072542,
+      "note": "Departure over off-axis meridian relative to parent vertex-radius sphere, NOT best-fit sphere or figure tolerance"
+    },
+    {
+      "surface": 4,
+      "radius_mm": -198.05239889792392,
+      "conic": -0.2548467544808362,
+      "patch_center_y_mm": -41.534085886110276,
+      "patch_radius_mm": 32.897605718776745,
+      "parent_radial_extent_mm": 74.43169160488702,
+      "max_meridional_slope": 0.39697893806172757,
+      "vertex_sphere_departure_um": 143.41247051235584,
+      "note": "Departure over off-axis meridian relative to parent vertex-radius sphere, NOT best-fit sphere or figure tolerance"
+    }
+  ],
+  "vertex_extent_mm": 323.34848633444875,
+  "note": "Parent aspheres require off-axis patches and dedicated datums/metrology; no structure, coatings or thermal model"
+}

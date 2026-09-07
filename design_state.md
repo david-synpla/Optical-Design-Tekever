@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: B — independent research-informed optical design
-Stage: corrected-reflector screening complete; B05 advanced for development
+Stage: independent B06 screen complete; B05 and B06 retained for development
 Workflow: v3; Track B remains OPEN, not frozen.
 Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen. Its results remain immutable. reference/ remains unread.
 
@@ -14,7 +14,7 @@ Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen.
 | B03 | Retained SCT optics/custom mechanics | ACTIVE comparator | Run 005; does not itself fix B01 optical geometry; integration trade remains unverified |
 | B04 | Spherical-secondary CDK + two-lens corrector | PARKED | Run 007 restores nominal EFL/f/6.2 and physical pupil; 7.445 um worst sampled RMS; retains simpler secondary/metrology trade |
 | B05 | Co-designed two-conic Cassegrain + two-lens corrector | ACTIVE — advance to development | Run 008: retain attempt 1 as lower-risk baseline and attempt 2 as compact alternative; both independently seeded from requirements |
-| B06 | Off-axis conic/aspheric TMA | ACTIVE for screening | Own independent geometry/clearance run next; no prescription yet |
+| B06 | Off-axis three-conic TMA | ACTIVE — advance to development | Run 009: independent seed; 1.356 um dense RMS, unobscured pupil, 6.037 mm screened clearance; custom off-axis fabrication/alignment risks |
 | B07–B14 | Corrected RC; custom SCT; Newtonian/relay; Maksutov; APO; flat-medial aplanat; freeform escalation; Canon COTS | PARKED | Individual trade/reopening reasons in Run 005; no blanket family rejection |
 
 ## Current numerical evidence
@@ -37,6 +37,10 @@ No customer limits exist for image quality, distortion, obscuration, package, ma
 
 Run 007: two optimizer calls, one distinct B04 attempt; B04 screening lifetime total two of five. Run 008: four optimizer calls, two distinct B05 attempts; B05 total two of five. Neither branch plateaued. Final Run 008 ledger is closure.json; its root metadata.json preserves initial-attempt execution only. Both runs closed after their engineering questions were answered, within the 30-minute/10-search limits. No quota percentage inferred.
 
-Next: bounded B06 independent first-order/clearance screen to test the unobscured-pupil trade, then B05 thermal/tolerance development. Do not spend another B05 shape attempt before this comparison.
+Run 009 closed after quota-recovery verification. Completed shape solve replayed exactly; full explicit-pupil, diffraction and 800 m refocus checks pass. B06 nominal EFL/pupil are 794.202899/128.097242 mm. Dense 25-field RMS is 1.356 um, screened clearance 6.037 mm, vertex span 323.35 mm. At 550 nm positive corner, MTF X/Y at 100 lp/mm is 0.564/0.540 and 2-pixel EE 0.756 versus matched ideal 0.791. Finite 800 m refocus is +0.770896 mm along final beam with 1.710 um dense RMS. No broadband or thermal compliance claimed. See runs/run_009/summary.md and closure.json.
+
+Next: separate bounded development runs for matched B05/B06 tolerance, alignment compensators and thermal-material scenarios; include detector window and physical supports. Preserve both B05 variants and B06. No further nominal shape search is justified before these engineering comparisons.
 
 Human intervention: user authorized continuation on 2026-09-06; no new optical corrections. Autonomous engineering finding: reducing conic magnitude did not reduce actual aspheric departure or sensitivity. Track A geometry was not reused. Initial milestones remain 1734bcc (Track B initialization), 9f5dd0c (broad screen), b4b854d (B04 seed); Run 007 committed at 90428e2.
+
+Recovery intervention: user requested resumption after quota interruption on 2026-09-07. No completed shape solve repeated; corrected only floating-point rim sampling in finite-object verification. Track A remains untouched; reference/ remains unread.

@@ -1,0 +1,28 @@
+{
+  "run_id": "009",
+  "candidate_ids": [
+    "B06"
+  ],
+  "parent_run": null,
+  "human_intervention": "Quota interruption and authorized resume; no optical correction",
+  "track_a_geometry_used": false,
+  "plateau": false,
+  "decision": "Advance B06 alongside retained B05 variants",
+  "stage": "screening",
+  "resource_note": "Approximately 6 minutes before interruption plus bounded recovery/verification; idle quota interval excluded. Active work remained below 30 minutes; no quota reset or remaining percentage inferred.",
+  "substantial_search_count": 4,
+  "successful_search_count": 3,
+  "reference_accessed": false,
+  "stop_reason": "Clearance and diffraction screen answered; stop before new nominal optimization",
+  "track": "B",
+  "materially_distinct_attempt_count": 1,
+  "status": "CLOSED",
+  "closed_utc": "2026-09-07T06:46:21.1851676Z",
+  "searches": [
+    "Independent paraxial sweep",
+    "Conic/focus shape solve",
+    "Finite refocus invocation aborted at rim assertion",
+    "Successful detector-only finite refocus"
+  ],
+  "candidate_stage_attempts_total": 1
+}
