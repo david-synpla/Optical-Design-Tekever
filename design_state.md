@@ -1,46 +1,54 @@
 # Current Design State
 
 Track: B — independent research-informed optical design
-Stage: independent B06 screen complete; B05 and B06 retained for development
+Stage: Run 010 alignment/tolerance and compensator comparison CLOSED; next thermal/material development
 Workflow: v3; Track B remains OPEN, not frozen.
 Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen. Its results remain immutable. reference/ remains unread.
 
 ## Portfolio
 
-| ID | Architecture | Status | Best evidence / decision |
+| ID / variant | Architecture | Status | Current engineering decision |
 |---|---|---|---|
-| B01 | C5 + stock reducer | ACTIVE comparator | Run 005; close nominal geometry but exact mismatch, spectral/thermal behavior unmeasured |
-| B02 | Nikon 800/6.3 | ACTIVE comparator | Run 005; EFL/f-number mismatch, detector interface and band/temperature testing outstanding |
-| B03 | Retained SCT optics/custom mechanics | ACTIVE comparator | Run 005; does not itself fix B01 optical geometry; integration trade remains unverified |
-| B04 | Spherical-secondary CDK + two-lens corrector | PARKED | Run 007 restores nominal EFL/f/6.2 and physical pupil; 7.445 um worst sampled RMS; retains simpler secondary/metrology trade |
-| B05 | Co-designed two-conic Cassegrain + two-lens corrector | ACTIVE — advance to development | Run 008: retain attempt 1 as lower-risk baseline and attempt 2 as compact alternative; both independently seeded from requirements |
-| B06 | Off-axis three-conic TMA | ACTIVE — advance to development | Run 009: independent seed; 1.356 um dense RMS, unobscured pupil, 6.037 mm screened clearance; custom off-axis fabrication/alignment risks |
-| B07–B14 | Corrected RC; custom SCT; Newtonian/relay; Maksutov; APO; flat-medial aplanat; freeform escalation; Canon COTS | PARKED | Individual trade/reopening reasons in Run 005; no blanket family rejection |
+| B01 | C5 + stock reducer | ACTIVE comparator | Run 005; exact geometry mismatch, band/thermal behavior unmeasured |
+| B02 | Nikon 800/6.3 | ACTIVE comparator | Run 005; EFL/f-number mismatch, detector interface and qualification outstanding |
+| B03 | Retained SCT optics/custom mechanics | ACTIVE comparator | Integration trade; does not itself fix B01 optical geometry |
+| B04 | Spherical-secondary CDK + two-lens corrector | PARKED | Run 007; simpler-secondary comparator, 7.445 um sampled RMS |
+| B05 attempt 1 | Corrected two-conic Cassegrain | ACTIVE — provisional lower-risk baseline | Run 010: focus alone restores all 24 diagnostic specimens to <=1.063 um sampled RMS; smaller secondary-shape and image-scale burden |
+| B05 attempt 2 | Compact corrected Cassegrain variant | ACTIVE — compact alternative | ~45.7 mm shorter than attempt 1; retains useful trade despite greater secondary fabrication, focus recovery and image-scale sensitivity |
+| B06 | Unobscured off-axis three-conic TMA | ACTIVE — higher alignment/metrology burden | Focus alone inadequate in Run 010; focus plus secondary X/Y tilt retains mid-frequency/EE advantage, with residual figure and registration risks |
+| B07–B14 | Other screened architecture families | PARKED | Run 005 reopening reasons remain authoritative; no blanket family rejection |
 
-## Current numerical evidence
+## Latest matched evidence
 
-Both B05 variants meet 550 nm paraxial EFL 794.202899 mm with 128.097242 mm entrance pupil, nominal f/6.2. Six-wavelength/nine-field worst geometric RMS is 0.799 um (attempt 1) and 0.576 um (attempt 2). Denser 17-wavelength/25-field uniform-pupil audits give 0.844 and 0.682 um respectively; these use different spectral-centroid weighting and sampling.
+Run 010 uses exact Run 008/009 prescriptions, no nominal shape changes. Nine signed fields, six equally weighted wavelengths across 430–800 nm and common equal-area physical-pupil coordinates; dense checks use 25 fields and 576 pupil samples. Detailed results and assumptions: runs/run_010/summary.md.
 
-At 550 nm corner, B05 attempt 1 has X/Y MTF 0.513/0.511 at 50 lp/mm, 0.235/0.234 at 100 and 0.203/0.202 at Nyquist. Attempt 2 gives 0.513/0.513, 0.237/0.237 and 0.208/0.208. Corner 2x2-pixel EE is 0.408 and 0.411 versus matched-pupil ideal about 0.412. These are monochromatic fixed-plane scalar results; source/QE-weighted broadband PSF/MTF is not yet computed.
+| Metric | B05 attempt 1 | B05 attempt 2 | B06 |
+|---|---:|---:|---:|
+| Dense common nominal RMS, um | 0.800 | 0.576 | 1.360 |
+| Largest RMS in 24 exploratory coupled-error cases, um | 13.097 | 17.005 | 19.004 |
+| Largest after detector focus alone, um | 1.063 | 1.335 | 7.477 |
+| Largest after focus + secondary X/Y tilt, dense stress specimen, um | 1.000 | 1.084 | 2.552 |
+| Compensated stress-specimen 550 nm corner MTF X/Y at 100 lp/mm | 0.230/0.231 | 0.236/0.236 | 0.481/0.435 |
+| Corresponding 2x2-pixel EE / matched ideal | 0.406/0.411 | 0.408/0.411 | 0.650/0.791 |
 
-Both retain about 69.3% geometric pupil area, with no additional clipping in the sampled field. No spider, actual baffles or coating throughput is included. B05 attempt 1 vertex span is 329.04 mm; attempt 2 is 283.37 mm. These are not finished housing sizes.
+B06's advantage is frequency-dependent: in the same specimen its 550 nm Nyquist MTF is lower than B05, and at 800 nm B05 also exceeds it at 150 lp/mm. Preserve the trade rather than picking a nominal RMS or Nyquist winner. The 24-case uniform diagnostic ensemble is not supplier capability or predicted production yield. No production tolerance allocation exists.
 
-800 m detector-only refocus is +0.78958 mm / +0.79314 mm, with six-color/nine-field worst RMS 1.017 / 1.699 um. Mechanisms remain undesigned. Spectral EFL ranges about 794.202–794.334 mm / 794.196–794.362 mm; no tolerance permits claiming exact full-band compliance.
+## Engineering limits that affect the decision
 
-## Engineering trade and remaining limits
+The selected three-control policy remains within the diagnostic +/-0.5 mm focus and +/-1 mrad tilt caps. B06 needs up to 0.872 mrad secondary tilt versus 0.341/0.385 mrad for B05. Other tested axial/control combinations are correlated or saturate; they are not additional free rescue knobs. Practical measurement/actuator accuracy and locking remain unmodeled.
 
-B05 attempt 2 has a smaller conic magnitude but a tighter secondary curvature: its vertex-sphere departure is 38.80 um versus 14.66 um for attempt 1, and its despace sensitivity is worse. Both variants are worth retaining; nominal RMS alone should not pick the winner. Attempt 1 is the provisional engineering baseline. B04 is parked as a simpler spherical-secondary comparator, not rejected as an architecture.
+Centred RMS does not enforce detector registration. Largest compensated centroid displacement is 71.6/80.7/185.4 um; image scales also change. Original angular-field coverage on the fixed active detector needs explicit allocation. No pointing/distortion/image-quality tolerance was supplied.
 
-No customer limits exist for image quality, distortion, obscuration, package, mass, transmission, stray light or tolerances. Aperture dimensions, merit weights, perturbations and equal sampled wavelength weighting are explicit benchmark assumptions. All candidates still lack -25 to +50 C thermal qualification/modeling, tolerance allocation, actual coating/substrate/cell choices, sensor cover-glass integration and stray-light validation. Track B cannot yet be frozen.
+B06 retains ~6.00 mm boundary clearance in its compensated stress specimen. B05's frozen entrance-annulus approximation omits a small additional secondary shadow: direct intersection gives up to 0.0208%/0.0149% of annular area for the compensated B05 variants. Historical runs were not rewritten. Real secondary substrate/spider/cell geometry, primary cell, detector package and baffles remain unresolved; interior pupil survival alone is not a complete physical-clearance test.
 
-## Resource accounting and next work
+No actual detector-window specification was supplied. Hypothetical 0.5/1 mm N-BK7 windows were tested separately; a 1 mm window needs ~0.34–0.35 mm additional detector refocus. These are parameterized interface scenarios, not Sony specifications or nominal design additions.
 
-Run 007: two optimizer calls, one distinct B04 attempt; B04 screening lifetime total two of five. Run 008: four optimizer calls, two distinct B05 attempts; B05 total two of five. Neither branch plateaued. Final Run 008 ledger is closure.json; its root metadata.json preserves initial-attempt execution only. Both runs closed after their engineering questions were answered, within the 30-minute/10-search limits. No quota percentage inferred.
+All candidates still lack the required -25 to +50 C thermal/material analysis, actual coating/substrate/structure choices, field registration closure, stray-light validation, surface-figure/measurement-noise allocation and independent OpticStudio validation. Source/QE-weighted broadband PSF/MTF remains open. Mass, housing dimensions, throughput and monetary cost are not established.
 
-Run 009 closed after quota-recovery verification. Completed shape solve replayed exactly; full explicit-pupil, diffraction and 800 m refocus checks pass. B06 nominal EFL/pupil are 794.202899/128.097242 mm. Dense 25-field RMS is 1.356 um, screened clearance 6.037 mm, vertex span 323.35 mm. At 550 nm positive corner, MTF X/Y at 100 lp/mm is 0.564/0.540 and 2-pixel EE 0.756 versus matched ideal 0.791. Finite 800 m refocus is +0.770896 mm along final beam with 1.710 um dense RMS. No broadband or thermal compliance claimed. See runs/run_009/summary.md and closure.json.
+## Resource state and next action
 
-Next: separate bounded development runs for matched B05/B06 tolerance, alignment compensators and thermal-material scenarios; include detector window and physical supports. Preserve both B05 variants and B06. No further nominal shape search is justified before these engineering comparisons.
+Run 010 closed in 19.8 minutes elapsed including coding/reporting/tooling. Zero iterative optimizer calls, zero shape/architecture attempts; nine substantial analysis batches plus diagnostic checks. Exact nominal replay, rigid-body invariants, selected diffraction convergence, data ranges and Track A freeze hashes pass. No quota interruption or human optical correction occurred in this run.
 
-Human intervention: user authorized continuation on 2026-09-06; no new optical corrections. Autonomous engineering finding: reducing conic magnitude did not reduce actual aspheric departure or sensitivity. Track A geometry was not reused. Initial milestones remain 1734bcc (Track B initialization), 9f5dd0c (broad screen), b4b854d (B04 seed); Run 007 committed at 90428e2.
+Next: one bounded matched thermal/material comparison of all three retained variants across -25 to +50 C, using their unchanged nominal prescriptions and explicit compensator policies. Parameterize missing mirror substrates, structure CTE, glass/window properties and support interfaces; separate material assumptions from requirements. Do not start another nominal shape search or freeze Track B from the sensitivity results alone.
 
-Recovery intervention: user requested resumption after quota interruption on 2026-09-07. No completed shape solve repeated; corrected only floating-point rim sampling in finite-object verification. Track A remains untouched; reference/ remains unread.
+User supplied the detailed Run 010 investigation scope and standing authorization to push completed work in this repository. Earlier milestones and exact lineage remain in runs/run_008, runs/run_009 and their committed metadata.

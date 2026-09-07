@@ -1,0 +1,196 @@
+[
+  {
+    "index": 0,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": null,
+    "cs": null,
+    "aperture": null,
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 1,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": 234.78919251777828,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 64.04862085086489,
+      "r_min": 35.5
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 2,
+    "radius_mm": -760.0300475611773,
+    "conic": -1.316741971924042,
+    "thickness_mm": -231.78919251777828,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 234.78919251777828,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 66.5,
+      "r_min": 21.5
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 3,
+    "radius_mm": -541.9007433554357,
+    "conic": -11.999713021373452,
+    "thickness_mm": 231.78919251777828,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 35.5,
+      "r_min": 0
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 4,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": 51.20106856974775,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 234.78919251777828,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 21.5,
+      "r_min": 0
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 5,
+    "radius_mm": 119.57801709289285,
+    "conic": 0.0,
+    "thickness_mm": 4.224289641642844,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 285.99026108752605,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 17.5,
+      "r_min": 0
+    },
+    "material": "N-BK7"
+  },
+  {
+    "index": 6,
+    "radius_mm": 381.47940209305153,
+    "conic": 0.0,
+    "thickness_mm": 15.958719717761033,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 290.2145507291689,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 17.5,
+      "r_min": 0
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 7,
+    "radius_mm": -126.96777778182401,
+    "conic": 0.0,
+    "thickness_mm": 3.1682172312321333,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 306.1732704469299,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 17.5,
+      "r_min": 0
+    },
+    "material": "N-F2"
+  },
+  {
+    "index": 8,
+    "radius_mm": -403.42886190735516,
+    "conic": 0.0,
+    "thickness_mm": 19.69607940915049,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 309.341487678162,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "RadialAperture",
+      "r_max": 17.5,
+      "r_min": 0
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 9,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": 0.0,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 329.03756708731254,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": null,
+    "material": "IdealMaterial"
+  }
+]

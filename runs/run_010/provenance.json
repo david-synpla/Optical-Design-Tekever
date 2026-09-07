@@ -1,0 +1,18 @@
+{
+  "base_commit": "a19838e8e67a41bc1985023d45dc1c9fc3e17dad",
+  "input_sha256": {
+    "runs/run_008/model.py": "7ef2756c6f7e2f307e2e023c5116c7f02a7a148544a3e37959233718c08348f1",
+    "runs/run_008/configuration.json": "8468d74bf17be33f4ad093f2fcb159b9cbac85361a965ff08e18f2d84e1bf5b6",
+    "runs/run_008/attempt_02/configuration.json": "6d18cb45f9cc9e13349e392914eb5915aab6e38e828421a284fe136c379add75",
+    "runs/run_009/model.py": "d89b934dc67e51344836306e6184533187ef447a2ae4f920b4df2c9a0aec352c",
+    "runs/run_009/attempt_01.json": "9c1aa8341ad3a878c32518c4ff65660d3c02972beb18f0c771464f3e2d25752e",
+    "requirements/eo_requirements.yaml": "36de52a6fc6ac4b2baee95255f57443f3275eba4b2a3f9a0365b96b197b69055",
+    "DESIGN_WORKFLOW.md": "316f915c50158b9c7ef08928688921c378990ab175f71fe722160fcefe5a20ee",
+    "OPTICAL_DESIGN_RULES.md": "d15d2871a371c5af784868b86dadff9c3698825ac64196cb88920161346850af",
+    "BENCHMARK_TRACKS.md": "34f97d0c3dd7e0c319f458f4942453898fb8994fa80d9500c505ef733e2a9810",
+    "benchmark_protocol.md": "1daf9177b81532278c7b1acf0cc4666fdfd1e71daca42c66a49c49584832955b"
+  },
+  "track_a_freeze_hashes_pass": true,
+  "nominal_shape_changed": false,
+  "reference_accessed": false
+}

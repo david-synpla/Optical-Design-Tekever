@@ -1,0 +1,285 @@
+{
+  "results": {
+    "nominal": [
+      {
+        "radial_samples": 64,
+        "azimuth_samples": 1024,
+        "rows": [
+          {
+            "field": [
+              -0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.001137722095448e-05
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 5.573424795125056e-05
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.001137722095448e-05
+          },
+          {
+            "field": [
+              0.0,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 4.023554612371102e-05
+          },
+          {
+            "field": [
+              0.0,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 0.0
+          },
+          {
+            "field": [
+              0.0,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 4.023554612371102e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.001137722095448e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 5.573424795125056e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.001137722095448e-05
+          }
+        ]
+      },
+      {
+        "radial_samples": 128,
+        "azimuth_samples": 1024,
+        "rows": [
+          {
+            "field": [
+              -0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 6.972507115271175e-05
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 5.64213825150331e-05
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 6.972507115271175e-05
+          },
+          {
+            "field": [
+              0.0,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 4.141894453911429e-05
+          },
+          {
+            "field": [
+              0.0,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 0.0
+          },
+          {
+            "field": [
+              0.0,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 4.141894453911429e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 6.972507115271175e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 5.64213825150331e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 6.972507115271175e-05
+          }
+        ]
+      }
+    ],
+    "compensated_specimen": [
+      {
+        "radial_samples": 64,
+        "azimuth_samples": 1024,
+        "rows": [
+          {
+            "field": [
+              -0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00014945176762270272
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00013250244838273337
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00012708172015733776
+          },
+          {
+            "field": [
+              0.0,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00010387184155846081
+          },
+          {
+            "field": [
+              0.0,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 7.818064370148025e-05
+          },
+          {
+            "field": [
+              0.0,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.027859621798103e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.829516612877733e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 3.8899451138578305e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 1.3819039560515551e-05
+          }
+        ]
+      },
+      {
+        "radial_samples": 128,
+        "azimuth_samples": 1024,
+        "rows": [
+          {
+            "field": [
+              -0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00014931815812418945
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00013221614231449065
+          },
+          {
+            "field": [
+              -0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 0.0001269481106588245
+          },
+          {
+            "field": [
+              0.0,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 0.00010520793654359354
+          },
+          {
+            "field": [
+              0.0,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 7.923043261837023e-05
+          },
+          {
+            "field": [
+              0.0,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.001137722095448e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              -0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 7.963126111391005e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.0
+            ],
+            "additional_blocked_fraction_of_annulus": 3.872766749763267e-05
+          },
+          {
+            "field": [
+              0.8067627158338472,
+              0.5908952190231926
+            ],
+            "additional_blocked_fraction_of_annulus": 1.3494559349840461e-05
+          }
+        ]
+      }
+    ]
+  },
+  "note": "Direct intersection of incoming rays with the saved/rigidly moved secondary optical patch. Thin-shell equal-area integral; excludes unknown substrate and spider. Original annular models remain unchanged."
+}

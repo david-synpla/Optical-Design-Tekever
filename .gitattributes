@@ -7,3 +7,6 @@ runs/run_007/model.py -text
 # Preserve hashes of the independent B06 screening archive.
 runs/run_009/** -text
 src/track_b_run009*.py -text
+# Run 010 sensitivity matrices, numerical archives and hashed scripts.
+runs/run_010/** -text
+src/track_b_run010*.py -text

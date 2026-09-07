@@ -1,0 +1,193 @@
+Continue the TEKEVER optical-design project from the current `main` branch of `david-synpla/Optical-Design-Tekever`.
+
+First inspect the repository state, especially `design_state.md`, `DESIGN_WORKFLOW.md`, `OPTICAL_DESIGN_RULES.md`, Run 008 and Run 009. Treat the repository as authoritative if anything below has already been superseded.
+
+Current intended state:
+
+* Track A is frozen and must remain untouched.
+* `reference/` must remain unread.
+* Track B remains open.
+* Retained development candidates are:
+
+  * B05 attempt 1 — provisional lower-risk corrected-Cassegrain baseline.
+  * B05 attempt 2 — more compact/higher nominal performance, but apparently more shape/alignment-sensitive.
+  * B06 — unobscured off-axis three-mirror TMA from Run 009.
+* B06 screening has completed successfully.
+* Do NOT perform further nominal shape optimisation of B05 or B06 before the engineering comparison.
+* Do NOT choose a final architecture yet from nominal RMS/MTF alone.
+
+## Objective
+
+Perform the next bounded Track B development step: a rigorous, apples-to-apples **alignment/tolerance sensitivity and compensator comparison of B05 attempt 1, B05 attempt 2 and B06**.
+
+The purpose is to determine whether B06's unobscured diffraction advantage survives realistic engineering sensitivity, and whether either B05 variant offers a sufficiently easier manufacturing/alignment trade to be preferable.
+
+This is an engineering comparison, not another architecture search.
+
+## Run structure
+
+Create the next appropriate run, expected to be Run 010 unless repository state already dictates otherwise.
+
+Preserve all previous runs immutably.
+
+Use the exact saved prescriptions/models from:
+
+* Run 008 B05 attempt 1
+* Run 008 B05 attempt 2
+* Run 009 B06
+
+Do not re-optimise their nominal shapes merely to improve the comparison.
+
+If implementation fixes are required to make equivalent analyses possible, document them explicitly and prove that they do not alter the nominal optical prescriptions.
+
+## Required analyses
+
+For all three candidates, establish a common nominal baseline and then evaluate matched perturbations.
+
+At minimum investigate:
+
+### Powered-optic rigid-body errors
+
+* axial despace
+* X/Y decentre
+* X/Y tilt where physically meaningful
+* mirror clocking for B06 where relevant
+
+### Detector errors
+
+* axial focus displacement
+* X/Y decentre if meaningful
+* detector tilt
+
+### Surface/manufacturing perturbations
+
+Where supported credibly by the model:
+
+* radius error
+* conic/asphere error
+* refractive-index/glass variation for B05
+* lens thickness/spacing errors for B05
+
+Do not invent production tolerances and then call them requirements.
+
+Use initial diagnostic perturbations to determine **sensitivity slopes and relative robustness**. Clearly distinguish:
+
+1. diagnostic perturbation magnitude,
+2. measured sensitivity,
+3. any subsequently proposed tolerance allocation.
+
+### Compensators
+
+Determine which realistic assembly compensators could recover performance, for example:
+
+* detector focus
+* detector tip/tilt if justified
+* secondary axial position
+* corrector-group axial position for B05
+* selected mirror adjustments for B06
+
+For each candidate report:
+
+* uncompensated sensitivity;
+* performance after realistic compensator use;
+* number and type of compensators required;
+* whether compensation is independent or strongly coupled;
+* likely alignment/metrology difficulty.
+
+Do not allow an unrealistic number of free compensators simply to rescue a candidate.
+
+## Metrics
+
+Use common field, wavelength and pupil sampling wherever possible.
+
+At minimum track:
+
+* worst and distribution of geometric RMS spot radius;
+* MTF at 50, 100, 150 and detector Nyquist frequency where diffraction calculation is practical;
+* 2x2-pixel ensquared energy;
+* EFL/image-scale variation;
+* vignetting/aperture survival;
+* physical clearances;
+* detector/refocus requirement.
+
+For B05 and B06 diffraction comparisons, continue to compare each system against the appropriate matched physical-pupil diffraction reference. Remember that B05 is centrally obscured and B06 is unobscured.
+
+Do not claim B06 is intrinsically superior simply because its ideal pupil has higher contrast; quantify how much of that advantage remains after perturbation.
+
+## Physical engineering integration
+
+During this run, introduce enough physical reality to make the sensitivity comparison meaningful, without pretending a full optomechanical design exists.
+
+At minimum:
+
+* include the detector-window/cover-glass effect if a defensible specification is already present;
+* otherwise parameterise it and clearly mark the missing real detector-window specification instead of inventing one;
+* retain explicit physical apertures;
+* check obvious detector-package and beam-clearance conflicts;
+* identify where B05 requires secondary support/spider geometry;
+* identify where B06 mirror-cell/support volume could plausibly interfere with beams.
+
+Do not invent detailed baffles, cells or housing dimensions where no basis exists. Record them as unresolved engineering interfaces.
+
+## Manufacturing/alignment comparison
+
+Produce a quantitative and qualitative comparison covering:
+
+* B05-1 vs B05-2 secondary fabrication difficulty;
+* B05 lens manufacture, centring and assembly;
+* B06 off-axis mirror fabrication;
+* datum definition;
+* mirror clocking;
+* test/metrology approach;
+* likely alignment sequence;
+* number of precision degrees of freedom;
+* sensitivity to assembly error;
+* accessibility of compensators.
+
+Do not assign monetary costs without quotations. Cost-driver ranking is acceptable if clearly identified as engineering judgement.
+
+## Monte Carlo / tolerance exploration
+
+If computationally reasonable within the bounded run, perform a small but meaningful Monte Carlo or Latin-hypercube tolerance experiment after the first-order sensitivity study.
+
+The purpose is not yet to certify yield. It is to detect:
+
+* strong parameter coupling;
+* nonlinear sensitivity;
+* unusually fragile degrees of freedom;
+* which compensators dominate recovery.
+
+Any assumed error distributions must be explicitly documented as exploratory assumptions, not supplier capability or customer requirements.
+
+## Decision required at the end
+
+At the end of the run, give a direct engineering assessment:
+
+* Is B05 attempt 1 still the lower-risk baseline?
+* Does B05 attempt 2's compactness/nominal performance justify its additional sensitivity?
+* Does B06 retain enough practical optical advantage after alignment/tolerance sensitivity to justify continued development?
+* Can any candidate be parked at this stage?
+* Or do all three still merit the subsequent thermal/material comparison?
+
+Do **not** freeze Track B unless the evidence is unexpectedly decisive and the repository workflow explicitly permits it.
+
+The expected next stage after this run is a matched thermal/material study over the required -25 to +50 C range, but do not prematurely mix a large thermal optimisation campaign into this sensitivity run.
+
+## Reproducibility and repository hygiene
+
+As in previous runs:
+
+* save scripts, configurations, prescriptions, numerical outputs and plots;
+* preserve exact candidate provenance;
+* record hashes where required by the existing workflow;
+* keep previous run artifacts immutable;
+* update `design_state.md` only after the run closes;
+* record optimizer/search/resource accounting accurately;
+* distinguish completed work from interrupted work;
+* if quota interrupts execution, preserve completed results and resume without rerunning successful expensive solves unnecessarily.
+
+Use existing repository conventions rather than creating a parallel workflow.
+
+Proceed autonomously. Do not ask me to carry out local steps that you can perform yourself.
+
+Stop when the engineering question above has been answered to the level justified by the available models and run budget, commit the result, and clearly state the recommended next action.

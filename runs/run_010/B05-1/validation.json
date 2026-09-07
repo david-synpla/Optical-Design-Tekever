@@ -1,0 +1,8 @@
+{
+  "nominal_replay": true,
+  "selected_compensators_unsaturated": true,
+  "json_metric_ranges": true,
+  "convergence_pass": true,
+  "max_nonlinearity_for_responses_above_1nm": 0.004170715202386038,
+  "note": "Boundary/shadow limitations remain in audit.json and summary; finite field sampling is not certification."
+}

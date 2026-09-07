@@ -1,0 +1,120 @@
+[
+  {
+    "index": 0,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": null,
+    "cs": null,
+    "aperture": null,
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 1,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": 238.973819541842,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "OffsetRadialAperture",
+      "r_max": 64.04862085086489,
+      "r_min": 0,
+      "offset_x": 0,
+      "offset_y": 115.0
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 2,
+    "radius_mm": -512.3889668069191,
+    "conic": -0.9139403456382597,
+    "thickness_mm": -228.973819541842,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 238.973819541842,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "OffsetRadialAperture",
+      "r_max": 67.6266689638703,
+      "r_min": 0,
+      "offset_x": 0.0,
+      "offset_y": 114.92410792630795
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 3,
+    "radius_mm": -142.840590291725,
+    "conic": -11.566704867003077,
+    "thickness_mm": 194.6277466105657,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "OffsetRadialAperture",
+      "r_max": 11.233760263926662,
+      "r_min": 0,
+      "offset_x": 0.0,
+      "offset_y": 12.688251869962667
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 4,
+    "radius_mm": -198.05239889792392,
+    "conic": -0.2548467544808362,
+    "thickness_mm": -289.00241340317245,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 204.6277466105657,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": {
+      "type": "OffsetRadialAperture",
+      "r_max": 32.897605718776745,
+      "r_min": 0,
+      "offset_x": 0.0,
+      "offset_y": -41.534085886110276
+    },
+    "material": "IdealMaterial"
+  },
+  {
+    "index": 5,
+    "radius_mm": null,
+    "conic": 0.0,
+    "thickness_mm": 0.0,
+    "cs": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -84.37466679260675,
+      "rx": 0.0,
+      "ry": 0.0,
+      "rz": 0.0,
+      "reference_cs": null
+    },
+    "aperture": null,
+    "material": "IdealMaterial"
+  }
+]

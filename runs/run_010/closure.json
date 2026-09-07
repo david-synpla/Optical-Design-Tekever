@@ -1,0 +1,44 @@
+{
+  "substantial_search_count": 0,
+  "track_a_untouched": true,
+  "start_utc": "2026-09-07T10:14:58Z",
+  "purpose": "Matched rigid-body/manufacturing sensitivity and limited compensator comparison",
+  "run_id": "010",
+  "candidate_ids": [
+    "B05-1",
+    "B05-2",
+    "B06"
+  ],
+  "assumptions": [
+    "10 um translation, 100 urad tilt/clock; 100 ppm radius, 0.001 absolute conic, 0.0001 index; diagnostic only",
+    "Common nine signed fields and six wavelengths, equally weighted; equal-area physical pupil coordinates",
+    "One-step differential ray-residual compensation relative to unchanged nominal; no nominal refit",
+    "Compensators limited to focus or focus plus two secondary tilts; 0.5 mm / 1 mrad diagnostic travel caps",
+    "No supplied detector cover-glass specification or real cell/package volumes"
+  ],
+  "reference_accessed": false,
+  "track": "B",
+  "status": "CLOSED",
+  "parents": [
+    "run_008",
+    "run_009"
+  ],
+  "nominal_shape_optimization_allowed": false,
+  "stage": "development",
+  "materially_distinct_attempt_count": 0,
+  "end_utc": "2026-09-07T10:34:44.859002+00:00",
+  "iterative_optimizer_invocations": 0,
+  "nominal_shape_attempts": 0,
+  "substantial_analysis_batches": 9,
+  "plateau": false,
+  "elapsed_minutes": 19.780983366666664,
+  "stop_reason": "Matched sensitivity and bounded compensator comparison answered to available model fidelity",
+  "completed_candidates": [
+    "B05-1",
+    "B05-2",
+    "B06"
+  ],
+  "decision": "Retain all three; B05-1 provisional lower-risk baseline; next matched thermal/material study",
+  "resource_note": "Elapsed includes reading, coding, reporting and tooling; no quota interruption. Nine analysis batches, no nonlinear optimizer or architecture search.",
+  "human_intervention": "User specified investigation scope and standing push authorization; no optical correction"
+}
