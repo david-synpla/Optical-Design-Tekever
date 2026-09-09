@@ -1,11 +1,25 @@
 # Current Design State
 
-Track: B — independent research-informed optical design
-Stage: Runs 012 (B09 hybrid) and 013 (matched thermal/material study) CLOSED; performance/cost portfolio retained
-Workflow: v3; Track B remains OPEN, not frozen.
-Track A: FROZEN at b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875; tag track-a-frozen. Its results remain immutable. reference/ remains unread.
+Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
+Stage: INITIALIZED; Stage C0 first-order optical plus SWaP architecture screening is next and has not started
+Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
+Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
+Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
+Contamination state: `reference/` remains unread. The known TEKEVER/team prescription is excluded until Track C's independent portfolio is mature and a later reveal is explicitly authorized.
 
-## Portfolio
+## Provisional Track C architecture portfolio
+
+| ID | System architecture | Initialization status |
+|---|---|---|
+| C01 | Separate integrated EO and SWIR telescopes | Provisional research family; screen at first order |
+| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | Provisional research family; screen at first order |
+| C03 | Common off-axis afocal/TMA front end plus modular relays | Provisional research family; screen at first order |
+| C04 | Cost/COTS-maximized dual-channel branch | Mandatory economic Pareto lane; screen at first order |
+| C05 | Compact folded/freeform shared architecture | Stretch lane; screen cheaply at first order |
+
+No Track C candidate has been optimized, selected, parked, or rejected. The next action is a non-optimizing Stage C0 screen covering first-order optical feasibility, SWaP, manufacturability, alignment/metrology, thermal/focus concepts, coatings/throughput, supply risk, and cost class.
+
+## Preserved historical Track B EO portfolio
 
 | ID / variant | Architecture | Status | Current engineering decision |
 |---|---|---|---|
@@ -46,7 +60,7 @@ No actual detector-window specification was supplied. Hypothetical 0.5/1 mm N-BK
 
 Run 013 now provides matched uniform-temperature/material scenarios over -25 to +50 C. Hardware qualification remains open: actual coating/substrate/structure choices, gradients and stress, field registration, stray light, surface figure, measurement noise and independent OpticStudio validation. Source/QE-weighted broadband PSF/MTF remains open. Mass, housing dimensions, throughput and monetary cost are not established.
 
-## Resource state and next action
+## Historical Track B resource state
 
 Run 010 closed in 19.8 minutes elapsed including coding/reporting/tooling. Zero iterative optimizer calls, zero shape/architecture attempts; nine substantial analysis batches plus diagnostic checks. Exact nominal replay, rigid-body invariants, selected diffraction convergence, data ranges and Track A freeze hashes pass. No quota interruption or human optical correction occurred in this run.
 
@@ -56,7 +70,7 @@ Run012 verification is complete. B09 reaches 794.202541 mm paraxial EFL and f/6.
 
 B09 remains provisional: corner centroids overrun the fixed active rectangle by 10.47/7.67 um; the 0.485 mm lens edge gap misses a soft assembly target; stock substrate/coatings, thermal behavior, real cells/window and production economics are unverified. Its initial backward-path wavefront model and incorrect fold helper were corrected without changing powered shapes or separations. Use runs/run_012/verified_model.py; original model.py and before_opl_correction/ preserve audit history and must not supply diffraction scores.
 
-Next: define a common detector/window, range-plus-thermal focus and mechanical datum interface, then perform a bounded B09 thermal/support check. Prepare common-quantity supplier RFQ specifications to replace qualitative economic classes. Do not start another nominal shape search or freeze Track B from the current evidence alone.
+Former Track B next action, now superseded by Track C initialization: define a common detector/window, range-plus-thermal focus and mechanical datum interface, then perform a bounded B09 thermal/support check and prepare common-quantity supplier RFQ specifications. This is retained as EO evidence and possible Track C input, not as the active project action.
 
 User supplied the detailed Run 010 investigation scope and standing authorization to push completed work in this repository. Earlier milestones and exact lineage remain in runs/run_008, runs/run_009 and their committed metadata.
 

@@ -1,5 +1,15 @@
 # TEKEVER Benchmark Tracks
 
+## Requirements correction and Track C (2026-09-09)
+
+Tracks A and B are historical EO-only studies performed against `requirements/eo_requirements.yaml`. Their evidence remains intact, but neither track represents the complete simultaneous EO+SWIR payload.
+
+Track C is the active complete-system engineering-development phase and uses `requirements/eo_swir_system_requirements.yaml` as its authoritative baseline. It requires simultaneous co-boresighted EO and SWIR imaging and treats shared, partially shared, and separate optical trains as design variables. Mass, volume, cost, manufacturability, alignment/metrology burden, thermal sensitivity, finite-focus implementation, coatings/throughput, supply risk, and optical performance participate in the eventual Pareto decision.
+
+The independent Track C research report proposes provisional system candidates C01 through C05. They are inputs to first-order optical and SWaP screening, not selected solutions. No numerical Track C optimization begins at initialization.
+
+The known TEKEVER/team prescription remains excluded: `reference/` must stay unread until Track C's independent portfolio is mature and a later reveal is explicitly authorized. Historical run outputs remain immutable.
+
 ## Objective
 
 Compare two AI-assisted optical-design workflows while keeping the source requirements, software environment, common engineering rules, resource-governance policy, and final evaluation framework as similar as practical.
@@ -65,7 +75,9 @@ Use the same default run budgets and plateau rules as Track A unless the benchma
 6. Use the same final evaluation framework for both tracks.
 7. Do not retroactively modify Track A designs after Track B research begins.
 
-## Final comparison
+## Historical A/B final-comparison plan
+
+The comparison plan below is retained as benchmark history. Its reference-reveal step is not an active instruction for Track C and is subject to the Track C contamination rule above.
 
 After both blind tracks are frozen, compare:
 

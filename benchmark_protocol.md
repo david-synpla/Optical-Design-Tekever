@@ -1,5 +1,11 @@
 # Blind Benchmark Protocol
 
+## Current applicability note (2026-09-09)
+
+This protocol records the historical EO-only Track A/Track B benchmark conducted against `requirements/eo_requirements.yaml`. It does not define the complete simultaneous EO+SWIR payload problem.
+
+Track C is governed by `requirements/eo_swir_system_requirements.yaml`, the correction audit, and the Track C section of `BENCHMARK_TRACKS.md`. The reference-reveal and comparison steps below are suspended for Track C: `reference/` remains unread until the independent Track C portfolio is mature and a later reveal is explicitly authorized.
+
 ## Objective
 
 Test whether ChatGPT/Codex can produce technically credible EO telescope designs from the supplied TEKEVER requirements without access to the known TEKEVER prescription, and compare autonomous design against research-informed design.
