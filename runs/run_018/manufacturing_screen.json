@@ -1,0 +1,29 @@
+{
+  "new_seed": {
+    "primary_clear_diameter_mm": 313.3712791132146,
+    "primary_edge_sag_mm": 14.076821556995847,
+    "primary_edge_slope_deg": 10.184336620386008,
+    "primary_vertex_sphere_departure_um": 118.38945642844045,
+    "secondary_clear_diameter_mm": 68.75596241589473,
+    "primary_hole_diameter_mm": 24.715365713350867
+  },
+  "comparison": {
+    "S20_B120": {
+      "primary_clear_diameter_mm": 313.3712791132146,
+      "primary_edge_sag_mm": 9.852525433876465,
+      "primary_edge_slope_deg": 7.165656104723452,
+      "primary_vertex_sphere_departure_um": 42.53535232710348,
+      "secondary_clear_diameter_mm": 96.12108019549616,
+      "primary_hole_diameter_mm": 34.97299847323084
+    },
+    "S16_B80": {
+      "primary_clear_diameter_mm": 313.3712791132146,
+      "primary_edge_sag_mm": 12.31666037202178,
+      "primary_edge_slope_deg": 8.932452269088714,
+      "primary_vertex_sphere_departure_um": 80.151044174114,
+      "secondary_clear_diameter_mm": 79.1790600148466,
+      "primary_hole_diameter_mm": 28.940875309570878
+    }
+  },
+  "decision": "S14_B50 extends compactness with higher surface slope/departure; no catadioptric corrector was added because it would not shorten the dominant two-mirror separation without a new powered architecture"
+}

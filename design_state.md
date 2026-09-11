@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
-Stage: C0 COMPLETE; Stage C1 Run 017 established a non-dominated C01 system comparator, retained balanced and compact SWIR seeds, and prioritizes a bounded C03 test next
+Stage: C0 COMPLETE; Stage C1 Run 018 established a compact common-bench C01 UAV comparator, retained optical/compact/stretch points, and prioritizes a bounded C03 test next
 Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
 Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
 Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
@@ -11,15 +11,33 @@ Contamination state: `reference/` remains unread. The known TEKEVER/team prescri
 
 | ID | System architecture | Lifecycle status | Main strength | Main C1 risk/gate |
 |---|---|---|---|---|
-| C01 | Separate integrated EO and SWIR telescopes | ACTIVE — non-dominated practical comparator; S20 balanced and S16 compact baselines retained | Proven B05 EO reuse, credible two-mirror SWIR seeds, 90–95% traced SWIR pupil survival, no splitter/complex SWIR camera | Approximately 500 mm screened front span, two large optics, duplicated metering structures/focusers, boresight drift and 800 m parallax |
+| C01 | Separate optics on an integrated common bench/shell | ACTIVE — non-dominated; B05-1/S16 preferred C01 UAV comparator, S20 performance and S14 stretch retained | Proven B05 EO reuse, compact shared structure, 90–95% traced SWIR pupil survival, no splitter/complex SWIR camera | 470 mm screened front span, two large optics, two focusers and relative-boresight calibration; real CAD/thermal structure absent |
 | C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | CONDITIONAL ACTIVE through C02-A6F1; direct form and two-element backends PARKED | Curved-field common front is near its matched obscured-pupil diffraction limit; one frontal aperture/common LOS | 313 mm f/1 annular primary, 26–29% geometric pupil loss and at least triplet-like flat-field cameras; defer more backend work until broader comparison |
 | C03 | Common off-axis afocal/TMA front end plus modular relays | ACTIVE — recommend C1 | Unobscured common LOS and modular high-performance potential | Highest conventional off-axis alignment/metrology/NRE; prove minimum-complexity seed and clearance |
 | C04 | Cost/COTS-maximized dual-channel branch | ACTIVE — recommend C1 economic lane | Lowest procurement/NRE hypothesis; B09 process reuse | 300/305 mm donors miss exact SWIR f/6.2; verify >=311.371 mm clear donor, coatings, substrates and qualification economics |
 | C05 | Compact folded/freeform shared architecture | PARKED after C0 | Distinct aggressive volume-compression hypothesis | Reopen only if C01-C04 packaging is unattractive or supplier evidence lowers freeform/metrology risk |
 
-No Track C candidate has been frozen or selected. Run 017 is a bounded system comparator, not detailed prescription/tolerance optimization or CAD; its package and mass numbers are continuous engineering proxies. Run 016's physical C02 doublets remain parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
+No Track C candidate has been frozen or selected. Run 018 is a bounded system-integration comparator, not detailed prescription/tolerance optimization or CAD; its package, mass, CG and inertia numbers are continuous engineering proxies. Run 016's physical C02 doublets remain parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
 
 Persistent Track C governance: because this is a UAV payload, every substantive C-series run co-optimizes and reports optical performance together with largest aperture/optic, optical and folded length, bounding box/volume, major-optic mass proxy, large-optic count, shared/duplicated structure, mechanism count, structural/gimbal consequences and manufacturing/cost. SWaP is continuous Pareto evidence; no unsupplied hard mass or volume limit may be invented. C01 is the practical comparator/fallback, not the presumed overall leader.
+
+## Latest C01 system-integration evidence — Run 018
+
+Run 018 replaces the unnecessarily punitive picture of two complete cylindrical housings with a shared twin-lobe shell, common gimbal/thermal bench and rear detector/focus datum. With the Run 017 S16 SWIR seed, axial B05 staggering and only a 36.85 mm SWIR converging-return fold, the screened box is about 470 x 325 x 446 mm (68.2 L), 13.2% below the Run 017 separate-tube screen. The corresponding S20 performance point is 470 x 325 x 522 mm (79.8 L).
+
+B05-1 and B05-2 were compared at system level. B05-2 is 45.67 mm shorter and nominally sharper, but the SWIR path sets every shared-shell bounding box: B05-2 changes neither front face nor volume. For the S16 combination it reduces the structural-area proxy by only 1.67% and the four-mirror point-inertia proxy by 4.95%, while retaining its known tighter/higher-departure secondary, larger focus-recovery residual and greater high-frame thermal travel. B05-1 is therefore the preferred C01 EO baseline on numerical system evidence, not assumption. B05-2 remains conditionally active if real detector/electronics packaging exploits its shorter train.
+
+One new bounded SWIR compact seed, S14_B50, varies only two conics and focus. It preserves 1930.502 mm EFL/f/6.2, gives 11.48 um worst RMS, 95% dense and 95.1% exact circular-obscuration transmission, and enables a 470 x 325 x 402 mm (61.5 L) screen. Its f/1.4 primary has 10.18 degree edge slope and 118.4 um vertex-sphere departure, versus S16's 8.93 degree/80.2 um; S14 is retained as a compact stretch, not preferred over S16. No catadioptric corrector was added because it would add optical/manufacturing degrees of freedom without shortening the dominant two-mirror separation unless a genuinely new architecture were solved.
+
+The shared-shell front axes are 237.19 mm apart. At 800 m this gives 296.5 urad displacement (85.9 EO or 57.2 SWIR pixels), but the planar scene-overlap result is benign: the full 5.304 x 4.243 m SWIR field remains inside the 11.305 x 8.280 m EO field. The simultaneous intersection is 100% of SWIR and 24.0% of EO. Full SWIR containment persists down to about 63 m for a horizontal baseline or 94 m for a vertical one. Parallax is therefore principally a registration/range-calibration issue at the required distance, not loss of SWIR common-scene coverage; terrain, range error, distortion and boresight drift remain open.
+
+The preferred B05-1/S16 solid mirror-blank proxy is 5.74 kg versus C02's 5.09 kg. A scalable open-saddle/common-bench structural-area proxy is 0.455–0.602 m2; at the illustrative 5 kg/m2 coefficient it is 2.27–3.01 kg, not flight-structure mass. The uniform-box vertical-axis specific-inertia proxy is 0.03498 m2 for S16 C01 versus 0.05033 m2 for C02 under the same simple external allowances, while optical-axis specific inertia is worse for wide C01 at 0.02726 versus 0.01898 m2. C01's mirror-area proxy CG is about 30 mm toward SWIR and 122 mm aft of box center; real detectors, electronics, cells and gimbal placement can change it.
+
+Applying common simple external allowances to the Run 016 straight C02 lower bound gives about 337 x 337 x 700 mm (79.7 L) before its unproved dichroic branches. Integrated C01 S20 is essentially equal in screened volume, while S16 is smaller and shorter but wider. C01 leads current complete-channel feasibility, transmission, independent coating, reuse, optical simplicity and axial inertia; C02 leads frontal width, common LOS, large-optic count and solid mirror proxy. Neither dominates.
+
+Run 018 status: B05-1/S16 is the preferred C01 system comparator; B05-1/S20 and B05-1/S14 preserve performance and compact-stretch objectives; B05-2 stays conditional. C02-A6F1 remains conditional active. One new optical hypothesis used five authoritative evaluations; including two debug replays, total use was three optimizer invocations, fifteen evaluations and approximately 59.6 s observed WSL process time plus reporting/verification. No plateau occurred. `reference/` remained unread and historical runs were unchanged.
+
+Next recommended action, only after new instruction: execute one bounded C03 unobscured common-aperture C1 screen with package, clearance, mirror mass, gimbal inertia and off-axis metrology active from the first solve. Preserve C04 as the following mandatory economic lane. Do not begin detailed C01 tolerance/CAD development or resume C02 backends without new instruction.
 
 ## Latest C01 evidence — Run 017
 

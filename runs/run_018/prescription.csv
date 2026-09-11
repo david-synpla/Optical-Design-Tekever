@@ -1,0 +1,7 @@
+surface,radius_mm,conic,thickness_mm,material_post,is_stop
+0,inf,,infinity,<optiland.materials.ideal.IdealMaterial object at 0x715d9ac2d470>,False
+1,inf,,349.4082503556188,<optiland.materials.ideal.IdealMaterial object at 0x715d9ac2d6a0>,True
+2,-871.8395815170009,-1.0248753006002072,-346.4082503556188,<optiland.materials.ideal.IdealMaterial object at 0x715d9ac2d6a0>,False
+3,-231.23814604077748,-2.7686914455913505,346.4082503556188,<optiland.materials.ideal.IdealMaterial object at 0x715d9ac2d6a0>,False
+4,inf,,49.81485627964924,<optiland.materials.ideal.IdealMaterial object at 0x715d9ac2da20>,False
+5,inf,,0.0,<optiland.materials.ideal.IdealMaterial object at 0x715d9ac2db00>,False

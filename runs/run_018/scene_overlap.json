@@ -1,0 +1,84 @@
+{
+  "channel_fields": {
+    "EO": {
+      "name": "EO",
+      "efl_mm": 794.2028985507247,
+      "pupil_mm": 128.09724170172979,
+      "half_x_rad": 0.0070654824255708066,
+      "half_y_rad": 0.0051749538041641644,
+      "horizontal_fov_deg": 0.8096446464181261,
+      "vertical_fov_deg": 0.5930060243075531
+    },
+    "SWIR": {
+      "name": "SWIR",
+      "efl_mm": 1930.5019305019307,
+      "pupil_mm": 311.3712791132146,
+      "half_x_rad": 0.0033151878547884868,
+      "half_y_rad": 0.002652153781636943,
+      "horizontal_fov_deg": 0.37989254474481904,
+      "vertical_fov_deg": 0.3039144366149155
+    }
+  },
+  "baseline_cases": {
+    "237.18564": {
+      "range_m": 800,
+      "axis_baseline_mm": 237.1856395566073,
+      "angular_parallax_urad": 296.4820407586769,
+      "pixel_displacement": {
+        "EO": 85.93682340831214,
+        "SWIR": 57.23591520437777
+      },
+      "ground_footprints_m": {
+        "EO": [
+          11.30496,
+          8.28
+        ],
+        "SWIR": [
+          5.30432,
+          4.243455999999999
+        ],
+        "common_intersection": [
+          5.30432,
+          4.243455999999999
+        ]
+      },
+      "common_area_fraction_of_SWIR": 1.0,
+      "common_area_fraction_of_EO": 0.24046399215851005,
+      "full_SWIR_containment_minimum_range_m": {
+        "horizontal_baseline": 63.2427579875766,
+        "vertical_baseline": 94.01533175175885
+      },
+      "interpretation": "parallel infinity-boresighted axes and planar target; ignores terrain relief, range error, distortion and boresight drift"
+    },
+    "255.18564": {
+      "range_m": 800,
+      "axis_baseline_mm": 255.1856395566073,
+      "angular_parallax_urad": 318.982038627,
+      "pixel_displacement": {
+        "EO": 92.45856192086957,
+        "SWIR": 61.57954413648649
+      },
+      "ground_footprints_m": {
+        "EO": [
+          11.30496,
+          8.28
+        ],
+        "SWIR": [
+          5.30432,
+          4.243455999999999
+        ],
+        "common_intersection": [
+          5.30432,
+          4.243455999999999
+        ]
+      },
+      "common_area_fraction_of_SWIR": 1.0,
+      "common_area_fraction_of_EO": 0.24046399215851005,
+      "full_SWIR_containment_minimum_range_m": {
+        "horizontal_baseline": 68.0422460421841,
+        "vertical_baseline": 101.15014806987652
+      },
+      "interpretation": "parallel infinity-boresighted axes and planar target; ignores terrain relief, range error, distortion and boresight drift"
+    }
+  }
+}

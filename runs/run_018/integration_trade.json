@@ -1,0 +1,974 @@
+{
+  "classification": "bounded geometry and scalable proxies, not CAD, payload mass or tolerance proof",
+  "C01_layouts": [
+    {
+      "EO": "B05-1",
+      "SWIR": "S20_B120",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 167.5482688287076,
+      "EO_tunnel_field_walk_mm": 1.4621715906386432,
+      "SWIR_fold_clear_mm": 42.439572040027095,
+      "major_mirror_solid_blank_proxy_kg": 5.787601843587948,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": [
+        0.5223671894033484,
+        0.6885841047376102
+      ],
+      "structure_mass_at_5kg_per_m2_range_kg": [
+        2.6118359470167416,
+        3.442920523688051
+      ],
+      "structure_assumption": "50-80% open-saddle circumference for two mirror cells plus one common bench planform; scale linearly with actual areal density",
+      "layout": "shared_twin_lobe_SWIR_return_fold",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        521.5858367077881
+      ],
+      "bounding_box_volume_l": 79.82626332867282,
+      "maximum_dimension_mm": 521.5858367077881,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 6.098803482057657,
+        "minimum_dense_transmission": 0.9
+      },
+      "inertia": {
+        "assumption": "four mirrors as point masses at vertices; projected clear area x 22.5 kg/m2; lenses, cells, detectors, electronics and shell excluded",
+        "items": [
+          {
+            "name": "SWIR primary",
+            "mass_proxy_kg": 1.7353647842859492,
+            "x_m": 0.0,
+            "z_m": 0.444585836707788
+          },
+          {
+            "name": "SWIR secondary",
+            "mass_proxy_kg": 0.1632712376578697,
+            "x_m": 0.0,
+            "z_m": 0.003
+          },
+          {
+            "name": "B05-1 primary",
+            "mass_proxy_kg": 0.312590432527593,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.40233746134648585
+          },
+          {
+            "name": "B05-1 secondary",
+            "mass_proxy_kg": 0.08908182318794707,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.1705482688287076
+          }
+        ],
+        "optic_mass_proxy_kg": 2.300308277659359,
+        "optic_CG_from_SWIR_axis_and_front_mm": [
+          41.41657524311342,
+          396.8894165133854
+        ],
+        "optic_CG_offset_from_box_center_mm": [
+          -31.08342475688658,
+          136.09649815949138
+        ],
+        "optic_point_mass_pitch_inertia_proxy_kg_m2": 0.052503275028868,
+        "uniform_box_specific_inertia_m2_per_unit_mass": {
+          "about_vertical_axis": 0.041108410439063756,
+          "about_optical_axis": 0.027259634123864254
+        }
+      }
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S20_B120",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 245.5482688287076,
+      "EO_tunnel_field_walk_mm": 2.1428672783178286,
+      "SWIR_fold_clear_mm": 42.439572040027095,
+      "major_mirror_solid_blank_proxy_kg": 5.787601843587948,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "shared_twin_lobe_straight",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        599.5858367077881
+      ],
+      "bounding_box_volume_l": 91.7637970986413,
+      "maximum_dimension_mm": 599.5858367077881,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 6.098803482057657,
+        "minimum_dense_transmission": 0.9
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S20_B120",
+      "front_face_dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146
+      ],
+      "axis_baseline_mm": 255.1856395566073,
+      "EO_axial_stagger_mm": 0,
+      "EO_tunnel_field_walk_mm": 0,
+      "SWIR_fold_clear_mm": 42.439572040027095,
+      "major_mirror_solid_blank_proxy_kg": 5.787601843587948,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "separate_tube_screen_reference",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        541.5858367077881
+      ],
+      "bounding_box_volume_l": 91.42559169106985,
+      "maximum_dimension_mm": 541.5858367077881,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 6.098803482057657,
+        "minimum_dense_transmission": 0.9
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S16_B80",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 91.55257171105916,
+      "EO_tunnel_field_walk_mm": 0.7989671892263764,
+      "SWIR_fold_clear_mm": 36.84837683900623,
+      "major_mirror_solid_blank_proxy_kg": 5.740798404023658,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": [
+        0.4549354906871229,
+        0.6021411027478467
+      ],
+      "structure_mass_at_5kg_per_m2_range_kg": [
+        2.2746774534356144,
+        3.0107055137392336
+      ],
+      "structure_assumption": "50-80% open-saddle circumference for two mirror cells plus one common bench planform; scale linearly with actual areal density",
+      "layout": "shared_twin_lobe_SWIR_return_fold",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        445.59013959013964
+      ],
+      "bounding_box_volume_l": 68.1954787041315,
+      "maximum_dimension_mm": 470.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 8.772259375943083,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": {
+        "assumption": "four mirrors as point masses at vertices; projected clear area x 22.5 kg/m2; lenses, cells, detectors, electronics and shell excluded",
+        "items": [
+          {
+            "name": "SWIR primary",
+            "mass_proxy_kg": 1.7353647842859492,
+            "x_m": 0.0,
+            "z_m": 0.38259013959013966
+          },
+          {
+            "name": "SWIR secondary",
+            "mass_proxy_kg": 0.11078809195179458,
+            "x_m": 0.0,
+            "z_m": 0.003
+          },
+          {
+            "name": "B05-1 primary",
+            "mass_proxy_kg": 0.312590432527593,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.3263417642288374
+          },
+          {
+            "name": "B05-1 secondary",
+            "mass_proxy_kg": 0.08908182318794707,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.09455257171105916
+          }
+        ],
+        "optic_mass_proxy_kg": 2.247825131953284,
+        "optic_CG_from_SWIR_axis_and_front_mm": [
+          42.38358647643035,
+          344.6442683776213
+        ],
+        "optic_CG_offset_from_box_center_mm": [
+          -30.116413523569648,
+          121.84919858255148
+        ],
+        "optic_point_mass_pitch_inertia_proxy_kg_m2": 0.03966538446290467,
+        "uniform_box_specific_inertia_m2_per_unit_mass": {
+          "about_vertical_axis": 0.03498330939288014,
+          "about_optical_axis": 0.027259634123864254
+        }
+      }
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S16_B80",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 143.55257171105916,
+      "EO_tunnel_field_walk_mm": 1.2527643143458336,
+      "SWIR_fold_clear_mm": 36.84837683900623,
+      "major_mirror_solid_blank_proxy_kg": 5.740798404023658,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "shared_twin_lobe_straight",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        497.59013959013964
+      ],
+      "bounding_box_volume_l": 76.15383455077715,
+      "maximum_dimension_mm": 497.59013959013964,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 8.772259375943083,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S16_B80",
+      "front_face_dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146
+      ],
+      "axis_baseline_mm": 255.1856395566073,
+      "EO_axial_stagger_mm": 0,
+      "EO_tunnel_field_walk_mm": 0,
+      "SWIR_fold_clear_mm": 36.84837683900623,
+      "major_mirror_solid_blank_proxy_kg": 5.740798404023658,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "separate_tube_screen_reference",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        465.59013959013964
+      ],
+      "bounding_box_volume_l": 78.59668978109413,
+      "maximum_dimension_mm": 500.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 8.772259375943083,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S14_B50",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 47.87068247653832,
+      "EO_tunnel_field_walk_mm": 0.41776111702614344,
+      "SWIR_fold_clear_mm": 32.93187192041828,
+      "major_mirror_solid_blank_proxy_kg": 5.723465332161676,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": [
+        0.4174297861068226,
+        0.5544599990873602
+      ],
+      "structure_mass_at_5kg_per_m2_range_kg": [
+        2.087148930534113,
+        2.772299995436801
+      ],
+      "structure_assumption": "50-80% open-saddle circumference for two mirror cells plus one common bench planform; scale linearly with actual areal density",
+      "layout": "shared_twin_lobe_SWIR_return_fold",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        401.9082503556188
+      ],
+      "bounding_box_volume_l": 61.510170654476184,
+      "maximum_dimension_mm": 470.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 11.483623696323853,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": {
+        "assumption": "four mirrors as point masses at vertices; projected clear area x 22.5 kg/m2; lenses, cells, detectors, electronics and shell excluded",
+        "items": [
+          {
+            "name": "SWIR primary",
+            "mass_proxy_kg": 1.7353647842859492,
+            "x_m": 0.0,
+            "z_m": 0.3494082503556188
+          },
+          {
+            "name": "SWIR secondary",
+            "mass_proxy_kg": 0.08353974215918876,
+            "x_m": 0.0,
+            "z_m": 0.003
+          },
+          {
+            "name": "B05-1 primary",
+            "mass_proxy_kg": 0.312590432527593,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.2826598749943166
+          },
+          {
+            "name": "B05-1 secondary",
+            "mass_proxy_kg": 0.08908182318794707,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.05087068247653832
+          }
+        ],
+        "optic_mass_proxy_kg": 2.220576782160678,
+        "optic_CG_from_SWIR_axis_and_front_mm": [
+          42.90366882577889,
+          315.0036619208724
+        ],
+        "optic_CG_offset_from_box_center_mm": [
+          -29.596331174221113,
+          114.04953674306299
+        ],
+        "optic_point_mass_pitch_inertia_proxy_kg_m2": 0.0352377194342127,
+        "uniform_box_specific_inertia_m2_per_unit_mass": {
+          "about_vertical_axis": 0.03189828182654303,
+          "about_optical_axis": 0.027259634123864254
+        }
+      }
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S14_B50",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 80.37068247653832,
+      "EO_tunnel_field_walk_mm": 0.7013843202258041,
+      "SWIR_fold_clear_mm": 32.93187192041828,
+      "major_mirror_solid_blank_proxy_kg": 5.723465332161676,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "shared_twin_lobe_straight",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        434.4082503556188
+      ],
+      "bounding_box_volume_l": 66.48414305862971,
+      "maximum_dimension_mm": 470.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 11.483623696323853,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-1",
+      "SWIR": "S14_B50",
+      "front_face_dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146
+      ],
+      "axis_baseline_mm": 255.1856395566073,
+      "EO_axial_stagger_mm": 0,
+      "EO_tunnel_field_walk_mm": 0,
+      "SWIR_fold_clear_mm": 32.93187192041828,
+      "major_mirror_solid_blank_proxy_kg": 5.723465332161676,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "separate_tube_screen_reference",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        421.9082503556188
+      ],
+      "bounding_box_volume_l": 71.22271081272498,
+      "maximum_dimension_mm": 500.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.8,
+        "focus_only_coupled_largest_RMS_um": 1.063
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 11.483623696323853,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S20_B120",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 213.21771828794152,
+      "EO_tunnel_field_walk_mm": 1.860722838146118,
+      "SWIR_fold_clear_mm": 42.439572040027095,
+      "major_mirror_solid_blank_proxy_kg": 5.787601843587948,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": [
+        0.5147474470310913,
+        0.6763925169419991
+      ],
+      "structure_mass_at_5kg_per_m2_range_kg": [
+        2.5737372351554564,
+        3.3819625847099957
+      ],
+      "structure_assumption": "50-80% open-saddle circumference for two mirror cells plus one common bench planform; scale linearly with actual areal density",
+      "layout": "shared_twin_lobe_SWIR_return_fold",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        521.5858367077881
+      ],
+      "bounding_box_volume_l": 79.82626332867282,
+      "maximum_dimension_mm": 521.5858367077881,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 6.098803482057657,
+        "minimum_dense_transmission": 0.9
+      },
+      "inertia": {
+        "assumption": "four mirrors as point masses at vertices; projected clear area x 22.5 kg/m2; lenses, cells, detectors, electronics and shell excluded",
+        "items": [
+          {
+            "name": "SWIR primary",
+            "mass_proxy_kg": 1.7353647842859492,
+            "x_m": 0.0,
+            "z_m": 0.444585836707788
+          },
+          {
+            "name": "SWIR secondary",
+            "mass_proxy_kg": 0.1632712376578697,
+            "x_m": 0.0,
+            "z_m": 0.003
+          },
+          {
+            "name": "B05-2 primary",
+            "mass_proxy_kg": 0.312590432527593,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.41360351609277085
+          },
+          {
+            "name": "B05-2 secondary",
+            "mass_proxy_kg": 0.08908182318794707,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.21621771828794153
+          }
+        ],
+        "optic_mass_proxy_kg": 2.300308277659359,
+        "optic_CG_from_SWIR_axis_and_front_mm": [
+          41.41657524311342,
+          400.18896502240625
+        ],
+        "optic_CG_offset_from_box_center_mm": [
+          -31.08342475688658,
+          139.3960466685122
+        ],
+        "optic_point_mass_pitch_inertia_proxy_kg_m2": 0.05090042146909619,
+        "uniform_box_specific_inertia_m2_per_unit_mass": {
+          "about_vertical_axis": 0.041108410439063756,
+          "about_optical_axis": 0.027259634123864254
+        }
+      }
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S20_B120",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 291.2177182879415,
+      "EO_tunnel_field_walk_mm": 2.541418525825304,
+      "SWIR_fold_clear_mm": 42.439572040027095,
+      "major_mirror_solid_blank_proxy_kg": 5.787601843587948,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "shared_twin_lobe_straight",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        599.5858367077881
+      ],
+      "bounding_box_volume_l": 91.7637970986413,
+      "maximum_dimension_mm": 599.5858367077881,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 6.098803482057657,
+        "minimum_dense_transmission": 0.9
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S20_B120",
+      "front_face_dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146
+      ],
+      "axis_baseline_mm": 255.1856395566073,
+      "EO_axial_stagger_mm": 0,
+      "EO_tunnel_field_walk_mm": 0,
+      "SWIR_fold_clear_mm": 42.439572040027095,
+      "major_mirror_solid_blank_proxy_kg": 5.787601843587948,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "separate_tube_screen_reference",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        541.5858367077881
+      ],
+      "bounding_box_volume_l": 91.42559169106985,
+      "maximum_dimension_mm": 541.5858367077881,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 6.098803482057657,
+        "minimum_dense_transmission": 0.9
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S16_B80",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 137.2220211702931,
+      "EO_tunnel_field_walk_mm": 1.1975184367338514,
+      "SWIR_fold_clear_mm": 36.84837683900623,
+      "major_mirror_solid_blank_proxy_kg": 5.740798404023658,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": [
+        0.447315748314866,
+        0.5899495149522357
+      ],
+      "structure_mass_at_5kg_per_m2_range_kg": [
+        2.2365787415743297,
+        2.9497475747611785
+      ],
+      "structure_assumption": "50-80% open-saddle circumference for two mirror cells plus one common bench planform; scale linearly with actual areal density",
+      "layout": "shared_twin_lobe_SWIR_return_fold",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        445.59013959013964
+      ],
+      "bounding_box_volume_l": 68.1954787041315,
+      "maximum_dimension_mm": 470.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 8.772259375943083,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": {
+        "assumption": "four mirrors as point masses at vertices; projected clear area x 22.5 kg/m2; lenses, cells, detectors, electronics and shell excluded",
+        "items": [
+          {
+            "name": "SWIR primary",
+            "mass_proxy_kg": 1.7353647842859492,
+            "x_m": 0.0,
+            "z_m": 0.38259013959013966
+          },
+          {
+            "name": "SWIR secondary",
+            "mass_proxy_kg": 0.11078809195179458,
+            "x_m": 0.0,
+            "z_m": 0.003
+          },
+          {
+            "name": "B05-2 primary",
+            "mass_proxy_kg": 0.312590432527593,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.33760781897512243
+          },
+          {
+            "name": "B05-2 secondary",
+            "mass_proxy_kg": 0.08908182318794707,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.1402220211702931
+          }
+        ],
+        "optic_mass_proxy_kg": 2.247825131953284,
+        "optic_CG_from_SWIR_axis_and_front_mm": [
+          42.38358647643035,
+          348.0208561023273
+        ],
+        "optic_CG_offset_from_box_center_mm": [
+          -30.116413523569648,
+          125.22578630725747
+        ],
+        "optic_point_mass_pitch_inertia_proxy_kg_m2": 0.037701413853079034,
+        "uniform_box_specific_inertia_m2_per_unit_mass": {
+          "about_vertical_axis": 0.03498330939288014,
+          "about_optical_axis": 0.027259634123864254
+        }
+      }
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S16_B80",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 189.2220211702931,
+      "EO_tunnel_field_walk_mm": 1.6513155618533084,
+      "SWIR_fold_clear_mm": 36.84837683900623,
+      "major_mirror_solid_blank_proxy_kg": 5.740798404023658,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "shared_twin_lobe_straight",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        497.59013959013964
+      ],
+      "bounding_box_volume_l": 76.15383455077715,
+      "maximum_dimension_mm": 497.59013959013964,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 8.772259375943083,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S16_B80",
+      "front_face_dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146
+      ],
+      "axis_baseline_mm": 255.1856395566073,
+      "EO_axial_stagger_mm": 0,
+      "EO_tunnel_field_walk_mm": 0,
+      "SWIR_fold_clear_mm": 36.84837683900623,
+      "major_mirror_solid_blank_proxy_kg": 5.740798404023658,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "separate_tube_screen_reference",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        465.59013959013964
+      ],
+      "bounding_box_volume_l": 78.59668978109413,
+      "maximum_dimension_mm": 500.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 8.772259375943083,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S14_B50",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 93.54013193577225,
+      "EO_tunnel_field_walk_mm": 0.8163123645336184,
+      "SWIR_fold_clear_mm": 32.93187192041828,
+      "major_mirror_solid_blank_proxy_kg": 5.723465332161676,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": [
+        0.40981004373456564,
+        0.5422684112917492
+      ],
+      "structure_mass_at_5kg_per_m2_range_kg": [
+        2.049050218672828,
+        2.711342056458746
+      ],
+      "structure_assumption": "50-80% open-saddle circumference for two mirror cells plus one common bench planform; scale linearly with actual areal density",
+      "layout": "shared_twin_lobe_SWIR_return_fold",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        401.9082503556188
+      ],
+      "bounding_box_volume_l": 61.510170654476184,
+      "maximum_dimension_mm": 470.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 11.483623696323853,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": {
+        "assumption": "four mirrors as point masses at vertices; projected clear area x 22.5 kg/m2; lenses, cells, detectors, electronics and shell excluded",
+        "items": [
+          {
+            "name": "SWIR primary",
+            "mass_proxy_kg": 1.7353647842859492,
+            "x_m": 0.0,
+            "z_m": 0.3494082503556188
+          },
+          {
+            "name": "SWIR secondary",
+            "mass_proxy_kg": 0.08353974215918876,
+            "x_m": 0.0,
+            "z_m": 0.003
+          },
+          {
+            "name": "B05-2 primary",
+            "mass_proxy_kg": 0.312590432527593,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.29392592974060155
+          },
+          {
+            "name": "B05-2 secondary",
+            "mass_proxy_kg": 0.08908182318794707,
+            "x_m": 0.2371856395566073,
+            "z_m": 0.09654013193577225
+          }
+        ],
+        "optic_mass_proxy_kg": 2.220576782160678,
+        "optic_CG_from_SWIR_axis_and_front_mm": [
+          42.90366882577889,
+          318.4216832245329
+        ],
+        "optic_CG_offset_from_box_center_mm": [
+          -29.596331174221113,
+          117.4675580467235
+        ],
+        "optic_point_mass_pitch_inertia_proxy_kg_m2": 0.033060288268651976,
+        "uniform_box_specific_inertia_m2_per_unit_mass": {
+          "about_vertical_axis": 0.03189828182654303,
+          "about_optical_axis": 0.027259634123864254
+        }
+      }
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S14_B50",
+      "front_face_dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146
+      ],
+      "axis_baseline_mm": 237.1856395566073,
+      "EO_axial_stagger_mm": 126.04013193577225,
+      "EO_tunnel_field_walk_mm": 1.0999355677332792,
+      "SWIR_fold_clear_mm": 32.93187192041828,
+      "major_mirror_solid_blank_proxy_kg": 5.723465332161676,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "shared_twin_lobe_straight",
+      "dimensions_mm": [
+        470.3712791132146,
+        325.3712791132146,
+        434.4082503556188
+      ],
+      "bounding_box_volume_l": 66.48414305862971,
+      "maximum_dimension_mm": 470.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 11.483623696323853,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    },
+    {
+      "EO": "B05-2",
+      "SWIR": "S14_B50",
+      "front_face_dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146
+      ],
+      "axis_baseline_mm": 255.1856395566073,
+      "EO_axial_stagger_mm": 0,
+      "EO_tunnel_field_walk_mm": 0,
+      "SWIR_fold_clear_mm": 32.93187192041828,
+      "major_mirror_solid_blank_proxy_kg": 5.723465332161676,
+      "large_optics_over_100_mm": 2,
+      "focus_mechanisms": 2,
+      "powered_optics": 6,
+      "structure_area_proxy_m2_range": null,
+      "structure_mass_at_5kg_per_m2_range_kg": null,
+      "structure_assumption": "not scored for this alternative; bounding geometry only",
+      "layout": "separate_tube_screen_reference",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        421.9082503556188
+      ],
+      "bounding_box_volume_l": 71.22271081272498,
+      "maximum_dimension_mm": 500.3712791132146,
+      "EO_optical_performance": {
+        "worst_dense_RMS_um": 0.576,
+        "focus_only_coupled_largest_RMS_um": 1.335
+      },
+      "SWIR_optical_performance": {
+        "worst_RMS_um": 11.483623696323853,
+        "minimum_dense_transmission": 0.95
+      },
+      "inertia": null,
+      "inertia_note": "not scored; point placement was solved only for the retained shared-shell folded layout"
+    }
+  ],
+  "C02_comparator": {
+    "optical_lower_bound_dimensions_mm": [
+      313.49872482833655,
+      313.49872482833655,
+      645.017
+    ],
+    "optical_lower_bound_volume_l": 63.3932063371585,
+    "same_simple_external_allowance_dimensions_mm": [
+      337.49872482833655,
+      337.49872482833655,
+      700.017
+    ],
+    "same_simple_external_allowance_volume_l": 79.7357088741447,
+    "single_tube_lateral_area_proxy_m2": 0.7422164849813844,
+    "solid_blank_mirror_proxy_kg": 5.09227711842174,
+    "uniform_box_specific_inertia_m2_per_unit_mass": {
+      "about_vertical_axis": 0.05032743246247943,
+      "about_optical_axis": 0.01898423154345887
+    },
+    "limitations": "branch fold, camera cells, electronics and dichroic clearances remain unproved"
+  }
+}

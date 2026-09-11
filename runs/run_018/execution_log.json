@@ -1,0 +1,19 @@
+{
+  "resource_accounting": {
+    "materially_distinct_new_optical_hypotheses": 1,
+    "authoritative_optimizer_invocations": 1,
+    "authoritative_optimizer_evaluations": 5,
+    "debug_replay_optimizer_invocations": 2,
+    "debug_replay_optimizer_evaluations": 10,
+    "total_optimizer_invocations": 3,
+    "total_optimizer_evaluations": 15,
+    "observed_WSL_process_wall_seconds_approx": 59.6,
+    "plateau_counter": 0
+  },
+  "history": [
+    "first execution stopped after new solve at an inertia-helper argument defect",
+    "second stopped after deterministic integration calculations at Path JSON serialization",
+    "third completed and is authoritative"
+  ],
+  "interpretation": "debug replays count as compute but are the same S14 hypothesis, not extra architecture attempts"
+}

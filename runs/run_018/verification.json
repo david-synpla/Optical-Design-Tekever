@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "requirements_copy_exact": true,
+    "B05_1_copy_exact": true,
+    "B05_2_copy_exact": true,
+    "S20_copy_exact": true,
+    "S16_copy_exact": true,
+    "S14_EFL_within_0p01mm": true,
+    "S14_f_number_within_1e_6": true,
+    "S14_optimizer_converged": true,
+    "full_SWIR_scene_inside_EO_at_800m": true,
+    "historical_files_unchanged": true,
+    "reference_remained_unread": true
+  },
+  "all_pass": true,
+  "scope": "provenance/numerical consistency; not CAD, tolerances, payload mass, environmental or supplier qualification"
+}

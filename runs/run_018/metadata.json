@@ -1,0 +1,24 @@
+{
+  "track": "C",
+  "run_id": "018",
+  "candidate_ids": [
+    "C01"
+  ],
+  "parent_run": "run_017",
+  "development_stage": "C1 bounded UAV integration experiment",
+  "start_time_utc": "2026-09-11T23:20:27.865073+00:00",
+  "end_time_utc": "2026-09-11T23:20:29.185430+00:00",
+  "script_wall_seconds": 1.3203681279999984,
+  "materially_distinct_new_optical_hypotheses": 1,
+  "optimizer_invocations": 1,
+  "optimizer_evaluations": 5,
+  "plateau_counter": 0,
+  "integration_layout_classes": 3,
+  "stopping_reason": "EO choice, common-shell geometry, compact SWIR extension, inertia and finite-range scene overlap answer the bounded integration question",
+  "contamination_control": "reference/ not accessed",
+  "optimizer_invocations_including_debug_replays": 3,
+  "optimizer_evaluations_including_debug_replays": 15,
+  "authoritative_optimizer_invocations": 1,
+  "authoritative_optimizer_evaluations": 5,
+  "resource_accounting_file": "execution_log.json"
+}

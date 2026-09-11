@@ -1,0 +1,10 @@
+{
+  "baseline_equal_area_rays_per_field": 1120,
+  "replay_equal_area_rays_per_field": 2240,
+  "baseline_worst_rms_radius_um": 11.483623696323853,
+  "replay_worst_rms_radius_um": 11.405711139737635,
+  "absolute_worst_rms_change_um": 0.07791255658621843,
+  "baseline_minimum_survival": 0.95,
+  "replay_minimum_survival": 0.9642857142857143,
+  "decision_stability": "S14 remains a compact stretch; C01 system decision does not depend on a fine spot ranking"
+}

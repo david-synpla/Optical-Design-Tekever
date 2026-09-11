@@ -1,0 +1,2809 @@
+{
+  "EO_variants": [
+    {
+      "name": "B05-1",
+      "prescription": "/mnt/c/Users/david/OneDrive - Synopsis Planet/Documents/ChatGPT/Optical Design - Tekever/runs/run_008/prescription.csv",
+      "configuration": "/mnt/c/Users/david/OneDrive - Synopsis Planet/Documents/ChatGPT/Optical Design - Tekever/runs/run_008/configuration.json",
+      "optical_length_mm": 329.0375678790805,
+      "mirror_separation_mm": 231.78919251777828,
+      "dense_worst_rms_um": 0.8,
+      "low_CTE_endpoint_rms_um": [
+        0.799,
+        0.801
+      ],
+      "low_CTE_max_thermal_focus_mm": 0.0385,
+      "high_frame_max_thermal_focus_mm": 1.3746,
+      "range_focus_800m_mm": 0.7901,
+      "focus_only_coupled_largest_rms_um": 1.063,
+      "secondary_radius_mm": -541.9007433554357,
+      "secondary_departure_um": 14.66,
+      "assessment": "balanced lower sensitivity/metrology reference"
+    },
+    {
+      "name": "B05-2",
+      "prescription": "/mnt/c/Users/david/OneDrive - Synopsis Planet/Documents/ChatGPT/Optical Design - Tekever/runs/run_008/attempt_02/prescription.csv",
+      "configuration": "/mnt/c/Users/david/OneDrive - Synopsis Planet/Documents/ChatGPT/Optical Design - Tekever/runs/run_008/attempt_02/configuration.json",
+      "optical_length_mm": 283.36811841984655,
+      "mirror_separation_mm": 197.3857978048293,
+      "dense_worst_rms_um": 0.576,
+      "low_CTE_endpoint_rms_um": [
+        0.627,
+        0.544
+      ],
+      "low_CTE_max_thermal_focus_mm": 0.0491,
+      "high_frame_max_thermal_focus_mm": 1.7578,
+      "range_focus_800m_mm": 0.7957,
+      "focus_only_coupled_largest_rms_um": 1.335,
+      "secondary_radius_mm": -310.4817449172851,
+      "secondary_departure_um": 38.8,
+      "assessment": "45.67 mm shorter but tighter/higher-departure secondary and greater recovery sensitivity"
+    }
+  ],
+  "preserved_SWIR_seeds": [
+    {
+      "geometry": {
+        "name": "S20_B120",
+        "primary_speed": 2.0,
+        "backfocus_mm": 120,
+        "primary_focal_mm": 622.7425582264292,
+        "secondary_magnification": 3.1,
+        "mirror_separation_mm": 441.585836707788,
+        "primary_radius_mm": -1245.4851164528584,
+        "classical_primary_conic": -1.0,
+        "secondary_radius_mm": -534.8436540074166,
+        "classical_secondary_conic": -3.8117913832199535
+      },
+      "apertures": {
+        "primary_radius_mm": 156.6856395566073,
+        "secondary_radius_mm": 48.06054009774808,
+        "hole_radius_mm": 17.48649923661542,
+        "radial_margin_mm": 1.0
+      },
+      "solution": {
+        "primary_conic": -1.0828462090366422,
+        "secondary_conic": -4.7303697654482155,
+        "detector_focus_mm": -0.09105062193426791
+      },
+      "effective_focal_length_mm": 1930.5019305019337,
+      "f_number": 6.20000000000001,
+      "minimum_survival": 0.9,
+      "center_survival": 0.9,
+      "worst_rms_radius_um": 6.098803482057657,
+      "median_rms_radius_um": 5.23010651956375,
+      "rows": [
+        {
+          "field": "center",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 44.91841649743953,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 9.566033192460868,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 0.006954651405861786,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -5.941014875821522e-16,
+            5.955333228321648e-16
+          ],
+          "rms_radius_um": 5.23010651956375
+        },
+        {
+          "field": "center",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 44.91841649743953,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 9.566033192460868,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 0.006954651405861786,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -5.941014875821522e-16,
+            5.955333228321648e-16
+          ],
+          "rms_radius_um": 5.23010651956375
+        },
+        {
+          "field": "center",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 44.91841649743953,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 9.566033192460868,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 0.006954651405861786,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -5.941014875821522e-16,
+            5.955333228321648e-16
+          ],
+          "rms_radius_um": 5.23010651956375
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.85953430587048,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.840280088411184,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 14.997409838291256,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 6.40455931093791,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.3996934529644625,
+            -1.7917215330446166e-16
+          ],
+          "rms_radius_um": 2.242161771362171
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.85953430587048,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.840280088411184,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 14.997409838291256,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 6.40455931093791,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.3996934529644625,
+            -1.7917215330446166e-16
+          ],
+          "rms_radius_um": 2.242161771362171
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.85953430587048,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.840280088411184,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 14.997409838291256,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 6.40455931093791,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.3996934529644625,
+            -1.7917215330446166e-16
+          ],
+          "rms_radius_um": 2.242161771362171
+        },
+        {
+          "field": "-x",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.85953430587048,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.840280088411184,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 14.997409838291256,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 6.40455931093791,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.3996934529644625,
+            4.743229618599441e-16
+          ],
+          "rms_radius_um": 2.2421617713628867
+        },
+        {
+          "field": "-x",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.85953430587048,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.840280088411184,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 14.997409838291256,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 6.40455931093791,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.3996934529644625,
+            4.743229618599441e-16
+          ],
+          "rms_radius_um": 2.2421617713628867
+        },
+        {
+          "field": "-x",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.85953430587048,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.840280088411184,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 14.997409838291256,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 6.40455931093791,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.3996934529644625,
+            4.743229618599441e-16
+          ],
+          "rms_radius_um": 2.2421617713628867
+        },
+        {
+          "field": "+y",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.57167815351653,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.456011328947945,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 13.912152961517984,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 5.120500398458728,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -3.9568216428232887e-17,
+            5.119751505431382
+          ],
+          "rms_radius_um": 1.6931880269782877
+        },
+        {
+          "field": "+y",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.57167815351653,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.456011328947945,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 13.912152961517984,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 5.120500398458728,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -3.9568216428232887e-17,
+            5.119751505431382
+          ],
+          "rms_radius_um": 1.6931880269782877
+        },
+        {
+          "field": "+y",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.57167815351653,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.456011328947945,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 13.912152961517984,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 5.120500398458728,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -3.9568216428232887e-17,
+            5.119751505431382
+          ],
+          "rms_radius_um": 1.6931880269782877
+        },
+        {
+          "field": "-y",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.57167815351653,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.456011328947945,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 13.912152961517984,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 5.1205003984586765,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -1.9164564115553298e-16,
+            -5.119751505431376
+          ],
+          "rms_radius_um": 1.6931880269789525
+        },
+        {
+          "field": "-y",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.57167815351653,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.456011328947945,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 13.912152961517984,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 5.1205003984586765,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -1.9164564115553298e-16,
+            -5.119751505431376
+          ],
+          "rms_radius_um": 1.6931880269789525
+        },
+        {
+          "field": "-y",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 154.57167815351653,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 46.456011328947945,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 13.912152961517984,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 5.1205003984586765,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -1.9164564115553298e-16,
+            -5.119751505431376
+          ],
+          "rms_radius_um": 1.6931880269789525
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715502,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.519529291401543,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742544,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.399700690118216,
+            5.1197605520945695
+          ],
+          "rms_radius_um": 6.098803482056428
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715502,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.519529291401543,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742544,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.399700690118216,
+            5.1197605520945695
+          ],
+          "rms_radius_um": 6.098803482056428
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715502,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.519529291401543,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742544,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.399700690118216,
+            5.1197605520945695
+          ],
+          "rms_radius_um": 6.098803482056428
+        },
+        {
+          "field": "corner+-",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715509,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.51952929140173,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742589,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.399700690118216,
+            -5.1197605520945695
+          ],
+          "rms_radius_um": 6.09880348205707
+        },
+        {
+          "field": "corner+-",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715509,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.51952929140173,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742589,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.399700690118216,
+            -5.1197605520945695
+          ],
+          "rms_radius_um": 6.09880348205707
+        },
+        {
+          "field": "corner+-",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715509,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.51952929140173,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742589,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            6.399700690118216,
+            -5.1197605520945695
+          ],
+          "rms_radius_um": 6.09880348205707
+        },
+        {
+          "field": "corner-+",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715502,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.519529291401543,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742523,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.399700690118214,
+            5.119760552094568
+          ],
+          "rms_radius_um": 6.098803482057657
+        },
+        {
+          "field": "corner-+",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715502,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.519529291401543,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742523,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.399700690118214,
+            5.119760552094568
+          ],
+          "rms_radius_um": 6.098803482057657
+        },
+        {
+          "field": "corner-+",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.37956762715502,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.519529291401543,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742523,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.399700690118214,
+            5.119760552094568
+          ],
+          "rms_radius_um": 6.098803482057657
+        },
+        {
+          "field": "corner--",
+          "wavelength_um": 0.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.379567627155076,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.51952929140171,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742589,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.399700690118218,
+            -5.119760552094571
+          ],
+          "rms_radius_um": 6.098803482056026
+        },
+        {
+          "field": "corner--",
+          "wavelength_um": 1.2,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.379567627155076,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.51952929140171,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742589,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.399700690118218,
+            -5.119760552094571
+          ],
+          "rms_radius_um": 6.098803482056026
+        },
+        {
+          "field": "corner--",
+          "wavelength_um": 1.8,
+          "survival": 0.9,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.9
+            },
+            "primary": {
+              "max_radius_mm": 155.26351038804137,
+              "valid_fraction": 0.9
+            },
+            "secondary": {
+              "max_radius_mm": 47.379567627155076,
+              "valid_fraction": 0.9
+            },
+            "hole": {
+              "max_radius_mm": 16.51952929140171,
+              "valid_fraction": 0.9
+            },
+            "image": {
+              "max_radius_mm": 8.207742697742589,
+              "valid_fraction": 0.9
+            }
+          },
+          "centroid_mm": [
+            -6.399700690118218,
+            -5.119760552094571
+          ],
+          "rms_radius_um": 6.098803482056026
+        }
+      ],
+      "initial_worst_rms_radius_um": 14.312715406798135,
+      "optimizer_nfev": 9,
+      "optimizer_success": true,
+      "optimizer_message": "`xtol` termination condition is satisfied.",
+      "finite_focus_800m": {
+        "object_distance_m": 800,
+        "additional_detector_shift_mm": 4.6669085086359745,
+        "worst_monochromatic_rms_radius_um": 5.728875429617339,
+        "paraxial_expectation_mm": 4.67
+      },
+      "diffraction": [
+        {
+          "field": "center",
+          "wavelength_um": 1.2,
+          "grid": 96,
+          "actual_mtf_x": {
+            "25": 0.5899342760039755,
+            "50": 0.332648371624961
+          },
+          "matched_pupil_mtf_x": {
+            "25": 0.6641918644007649,
+            "50": 0.3940970669294878
+          },
+          "relative_peak": 0.85711541816934
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 1.2,
+          "grid": 96,
+          "actual_mtf_x": {
+            "25": 0.5343373401726745,
+            "50": 0.24581290479616358
+          },
+          "matched_pupil_mtf_x": {
+            "25": 0.6629571129694203,
+            "50": 0.39277201518915583
+          },
+          "relative_peak": 0.741634366601042
+        }
+      ],
+      "diffraction_convergence_corner": {
+        "field": "corner++",
+        "wavelength_um": 1.2,
+        "grid": 128,
+        "actual_mtf_x": {
+          "25": 0.5345174568699383,
+          "50": 0.24602603894380265
+        },
+        "matched_pupil_mtf_x": {
+          "25": 0.6631849688465374,
+          "50": 0.3931901579433767
+        },
+        "relative_peak": 0.7415220361526415
+      }
+    },
+    {
+      "geometry": {
+        "name": "S16_B80",
+        "primary_speed": 1.6,
+        "backfocus_mm": 80,
+        "primary_focal_mm": 498.19404658114337,
+        "secondary_magnification": 3.8750000000000004,
+        "mirror_separation_mm": 379.59013959013964,
+        "primary_radius_mm": -996.3880931622867,
+        "classical_primary_conic": -1.0,
+        "secondary_radius_mm": -319.71487971487954,
+        "classical_secondary_conic": -2.8752362948960295
+      },
+      "apertures": {
+        "primary_radius_mm": 156.6856395566073,
+        "secondary_radius_mm": 39.5895300074233,
+        "hole_radius_mm": 14.470437654785439,
+        "radial_margin_mm": 1.0
+      },
+      "solution": {
+        "primary_conic": -1.0398296240119995,
+        "secondary_conic": -3.2858695663602036,
+        "detector_focus_mm": -0.13877449184843554
+      },
+      "effective_focal_length_mm": 1930.5019305019312,
+      "f_number": 6.200000000000002,
+      "minimum_survival": 0.95,
+      "center_survival": 0.95,
+      "worst_rms_radius_um": 8.772259375943083,
+      "median_rms_radius_um": 7.900740615747349,
+      "rows": [
+        {
+          "field": "center",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 36.80486905198849,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 6.377097978038414,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 0.010723762393810702,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            1.772483058405024e-15,
+            1.8240421704391316e-15
+          ],
+          "rms_radius_um": 7.900740615747349
+        },
+        {
+          "field": "center",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 36.80486905198849,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 6.377097978038414,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 0.010723762393810702,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            1.772483058405024e-15,
+            1.8240421704391316e-15
+          ],
+          "rms_radius_um": 7.900740615747349
+        },
+        {
+          "field": "center",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 36.80486905198849,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 6.377097978038414,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 0.010723762393810702,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            1.772483058405024e-15,
+            1.8240421704391316e-15
+          ],
+          "rms_radius_um": 7.900740615747349
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.6464659972939,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.40243806454999,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 11.926585667738236,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 6.405756560825789,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399150286909765,
+            -2.530048539094384e-15
+          ],
+          "rms_radius_um": 2.915930801680791
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.6464659972939,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.40243806454999,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 11.926585667738236,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 6.405756560825789,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399150286909765,
+            -2.530048539094384e-15
+          ],
+          "rms_radius_um": 2.915930801680791
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.6464659972939,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.40243806454999,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 11.926585667738236,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 6.405756560825789,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399150286909765,
+            -2.530048539094384e-15
+          ],
+          "rms_radius_um": 2.915930801680791
+        },
+        {
+          "field": "-x",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.6464659972939,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.40243806454999,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 11.926585667738236,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 6.405756560825789,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.399150286909767,
+            1.0246607238551727e-16
+          ],
+          "rms_radius_um": 2.915930801683778
+        },
+        {
+          "field": "-x",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.6464659972939,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.40243806454999,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 11.926585667738236,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 6.405756560825789,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.399150286909767,
+            1.0246607238551727e-16
+          ],
+          "rms_radius_um": 2.915930801683778
+        },
+        {
+          "field": "-x",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.6464659972939,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.40243806454999,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 11.926585667738236,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 6.405756560825789,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.399150286909767,
+            1.0246607238551727e-16
+          ],
+          "rms_radius_um": 2.915930801683778
+        },
+        {
+          "field": "+y",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.40123045363103,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.08307020631575,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 10.818395031446565,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 5.12060896469188,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.481213852989739e-16,
+            5.119300432473652
+          ],
+          "rms_radius_um": 2.3051787303135436
+        },
+        {
+          "field": "+y",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.40123045363103,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.08307020631575,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 10.818395031446565,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 5.12060896469188,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.481213852989739e-16,
+            5.119300432473652
+          ],
+          "rms_radius_um": 2.3051787303135436
+        },
+        {
+          "field": "+y",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.40123045363103,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.08307020631575,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 10.818395031446565,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 5.12060896469188,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.481213852989739e-16,
+            5.119300432473652
+          ],
+          "rms_radius_um": 2.3051787303135436
+        },
+        {
+          "field": "-y",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.40123045363103,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.08307020631575,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 10.818395031446565,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 5.12060896469188,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.601992344625417e-16,
+            -5.119300432473651
+          ],
+          "rms_radius_um": 2.305178730312566
+        },
+        {
+          "field": "-y",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.40123045363103,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.08307020631575,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 10.818395031446565,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 5.12060896469188,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.601992344625417e-16,
+            -5.119300432473651
+          ],
+          "rms_radius_um": 2.305178730312566
+        },
+        {
+          "field": "-y",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.40123045363103,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.08307020631575,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 10.818395031446565,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 5.12060896469188,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.601992344625417e-16,
+            -5.119300432473651
+          ],
+          "rms_radius_um": 2.305178730312566
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.850592986363026,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556858,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344155,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399194279575638,
+            5.119355423660502
+          ],
+          "rms_radius_um": 8.772259375941589
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.850592986363026,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556858,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344155,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399194279575638,
+            5.119355423660502
+          ],
+          "rms_radius_um": 8.772259375941589
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.850592986363026,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556858,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344155,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399194279575638,
+            5.119355423660502
+          ],
+          "rms_radius_um": 8.772259375941589
+        },
+        {
+          "field": "corner+-",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.99061147729992,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.85059298636303,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556883,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344163,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399194279575628,
+            -5.119355423660502
+          ],
+          "rms_radius_um": 8.772259375940202
+        },
+        {
+          "field": "corner+-",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.99061147729992,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.85059298636303,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556883,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344163,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399194279575628,
+            -5.119355423660502
+          ],
+          "rms_radius_um": 8.772259375940202
+        },
+        {
+          "field": "corner+-",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.99061147729992,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.85059298636303,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556883,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344163,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            6.399194279575628,
+            -5.119355423660502
+          ],
+          "rms_radius_um": 8.772259375940202
+        },
+        {
+          "field": "corner-+",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.850592986363026,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556858,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344175,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.399194279575636,
+            5.119355423660501
+          ],
+          "rms_radius_um": 8.772259375943083
+        },
+        {
+          "field": "corner-+",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.850592986363026,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556858,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344175,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.399194279575636,
+            5.119355423660501
+          ],
+          "rms_radius_um": 8.772259375943083
+        },
+        {
+          "field": "corner-+",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.850592986363026,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698556858,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344175,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.399194279575636,
+            5.119355423660501
+          ],
+          "rms_radius_um": 8.772259375943083
+        },
+        {
+          "field": "corner--",
+          "wavelength_um": 0.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.85059298636306,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698557002,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344163,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.3991942795756325,
+            -5.119355423660506
+          ],
+          "rms_radius_um": 8.772259375939079
+        },
+        {
+          "field": "corner--",
+          "wavelength_um": 1.2,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.85059298636306,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698557002,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344163,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.3991942795756325,
+            -5.119355423660506
+          ],
+          "rms_radius_um": 8.772259375939079
+        },
+        {
+          "field": "corner--",
+          "wavelength_um": 1.8,
+          "survival": 0.95,
+          "surfaces": {
+            "entrance": {
+              "max_radius_mm": 153.41979716352625,
+              "valid_fraction": 0.95
+            },
+            "primary": {
+              "max_radius_mm": 154.9906114772999,
+              "valid_fraction": 0.95
+            },
+            "secondary": {
+              "max_radius_mm": 38.85059298636306,
+              "valid_fraction": 0.95
+            },
+            "hole": {
+              "max_radius_mm": 13.480208698557002,
+              "valid_fraction": 0.95
+            },
+            "image": {
+              "max_radius_mm": 8.212270627344163,
+              "valid_fraction": 0.95
+            }
+          },
+          "centroid_mm": [
+            -6.3991942795756325,
+            -5.119355423660506
+          ],
+          "rms_radius_um": 8.772259375939079
+        }
+      ],
+      "initial_worst_rms_radius_um": 18.66552307038833,
+      "optimizer_nfev": 5,
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "finite_focus_800m": {
+        "object_distance_m": 800,
+        "additional_detector_shift_mm": 4.674420764554314,
+        "worst_monochromatic_rms_radius_um": 8.489697459727584,
+        "paraxial_expectation_mm": 4.67
+      }
+    }
+  ],
+  "new_compact_SWIR_seed": {
+    "geometry": {
+      "name": "S14_B50",
+      "primary_speed": 1.4,
+      "backfocus_mm": 50,
+      "primary_focal_mm": 435.9197907585004,
+      "secondary_magnification": 4.428571428571429,
+      "mirror_separation_mm": 346.4082503556188,
+      "primary_radius_mm": -871.8395815170009,
+      "classical_primary_conic": -1.0,
+      "secondary_radius_mm": -231.23814604077748,
+      "classical_secondary_conic": -2.506944444444444
+    },
+    "apertures": {
+      "primary_radius_mm": 156.6856395566073,
+      "secondary_radius_mm": 34.377981207947364,
+      "hole_radius_mm": 12.357682856675433,
+      "radial_margin_mm": 1.0
+    },
+    "solution": {
+      "primary_conic": -1.0248753006002072,
+      "secondary_conic": -2.7686914455913505,
+      "detector_focus_mm": -0.18514372035075885
+    },
+    "effective_focal_length_mm": 1930.501930501932,
+    "f_number": 6.200000000000005,
+    "minimum_survival": 0.95,
+    "center_survival": 0.95,
+    "worst_rms_radius_um": 11.483623696323853,
+    "median_rms_radius_um": 10.58259533116318,
+    "rows": [
+      {
+        "field": "center",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 31.772480649620125,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 3.985420311782353,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 0.014349869178409354,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.0462172057007026e-15,
+          -3.0595304902769294e-15
+        ],
+        "rms_radius_um": 10.58259533116318
+      },
+      {
+        "field": "center",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 31.772480649620125,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 3.985420311782353,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 0.014349869178409354,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.0462172057007026e-15,
+          -3.0595304902769294e-15
+        ],
+        "rms_radius_um": 10.58259533116318
+      },
+      {
+        "field": "center",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 31.772480649620125,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 3.985420311782353,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 0.014349869178409354,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.0462172057007026e-15,
+          -3.0595304902769294e-15
+        ],
+        "rms_radius_um": 10.58259533116318
+      },
+      {
+        "field": "+x",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.53102401082108,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.20209207439043,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 9.740303641489511,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 6.406689778287623,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.398478876874821,
+          4.536608400970219e-15
+        ],
+        "rms_radius_um": 3.5966333036524616
+      },
+      {
+        "field": "+x",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.53102401082108,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.20209207439043,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 9.740303641489511,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 6.406689778287623,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.398478876874821,
+          4.536608400970219e-15
+        ],
+        "rms_radius_um": 3.5966333036524616
+      },
+      {
+        "field": "+x",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.53102401082108,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.20209207439043,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 9.740303641489511,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 6.406689778287623,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.398478876874821,
+          4.536608400970219e-15
+        ],
+        "rms_radius_um": 3.5966333036524616
+      },
+      {
+        "field": "-x",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.53102401082108,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.20209207439043,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 9.740303641489511,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 6.406689778287623,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.3984788768748135,
+          -1.479145231527442e-16
+        ],
+        "rms_radius_um": 3.596633303654094
+      },
+      {
+        "field": "-x",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.53102401082108,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.20209207439043,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 9.740303641489511,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 6.406689778287623,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.3984788768748135,
+          -1.479145231527442e-16
+        ],
+        "rms_radius_um": 3.596633303654094
+      },
+      {
+        "field": "-x",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.53102401082108,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.20209207439043,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 9.740303641489511,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 6.406689778287623,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.3984788768748135,
+          -1.479145231527442e-16
+        ],
+        "rms_radius_um": 3.596633303654094
+      },
+      {
+        "field": "+y",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.30888078572417,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 32.916353663354,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 8.591810683487505,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 5.120726480025289,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.944706143504284e-15,
+          5.118745171834093
+        ],
+        "rms_radius_um": 2.928297798247935
+      },
+      {
+        "field": "+y",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.30888078572417,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 32.916353663354,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 8.591810683487505,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 5.120726480025289,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.944706143504284e-15,
+          5.118745171834093
+        ],
+        "rms_radius_um": 2.928297798247935
+      },
+      {
+        "field": "+y",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.30888078572417,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 32.916353663354,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 8.591810683487505,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 5.120726480025289,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.944706143504284e-15,
+          5.118745171834093
+        ],
+        "rms_radius_um": 2.928297798247935
+      },
+      {
+        "field": "-y",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.30888078572417,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 32.91635366335403,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 8.591810683487637,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 5.120726480025434,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.6536051968983564e-17,
+          -5.118745171834094
+        ],
+        "rms_radius_um": 2.928297798243478
+      },
+      {
+        "field": "-y",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.30888078572417,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 32.91635366335403,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 8.591810683487637,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 5.120726480025434,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.6536051968983564e-17,
+          -5.118745171834094
+        ],
+        "rms_radius_um": 2.928297798243478
+      },
+      {
+        "field": "-y",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.30888078572417,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 32.91635366335403,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 8.591810683487637,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 5.120726480025434,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          2.6536051968983564e-17,
+          -5.118745171834094
+        ],
+        "rms_radius_um": 2.928297798243478
+      },
+      {
+        "field": "corner++",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014042,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822536,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.398563164855651,
+          5.118850531884522
+        ],
+        "rms_radius_um": 11.483623696321606
+      },
+      {
+        "field": "corner++",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014042,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822536,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.398563164855651,
+          5.118850531884522
+        ],
+        "rms_radius_um": 11.483623696321606
+      },
+      {
+        "field": "corner++",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014042,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822536,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.398563164855651,
+          5.118850531884522
+        ],
+        "rms_radius_um": 11.483623696321606
+      },
+      {
+        "field": "corner+-",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.8427524445981,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810131,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723013952,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822568,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.3985631648556485,
+          -5.118850531884526
+        ],
+        "rms_radius_um": 11.483623696323853
+      },
+      {
+        "field": "corner+-",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.8427524445981,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810131,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723013952,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822568,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.3985631648556485,
+          -5.118850531884526
+        ],
+        "rms_radius_um": 11.483623696323853
+      },
+      {
+        "field": "corner+-",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.8427524445981,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810131,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723013952,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822568,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          6.3985631648556485,
+          -5.118850531884526
+        ],
+        "rms_radius_um": 11.483623696323853
+      },
+      {
+        "field": "corner-+",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014042,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.21633542782278,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.39856316485565,
+          5.118850531884526
+        ],
+        "rms_radius_um": 11.483623696320581
+      },
+      {
+        "field": "corner-+",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014042,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.21633542782278,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.39856316485565,
+          5.118850531884526
+        ],
+        "rms_radius_um": 11.483623696320581
+      },
+      {
+        "field": "corner-+",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014042,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.21633542782278,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.39856316485565,
+          5.118850531884526
+        ],
+        "rms_radius_um": 11.483623696320581
+      },
+      {
+        "field": "corner--",
+        "wavelength_um": 0.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014044,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822568,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.39856316485565,
+          -5.118850531884524
+        ],
+        "rms_radius_um": 11.483623696321121
+      },
+      {
+        "field": "corner--",
+        "wavelength_um": 1.2,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014044,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822568,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.39856316485565,
+          -5.118850531884524
+        ],
+        "rms_radius_um": 11.483623696321121
+      },
+      {
+        "field": "corner--",
+        "wavelength_um": 1.8,
+        "survival": 0.95,
+        "surfaces": {
+          "entrance": {
+            "max_radius_mm": 153.41979716352625,
+            "valid_fraction": 0.95
+          },
+          "primary": {
+            "max_radius_mm": 154.84275244459806,
+            "valid_fraction": 0.95
+          },
+          "secondary": {
+            "max_radius_mm": 33.60301148810132,
+            "valid_fraction": 0.95
+          },
+          "hole": {
+            "max_radius_mm": 11.349721723014044,
+            "valid_fraction": 0.95
+          },
+          "image": {
+            "max_radius_mm": 8.216335427822568,
+            "valid_fraction": 0.95
+          }
+        },
+        "centroid_mm": [
+          -6.39856316485565,
+          -5.118850531884524
+        ],
+        "rms_radius_um": 11.483623696321121
+      }
+    ],
+    "initial_worst_rms_radius_um": 23.398037028046744,
+    "optimizer_nfev": 5,
+    "optimizer_success": true,
+    "optimizer_message": "`ftol` termination condition is satisfied.",
+    "finite_focus_800m": {
+      "object_distance_m": 800,
+      "additional_detector_shift_mm": 4.680221945412789,
+      "worst_monochromatic_rms_radius_um": 11.154163084551286,
+      "paraxial_expectation_mm": 4.67
+    }
+  }
+}

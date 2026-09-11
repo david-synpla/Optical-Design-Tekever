@@ -1,0 +1,80 @@
+benchmark: TEKEVER simultaneous co-boresighted EO and SWIR payload
+status: authoritative complete-system requirements baseline for Track C and future work
+effective_date: 2026-09-09
+
+source_explicit_requirements:
+  eo:
+    wavelength_um: [0.43, 0.80]
+    horizontal_fov_deg: 0.81
+    instantaneous_fov_urad_per_pixel: 3.45
+    f_number: 6.2
+    sensor: Sony IMX545
+    array_px: [4096, 3000]
+    pixel_pitch_um: [2.74, 2.74]
+    minimum_focus_distance_m: 800
+    operating_temperature_C: [-25, 50]
+  swir:
+    wavelength_um: [0.80, 1.80]
+    horizontal_fov_deg: 0.38
+    instantaneous_fov_urad_per_pixel: 5.18
+    f_number: 6.2
+    sensor: SenS 1280 L-STE Flex
+    array_px: [1280, 1024]
+    pixel_pitch_um: [10.0, 10.0]
+    active_size_mm: [12.8, 10.24]
+    minimum_focus_distance_m: 800
+    operating_temperature_C: [-25, 50]
+
+later_user_team_clarifications:
+  system:
+    channels_required_in_same_payload: [eo, swir]
+    operation: simultaneous
+    scene_relationship: co-boresighted_same_scene
+
+permitted_architecture_space:
+  optical_train_sharing: [shared, partially_shared, separate]
+  classification: design-space permission, not an original source-explicit requirement
+
+adopted_requirements:
+  eo_active_width_mm: 11.22304
+  eo_active_width_basis: 4096 pixels times 2.74 um per pixel
+
+derived_first_order_quantities:
+  eo:
+    active_array_size_from_pitch_mm: [11.22304, 8.22000]
+    effective_focal_length_from_ifov_mm: 794.20
+    horizontal_fov_from_array_and_ifov_deg: 0.8097
+    entrance_pupil_diameter_if_f_number_is_exact_mm: 128.10
+    paraxial_focus_shift_800m_to_infinity_mm: 0.79
+  swir:
+    effective_focal_length_from_ifov_mm: 1930.50
+    horizontal_fov_from_array_and_ifov_deg: 0.3799
+    entrance_pupil_diameter_if_f_number_is_exact_mm: 311.37
+    paraxial_focus_shift_800m_to_infinity_mm: 4.67
+
+engineering_objectives:
+  - Minimize payload mass as a first-class UAV trade objective.
+  - Minimize package volume as a first-class UAV trade objective.
+  - Minimize cost as a first-class trade-study objective.
+  - Trade optical performance, manufacturability, alignment and metrology burden, thermal sensitivity, finite-focus implementation, coatings and throughput, and supply risk without inventing customer thresholds.
+
+unspecified_customer_quantities:
+  - hard_mass_limit
+  - hard_package_volume_limit
+  - mtf_pass_fail_threshold
+  - rms_spot_pass_fail_threshold
+  - wavefront_error_pass_fail_threshold
+  - distortion_pass_fail_threshold
+  - throughput_pass_fail_threshold
+  - obscuration_pass_fail_threshold
+  - stray_light_pass_fail_threshold
+  - pointing_stability_pass_fail_threshold
+
+governance_notes:
+  - requirements/eo_requirements.yaml remains the historical EO-only baseline used by Tracks A and B and is not authoritative for complete-system future work.
+  - Same-payload, simultaneous-operation, and co-boresight statements are later user/team clarifications, not original source-explicit requirements.
+  - Shared, partially shared, and separate optical trains are permitted architecture space, not a source requirement or a preference among architectures.
+  - Derived quantities are first-order calculations, not additional customer requirements.
+  - Engineering objectives guide Pareto screening and must not be converted into pass/fail requirements without new source input.
+  - The Track C research report is independent research guidance, not a source of customer requirements.
+  - The known TEKEVER/team reference prescription remains excluded from Track C until its independent portfolio is mature and a later reveal is explicitly authorized.
