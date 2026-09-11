@@ -1,0 +1,20 @@
+{
+  "authoritative_requirements": {
+    "path": "requirements/eo_swir_system_requirements.yaml",
+    "sha256": "97c2a5d2874499f43e889a6a9156a883f3a42bbb645d5a80bda9c103e0e6e81d"
+  },
+  "B05_model": {
+    "path": "runs/run_008/model.py",
+    "sha256": "7ef2756c6f7e2f307e2e023c5116c7f02a7a148544a3e37959233718c08348f1"
+  },
+  "B05_configuration": {
+    "path": "runs/run_008/configuration.json",
+    "sha256": "8468d74bf17be33f4ad093f2fcb159b9cbac85361a965ff08e18f2d84e1bf5b6"
+  },
+  "C02_baseline": {
+    "path": "runs/run_016/swap_screen.json",
+    "sha256": "d6ae9b31e3acd5c1fb161078c2bc6487966871c12d38e4a96e0da05e6086b08d"
+  },
+  "historical_files_modified": false,
+  "contamination_control": "reference/ not accessed"
+}

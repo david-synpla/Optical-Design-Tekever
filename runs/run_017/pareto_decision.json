@@ -1,0 +1,117 @@
+{
+  "question": "Can C01 offer a better UAV-level Pareto trade than Run 016 C02-A6F1?",
+  "answer": "C01 is non-dominated and deserves further development, but it does not globally dominate C02-A6F1.",
+  "c01_balanced_baseline": {
+    "swir_seed": "S20_B120",
+    "swir_worst_rms_radius_um": 6.098803482057657,
+    "swir_minimum_geometric_transmission": 0.9,
+    "eo_b05_replay_worst_rms_radius_um": 0.7985352305615956,
+    "folded_package_proxy": {
+      "seed": "S20_B120",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.83036824397548,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.5335388517729056,
+        3.067077703545811
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_SWIR_return_fold",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        541.5858367077881
+      ],
+      "volume_l": 91.42559169106985,
+      "maximum_dimension_mm": 541.5858367077881,
+      "fold_mirror_clear_mm": 42.439572040027095
+    },
+    "optical_only_folded_lower_bound_dimensions_mm": [
+      446.3712791132146,
+      313.3712791132146,
+      486.585836707788
+    ],
+    "optical_only_folded_lower_bound_volume_l": 68.0635970085941,
+    "entrance_pupil_tangent_baseline_mm": 219.7342604074722,
+    "screened_mechanical_centerline_baseline_mm": 255.1856395566073,
+    "screened_baseline_parallax_at_800m_urad": 318.982038627,
+    "screened_baseline_parallax_at_800m_pixels": {
+      "EO": 92.45856192086957,
+      "SWIR": 61.57954413648649
+    }
+  },
+  "preserved_compact_c01_point": {
+    "swir_seed": "S16_B80",
+    "swir_worst_rms_radius_um": 8.772259375943083,
+    "swir_minimum_geometric_transmission": 0.95,
+    "folded_package_proxy": {
+      "seed": "S16_B80",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.783564804411189,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.4985500879688558,
+        2.9971001759377116
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_SWIR_return_fold",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        465.59013959013964
+      ],
+      "volume_l": 78.59668978109413,
+      "maximum_dimension_mm": 500.3712791132146,
+      "fold_mirror_clear_mm": 36.84837683900623
+    }
+  },
+  "run016_c02_baseline": {
+    "minimum_geometric_survival_percent": {
+      "EO": 70.83333333333334,
+      "SWIR": 73.30729166666666
+    },
+    "straight_lower_bound_dimensions_mm": [
+      313.49872482833655,
+      313.49872482833655,
+      645.017
+    ],
+    "straight_lower_bound_volume_l": 63.3932063371585,
+    "solid_blank_mirror_proxy_kg": 5.09227711842174
+  },
+  "c01_advantages": [
+    "unchanged B05 EO subsystem evidence and independent channel commissioning",
+    "fresh two-mirror SWIR seed needs no refractive corrector in this bounded model",
+    "90-95% SWIR circular-pupil transmission for balanced/compact seeds versus 70.8-73.3% C02 traced survival",
+    "no broadband common-mirror coating compromise, dichroic, or demonstrated triplet-like channel cameras",
+    "f/2.0 or f/1.6 SWIR primary is less steep than the C02 f/1 annular primary"
+  ],
+  "c02_advantages": [
+    "single approximately 313.5 mm frontal aperture and common fore-optic LOS",
+    "one optic over 100 mm rather than two",
+    "lower current solid-blank mirror proxy and straight bounding-box lower bound",
+    "no 255 mm mechanical channel baseline or range-dependent inter-aperture parallax"
+  ],
+  "pareto_limits": [
+    "C01 folded boxes are kinematic envelope estimates, not CAD; C02 folded box remains unproved",
+    "C01 duplicates metering structures and adds relative-boresight calibration/drift burden",
+    "C02 backend prescriptions are not successful and its straight 63.39 L box excludes branch clearance and cells",
+    "no payload mass, inertia, cost, throughput or image-quality customer threshold exists"
+  ],
+  "portfolio_status": {
+    "C01": "ACTIVE, non-dominated practical comparator; balanced S20 and compact S16 retained",
+    "C02": "CONDITIONAL ACTIVE through A6F1; no return before broader architecture comparison"
+  },
+  "recommended_next_architecture": "C03 bounded unobscured common-aperture C1 test, co-optimizing package and metrology; preserve C04 as the subsequent mandatory economic lane"
+}

@@ -1,0 +1,74 @@
+{
+  "classification": "fabrication geometry, not a quote or process qualification",
+  "seeds": [
+    {
+      "seed": "S24_B200",
+      "primary": {
+        "clear_diameter_mm": 313.3712791132146,
+        "edge_sag_mm": 8.209496740811161,
+        "edge_slope_deg": 5.979529803262436,
+        "edge_departure_from_vertex_sphere_um": 26.32306342423263,
+        "radius_mm": -1494.58213974343,
+        "conic": -1.161066819436382
+      },
+      "secondary": {
+        "clear_diameter_mm": 116.00265364332624,
+        "edge_sag_mm": 1.9366226814746432,
+        "edge_slope_deg": 3.794700026019849,
+        "edge_departure_from_vertex_sphere_um": 15.482452871847796,
+        "radius_mm": -862.6493953299338,
+        "conic": -7.106145183766042
+      },
+      "primary_central_hole_diameter_mm": 46.935450911911275,
+      "exact_circular_obscuration_only_transmission": 0.861203425852286,
+      "dense_equal_area_ray_transmission": 0.85,
+      "interpretation": "surface metrics are prescription geometry, not supplier capability; exact transmission excludes spiders, cells, coatings and scatter"
+    },
+    {
+      "seed": "S20_B120",
+      "primary": {
+        "clear_diameter_mm": 313.3712791132146,
+        "edge_sag_mm": 9.852525433876465,
+        "edge_slope_deg": 7.165656104723452,
+        "edge_departure_from_vertex_sphere_um": 42.53535232710348,
+        "radius_mm": -1245.4851164528584,
+        "conic": -1.0828462090366422
+      },
+      "secondary": {
+        "clear_diameter_mm": 96.12108019549616,
+        "edge_sag_mm": 2.1433169271877626,
+        "edge_slope_deg": 5.05951746959332,
+        "edge_departure_from_vertex_sphere_um": 20.39685578420425,
+        "radius_mm": -534.8436540074166,
+        "conic": -4.7303697654482155
+      },
+      "primary_central_hole_diameter_mm": 34.97299847323084,
+      "exact_circular_obscuration_only_transmission": 0.9047027904763175,
+      "dense_equal_area_ray_transmission": 0.9,
+      "interpretation": "surface metrics are prescription geometry, not supplier capability; exact transmission excludes spiders, cells, coatings and scatter"
+    },
+    {
+      "seed": "S16_B80",
+      "primary": {
+        "clear_diameter_mm": 313.3712791132146,
+        "edge_sag_mm": 12.31666037202178,
+        "edge_slope_deg": 8.932452269088714,
+        "edge_departure_from_vertex_sphere_um": 80.151044174114,
+        "radius_mm": -996.3880931622867,
+        "conic": -1.0398296240119995
+      },
+      "secondary": {
+        "clear_diameter_mm": 79.1790600148466,
+        "edge_sag_mm": 2.430028806247734,
+        "edge_slope_deg": 6.939503009175408,
+        "edge_departure_from_vertex_sphere_um": 30.578400141823003,
+        "radius_mm": -319.71487971487954,
+        "conic": -3.2858695663602036
+      },
+      "primary_central_hole_diameter_mm": 28.940875309570878,
+      "exact_circular_obscuration_only_transmission": 0.9353358487207482,
+      "dense_equal_area_ray_transmission": 0.95,
+      "interpretation": "surface metrics are prescription geometry, not supplier capability; exact transmission excludes spiders, cells, coatings and scatter"
+    }
+  ]
+}

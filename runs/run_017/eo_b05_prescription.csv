@@ -1,0 +1,11 @@
+index,radius_mm,thickness_mm,conic,aperture
+0,inf,inf,0,none
+1,inf,234.78919251777828,0,"{'type': 'RadialAperture', 'r_max': 64.04862085086489, 'r_min': 35.5}"
+2,-760.0300475611773,-231.78919251777828,-1.316741971924042,"{'type': 'RadialAperture', 'r_max': 66.5, 'r_min': 21.5}"
+3,-541.9007433554357,231.78919251777828,-11.999713021373452,"{'type': 'RadialAperture', 'r_max': 35.5, 'r_min': 0}"
+4,inf,51.20106856974775,0,"{'type': 'RadialAperture', 'r_max': 21.5, 'r_min': 0}"
+5,119.57801709289285,4.224289641642844,0.0,"{'type': 'RadialAperture', 'r_max': 17.5, 'r_min': 0}"
+6,381.47940209305153,15.958719717761033,0.0,"{'type': 'RadialAperture', 'r_max': 17.5, 'r_min': 0}"
+7,-126.96777778182401,3.1682172312321333,0.0,"{'type': 'RadialAperture', 'r_max': 17.5, 'r_min': 0}"
+8,-403.42886190735516,19.69607940915049,0.0,"{'type': 'RadialAperture', 'r_max': 17.5, 'r_min': 0}"
+9,inf,0.0,0,none

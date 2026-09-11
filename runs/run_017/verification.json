@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "authoritative_requirements_copy_exact": true,
+    "B05_prescription_copy_exact": true,
+    "B05_replay_matches_run010_dense_within_0p01_um": true,
+    "all_SWIR_EFL_within_0p01_mm": true,
+    "all_SWIR_f_number_within_1e_6": true,
+    "all_authoritative_optimizers_converged": true,
+    "diffraction_grid_change_below_0p00042": true,
+    "historical_files_unchanged": true,
+    "reference_remained_unread": true
+  },
+  "all_pass": true,
+  "scope": "numerical/provenance checks; not optical acceptance, CAD, tolerance, cost, environmental or supplier qualification"
+}

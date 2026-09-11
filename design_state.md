@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
-Stage: C0 COMPLETE; Stage C1 Run 016 closed the bounded C02 A6F1 feasibility gate, retained its common front conditionally, parked minimum doublet backends, and prioritizes C01 next
+Stage: C0 COMPLETE; Stage C1 Run 017 established a non-dominated C01 system comparator, retained balanced and compact SWIR seeds, and prioritizes a bounded C03 test next
 Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
 Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
 Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
@@ -11,15 +11,35 @@ Contamination state: `reference/` remains unread. The known TEKEVER/team prescri
 
 | ID | System architecture | Lifecycle status | Main strength | Main C1 risk/gate |
 |---|---|---|---|---|
-| C01 | Separate integrated EO and SWIR telescopes | ACTIVE — practical reference/fallback; next C1 comparator, not overall leader | Natural channel pupils/EFLs, no splitter, strongest EO reuse | Fresh SWIR seed; widest front face; duplicated datums/focusers; boresight drift and 800 m parallax |
-| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | CONDITIONAL ACTIVE through C02-A6F1; direct form and two-element backends PARKED | Curved-field common front is near its matched obscured-pupil diffraction limit; common-LOS split needs no demonstrated dedicated relay | 313 mm f/1 annular primary, 26–29% geometric pupil loss and at least triplet-like flat-field cameras; compare C01 before more C02 work |
+| C01 | Separate integrated EO and SWIR telescopes | ACTIVE — non-dominated practical comparator; S20 balanced and S16 compact baselines retained | Proven B05 EO reuse, credible two-mirror SWIR seeds, 90–95% traced SWIR pupil survival, no splitter/complex SWIR camera | Approximately 500 mm screened front span, two large optics, duplicated metering structures/focusers, boresight drift and 800 m parallax |
+| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | CONDITIONAL ACTIVE through C02-A6F1; direct form and two-element backends PARKED | Curved-field common front is near its matched obscured-pupil diffraction limit; one frontal aperture/common LOS | 313 mm f/1 annular primary, 26–29% geometric pupil loss and at least triplet-like flat-field cameras; defer more backend work until broader comparison |
 | C03 | Common off-axis afocal/TMA front end plus modular relays | ACTIVE — recommend C1 | Unobscured common LOS and modular high-performance potential | Highest conventional off-axis alignment/metrology/NRE; prove minimum-complexity seed and clearance |
 | C04 | Cost/COTS-maximized dual-channel branch | ACTIVE — recommend C1 economic lane | Lowest procurement/NRE hypothesis; B09 process reuse | 300/305 mm donors miss exact SWIR f/6.2; verify >=311.371 mm clear donor, coatings, substrates and qualification economics |
 | C05 | Compact folded/freeform shared architecture | PARKED after C0 | Distinct aggressive volume-compression hypothesis | Reopen only if C01-C04 packaging is unattractive or supplier evidence lowers freeform/metrology risk |
 
-No Track C candidate has been frozen or selected. Run 016 used two bounded minimum-backend feasibility solves, not detailed candidate optimization; its physical doublets are parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
+No Track C candidate has been frozen or selected. Run 017 is a bounded system comparator, not detailed prescription/tolerance optimization or CAD; its package and mass numbers are continuous engineering proxies. Run 016's physical C02 doublets remain parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
 
 Persistent Track C governance: because this is a UAV payload, every substantive C-series run co-optimizes and reports optical performance together with largest aperture/optic, optical and folded length, bounding box/volume, major-optic mass proxy, large-optic count, shared/duplicated structure, mechanism count, structural/gimbal consequences and manufacturing/cost. SWaP is continuous Pareto evidence; no unsupplied hard mass or volume limit may be invented. C01 is the practical comparator/fallback, not the presumed overall leader.
+
+## Latest C01 evidence — Run 017
+
+The unchanged Run 008 B05-1 model/configuration was replayed as EO evidence: 794.203 mm EFL, f/6.2 and 0.799 um worst sampled RMS radius, consistent with Run 010's 0.800 um dense result. No B-series prescription or run changed. Its previous thermal/focus scenarios remain evidence rather than transferred requirements.
+
+Three fresh independent SWIR Cassegrains preserve 1930.502 mm EFL and f/6.2. Only two conics and detector focus were solved. S24_B200 (f/2.4 primary, 200 mm back focus) gives 4.43 um worst RMS radius and 85% dense traced pupil survival but the longest folded package proxy at about 500 x 337 x 611 mm (103.1 L). S20_B120 gives 6.10 um, 90% and 500 x 337 x 542 mm (91.4 L). S16_B80 gives 8.77 um, 95% and 500 x 337 x 466 mm (78.6 L). Exact circular-obscuration-only transmission is 86.1/90.5/93.5%; the dense values differ by pupil quadrature resolution. All exclude spiders, cells, coatings, scatter, windows and tolerances.
+
+S20_B120 is the balanced future comparison baseline, while S16_B80 remains a compact/high-throughput non-dominated point and S24_B200 remains a lower-aberration/lower-primary-slope point. S20 monochromatic 1.2 um corner MTF25/50 is 0.534/0.246 versus its matched obscured-pupil 0.663/0.393; 96-to-128-grid change is below 0.00042. Infinity-to-800 m SWIR refocus is 4.66–4.67 mm for all seeds, so the system still has two focus interfaces.
+
+The preferred screening layout recesses B05 beside the SWIR aperture and folds only the SWIR converging return. S20's traced fold-plane clear size is about 42.4 mm. Its optical-only folded lower bound is about 446 x 313 x 487 mm (68.0 L); applying explicit cell/gap/dewar allowances gives the 91.4 L screen. Run 016 C02 remains 313.5 x 313.5 x 645.0 mm (63.39 L) before its own excluded cells and branch clearance. C02 therefore retains the smaller frontal area and present lower-bound volume, while folded C01 has a shorter axial inertia arm. Neither is complete CAD.
+
+Under the common solid t/D=0.10, 2.2 g/cm3 mirror proxy, S20 C01 is 5.83 kg versus C02's 5.09 kg, but these are mirror blanks rather than payload mass. C01 has two optics over 100 mm and duplicated telescope cells/baffles, versus C02's one large common primary/shared front structure. C01 instead avoids C02's broadband common coating, dichroic and two unproved triplet-like cameras, and reuses B05. Both have two focus mechanisms. Current evidence implies lower C01 optical-development NRE but higher recurring structural duplication; no monetary winner is justified.
+
+S20's screened channel centerline spacing is 255.2 mm (219.7 mm for tangent clear pupils). At 800 m this is about 319 urad, 92.5 EO pixels or 61.6 SWIR pixels of range-dependent parallax. C01 therefore needs explicit range-aware registration plus thermo-structural boresight calibration; C02 retains the common-front LOS advantage.
+
+Run 017 decision: C01 is ACTIVE and non-dominated, but does not globally dominate C02-A6F1. C01 leads current optical completeness, geometric throughput, independent coatings and B05 reuse; C02 leads frontal area, common LOS, large-optic count and shared front structure. S16/S20 C01 and C02-A6F1 are preserved because different continuous objectives favor each.
+
+Run 017 tested three materially distinct SWIR hypotheses with no plateau. Authoritative solves used 8/9/5 evaluations (22 total). Including two superseded debugging replays, total resource accounting is nine optimizer invocations, 352 evaluations and approximately 73.45 s accumulated probe/script process time plus reporting/verification. `reference/` remained unread and historical runs were unchanged.
+
+Next recommended action, only after new instruction: one bounded C03 unobscured common-aperture C1 test, co-optimizing package, mirror mass, clearance, gimbal consequences and off-axis metrology from the first solve. Preserve C04 as the subsequent mandatory economic lane. Do not begin detailed C01 tolerance/CAD work or resume C02 backend optimization without a new instruction.
 
 ## Latest Track C evidence — Run 014
 

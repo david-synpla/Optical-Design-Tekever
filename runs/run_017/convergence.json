@@ -1,0 +1,9 @@
+{
+  "selected_seed": "S20_B120",
+  "corner_diffraction_grid_replay": [
+    96,
+    128
+  ],
+  "maximum_reported_mtf_or_relative_peak_change": 0.00041814275422086267,
+  "decision_stability": "maximum change below 0.00042; no C01/C02 Pareto conclusion depends on this numerical difference"
+}

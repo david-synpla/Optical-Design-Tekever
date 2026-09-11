@@ -1,0 +1,331 @@
+{
+  "c01_package_options": [
+    {
+      "seed": "S24_B200",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.89358534545415,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.583223378283843,
+        3.166446756567686
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_recessed_straight",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        740.9307713028643
+      ],
+      "volume_l": 125.07718920469881,
+      "maximum_dimension_mm": 740.9307713028643,
+      "fold_mirror_clear_mm": 0
+    },
+    {
+      "seed": "S24_B200",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.89358534545415,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.583223378283843,
+        3.166446756567686
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "stacked_recessed_straight",
+      "dimensions_mm": [
+        337.3712791132146,
+        500.3712791132146,
+        740.9307713028643
+      ],
+      "volume_l": 125.07718920469881,
+      "maximum_dimension_mm": 740.9307713028643,
+      "fold_mirror_clear_mm": 0
+    },
+    {
+      "seed": "S24_B200",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.89358534545415,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.583223378283843,
+        3.166446756567686
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_SWIR_return_fold",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        610.9307713028643
+      ],
+      "volume_l": 103.13177240412655,
+      "maximum_dimension_mm": 610.9307713028643,
+      "fold_mirror_clear_mm": 53.52873672553722
+    },
+    {
+      "seed": "S20_B120",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.83036824397548,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.5335388517729056,
+        3.067077703545811
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_recessed_straight",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        619.5858367077881
+      ],
+      "volume_l": 104.59284177141322,
+      "maximum_dimension_mm": 619.5858367077881,
+      "fold_mirror_clear_mm": 0
+    },
+    {
+      "seed": "S20_B120",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.83036824397548,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.5335388517729056,
+        3.067077703545811
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "stacked_recessed_straight",
+      "dimensions_mm": [
+        337.3712791132146,
+        500.3712791132146,
+        619.5858367077881
+      ],
+      "volume_l": 104.59284177141322,
+      "maximum_dimension_mm": 619.5858367077881,
+      "fold_mirror_clear_mm": 0
+    },
+    {
+      "seed": "S20_B120",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.83036824397548,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.5335388517729056,
+        3.067077703545811
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_SWIR_return_fold",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        541.5858367077881
+      ],
+      "volume_l": 91.42559169106985,
+      "maximum_dimension_mm": 541.5858367077881,
+      "fold_mirror_clear_mm": 42.439572040027095
+    },
+    {
+      "seed": "S16_B80",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.783564804411189,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.4985500879688558,
+        2.9971001759377116
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_recessed_straight",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        517.5901395901396
+      ],
+      "volume_l": 87.37485650132304,
+      "maximum_dimension_mm": 517.5901395901396,
+      "fold_mirror_clear_mm": 0
+    },
+    {
+      "seed": "S16_B80",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.783564804411189,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.4985500879688558,
+        2.9971001759377116
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "stacked_recessed_straight",
+      "dimensions_mm": [
+        337.3712791132146,
+        500.3712791132146,
+        517.5901395901396
+      ],
+      "volume_l": 87.37485650132304,
+      "maximum_dimension_mm": 517.5901395901396,
+      "fold_mirror_clear_mm": 0
+    },
+    {
+      "seed": "S16_B80",
+      "external_aperture_max_mm": 337.3712791132146,
+      "front_face_span_mm": 500.3712791132146,
+      "centerline_baseline_mm": 255.1856395566073,
+      "solid_blank_mirror_proxy_kg": 5.783564804411189,
+      "lightweighted_mirror_proxy_kg_range": [
+        1.4985500879688558,
+        2.9971001759377116
+      ],
+      "large_optics_over_100_mm": 2,
+      "powered_mirrors": 4,
+      "powered_corrector_lenses": 2,
+      "focus_mechanisms": 2,
+      "shared_structure": "outer payload/gimbal frame and boresight calibration only",
+      "duplicated_structure": "two telescope metering cells, baffles, detector barrels and focus interfaces",
+      "layout": "side_by_side_SWIR_return_fold",
+      "dimensions_mm": [
+        500.3712791132146,
+        337.3712791132146,
+        465.59013959013964
+      ],
+      "volume_l": 78.59668978109413,
+      "maximum_dimension_mm": 500.3712791132146,
+      "fold_mirror_clear_mm": 36.84837683900623
+    }
+  ],
+  "run016_c02_exact": {
+    "classification": "continuous engineering-objective proxies, not customer limits, CAD, payload mass, or supplier quotations",
+    "candidate": "C02-A6F1 with minimum physical channel-camera envelopes",
+    "largest_optic_and_external_aperture": {
+      "primary_clear_diameter_mm": 313.49872482833655,
+      "primary_central_hole_diameter_mm": 69.57996955194885,
+      "external_aperture_diameter_mm": 313.49872482833655,
+      "next_largest_modeled_optic_diameter_mm": 62.294,
+      "next_largest_basis": "SWIR doublet mechanical clear diameter; failed optical attempt retained only as a packaging lower-bound witness"
+    },
+    "characteristic_lengths": {
+      "common_mirror_separation_mm": 259.47606592767886,
+      "common_front_secondary_vertex_to_split_plane_mm": 309.47606592767886,
+      "unfolded_entrance_plane_to_longest_trial_detector_mm": 645.017,
+      "classification": "sequential optical coordinates; dichroic branch folding and cells are not modeled"
+    },
+    "bounding_box": {
+      "unfolded_coaxial_lower_bound_dimensions_mm": [
+        313.49872482833655,
+        313.49872482833655,
+        645.017
+      ],
+      "unfolded_coaxial_lower_bound_volume_l": 63.3932063371585,
+      "relationship_to_run014": "consistent with the lower edge of the 64-157 L C02 architecture hypothesis",
+      "limitations": "not a CAD envelope; excludes wall thickness, cells, baffles, electronics, thermal hardware, dichroic branch separation, focus travel and gimbal clearance"
+    },
+    "major_optic_mass_proxy": {
+      "assumption": "solid annular primary and solid secondary; thickness/diameter 0.10; density 2.2 g/cm3, matching Run 014 proxy convention",
+      "primary_mass_proxy_kg": 5.06152672837721,
+      "secondary_mass_proxy_kg": 0.0307503900445306,
+      "combined_common_mirror_mass_proxy_kg": 5.09227711842174,
+      "limitations": "not payload mass; actual sag, central-hole reinforcement, lightweighting, material, facesheet, ribs, mounts and qualification can dominate"
+    },
+    "large_optics": {
+      "over_100_mm_count": 1,
+      "modeled_sizes_mm": [
+        313.49872482833655,
+        56.24872580522958,
+        62.294,
+        62.294,
+        27.6168,
+        27.6168
+      ],
+      "interpretation": "one large common primary; secondary; two SWIR and two EO trial camera elements; dichroic clear aperture must exceed the approximately 52 mm SWIR beam after tilt allowance"
+    },
+    "sharing_and_mechanisms": {
+      "shared": [
+        "external aperture",
+        "primary",
+        "secondary",
+        "front baffle and primary-secondary metering structure"
+      ],
+      "duplicated": [
+        "EO and SWIR camera barrels",
+        "detector interfaces",
+        "channel focus compensation",
+        "channel AR coatings and windows"
+      ],
+      "focus_mechanism_count": 2,
+      "splitter_count": 1,
+      "dedicated_pupil_relay_count_demonstrated_necessary": 0
+    },
+    "structural_and_gimbal_consequences": [
+      "single approximately 314 mm front aperture sets gimbal frontal area",
+      "approximately 645 mm straight sequential extent would create a long inertia arm unless channel paths are folded",
+      "annular f/1 primary and secondary spider require print-through, vibration and line-of-sight jitter analysis",
+      "shared fore-structure removes the duplicated telescope-datum/parallax burden of C01 but concentrates both channels on one primary-secondary alignment"
+    ],
+    "optical_performance": {
+      "common_front_best_curved_focus": "near matched obscured-pupil limit at EO and SWIR corner",
+      "flat_detector_burden": "approximately 60-63 mm focal-surface radius requires strong channel field flattening",
+      "minimum_geometric_survival_percent": {
+        "EO": 70.83333333333334,
+        "SWIR": 73.30729166666666
+      },
+      "minimum_physical_doublet_survival_percent": {
+        "EO": 70.0,
+        "SWIR": 73.125
+      },
+      "physical_doublet_worst_polychromatic_rms_um": {
+        "EO": 33.93389492787633,
+        "SWIR": 37.47434419706621
+      }
+    },
+    "manufacturability_and_cost": {
+      "primary_edge_sag_mm": 19.7275441453886,
+      "primary_edge_slope_deg": 14.1283178370605,
+      "primary_annular_radial_width_mm": 121.959377638194,
+      "assessment": "f/1 is feasible in principle but this diameter, sag, hole and support geometry require custom fabrication and metrology; no quote or production yield exists",
+      "backend_assessment": "two spherical elements per channel are insufficient; at least one more field-flattening/achromatizing degree of freedom is likely, increasing optic count, coating count, barrel length and tolerance burden"
+    },
+    "pareto_decision": "optically credible common-LOS lane, but not accepted over C01/C03/C04 because primary mass proxy, straight length, obscuration and backend complexity remain material; retain conditionally and establish the C01 practical comparator next"
+  }
+}

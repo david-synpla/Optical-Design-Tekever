@@ -1,0 +1,22 @@
+{
+  "resource_accounting": {
+    "unsolved_probe_process_wall_seconds": 27.2,
+    "preliminary_serialization_failed_process_wall_seconds": 22.4,
+    "preliminary_serialization_corrected_script_wall_seconds": 20.17,
+    "authoritative_corrected_script_wall_seconds": 3.68,
+    "approximate_total_process_or_script_wall_seconds": 73.45,
+    "optimizer_invocations_total_including_superseded_debug_replays": 9,
+    "optimizer_evaluations_total_including_superseded_debug_replays": 352,
+    "authoritative_optimizer_invocations": 3,
+    "authoritative_optimizer_evaluations": 22,
+    "materially_distinct_optical_hypotheses": 3,
+    "plateau_counter": 0
+  },
+  "history": [
+    "unsolved three-seed probe",
+    "three preliminary solves repeated once after JSON serialization repair; 165 evaluations per replay",
+    "preliminary survival denominator found to exclude the obscured pupil and merit used scalar summaries",
+    "authoritative three-seed rerun used full-pupil survival and direct ray-residual merit"
+  ],
+  "interpretation": "debug replays are counted as compute but not as new optical hypotheses; preliminary values are superseded, not candidate evidence"
+}
