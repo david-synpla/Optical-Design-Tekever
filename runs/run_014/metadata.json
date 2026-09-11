@@ -1,0 +1,36 @@
+{
+  "track": "C",
+  "run_id": "014",
+  "candidate_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "preceding_run": "run_013 (historical Track B thermal evidence; Track C initialized afterward)",
+  "purpose": "first-order optical plus SWaP architecture screening of C01-C05",
+  "development_stage": "C0 screening",
+  "start_time_utc": "2026-09-11T13:44:21.025568+00:00",
+  "end_time_utc": "2026-09-11T13:44:21.517420+00:00",
+  "substantial_optimizer_or_search_count": 0,
+  "materially_distinct_optimization_attempt_count": 0,
+  "plateau_counter": 0,
+  "plateau_status": "not applicable; no optimization",
+  "result": {
+    "advance_to_c1": [
+      "C01",
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "park": [
+      "C05"
+    ],
+    "reject": []
+  },
+  "human_interventions": [
+    "User corrected requirements provenance taxonomy and Track C workflow authority before Run 014; numerical requirements were unchanged."
+  ],
+  "contamination_control": "reference/ not accessed"
+}

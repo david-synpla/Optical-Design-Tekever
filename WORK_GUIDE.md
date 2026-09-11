@@ -5,12 +5,14 @@
 2. Run scientific Python through Ubuntu on WSL, using the project's configured Linux Python environment. Do not fall back to the bundled ChatGPT/Codex Windows Python unless explicitly authorized.
 
 3. Before a substantive optical-design run, read:
-   - `requirements/eo_requirements.yaml`
+   - `requirements/eo_swir_system_requirements.yaml` for Track C substantive work;
+   - `requirements/eo_requirements.yaml` only for historical Track A/B work;
    - `OPTICAL_DESIGN_RULES.md`
    - `DESIGN_WORKFLOW.md`
    - `BENCHMARK_TRACKS.md`
    - `benchmark_protocol.md`
    - `design_state.md`
+   - `TRACK_C_STATE_OF_THE_ART_RESEARCH.md` for Track C work
 
 4. Never read, inspect, search, infer from, or otherwise use `reference/` during the blind phase.
 

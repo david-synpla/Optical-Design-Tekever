@@ -1,0 +1,40 @@
+{
+  "classification": "derived first-order quantities, not customer requirements",
+  "eo": {
+    "effective_focal_length_mm": 794.2028985507247,
+    "entrance_pupil_diameter_mm": 128.09724170172979,
+    "horizontal_fov_deg_from_array_ifov": 0.8096581194552689,
+    "vertical_fov_deg_from_array_ifov": 0.5930113179604021,
+    "thin_lens_focus_shift_infinity_to_800m_mm": 0.7892313173327818
+  },
+  "swir": {
+    "effective_focal_length_mm": 1930.5019305019307,
+    "entrance_pupil_diameter_mm": 311.3712791132146,
+    "horizontal_fov_deg_from_array_ifov": 0.37989393648354103,
+    "vertical_fov_deg_from_array_ifov": 0.3039151491868328,
+    "thin_lens_focus_shift_infinity_to_800m_mm": 4.669815990570708
+  },
+  "system_ratios": {
+    "swir_to_eo_efl_and_pupil_ratio": 2.4307414818363724,
+    "swir_to_eo_pupil_area_ratio": 5.908504151520083,
+    "separate_to_common_collecting_area_ratio": 1.1692475750808655,
+    "common_collecting_area_saving_percent_vs_separate": 14.474913498893539,
+    "minimum_tangent_separate_aperture_center_baseline_mm": 219.7342604074722,
+    "parallax_at_800m_for_minimum_tangent_baseline_urad": 274.6678255093402,
+    "parallax_at_800m_in_eo_pixels": 79.61386246647542,
+    "parallax_at_800m_in_swir_pixels": 53.02467673925487
+  },
+  "collecting_primary_blank_proxy": {
+    "assumption": "solid circular blank, thickness/diameter=0.10, density=2.2 g/cm3; collecting primaries only",
+    "common_swir_sized_primary": {
+      "solid_blank_volume_l": 2.3709671325939614,
+      "solid_blank_mass_proxy_kg": 5.216127691706716
+    },
+    "separate_eo_plus_swir_primaries": {
+      "solid_blank_volume_l": 2.5360527415682244,
+      "solid_blank_mass_proxy_kg": 5.5793160314500945
+    },
+    "separate_to_common_mass_proxy_ratio": 1.0696279618155864,
+    "limitations": "not a payload mass estimate; excludes lightweighting, all other optics, mounts, cells, baffles, mechanisms, windows, electronics and gimbal effects"
+  }
+}

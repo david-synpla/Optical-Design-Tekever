@@ -1,23 +1,41 @@
 # Current Design State
 
 Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
-Stage: INITIALIZED; Stage C0 first-order optical plus SWaP architecture screening is next and has not started
+Stage: C0 COMPLETE in Run 014; C01-C04 are recommended for separately bounded Stage C1 development, which has not started; C05 is parked
 Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
 Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
 Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
 Contamination state: `reference/` remains unread. The known TEKEVER/team prescription is excluded until Track C's independent portfolio is mature and a later reveal is explicitly authorized.
 
-## Provisional Track C architecture portfolio
+## Active Track C architecture portfolio
 
-| ID | System architecture | Initialization status |
-|---|---|---|
-| C01 | Separate integrated EO and SWIR telescopes | Provisional research family; screen at first order |
-| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | Provisional research family; screen at first order |
-| C03 | Common off-axis afocal/TMA front end plus modular relays | Provisional research family; screen at first order |
-| C04 | Cost/COTS-maximized dual-channel branch | Mandatory economic Pareto lane; screen at first order |
-| C05 | Compact folded/freeform shared architecture | Stretch lane; screen cheaply at first order |
+| ID | System architecture | Lifecycle status | Main strength | Main C1 risk/gate |
+|---|---|---|---|---|
+| C01 | Separate integrated EO and SWIR telescopes | ACTIVE — recommend C1 | Natural channel pupils/EFLs, no splitter, strongest EO reuse | Fresh SWIR seed; widest front face; duplicated datums/focusers; boresight drift and 800 m parallax |
+| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | ACTIVE — recommend C1 | Conventional common-LOS balance, narrow-field suitability | Obscuration, 311 mm common front end, splitter placement/800 nm allocation and relay coupling |
+| C03 | Common off-axis afocal/TMA front end plus modular relays | ACTIVE — recommend C1 | Unobscured common LOS and modular high-performance potential | Highest conventional off-axis alignment/metrology/NRE; prove minimum-complexity seed and clearance |
+| C04 | Cost/COTS-maximized dual-channel branch | ACTIVE — recommend C1 economic lane | Lowest procurement/NRE hypothesis; B09 process reuse | 300/305 mm donors miss exact SWIR f/6.2; verify >=311.371 mm clear donor, coatings, substrates and qualification economics |
+| C05 | Compact folded/freeform shared architecture | PARKED after C0 | Distinct aggressive volume-compression hypothesis | Reopen only if C01-C04 packaging is unattractive or supplier evidence lowers freeform/metrology risk |
 
-No Track C candidate has been optimized, selected, parked, or rejected. The next action is a non-optimizing Stage C0 screen covering first-order optical feasibility, SWaP, manufacturability, alignment/metrology, thermal/focus concepts, coatings/throughput, supply risk, and cost class.
+No Track C prescription has been optimized or frozen, and no candidate is rejected. Run 014 is an analytic first-order/SWaP screen; its package ranges and ordinal risk classes are engineering hypotheses, not customer requirements, CAD results or quotations.
+
+## Latest Track C evidence — Run 014
+
+EO/SWIR first-order EFL is 794.203/1930.502 mm; f/6.2 pupil diameter is 128.097/311.371 mm; thin-lens infinity-to-800 m focus shift is 0.789/4.670 mm. SWIR therefore drives front-aperture scale. Separate EO+SWIR collecting area is only 16.9% above a SWIR-sized common pupil; under the equal-technology collecting-primary solid-blank proxy it is only 7.0% above. Neither calculation is a payload-mass prediction, so common aperture is not presumed to win SWaP.
+
+C01's minimum tangent-pupil baseline is 219.7 mm before margins, corresponding at 800 m to 274.7 urad of range-dependent parallax (79.6 EO or 53.0 SWIR pixels). Separate telescopes remain feasible but need an explicit calibration/stability model. C02/C03 reduce fore-optic LOS degrees of freedom but retain downstream relay registration sensitivity.
+
+At the neutral 0.90 mirror-reflectance / 0.90 useful splitter-port sensitivity point, core two-mirror throughput is 0.810 without a splitter, 0.729 with one, and 0.656 for three mirrors plus splitter. These exclude relays, windows, glass, QE, obscuration, polarization and scatter. The touching 0.80 um bands still require an engineering transition/QE allocation; no perfect crossover is assumed.
+
+C0 envelope hypotheses overlap and do not establish a volume winner. C05 has the lowest assumed range but not enough evidence to justify its specialist freeform/monolithic NRE now. C02 is the strongest assumed conventional common-aperture balance; C01 remains non-dominated for reuse, independent coatings/focus and no splitter; C03 preserves the unobscured high-performance lane; C04 remains the mandatory economic lane despite unresolved donor and qualification evidence.
+
+Useful immutable B-series evidence: B05-1 is the balanced C01 EO subsystem reference, B05-2 the compact EO alternative, B06 the C03 clearance/alignment warning and unobscured evidence, and B09 the C04 donor/custom-corrector process and packaging/cost caution. No historical prescription or run was changed, and Track B thermal/performance numbers are not transferred to new Track C architectures.
+
+Open Track C issues: fresh SWIR and shared-front prescriptions; real telephoto ratios/layouts; mass/CAD/gimbal models; detector windows; obscuration/vignetting/stray light; relative boresight and thermal drift; focus range/accuracy; mirror substrate/lightweighting/cells; coating/QE/polarization allocation; supplier evidence and cost at stated quantities. No customer hard threshold exists for mass, volume, optical performance, throughput, distortion, obscuration, stray light or pointing stability.
+
+Run 014 resource use: zero optimizer/substantial-search calls, zero prescription attempts and no plateau; one deterministic analytic WSL Python execution (0.49 s), plus reporting/verification. `reference/` was not accessed.
+
+Next recommended action, only after new instruction: Stage C1 Run 015, a minimum-degree-of-freedom C02 coaxial common-front seed with explicit obscuration, pupil/collimated splitter placement and independent EO/SWIR relay targets. Develop C01, C03 and C04 in their own later bounded runs; do not begin C05 while it remains parked.
 
 ## Preserved historical Track B EO portfolio
 

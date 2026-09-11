@@ -1,0 +1,295 @@
+{
+  "architecture_assumption_note": "ordinal ratings and envelope ranges are Stage C0 engineering hypotheses, not requirements or predictions",
+  "architectures": [
+    {
+      "id": "C01",
+      "architecture": "Separate integrated EO and SWIR telescopes",
+      "sharing": "separate",
+      "largest_required_clear_aperture_mm": 311.3712791132146,
+      "representative_bbox_mm_minmax": [
+        [
+          460,
+          580
+        ],
+        [
+          340,
+          430
+        ],
+        [
+          650,
+          1050
+        ]
+      ],
+      "large_optics_over_100mm_count_range": [
+        3,
+        5
+      ],
+      "powered_surface_count_range": [
+        8,
+        12
+      ],
+      "custom_powered_surface_count_range": [
+        6,
+        10
+      ],
+      "freeform_surface_count_range": [
+        0,
+        0
+      ],
+      "splitter_count": 0,
+      "external_apertures": 2,
+      "focus_mechanisms": 2,
+      "relative_boresight_burden_1low_5high": 4,
+      "alignment_metrology_burden_1low_5high": 3,
+      "nre_class_1low_5high": 3,
+      "recurring_custom_optics_burden_1low_5high": 3,
+      "qualification_burden_1low_5high": 4,
+      "supplier_concentration_1low_5high": 2,
+      "cots_content": "EO B-series reuse possible; SWIR remains new; mechanics custom",
+      "coating_throughput": "independent channel coatings; no dichroic loss",
+      "thermal_focus": "two independent focus/athermalisation loops; lowest optical coupling",
+      "gimbal_integration": "widest front face; two LOS datums; possible parallax but modular service",
+      "c0_status": "ACTIVE - recommend C1",
+      "pareto_role": "independent-channel/reuse and no-splitter lane",
+      "c1_gate": "fresh SWIR seed plus integrated boresight/parallax and structure model",
+      "representative_bbox_volume_l_minmax": [
+        101.66,
+        261.87
+      ],
+      "bbox_classification": "C0 hypothesis range, not a CAD envelope or customer limit",
+      "mass_proxy_classification": "common primary proxy for shared paths; separate primary proxy for separate paths; excludes full payload"
+    },
+    {
+      "id": "C02",
+      "architecture": "Common coaxial reflective fore-telescope plus independent relays",
+      "sharing": "partially_shared",
+      "largest_required_clear_aperture_mm": 311.3712791132146,
+      "representative_bbox_mm_minmax": [
+        [
+          340,
+          430
+        ],
+        [
+          340,
+          430
+        ],
+        [
+          550,
+          850
+        ]
+      ],
+      "large_optics_over_100mm_count_range": [
+        2,
+        4
+      ],
+      "powered_surface_count_range": [
+        8,
+        12
+      ],
+      "custom_powered_surface_count_range": [
+        6,
+        10
+      ],
+      "freeform_surface_count_range": [
+        0,
+        0
+      ],
+      "splitter_count": 1,
+      "external_apertures": 1,
+      "focus_mechanisms": 2,
+      "relative_boresight_burden_1low_5high": 2,
+      "alignment_metrology_burden_1low_5high": 3,
+      "nre_class_1low_5high": 4,
+      "recurring_custom_optics_burden_1low_5high": 4,
+      "qualification_burden_1low_5high": 4,
+      "supplier_concentration_1low_5high": 3,
+      "cots_content": "limited powered COTS; conventional coaxial manufacture",
+      "coating_throughput": "two common reflections plus dichroic and channel relays; 800 nm allocation required",
+      "thermal_focus": "shared fore-optic drift plus two relay focus controls",
+      "gimbal_integration": "single LOS/front aperture; obscuration and secondary support affect aperture and jitter",
+      "c0_status": "ACTIVE - recommend C1",
+      "pareto_role": "conventional common-LOS balance lane",
+      "c1_gate": "coaxial common-front seed, obscuration budget and collimated/pupil splitter placement",
+      "representative_bbox_volume_l_minmax": [
+        63.58,
+        157.165
+      ],
+      "bbox_classification": "C0 hypothesis range, not a CAD envelope or customer limit",
+      "mass_proxy_classification": "common primary proxy for shared paths; separate primary proxy for separate paths; excludes full payload"
+    },
+    {
+      "id": "C03",
+      "architecture": "Common off-axis afocal/TMA front end plus modular relays",
+      "sharing": "partially_shared",
+      "largest_required_clear_aperture_mm": 311.3712791132146,
+      "representative_bbox_mm_minmax": [
+        [
+          420,
+          600
+        ],
+        [
+          340,
+          500
+        ],
+        [
+          500,
+          850
+        ]
+      ],
+      "large_optics_over_100mm_count_range": [
+        3,
+        5
+      ],
+      "powered_surface_count_range": [
+        9,
+        13
+      ],
+      "custom_powered_surface_count_range": [
+        7,
+        11
+      ],
+      "freeform_surface_count_range": [
+        0,
+        2
+      ],
+      "splitter_count": 1,
+      "external_apertures": 1,
+      "focus_mechanisms": 2,
+      "relative_boresight_burden_1low_5high": 2,
+      "alignment_metrology_burden_1low_5high": 5,
+      "nre_class_1low_5high": 5,
+      "recurring_custom_optics_burden_1low_5high": 5,
+      "qualification_burden_1low_5high": 5,
+      "supplier_concentration_1low_5high": 4,
+      "cots_content": "low powered COTS; modular backends may reuse standard processes",
+      "coating_throughput": "unobscured pupil but at least one extra common reflection likely; dichroic allocation required",
+      "thermal_focus": "common afocal LOS stability plus two independently athermalised/focused cameras",
+      "gimbal_integration": "single LOS; asymmetric inertia/envelope and off-axis datum control",
+      "c0_status": "ACTIVE - recommend C1",
+      "pareto_role": "unobscured/common-LOS optical-performance lane",
+      "c1_gate": "minimum-complexity three-mirror afocal seed and physical clearance/layout proof",
+      "representative_bbox_volume_l_minmax": [
+        71.4,
+        255.0
+      ],
+      "bbox_classification": "C0 hypothesis range, not a CAD envelope or customer limit",
+      "mass_proxy_classification": "common primary proxy for shared paths; separate primary proxy for separate paths; excludes full payload"
+    },
+    {
+      "id": "C04",
+      "architecture": "Cost/COTS-maximized dual-channel branch",
+      "sharing": "separate_or_partially_shared",
+      "largest_required_clear_aperture_mm": 311.3712791132146,
+      "representative_bbox_mm_minmax": [
+        [
+          450,
+          650
+        ],
+        [
+          350,
+          480
+        ],
+        [
+          650,
+          1300
+        ]
+      ],
+      "large_optics_over_100mm_count_range": [
+        3,
+        5
+      ],
+      "powered_surface_count_range": [
+        7,
+        12
+      ],
+      "custom_powered_surface_count_range": [
+        4,
+        8
+      ],
+      "freeform_surface_count_range": [
+        0,
+        0
+      ],
+      "splitter_count": "0_or_1",
+      "external_apertures": "1_or_2",
+      "focus_mechanisms": 2,
+      "relative_boresight_burden_1low_5high": 4,
+      "alignment_metrology_burden_1low_5high": 3,
+      "nre_class_1low_5high": 2,
+      "recurring_custom_optics_burden_1low_5high": 2,
+      "qualification_burden_1low_5high": 5,
+      "supplier_concentration_1low_5high": 3,
+      "cots_content": "highest potential; donor optics require new airborne cells/coatings/qualification",
+      "coating_throughput": "no splitter if separate, but stock SWIR transmission/coating suitability is unproven",
+      "thermal_focus": "stock substrate/structure data and actuator range are gating unknowns",
+      "gimbal_integration": "donor OTAs unsuitable as-is; custom lightweight rehousing can erode savings",
+      "c0_status": "ACTIVE - recommend C1 economic lane",
+      "pareto_role": "procurement/NRE and recurring-cost hypothesis lane",
+      "c1_gate": "identify >=311.37 mm clear-aperture donor path or admit custom SWIR primary; verify coatings/substrates",
+      "representative_bbox_volume_l_minmax": [
+        102.375,
+        405.6
+      ],
+      "bbox_classification": "C0 hypothesis range, not a CAD envelope or customer limit",
+      "mass_proxy_classification": "common primary proxy for shared paths; separate primary proxy for separate paths; excludes full payload"
+    },
+    {
+      "id": "C05",
+      "architecture": "Compact folded/freeform shared architecture",
+      "sharing": "partially_shared",
+      "largest_required_clear_aperture_mm": 311.3712791132146,
+      "representative_bbox_mm_minmax": [
+        [
+          350,
+          500
+        ],
+        [
+          320,
+          450
+        ],
+        [
+          350,
+          600
+        ]
+      ],
+      "large_optics_over_100mm_count_range": [
+        3,
+        5
+      ],
+      "powered_surface_count_range": [
+        6,
+        10
+      ],
+      "custom_powered_surface_count_range": [
+        6,
+        10
+      ],
+      "freeform_surface_count_range": [
+        2,
+        4
+      ],
+      "splitter_count": 1,
+      "external_apertures": 1,
+      "focus_mechanisms": 2,
+      "relative_boresight_burden_1low_5high": 2,
+      "alignment_metrology_burden_1low_5high": 5,
+      "nre_class_1low_5high": 5,
+      "recurring_custom_optics_burden_1low_5high": 5,
+      "qualification_burden_1low_5high": 5,
+      "supplier_concentration_1low_5high": 5,
+      "cots_content": "very low for powered optics",
+      "coating_throughput": "multiple non-normal reflections and dichroic; polarization/angle effects important",
+      "thermal_focus": "monolithic concept may remove mounts but couples thermal figure and surface registration",
+      "gimbal_integration": "best assumed volume compression; mass benefit unproved and centre-of-gravity work remains",
+      "c0_status": "PARKED after C0",
+      "pareto_role": "latent compactness stretch lane",
+      "c1_gate": "reopen only if C01-C04 packaging cannot form an attractive portfolio or supplier evidence lowers risk",
+      "representative_bbox_volume_l_minmax": [
+        39.2,
+        135.0
+      ],
+      "bbox_classification": "C0 hypothesis range, not a CAD envelope or customer limit",
+      "mass_proxy_classification": "common primary proxy for shared paths; separate primary proxy for separate paths; excludes full payload"
+    }
+  ]
+}

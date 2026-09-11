@@ -1,0 +1,8 @@
+{
+  "python": "3.14.4",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "matplotlib": "3.11.1",
+  "pyyaml": "6.0.3",
+  "optiland_used": false,
+  "reason": "Stage C0 is first-order analytic/SWaP screening with no prescription optimization"
+}
