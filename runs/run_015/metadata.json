@@ -1,0 +1,33 @@
+{
+  "track": "C",
+  "run_id": "015",
+  "candidate_ids": [
+    "C02"
+  ],
+  "parent_run": "run_014",
+  "purpose": "determine what form, if any, of common coaxial C02 merits further development using physical entrance-pupil, footprint, obscuration and vignetting evidence",
+  "development_stage": "C1 low-cost numerical architecture screening",
+  "start_time_utc": "2026-09-11T14:12:29.804353+00:00",
+  "end_time_utc": "2026-09-11T14:12:32.767242+00:00",
+  "script_wall_seconds": 2.962902265999986,
+  "substantial_computational_search_count": 4,
+  "searches": [
+    "direct shared Cassegrain speed/backfocus sweep",
+    "direct EO downstream-stop pupil-image sweep",
+    "coaxial afocal compression/pupil-relay sweep",
+    "fast-primary afocal speed/compression check"
+  ],
+  "materially_distinct_physical_model_experiments": 2,
+  "optimization_attempt_count": 0,
+  "plateau_counter": 0,
+  "plateau_status": "not applicable; direct form stopped on structural pupil evidence before optimization",
+  "candidate_decision": {
+    "C02-D_direct_power_bearing": "PARKED",
+    "C02-A6F1_coaxial_afocal_pupil_relay": "ACTIVE for one bounded backend/manufacturing feasibility run",
+    "C02_family": "ACTIVE only through conditional afocal derivative"
+  },
+  "human_interventions": [
+    "User supplied the pupil-ratio comparison to the 2024 shared-RC example and explicitly requested entrance-pupil/footprint testing before optimization."
+  ],
+  "contamination_control": "reference/ not accessed"
+}

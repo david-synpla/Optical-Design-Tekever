@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
-Stage: C0 COMPLETE in Run 014; C01-C04 are recommended for separately bounded Stage C1 development, which has not started; C05 is parked
+Stage: C0 COMPLETE; Stage C1 Run 015 physically screened C02, parked its direct shared-imaging form, and retained one conditional afocal derivative; no detailed backend optimization has started
 Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
 Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
 Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
@@ -12,7 +12,7 @@ Contamination state: `reference/` remains unread. The known TEKEVER/team prescri
 | ID | System architecture | Lifecycle status | Main strength | Main C1 risk/gate |
 |---|---|---|---|---|
 | C01 | Separate integrated EO and SWIR telescopes | ACTIVE — recommend C1 | Natural channel pupils/EFLs, no splitter, strongest EO reuse | Fresh SWIR seed; widest front face; duplicated datums/focusers; boresight drift and 800 m parallax |
-| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | ACTIVE — recommend C1 | Conventional common-LOS balance, narrow-field suitability | Obscuration, 311 mm common front end, splitter placement/800 nm allocation and relay coupling |
+| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | ACTIVE only through conditional C02-A6F1; direct form PARKED | Collimated common-LOS split remains possible in the 6x afocal derivative | 313 mm f/1 primary, 69.6 mm hole, 26–29% geometric pupil loss and unproved real backends/pupil relay |
 | C03 | Common off-axis afocal/TMA front end plus modular relays | ACTIVE — recommend C1 | Unobscured common LOS and modular high-performance potential | Highest conventional off-axis alignment/metrology/NRE; prove minimum-complexity seed and clearance |
 | C04 | Cost/COTS-maximized dual-channel branch | ACTIVE — recommend C1 economic lane | Lowest procurement/NRE hypothesis; B09 process reuse | 300/305 mm donors miss exact SWIR f/6.2; verify >=311.371 mm clear donor, coatings, substrates and qualification economics |
 | C05 | Compact folded/freeform shared architecture | PARKED after C0 | Distinct aggressive volume-compression hypothesis | Reopen only if C01-C04 packaging is unattractive or supplier evidence lowers freeform/metrology risk |
@@ -35,7 +35,17 @@ Open Track C issues: fresh SWIR and shared-front prescriptions; real telephoto r
 
 Run 014 resource use: zero optimizer/substantial-search calls, zero prescription attempts and no plateau; one deterministic analytic WSL Python execution (0.49 s), plus reporting/verification. `reference/` was not accessed.
 
-Next recommended action, only after new instruction: Stage C1 Run 015, a minimum-degree-of-freedom C02 coaxial common-front seed with explicit obscuration, pupil/collimated splitter placement and independent EO/SWIR relay targets. Develop C01, C03 and C04 in their own later bounded runs; do not begin C05 while it remains parked.
+## Latest C02 evidence — Run 015
+
+The directly power-bearing common Cassegrain is strongly coupled by the 2.43x channel pupil ratio. A conventional f/2.4, 200 mm-backfocus seed needs a 117.54 mm secondary and retains only 16.7% of the EO pupil area (15.6% in the denser replay), versus 85.4% SWIR. Moving the EO stop downstream images it at paraxial coordinates 2.75–8.96 m and produces 57.5–90.7 mm real entrance-plane pupil walk without improving survival. The EO channel cannot be treated as a harmless concentric stop inside the SWIR-sized telescope.
+
+Faster direct seeds expose the trade rather than solve it: f/1.5 with 75 mm backfocus retains 64.6% EO / 93.8% SWIR but has 34.29/20.29 um worst shared-front EO/SWIR RMS; f/1 with 50 mm backfocus retains 81.3%/95.8% but worsens to 69.84/38.68 um. These RMS values precede the EO reducer and both final backends and are not acceptance scores. C02-D is PARKED before shape optimization.
+
+The coaxial afocal sweep also shows coupling: compression shrinks the secondary but magnifies the EO backend field and forces primary-hole/pupil-walk growth. At f/2, 8x and 10x compression vignette the EO corner completely. The only conditional non-dominated pocket is C02-A6F1: two-paraboloid 6x compression with a 313.50 mm f/1 primary, 259.48 mm mirror separation, 56.25 mm secondary and 69.58 mm primary hole. It retains 70.8% EO and 73.3% SWIR minimum pupil area (70.8%/73.5% dense replay) and provides a truly collimated split, but leaves backend targets of 132.37 mm EFL/21.35 mm pupil/3.01 degree EO half-field and 321.75 mm/51.90 mm/1.46 degree SWIR half-field. The paraxial stop image lies near 12.96 m; a compact stable real pupil relay is unproved.
+
+Run 015 used four substantial bounded model batches, two materially distinct physical experiments, zero optimizer calls and no plateau. `reference/` remained unread and historical runs were unchanged.
+
+Next recommended action, only after new instruction: one bounded C02-A6F1 backend/manufacturing feasibility run with minimum-powered EO/SWIR cameras, a real pupil relay and dichroic plane, full-field stop images/vignetting, and an f/1 primary/hole fabrication and structure assessment. Park C02 as a family and prioritize C01 if that gate loses the current pupil survival or requires unattractive backend optics. C03 and C04 remain active for later separate C1 runs; C05 remains parked.
 
 ## Preserved historical Track B EO portfolio
 

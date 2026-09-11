@@ -1,0 +1,7 @@
+index,radius_mm,thickness_mm,conic,is_reflective,material_after,is_stop,aperture
+0,inf,inf,0.0,False,IdealMaterial,False,none
+1,inf,364.4614150328436,0.0,False,IdealMaterial,True,"{'type': 'RadialAperture', 'r_max': 157.20954537648598, 'r_min': 38.15038768632224}"
+2,-934.1138373396439,-361.4614150328436,-1.0,True,IdealMaterial,False,"{'type': 'RadialAperture', 'r_max': 157.20954537648598, 'r_min': 18.12066422162228}"
+3,-278.5923925741556,361.4614150328436,-2.6840199185151645,True,IdealMaterial,False,"{'type': 'RadialAperture', 'r_max': 38.15038768632224, 'r_min': 0}"
+4,inf,75.0,0.0,False,IdealMaterial,False,"{'type': 'RadialAperture', 'r_max': 18.12066422162228, 'r_min': 0}"
+5,inf,0.0,0.0,False,IdealMaterial,False,none

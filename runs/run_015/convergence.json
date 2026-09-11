@@ -1,0 +1,41 @@
+{
+  "purpose": "independent denser physical-pupil replay of the three direct seeds and surviving afocal variant",
+  "baseline_sampling": {
+    "radial_equal_area_rings": 48,
+    "azimuth_samples_per_ring": 96,
+    "rays_per_field": 4608
+  },
+  "dense_sampling": {
+    "radial_equal_area_rings": 96,
+    "azimuth_samples_per_ring": 192,
+    "rays_per_field": 18432
+  },
+  "results": [
+    {
+      "variant": "D1_f2p4_b200",
+      "dense_eo_minimum_survival_fraction": 0.15625,
+      "dense_swir_minimum_survival_fraction": 0.8541666666666666,
+      "paraxial_efl_mm": 1930.501930501931
+    },
+    {
+      "variant": "D2_f1p5_b75",
+      "dense_eo_minimum_survival_fraction": 0.6458333333333334,
+      "dense_swir_minimum_survival_fraction": 0.9375,
+      "paraxial_efl_mm": 1930.5019305019312
+    },
+    {
+      "variant": "D3_f1p0_b50",
+      "dense_eo_minimum_survival_fraction": 0.8125,
+      "dense_swir_minimum_survival_fraction": 0.96875,
+      "paraxial_efl_mm": 1930.5019305019377
+    },
+    {
+      "variant": "A6_f1p0",
+      "dense_eo_minimum_survival_fraction": 0.7083333333333334,
+      "dense_swir_minimum_survival_fraction": 0.7349717881944444,
+      "on_axis_output_direction_rms_urad": 3.063746496666968e-10
+    }
+  ],
+  "decision_stability": "PASS; denser sampling does not change the direct-variant ranking or the conditional A6_f1p0 decision",
+  "limitations": "sampling convergence is not a tolerance, diffraction, coating, scatter, polarization, backend image-quality or production-yield result"
+}
