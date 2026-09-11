@@ -298,6 +298,40 @@ Among technically viable candidates, compare engineering trade-offs such as:
 
 Do not invent hard pass/fail thresholds for properties the customer did not specify.
 
+### 10.1 Track C continuous optical/SWaP co-optimization
+
+Track C is a UAV-payload development track. Mass and package volume are
+first-class continuous design objectives alongside optical performance,
+manufacturability and cost. They must influence architecture variables, merit
+choices and stop/branch decisions during development, not be appended only
+after an optically strong prescription has been found.
+
+Every substantive C-series development run must co-track, at a fidelity
+appropriate to its stage:
+
+- largest optic and external aperture;
+- characteristic and folded optical length;
+- approximate bounding-box dimensions and volume;
+- major-optic mass estimate or explicitly defined mass proxy;
+- count and size of large optics;
+- duplicated versus shared optical/mechanical structure;
+- focus or other optical-mechanism count;
+- likely structural, centre-of-gravity and gimbal consequences;
+- optical performance, manufacturability and cost/risk.
+
+Early-run SWaP values may be analytic proxies or envelope ranges, but must state
+their assumptions and exclusions. Later runs should replace them with ray-based
+clear apertures, physical layouts and CAD or supplier evidence when available.
+Do not invent a hard UAV mass or volume limit. Treat lower mass, volume and
+cost as continuous Pareto objectives, and do not accept an optical improvement
+automatically when it causes a material loss in those objectives. Preserve
+earlier variants that remain genuinely non-dominated.
+
+C01 is the practical low-coupling reference/fallback, not an automatic overall
+leader. Shared, compact and cost-conscious C02/C03/C04 variants must be compared
+against it on the complete optical/SWaP/manufacturing trade rather than only on
+nominal image quality or optical maturity.
+
 ---
 
 ## 11. Pareto portfolio

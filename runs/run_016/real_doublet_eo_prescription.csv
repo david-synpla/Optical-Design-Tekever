@@ -1,0 +1,12 @@
+surface,comment,geometry,radius_mm,conic,thickness_mm,interaction,ideal_focal_length_mm,material_post,is_stop
+0,,Plane,inf,,infinity,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b5986740>,False
+1,,Plane,inf,,262.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b5986820>,False
+2,,StandardGeometry,-622.7425582264292,-1.0,-259.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b5986820>,False
+3,,StandardGeometry,-103.79042637107153,-1.0,259.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b5986820>,False
+4,,Plane,inf,,50.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b5986eb0>,False
+5,,Plane,inf,,5.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b59871c0>,True
+6,,StandardGeometry,92.22973477983649,0.0,4.0,RefractiveReflectiveModel,,"Material(name='N-BK7', λ=[0.30µm, 2.50µm])",False
+7,,StandardGeometry,-44.59605160683131,0.0,0.5000006244117722,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b5987310>,False
+8,,StandardGeometry,-44.58765618192536,0.0,3.0,RefractiveReflectiveModel,,"Material(name='N-F2', λ=[0.36µm, 2.50µm])",False
+9,,StandardGeometry,-146.08728649384574,0.0,128.05842142031292,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b577c050>,False
+10,,Plane,inf,,0.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3b577c1a0>,False

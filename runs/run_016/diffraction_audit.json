@@ -1,0 +1,322 @@
+{
+  "status": "authoritative Run 016 diffraction result; supersedes preliminary ScalarFFTPSF entries embedded in metrics.json and convergence.json",
+  "reason": "forward cumulative OPD is sampled directly at the real split stop; this avoids backward reflective-stop ambiguity and retains the correct remote-pupil ray aiming",
+  "rows": [
+    {
+      "channel": "EO",
+      "individual_corner_best_focus_shift_mm": -0.3999999999999999,
+      "baseline": {
+        "field": "corner++",
+        "wavelength_um": 0.55,
+        "pupil_grid": 128,
+        "geometric_transmission_fraction": 0.8723588773257648,
+        "plane_reference_opd_rms_waves": 0.6548568109578672,
+        "best_defocus_removed_opd_rms_waves": 0.02772253098377566,
+        "fitted_radial_opd_coefficient_per_mm": 1.200070653910399e-05,
+        "flat_detector": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.03990465732885582,
+            0.009251836032531718,
+            0.004833746801175946,
+            0.00366237602754903
+          ],
+          "mtf_y": [
+            0.040108871134337996,
+            0.00674353833771443,
+            0.007678787184148292,
+            0.004697568917330492
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.002504556879007586,
+            0.010758902411749684,
+            0.02445339571253583
+          ]
+        },
+        "best_curved_focus": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.7443252935312351,
+            0.5028278177723212,
+            0.2981178437853726,
+            0.1878216519650566
+          ],
+          "mtf_y": [
+            0.7568416795562475,
+            0.5250800054162819,
+            0.32417107380786914,
+            0.21458888277643168
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.33931212112991926,
+            0.7332420947801191,
+            0.830693688926589
+          ]
+        },
+        "matched_obscured_pupil_limit": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.7552299593312246,
+            0.5242936285585178,
+            0.3167564844103026,
+            0.1995152952878445
+          ],
+          "mtf_y": [
+            0.765105015815635,
+            0.5440159963849976,
+            0.34412941708088546,
+            0.229524781006778
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.3492068219354857,
+            0.7494037722577263,
+            0.8387503773164778
+          ]
+        },
+        "method": "forward cumulative OPD at physical split stop; piston/tilt removed, then radial quadratic removed for curved-focus diagnostic"
+      },
+      "dense_replay": {
+        "field": "corner++",
+        "wavelength_um": 0.55,
+        "pupil_grid": 160,
+        "geometric_transmission_fraction": 0.8722891566265061,
+        "plane_reference_opd_rms_waves": 0.6562647211504107,
+        "best_defocus_removed_opd_rms_waves": 0.027784589406535713,
+        "fitted_radial_opd_coefficient_per_mm": 1.2000199143518157e-05,
+        "flat_detector": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.040434312796505695,
+            0.009008810400977766,
+            0.005570871509292482,
+            0.0035645445913136064
+          ],
+          "mtf_y": [
+            0.04070109772408329,
+            0.007133768225871144,
+            0.008371232290469311,
+            0.004500253163362254
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.0025086595065774084,
+            0.01075396507154545,
+            0.02441403899402363
+          ]
+        },
+        "best_curved_focus": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.7446059119325997,
+            0.503403652381419,
+            0.29864950049218014,
+            0.18846828448314867
+          ],
+          "mtf_y": [
+            0.7570850672243844,
+            0.5255849044883094,
+            0.32449801318247956,
+            0.21507702027232004
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.3399035345835163,
+            0.7333462859349023,
+            0.8307781514594547
+          ]
+        },
+        "matched_obscured_pupil_limit": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.755539048112339,
+            0.5249713397790055,
+            0.3174071132596685,
+            0.2003009342161602
+          ],
+          "mtf_y": [
+            0.7653667702578268,
+            0.5446141804788215,
+            0.3445315377532229,
+            0.2301662608494474
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.3498598253605625,
+            0.7495600873137862,
+            0.8388298044271915
+          ]
+        },
+        "method": "forward cumulative OPD at physical split stop; piston/tilt removed, then radial quadratic removed for curved-focus diagnostic"
+      },
+      "max_mtf_or_ee_change": 0.0007856389283156795,
+      "scope": "common-front wavefront at the actual split stop; best-curved-focus result is diagnostic, not a realizable flat detector"
+    },
+    {
+      "channel": "SWIR",
+      "individual_corner_best_focus_shift_mm": -0.5333333333333332,
+      "baseline": {
+        "field": "corner++",
+        "wavelength_um": 1.2,
+        "pupil_grid": 128,
+        "geometric_transmission_fraction": 0.7323399558498896,
+        "plane_reference_opd_rms_waves": 0.33019775839077775,
+        "best_defocus_removed_opd_rms_waves": 0.0032484157815669446,
+        "fitted_radial_opd_coefficient_per_mm": 2.6434039291177555e-06,
+        "flat_detector": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.10748868040822321,
+            0.01884147848485548
+          ],
+          "mtf_y": [
+            0.1163445282708449,
+            0.014435041767485536
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.008379192380108584,
+            0.07163366582210443,
+            0.1748022576159627
+          ]
+        },
+        "best_curved_focus": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.6503136493965793,
+            0.41193539020230735
+          ],
+          "mtf_y": [
+            0.6595323061399319,
+            0.42325137159849646
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.573190278372059,
+            0.7454912467428887,
+            0.857768254381811
+          ]
+        },
+        "matched_obscured_pupil_limit": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.6504881042092797,
+            0.4122045430078588
+          ],
+          "mtf_y": [
+            0.659691247712348,
+            0.42350565184626976
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.5734013683873954,
+            0.7456042359856887,
+            0.857822283177144
+          ]
+        },
+        "method": "forward cumulative OPD at physical split stop; piston/tilt removed, then radial quadratic removed for curved-focus diagnostic"
+      },
+      "dense_replay": {
+        "field": "corner++",
+        "wavelength_um": 1.2,
+        "pupil_grid": 160,
+        "geometric_transmission_fraction": 0.7319277108433735,
+        "plane_reference_opd_rms_waves": 0.3306134314804123,
+        "best_defocus_removed_opd_rms_waves": 0.0032543713887196045,
+        "fitted_radial_opd_coefficient_per_mm": 2.6434249888655597e-06,
+        "flat_detector": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.10801086768347842,
+            0.018369730221532016
+          ],
+          "mtf_y": [
+            0.11664310657112904,
+            0.014479804253177592
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.008395264716816637,
+            0.07126780944862598,
+            0.17402541960683737
+          ]
+        },
+        "best_curved_focus": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.6505320724779189,
+            0.4126678280210697
+          ],
+          "mtf_y": [
+            0.6597877968187823,
+            0.4228852181219899
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.57359914588345,
+            0.7452112368509387,
+            0.8577576778168065
+          ]
+        },
+        "matched_obscured_pupil_limit": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.6507069958847738,
+            0.4129385459533608
+          ],
+          "mtf_y": [
+            0.6599471879286696,
+            0.42314019204389575
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.5738111059834659,
+            0.7453244035218257,
+            0.8578119079448744
+          ]
+        },
+        "method": "forward cumulative OPD at physical split stop; piston/tilt removed, then radial quadratic removed for curved-focus diagnostic"
+      },
+      "max_mtf_or_ee_change": 0.0007768380091253135,
+      "scope": "common-front wavefront at the actual split stop; best-curved-focus result is diagnostic, not a realizable flat detector"
+    }
+  ]
+}

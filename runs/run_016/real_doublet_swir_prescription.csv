@@ -1,0 +1,12 @@
+surface,comment,geometry,radius_mm,conic,thickness_mm,interaction,ideal_focal_length_mm,material_post,is_stop
+0,,Plane,inf,,infinity,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42f310>,False
+1,,Plane,inf,,262.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42edd0>,False
+2,,StandardGeometry,-622.7425582264292,-1.0,-259.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42edd0>,False
+3,,StandardGeometry,-103.79042637107153,-1.0,259.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42edd0>,False
+4,,Plane,inf,,50.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42d630>,False
+5,,Plane,inf,,5.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42dbe0>,True
+6,,StandardGeometry,168.03290929718725,0.0,7.0,RefractiveReflectiveModel,,"Material(name='fused_silica', λ=[0.21µm, 6.70µm])",False
+7,,StandardGeometry,82.18918912990735,0.0,0.5000951604537192,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb493d20>,False
+8,,StandardGeometry,85.05022649448186,0.0,6.0,RefractiveReflectiveModel,,"Material(name='LITHOTEC-CAF2', λ=[0.25µm, 2.50µm])",False
+9,,StandardGeometry,-491.69533347862546,0.0,314.04143188534175,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42ca60>,False
+10,,Plane,inf,,0.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x76f3bb42ce50>,False

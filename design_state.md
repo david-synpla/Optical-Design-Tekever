@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
-Stage: C0 COMPLETE; Stage C1 Run 015 physically screened C02, parked its direct shared-imaging form, and retained one conditional afocal derivative; no detailed backend optimization has started
+Stage: C0 COMPLETE; Stage C1 Run 016 closed the bounded C02 A6F1 feasibility gate, retained its common front conditionally, parked minimum doublet backends, and prioritizes C01 next
 Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
 Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
 Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
@@ -11,13 +11,15 @@ Contamination state: `reference/` remains unread. The known TEKEVER/team prescri
 
 | ID | System architecture | Lifecycle status | Main strength | Main C1 risk/gate |
 |---|---|---|---|---|
-| C01 | Separate integrated EO and SWIR telescopes | ACTIVE — recommend C1 | Natural channel pupils/EFLs, no splitter, strongest EO reuse | Fresh SWIR seed; widest front face; duplicated datums/focusers; boresight drift and 800 m parallax |
-| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | ACTIVE only through conditional C02-A6F1; direct form PARKED | Collimated common-LOS split remains possible in the 6x afocal derivative | 313 mm f/1 primary, 69.6 mm hole, 26–29% geometric pupil loss and unproved real backends/pupil relay |
+| C01 | Separate integrated EO and SWIR telescopes | ACTIVE — practical reference/fallback; next C1 comparator, not overall leader | Natural channel pupils/EFLs, no splitter, strongest EO reuse | Fresh SWIR seed; widest front face; duplicated datums/focusers; boresight drift and 800 m parallax |
+| C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | CONDITIONAL ACTIVE through C02-A6F1; direct form and two-element backends PARKED | Curved-field common front is near its matched obscured-pupil diffraction limit; common-LOS split needs no demonstrated dedicated relay | 313 mm f/1 annular primary, 26–29% geometric pupil loss and at least triplet-like flat-field cameras; compare C01 before more C02 work |
 | C03 | Common off-axis afocal/TMA front end plus modular relays | ACTIVE — recommend C1 | Unobscured common LOS and modular high-performance potential | Highest conventional off-axis alignment/metrology/NRE; prove minimum-complexity seed and clearance |
 | C04 | Cost/COTS-maximized dual-channel branch | ACTIVE — recommend C1 economic lane | Lowest procurement/NRE hypothesis; B09 process reuse | 300/305 mm donors miss exact SWIR f/6.2; verify >=311.371 mm clear donor, coatings, substrates and qualification economics |
 | C05 | Compact folded/freeform shared architecture | PARKED after C0 | Distinct aggressive volume-compression hypothesis | Reopen only if C01-C04 packaging is unattractive or supplier evidence lowers freeform/metrology risk |
 
-No Track C prescription has been optimized or frozen, and no candidate is rejected. Run 014 is an analytic first-order/SWaP screen; its package ranges and ordinal risk classes are engineering hypotheses, not customer requirements, CAD results or quotations.
+No Track C candidate has been frozen or selected. Run 016 used two bounded minimum-backend feasibility solves, not detailed candidate optimization; its physical doublets are parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
+
+Persistent Track C governance: because this is a UAV payload, every substantive C-series run co-optimizes and reports optical performance together with largest aperture/optic, optical and folded length, bounding box/volume, major-optic mass proxy, large-optic count, shared/duplicated structure, mechanism count, structural/gimbal consequences and manufacturing/cost. SWaP is continuous Pareto evidence; no unsupplied hard mass or volume limit may be invented. C01 is the practical comparator/fallback, not the presumed overall leader.
 
 ## Latest Track C evidence — Run 014
 
@@ -46,6 +48,22 @@ The coaxial afocal sweep also shows coupling: compression shrinks the secondary 
 Run 015 used four substantial bounded model batches, two materially distinct physical experiments, zero optimizer calls and no plateau. `reference/` remained unread and historical runs were unchanged.
 
 Next recommended action, only after new instruction: one bounded C02-A6F1 backend/manufacturing feasibility run with minimum-powered EO/SWIR cameras, a real pupil relay and dichroic plane, full-field stop images/vignetting, and an f/1 primary/hole fabrication and structure assessment. Park C02 as a family and prioritize C01 if that gate loses the current pupil survival or requires unattractive backend optics. C03 and C04 remain active for later separate C1 runs; C05 remains parked.
+
+## Latest C02 evidence — Run 016
+
+Perfect paraxial cameras isolate the A6F1 common front. On flat detector planes its corner RMS radius is 21.319 um EO and 28.196 um SWIR, but individual corner refocus of -0.400/-0.533 mm collapses this to 0.277/0.420 um. Forward split-pupil OPD confirms the mechanism: 0.656/0.331 waves RMS at the flat EO-550 nm/SWIR-1.2 um references becomes 0.0278/0.00325 waves after radial quadratic removal. Best-curved-focus MTF is close to the same traced obscured-pupil limit. The inferred focal-surface radius is about 60.5/63.0 mm. A6F1 is therefore not rejected for structural off-axis coma/astigmatism; backend field flattening is the real gate.
+
+The actual split pupils remain field dependent. Maximum centroid walk is 1.484 mm EO and 4.223 mm SWIR; maximum RMS-ellipse axis ratio is 1.212/1.177. Minimum full-field geometric survival is 70.83/73.31%. A physical camera can sit directly at the collimated split without additional pupil loss, so a dedicated pupil relay is not yet mandatory despite the approximately 12.96 m paraxial stop image.
+
+One air-spaced spherical doublet per channel was the minimum physical backend test. It reached 793.778/1930.489 mm EFL, f/6.1967/f/6.2000 and 70.0%/73.13% minimum survival, but retained 33.93/37.47 um worst three-wave, nine-field RMS radius. Both doublets are PARKED after 27/43 evaluations; no rescue attempts were spent. Any return to C02 should add one justified field-flattening/achromatization degree of freedom rather than repeat doublet optimization.
+
+The f/1 primary is feasible in principle but materially burdensome as implemented: 313.50 mm clear diameter, 19.73 mm edge sag, 14.13 degree edge slope, 69.58 mm central hole and 121.96 mm radial annular clear width. Blank/hole process, annular support/print-through, full-aperture null or sub-aperture metrology, broadband coating, dichroic, spider, thermal focus and tolerances remain unproved; no mass, cost or yield claim is made.
+
+Run 016's explicit SWaP proxies prevent the optical result from being treated as a win by itself. The straight sequential lower-bound envelope is about 313.5 x 313.5 x 645.0 mm (63.39 L) before cells, baffles, dichroic branch clearance, electronics and gimbal margin. Under the unchanged Run 014 solid-blank proxy (thickness/diameter 0.10, density 2.2 g/cm3), the annular primary plus secondary are about 5.09 kg; this is not payload mass and may change materially with substrate/support/lightweighting. The current model has one optic over 100 mm, a 56.25 mm secondary, approximately 62.3 mm SWIR camera elements and approximately 27.6 mm EO camera elements, one splitter and two focus mechanisms. A folded dichroic layout is needed to reduce the roughly 645 mm inertia arm, and its bounding box has not been proved.
+
+Run 016 used four substantial bounded batches, two optimization attempts totaling 70 evaluations, no plateau and about 109.44 s recorded model-kernel wall time plus imports/reporting. `reference/` remained unread and historical runs were unchanged. The authoritative diffraction result is `runs/run_016/diffraction_audit.json`; it supersedes preliminary downstream-stop FFT entries retained inside `metrics.json`/`convergence.json` for audit history.
+
+Next recommended action, only after new instruction: execute the bounded C01 C1 investigation using preserved B05 EO evidence and a fresh independent SWIR seed, with co-boresight/parallax, package and focus/thermal interfaces. This supplies the low-coupling comparator before deciding whether C02's common LOS justifies triplet-like channel backends and the f/1 annular primary. C03 and C04 remain active later branches; C05 remains parked.
 
 ## Preserved historical Track B EO portfolio
 

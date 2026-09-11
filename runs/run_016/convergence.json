@@ -1,0 +1,120 @@
+{
+  "purpose": "independent denser corner diffraction replay",
+  "rows": [
+    {
+      "channel": "EO",
+      "baseline_grid": 128,
+      "replay_grid": 160,
+      "max_mtf_or_ee_change": 0.0005208510679410305,
+      "replay": {
+        "field": "corner++",
+        "wavelength_um": 0.55,
+        "pupil_grid": 160,
+        "transmitted_grid_fraction": 0.872431506849315,
+        "opd_rms_waves": 1.0736497375482952,
+        "actual": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.11902427755420047,
+            0.038114756232755884,
+            0.010319574265978737,
+            0.004250477747597876
+          ],
+          "mtf_y": [
+            0.05016766169132526,
+            0.01606483540928052,
+            0.0074985714471040394,
+            0.004818729621295163
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.002536552028686553,
+            0.01067519658004943,
+            0.023886966848436934
+          ]
+        },
+        "matched_obscured_pupil_limit": {
+          "mtf_frequencies_lpmm": [
+            50.0,
+            100.0,
+            150.0,
+            182.482
+          ],
+          "mtf_x": [
+            0.7553683830745253,
+            0.524210702534203,
+            0.31637675344917165,
+            0.19918195652831497
+          ],
+          "mtf_y": [
+            0.7653993534607169,
+            0.5441445477111355,
+            0.34381507244703574,
+            0.229423821745656
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.3490323825610814,
+            0.7489325203509063,
+            0.8386897227900272
+          ]
+        }
+      }
+    },
+    {
+      "channel": "SWIR",
+      "baseline_grid": 128,
+      "replay_grid": 160,
+      "max_mtf_or_ee_change": 0.0010102643786513987,
+      "replay": {
+        "field": "corner++",
+        "wavelength_um": 1.2,
+        "pupil_grid": 160,
+        "transmitted_grid_fraction": 0.7319701853344077,
+        "opd_rms_waves": 0.45022879543970373,
+        "actual": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.13766717309706164,
+            0.05696394208505562
+          ],
+          "mtf_y": [
+            0.09043677660436564,
+            0.018098145821106703
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.08608168344359945,
+            0.20414096105692034,
+            0.3095378042369824
+          ]
+        },
+        "matched_obscured_pupil_limit": {
+          "mtf_frequencies_lpmm": [
+            25.0,
+            50.0
+          ],
+          "mtf_x": [
+            0.6507023531030687,
+            0.41251520572450806
+          ],
+          "mtf_y": [
+            0.6595984587862942,
+            0.42234649786707035
+          ],
+          "ensquared_energy_1_2_3_pixels": [
+            0.5729248325669283,
+            0.7448874738444387,
+            0.8571794277997651
+          ]
+        }
+      }
+    }
+  ],
+  "decision_stability": "PRELIMINARY FFT METHOD SUPERSEDED; use diffraction_audit.json forward split-stop OPD replay for ranking"
+}

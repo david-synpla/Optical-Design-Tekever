@@ -1,0 +1,38 @@
+{
+  "track": "C",
+  "run_id": "016",
+  "candidate_ids": [
+    "C02"
+  ],
+  "parent_run": "run_015",
+  "purpose": "test whether A6_f1p0 common-front image, pupil and diffraction evidence justifies realistic backend development",
+  "development_stage": "C1 low-cost numerical architecture screening",
+  "start_time_utc": "2026-09-11T15:10:20.159687+00:00",
+  "end_time_utc": "2026-09-11T15:21:46.402026+00:00",
+  "script_wall_seconds": 109.43531018200001,
+  "substantial_computational_search_count": 4,
+  "searches": [
+    "full-field two-channel perfect-backend common-front trace and diffraction evaluation",
+    "bounded per-field best-focus sweep separating field curvature from residual aberration",
+    "one bounded EO two-spherical-element physical backend solve",
+    "one bounded SWIR two-spherical-element physical backend solve"
+  ],
+  "materially_distinct_physical_model_experiments": 3,
+  "optimization_attempt_count": 2,
+  "plateau_counter": 0,
+  "plateau_status": "not plateaued; minimum doublets failed the feasibility gate and no repeated rescue attempts were made",
+  "optimization_evaluations": {
+    "EO_doublet_nfev": 27,
+    "SWIR_doublet_nfev": 43
+  },
+  "candidate_decision": {
+    "C02_A6F1_common_front": "RETAINED as a conditional optical seed",
+    "two_element_physical_backends": "PARKED as insufficient",
+    "C02_family": "CONDITIONALLY ACTIVE but not selected; compare C01 next before authorizing a three-element backend"
+  },
+  "human_interventions": [
+    "User supplied targeted Mersenne field/pupil literature findings and requested the ideal-backend falsification gate.",
+    "User required mass and volume to become continuous co-optimization objectives in every substantive Track C run and clarified that C01 is a practical comparator, not the presumed leader."
+  ],
+  "contamination_control": "reference/ not accessed"
+}

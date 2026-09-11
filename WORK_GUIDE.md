@@ -55,6 +55,11 @@
     - request additional budget rather than silently extending a run indefinitely.
 
 13. Optical performance is not the only objective. Treat manufacturability, robustness, complexity, engineering risk, packaging and expected cost as design considerations throughout the process.
+    - for every substantive Track C run, treat mass and package volume as continuous optical-design objectives, not a post-prescription review;
+    - co-track largest optic/external aperture, characteristic or folded length, bounding-box dimensions/volume, major-optic mass proxy, large-optic count/sizes, duplicated/shared structure, focus/mechanism count, structural/gimbal consequences, optical performance and manufacturing/cost;
+    - label assumptions and exclusions; do not invent hard UAV mass or volume limits;
+    - use Pareto reasoning during optimization and preserve earlier non-dominated variants when optical improvement costs material SWaP or economics;
+    - treat C01 as the practical reference/fallback for Track C comparisons, not as the automatic overall leader.
 
 14. Prefer compact decision-oriented outputs over long prose. Keep detailed numerical data in files.
 

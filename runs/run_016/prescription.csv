@@ -1,0 +1,9 @@
+surface,comment,geometry,radius_mm,conic,thickness_mm,interaction,ideal_focal_length_mm,material_post,is_stop
+0,,Plane,inf,,infinity,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e59610f30>,False
+1,,Plane,inf,,262.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e596a0d70>,False
+2,,StandardGeometry,-622.7425582264292,-1.0,-259.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e596a0d70>,False
+3,,StandardGeometry,-103.79042637107153,-1.0,259.47606592767886,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e596a0d70>,False
+4,,Plane,inf,,50.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e596a24a0>,False
+5,,Plane,inf,,0.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e596a25f0>,True
+6,,Plane,inf,,132.36714975845413,ThinLensInteractionModel,132.36714975845413,<optiland.materials.ideal.IdealMaterial object at 0x721e596a2510>,False
+7,,Plane,inf,,0.0,RefractiveReflectiveModel,,<optiland.materials.ideal.IdealMaterial object at 0x721e596a2740>,False

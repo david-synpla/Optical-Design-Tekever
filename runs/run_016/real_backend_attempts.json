@@ -1,0 +1,773 @@
+{
+  "attempts": [
+    {
+      "channel": "EO",
+      "model": "two air-spaced spherical elements",
+      "initial": {
+        "parameters": [
+          0.010896266142616505,
+          -0.005084924199887702,
+          -0.003632088714205502,
+          0.001816044357102751,
+          2.0,
+          132.36714975845413
+        ],
+        "parameter_names": [
+          "c1_per_mm",
+          "c2_per_mm",
+          "c3_per_mm",
+          "c4_per_mm",
+          "air_gap_mm",
+          "image_distance_mm"
+        ],
+        "materials": [
+          "N-BK7",
+          "N-F2"
+        ],
+        "paraxial": {
+          "entrance_pupil_location_mm": 12960.470834890239,
+          "entrance_pupil_diameter_mm": 128.09724170172979,
+          "exit_pupil_location_mm": -143.78857370963144,
+          "exit_pupil_diameter_mm": 21.652483671282646,
+          "effective_focal_length_mm": 1207.5152159141535
+        },
+        "effective_focal_length_mm": 1207.5152159141535,
+        "f_number_from_entrance_pupil": 9.426551265840782,
+        "rows": [
+          {
+            "field": "center",
+            "centroid_mm": [
+              -1.24591694985712e-15,
+              -5.335238423893113e-16
+            ],
+            "rms_radius_um_by_wavelength": [
+              2461.470976002065,
+              2505.5358296719983,
+              2558.295454838174
+            ],
+            "survival_by_wavelength": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "field": "+x",
+            "centroid_mm": [
+              6.044412477423877,
+              4.3938985313207254e-16
+            ],
+            "rms_radius_um_by_wavelength": [
+              2137.8107360269373,
+              2176.6547423952834,
+              2223.149605328935
+            ],
+            "survival_by_wavelength": [
+              0.984375,
+              0.984375,
+              0.984375
+            ]
+          },
+          {
+            "field": "-x",
+            "centroid_mm": [
+              -6.044412477423876,
+              -1.5648857870906968e-15
+            ],
+            "rms_radius_um_by_wavelength": [
+              2137.810736026934,
+              2176.65474239528,
+              2223.1496053289316
+            ],
+            "survival_by_wavelength": [
+              0.984375,
+              0.984375,
+              0.984375
+            ]
+          },
+          {
+            "field": "+y",
+            "centroid_mm": [
+              1.0081335510964064e-15,
+              4.188106476066632
+            ],
+            "rms_radius_um_by_wavelength": [
+              2135.2033004005557,
+              2173.6983916872746,
+              2219.793442910864
+            ],
+            "survival_by_wavelength": [
+              0.90625,
+              0.90625,
+              0.90625
+            ]
+          },
+          {
+            "field": "-y",
+            "centroid_mm": [
+              -1.4879540766815317e-15,
+              -4.188106476066629
+            ],
+            "rms_radius_um_by_wavelength": [
+              2135.2033004005602,
+              2173.698391687279,
+              2219.793442910868
+            ],
+            "survival_by_wavelength": [
+              0.90625,
+              0.90625,
+              0.90625
+            ]
+          },
+          {
+            "field": "corner++",
+            "centroid_mm": [
+              6.41928842875317,
+              4.702460825745557
+            ],
+            "rms_radius_um_by_wavelength": [
+              2007.1036745596182,
+              2043.8657929559736,
+              2087.8925126799127
+            ],
+            "survival_by_wavelength": [
+              0.8671875,
+              0.8671875,
+              0.8671875
+            ]
+          },
+          {
+            "field": "corner+-",
+            "centroid_mm": [
+              6.419288428753164,
+              -4.7024608257455505
+            ],
+            "rms_radius_um_by_wavelength": [
+              2007.1036745596261,
+              2043.865792955982,
+              2087.8925126799218
+            ],
+            "survival_by_wavelength": [
+              0.8671875,
+              0.8671875,
+              0.8671875
+            ]
+          },
+          {
+            "field": "corner-+",
+            "centroid_mm": [
+              -6.419288428753165,
+              4.702460825745557
+            ],
+            "rms_radius_um_by_wavelength": [
+              2007.1036745596227,
+              2043.865792955979,
+              2087.8925126799186
+            ],
+            "survival_by_wavelength": [
+              0.8671875,
+              0.8671875,
+              0.8671875
+            ]
+          },
+          {
+            "field": "corner--",
+            "centroid_mm": [
+              -6.419288428753167,
+              -4.702460825745554
+            ],
+            "rms_radius_um_by_wavelength": [
+              2007.103674559624,
+              2043.8657929559797,
+              2087.8925126799195
+            ],
+            "survival_by_wavelength": [
+              0.8671875,
+              0.8671875,
+              0.8671875
+            ]
+          }
+        ],
+        "worst_rms_radius_um": 2558.295454838174,
+        "minimum_survival": 0.75
+      },
+      "final": {
+        "parameters": [
+          0.010842490248802305,
+          -0.022423509794459427,
+          -0.02242773192472434,
+          -0.006845222633676116,
+          0.5000006244117722,
+          128.05842142031292
+        ],
+        "parameter_names": [
+          "c1_per_mm",
+          "c2_per_mm",
+          "c3_per_mm",
+          "c4_per_mm",
+          "air_gap_mm",
+          "image_distance_mm"
+        ],
+        "materials": [
+          "N-BK7",
+          "N-F2"
+        ],
+        "paraxial": {
+          "entrance_pupil_location_mm": 12960.470834890239,
+          "entrance_pupil_diameter_mm": 128.09724170172979,
+          "exit_pupil_location_mm": -138.37632338526655,
+          "exit_pupil_diameter_mm": 22.381379261912645,
+          "effective_focal_length_mm": 793.7775654237765
+        },
+        "effective_focal_length_mm": 793.7775654237765,
+        "f_number_from_entrance_pupil": 6.1966796074505766,
+        "rows": [
+          {
+            "field": "center",
+            "centroid_mm": [
+              -3.6412671819551265e-17,
+              -7.996249165454996e-18
+            ],
+            "rms_radius_um_by_wavelength": [
+              30.41632078471017,
+              10.531848727795468,
+              33.28902976036259
+            ],
+            "survival_by_wavelength": [
+              0.7,
+              0.7,
+              0.7
+            ]
+          },
+          {
+            "field": "+x",
+            "centroid_mm": [
+              5.636715587981031,
+              -2.011807198534191e-16
+            ],
+            "rms_radius_um_by_wavelength": [
+              11.391287442758186,
+              24.76554396045791,
+              11.184372370900588
+            ],
+            "survival_by_wavelength": [
+              0.98,
+              0.98,
+              0.98
+            ]
+          },
+          {
+            "field": "-x",
+            "centroid_mm": [
+              -5.636715587981033,
+              -1.158417655073383e-15
+            ],
+            "rms_radius_um_by_wavelength": [
+              11.391287442756669,
+              24.765543960455624,
+              11.184372370898458
+            ],
+            "survival_by_wavelength": [
+              0.98,
+              0.98,
+              0.98
+            ]
+          },
+          {
+            "field": "+y",
+            "centroid_mm": [
+              4.9999686930440084e-17,
+              4.116917734380698
+            ],
+            "rms_radius_um_by_wavelength": [
+              10.946886079266333,
+              11.163230740372205,
+              14.274044023688951
+            ],
+            "survival_by_wavelength": [
+              0.875,
+              0.875,
+              0.875
+            ]
+          },
+          {
+            "field": "-y",
+            "centroid_mm": [
+              -3.737618680163667e-16,
+              -4.116917734380697
+            ],
+            "rms_radius_um_by_wavelength": [
+              10.946886079265814,
+              11.163230740372507,
+              14.274044023688283
+            ],
+            "survival_by_wavelength": [
+              0.875,
+              0.875,
+              0.875
+            ]
+          },
+          {
+            "field": "corner++",
+            "centroid_mm": [
+              5.646508346644813,
+              4.13563767186699
+            ],
+            "rms_radius_um_by_wavelength": [
+              19.400708738040493,
+              33.93389492787633,
+              16.34500889323431
+            ],
+            "survival_by_wavelength": [
+              0.87125,
+              0.87125,
+              0.87125
+            ]
+          },
+          {
+            "field": "corner+-",
+            "centroid_mm": [
+              5.646508346644806,
+              -4.13563767186699
+            ],
+            "rms_radius_um_by_wavelength": [
+              19.400708738037306,
+              33.93389492787179,
+              16.34500889323103
+            ],
+            "survival_by_wavelength": [
+              0.87125,
+              0.87125,
+              0.87125
+            ]
+          },
+          {
+            "field": "corner-+",
+            "centroid_mm": [
+              -5.646508346644811,
+              4.135637671866986
+            ],
+            "rms_radius_um_by_wavelength": [
+              19.400708738036595,
+              33.933894927872856,
+              16.34500889323038
+            ],
+            "survival_by_wavelength": [
+              0.87125,
+              0.87125,
+              0.87125
+            ]
+          },
+          {
+            "field": "corner--",
+            "centroid_mm": [
+              -5.6465083466448105,
+              -4.13563767186699
+            ],
+            "rms_radius_um_by_wavelength": [
+              19.40070873803621,
+              33.93389492787208,
+              16.345008893229497
+            ],
+            "survival_by_wavelength": [
+              0.87125,
+              0.87125,
+              0.87125
+            ]
+          }
+        ],
+        "worst_rms_radius_um": 33.93389492787633,
+        "minimum_survival": 0.7
+      },
+      "nfev": 27,
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "attempt_interpretation": "bounded minimum-complexity feasibility attempt, not a converged production prescription"
+    },
+    {
+      "channel": "SWIR",
+      "model": "two air-spaced spherical elements",
+      "initial": {
+        "parameters": [
+          0.004482692307692307,
+          -0.0020919230769230763,
+          -0.001494230769230769,
+          0.0007471153846153845,
+          3.0,
+          321.7503217503218
+        ],
+        "parameter_names": [
+          "c1_per_mm",
+          "c2_per_mm",
+          "c3_per_mm",
+          "c4_per_mm",
+          "air_gap_mm",
+          "image_distance_mm"
+        ],
+        "materials": [
+          "fused_silica",
+          "LITHOTEC-CAF2"
+        ],
+        "paraxial": {
+          "entrance_pupil_location_mm": 12960.470834890239,
+          "entrance_pupil_diameter_mm": 311.3712791132146,
+          "exit_pupil_location_mm": -338.730655222142,
+          "exit_pupil_diameter_mm": 52.19187448748656,
+          "effective_focal_length_mm": 3001.7639443051753
+        },
+        "effective_focal_length_mm": 3001.7639443051753,
+        "f_number_from_entrance_pupil": 9.6404650835305,
+        "rows": [
+          {
+            "field": "center",
+            "centroid_mm": [
+              3.099372610411895e-16,
+              -9.767649652066742e-15
+            ],
+            "rms_radius_um_by_wavelength": [
+              5807.5318307847065,
+              5981.964373184553,
+              6232.258384556006
+            ],
+            "survival_by_wavelength": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "field": "+x",
+            "centroid_mm": [
+              7.810211138380224,
+              1.1673625029591979e-14
+            ],
+            "rms_radius_um_by_wavelength": [
+              5424.686581525381,
+              5588.039969994355,
+              5822.790374706657
+            ],
+            "survival_by_wavelength": [
+              0.78125,
+              0.78125,
+              0.78125
+            ]
+          },
+          {
+            "field": "-x",
+            "centroid_mm": [
+              -7.810211138380239,
+              -9.81141094295405e-15
+            ],
+            "rms_radius_um_by_wavelength": [
+              5424.686581525346,
+              5588.039969994318,
+              5822.790374706621
+            ],
+            "survival_by_wavelength": [
+              0.78125,
+              0.78125,
+              0.78125
+            ]
+          },
+          {
+            "field": "+y",
+            "centroid_mm": [
+              2.1179639239002986e-15,
+              6.27449200949026
+            ],
+            "rms_radius_um_by_wavelength": [
+              5522.6640877148,
+              5688.743129356741,
+              5927.28719453775
+            ],
+            "survival_by_wavelength": [
+              0.8125,
+              0.8125,
+              0.8125
+            ]
+          },
+          {
+            "field": "-y",
+            "centroid_mm": [
+              3.649502352742181e-15,
+              -6.274492009490252
+            ],
+            "rms_radius_um_by_wavelength": [
+              5522.664087714794,
+              5688.743129356733,
+              5927.287194537742
+            ],
+            "survival_by_wavelength": [
+              0.8125,
+              0.8125,
+              0.8125
+            ]
+          },
+          {
+            "field": "corner++",
+            "centroid_mm": [
+              7.731116444121207,
+              6.239693609287879
+            ],
+            "rms_radius_um_by_wavelength": [
+              5313.599510742987,
+              5474.013990369859,
+              5704.730445300392
+            ],
+            "survival_by_wavelength": [
+              0.734375,
+              0.734375,
+              0.734375
+            ]
+          },
+          {
+            "field": "corner+-",
+            "centroid_mm": [
+              7.731116444121192,
+              -6.23969360928787
+            ],
+            "rms_radius_um_by_wavelength": [
+              5313.59951074301,
+              5474.013990369884,
+              5704.7304453004135
+            ],
+            "survival_by_wavelength": [
+              0.734375,
+              0.734375,
+              0.734375
+            ]
+          },
+          {
+            "field": "corner-+",
+            "centroid_mm": [
+              -7.731116444121205,
+              6.23969360928787
+            ],
+            "rms_radius_um_by_wavelength": [
+              5313.59951074304,
+              5474.013990369914,
+              5704.730445300445
+            ],
+            "survival_by_wavelength": [
+              0.734375,
+              0.734375,
+              0.734375
+            ]
+          },
+          {
+            "field": "corner--",
+            "centroid_mm": [
+              -7.731116444121202,
+              -6.2396936092878885
+            ],
+            "rms_radius_um_by_wavelength": [
+              5313.5995107430035,
+              5474.013990369877,
+              5704.730445300407
+            ],
+            "survival_by_wavelength": [
+              0.734375,
+              0.734375,
+              0.734375
+            ]
+          }
+        ],
+        "worst_rms_radius_um": 6232.258384556006,
+        "minimum_survival": 0.734375
+      },
+      "final": {
+        "parameters": [
+          0.0059512151767328785,
+          0.012167050321173151,
+          0.011757758223781813,
+          -0.002033779724784537,
+          0.5000951604537192,
+          314.04143188534175
+        ],
+        "parameter_names": [
+          "c1_per_mm",
+          "c2_per_mm",
+          "c3_per_mm",
+          "c4_per_mm",
+          "air_gap_mm",
+          "image_distance_mm"
+        ],
+        "materials": [
+          "fused_silica",
+          "LITHOTEC-CAF2"
+        ],
+        "paraxial": {
+          "entrance_pupil_location_mm": 12960.470834890239,
+          "entrance_pupil_diameter_mm": 311.3712791132146,
+          "exit_pupil_location_mm": -328.84491893041275,
+          "exit_pupil_diameter_mm": 53.19232861617398,
+          "effective_focal_length_mm": 1930.4892970873457
+        },
+        "effective_focal_length_mm": 1930.4892970873457,
+        "f_number_from_entrance_pupil": 6.199959426525719,
+        "rows": [
+          {
+            "field": "center",
+            "centroid_mm": [
+              -3.0224847965573724e-15,
+              9.159339953157541e-17
+            ],
+            "rms_radius_um_by_wavelength": [
+              3.738111759758646,
+              37.47434419706621,
+              10.030809820272705
+            ],
+            "survival_by_wavelength": [
+              0.95,
+              0.95,
+              0.95
+            ]
+          },
+          {
+            "field": "+x",
+            "centroid_mm": [
+              6.397412685693288,
+              -7.383574286826846e-15
+            ],
+            "rms_radius_um_by_wavelength": [
+              20.74276765654391,
+              16.858400979341948,
+              15.014639601400358
+            ],
+            "survival_by_wavelength": [
+              0.7825,
+              0.7825,
+              0.7825
+            ]
+          },
+          {
+            "field": "-x",
+            "centroid_mm": [
+              -6.39741268569328,
+              -1.3064924837175697e-15
+            ],
+            "rms_radius_um_by_wavelength": [
+              20.742767656544455,
+              16.858400979338594,
+              15.014639601401678
+            ],
+            "survival_by_wavelength": [
+              0.7825,
+              0.7825,
+              0.7825
+            ]
+          },
+          {
+            "field": "+y",
+            "centroid_mm": [
+              1.1784767662975365e-15,
+              5.117423503712483
+            ],
+            "rms_radius_um_by_wavelength": [
+              13.881047538017743,
+              23.482012990853857,
+              9.271874633915248
+            ],
+            "survival_by_wavelength": [
+              0.815,
+              0.815,
+              0.815
+            ]
+          },
+          {
+            "field": "-y",
+            "centroid_mm": [
+              1.1819391182659482e-15,
+              -5.11742350371248
+            ],
+            "rms_radius_um_by_wavelength": [
+              13.881047538020416,
+              23.48201299085072,
+              9.271874633914432
+            ],
+            "survival_by_wavelength": [
+              0.815,
+              0.815,
+              0.815
+            ]
+          },
+          {
+            "field": "corner++",
+            "centroid_mm": [
+              6.398640196833342,
+              5.118941903519805
+            ],
+            "rms_radius_um_by_wavelength": [
+              32.726210695645364,
+              10.410438067869466,
+              26.7568495054571
+            ],
+            "survival_by_wavelength": [
+              0.73125,
+              0.73125,
+              0.73125
+            ]
+          },
+          {
+            "field": "corner+-",
+            "centroid_mm": [
+              6.398640196833332,
+              -5.118941903519809
+            ],
+            "rms_radius_um_by_wavelength": [
+              32.72621069563547,
+              10.410438067875642,
+              26.75684950544738
+            ],
+            "survival_by_wavelength": [
+              0.73125,
+              0.73125,
+              0.73125
+            ]
+          },
+          {
+            "field": "corner-+",
+            "centroid_mm": [
+              -6.398640196833323,
+              5.118941903519805
+            ],
+            "rms_radius_um_by_wavelength": [
+              32.72621069563696,
+              10.410438067873983,
+              26.756849505449807
+            ],
+            "survival_by_wavelength": [
+              0.73125,
+              0.73125,
+              0.73125
+            ]
+          },
+          {
+            "field": "corner--",
+            "centroid_mm": [
+              -6.3986401968333375,
+              -5.118941903519799
+            ],
+            "rms_radius_um_by_wavelength": [
+              32.726210695640454,
+              10.410438067872875,
+              26.756849505452436
+            ],
+            "survival_by_wavelength": [
+              0.73125,
+              0.73125,
+              0.73125
+            ]
+          }
+        ],
+        "worst_rms_radius_um": 37.47434419706621,
+        "minimum_survival": 0.73125
+      },
+      "nfev": 43,
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "attempt_interpretation": "bounded minimum-complexity feasibility attempt, not a converged production prescription"
+    }
+  ],
+  "wall_seconds": 106.74442383
+}

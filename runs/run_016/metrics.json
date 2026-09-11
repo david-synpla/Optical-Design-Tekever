@@ -1,0 +1,2087 @@
+{
+  "geometry": {
+    "name": "A6_f1p0",
+    "compression": 6.0,
+    "primary_focal_length_mm": 311.3712791132146,
+    "secondary_focal_length_magnitude_mm": 51.895213185535766,
+    "mirror_separation_mm": 259.47606592767886,
+    "primary_radius_mm": -622.7425582264292,
+    "secondary_radius_mm": -103.79042637107153,
+    "split_distance_after_primary_mm": 50.0
+  },
+  "apertures": {
+    "primary_radius_mm": 156.74936241416827,
+    "secondary_radius_mm": 28.12436290261479,
+    "primary_hole_radius_mm": 34.789984775974425,
+    "EO_stop_radius_mm": 10.808407808944981,
+    "SWIR_stop_radius_mm": 26.147
+  },
+  "ideal_backend_results": [
+    {
+      "channel": {
+        "name": "EO",
+        "efl_mm": 794.2028985507247,
+        "pupil_mm": 128.09724170172979,
+        "pixel_pitch_mm": 0.0027400000000000002,
+        "half_field_x_deg": 0.40482232320906303,
+        "half_field_y_deg": 0.29650301215377656,
+        "diagonal_half_field_deg": 0.5017919385409113,
+        "hx": 0.8067533416064588,
+        "hy": 0.59088835308103,
+        "wavelengths_um": [
+          0.43,
+          0.55,
+          0.8
+        ]
+      },
+      "paraxial": {
+        "entrance_pupil_location_mm": 12960.470834890239,
+        "entrance_pupil_diameter_mm": 128.09724170172979,
+        "exit_pupil_location_mm": -132.36714975845416,
+        "exit_pupil_diameter_mm": 21.34954028362157,
+        "effective_focal_length_mm": 794.2028985507253
+      },
+      "rows": [
+        {
+          "field": "center",
+          "normalized_field": [
+            0.0,
+            0.0
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.7083333333333334,
+          "image_survival": 0.7083333333333334,
+          "split_pupil": {
+            "centroid_mm": [
+              -7.581081731876681e-16,
+              -1.6638038985765787e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              12.119905859400642,
+              12.119905859400639
+            ],
+            "axis_ratio": 1.0000000000000002,
+            "equivalent_area_mm2": 461.4751989070146,
+            "max_radius_from_axis_mm": 10.608407808944982
+          },
+          "image_centroid_mm": [
+            -1.6777497147560002e-16,
+            -6.637868359546547e-17
+          ],
+          "image_rms_radius_um": 4.073217797869633e-11,
+          "image_r80_radius_um": 5.2124362765276097e-11
+        },
+        {
+          "field": "center",
+          "normalized_field": [
+            0.0,
+            0.0
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.7083333333333334,
+          "image_survival": 0.7083333333333334,
+          "split_pupil": {
+            "centroid_mm": [
+              -7.581081731876681e-16,
+              -1.6638038985765787e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              12.119905859400642,
+              12.119905859400639
+            ],
+            "axis_ratio": 1.0000000000000002,
+            "equivalent_area_mm2": 461.4751989070146,
+            "max_radius_from_axis_mm": 10.608407808944982
+          },
+          "image_centroid_mm": [
+            -1.6777497147560002e-16,
+            -6.637868359546547e-17
+          ],
+          "image_rms_radius_um": 4.073217797869633e-11,
+          "image_r80_radius_um": 5.2124362765276097e-11
+        },
+        {
+          "field": "center",
+          "normalized_field": [
+            0.0,
+            0.0
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7083333333333334,
+          "image_survival": 0.7083333333333334,
+          "split_pupil": {
+            "centroid_mm": [
+              -7.581081731876681e-16,
+              -1.6638038985765787e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              12.119905859400642,
+              12.119905859400639
+            ],
+            "axis_ratio": 1.0000000000000002,
+            "equivalent_area_mm2": 461.4751989070146,
+            "max_radius_from_axis_mm": 10.608407808944982
+          },
+          "image_centroid_mm": [
+            -1.6777497147560002e-16,
+            -6.637868359546547e-17
+          ],
+          "image_rms_radius_um": 4.073217797869633e-11,
+          "image_r80_radius_um": 5.2124362765276097e-11
+        },
+        {
+          "field": "+x",
+          "normalized_field": [
+            0.8067533416064588,
+            0.0
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.9809027777777778,
+          "image_survival": 0.9809027777777778,
+          "split_pupil": {
+            "centroid_mm": [
+              -0.024279390973120315,
+              4.830943904497252e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.707292467873934,
+              10.244627833681307
+            ],
+            "axis_ratio": 1.0451616829526518,
+            "equivalent_area_mm2": 344.60829273901885,
+            "max_radius_from_axis_mm": 10.641997353598464
+          },
+          "image_centroid_mm": [
+            5.643912052977757,
+            1.2684052431779443e-16
+          ],
+          "image_rms_radius_um": 14.482309812683285,
+          "image_r80_radius_um": 18.281545314089936
+        },
+        {
+          "field": "+x",
+          "normalized_field": [
+            0.8067533416064588,
+            0.0
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.9809027777777778,
+          "image_survival": 0.9809027777777778,
+          "split_pupil": {
+            "centroid_mm": [
+              -0.024279390973120315,
+              4.830943904497252e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.707292467873934,
+              10.244627833681307
+            ],
+            "axis_ratio": 1.0451616829526518,
+            "equivalent_area_mm2": 344.60829273901885,
+            "max_radius_from_axis_mm": 10.641997353598464
+          },
+          "image_centroid_mm": [
+            5.643912052977757,
+            1.2684052431779443e-16
+          ],
+          "image_rms_radius_um": 14.482309812683285,
+          "image_r80_radius_um": 18.281545314089936
+        },
+        {
+          "field": "+x",
+          "normalized_field": [
+            0.8067533416064588,
+            0.0
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.9809027777777778,
+          "image_survival": 0.9809027777777778,
+          "split_pupil": {
+            "centroid_mm": [
+              -0.024279390973120315,
+              4.830943904497252e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.707292467873934,
+              10.244627833681307
+            ],
+            "axis_ratio": 1.0451616829526518,
+            "equivalent_area_mm2": 344.60829273901885,
+            "max_radius_from_axis_mm": 10.641997353598464
+          },
+          "image_centroid_mm": [
+            5.643912052977757,
+            1.2684052431779443e-16
+          ],
+          "image_rms_radius_um": 14.482309812683285,
+          "image_r80_radius_um": 18.281545314089936
+        },
+        {
+          "field": "-x",
+          "normalized_field": [
+            -0.8067533416064588,
+            0.0
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.9809027777777778,
+          "image_survival": 0.9809027777777778,
+          "split_pupil": {
+            "centroid_mm": [
+              0.02427939097311936,
+              3.2595607628956063e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.707292467873934,
+              10.244627833681301
+            ],
+            "axis_ratio": 1.0451616829526524,
+            "equivalent_area_mm2": 344.6082927390187,
+            "max_radius_from_axis_mm": 10.641997353598471
+          },
+          "image_centroid_mm": [
+            -5.643912052977755,
+            9.988322853181856e-17
+          ],
+          "image_rms_radius_um": 14.482309812683944,
+          "image_r80_radius_um": 18.28154531412705
+        },
+        {
+          "field": "-x",
+          "normalized_field": [
+            -0.8067533416064588,
+            0.0
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.9809027777777778,
+          "image_survival": 0.9809027777777778,
+          "split_pupil": {
+            "centroid_mm": [
+              0.02427939097311936,
+              3.2595607628956063e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.707292467873934,
+              10.244627833681301
+            ],
+            "axis_ratio": 1.0451616829526524,
+            "equivalent_area_mm2": 344.6082927390187,
+            "max_radius_from_axis_mm": 10.641997353598471
+          },
+          "image_centroid_mm": [
+            -5.643912052977755,
+            9.988322853181856e-17
+          ],
+          "image_rms_radius_um": 14.482309812683944,
+          "image_r80_radius_um": 18.28154531412705
+        },
+        {
+          "field": "-x",
+          "normalized_field": [
+            -0.8067533416064588,
+            0.0
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.9809027777777778,
+          "image_survival": 0.9809027777777778,
+          "split_pupil": {
+            "centroid_mm": [
+              0.02427939097311936,
+              3.2595607628956063e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.707292467873934,
+              10.244627833681301
+            ],
+            "axis_ratio": 1.0451616829526524,
+            "equivalent_area_mm2": 344.6082927390187,
+            "max_radius_from_axis_mm": 10.641997353598471
+          },
+          "image_centroid_mm": [
+            -5.643912052977755,
+            9.988322853181856e-17
+          ],
+          "image_rms_radius_um": 14.482309812683944,
+          "image_r80_radius_um": 18.28154531412705
+        },
+        {
+          "field": "+y",
+          "normalized_field": [
+            0.0,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.87890625,
+          "image_survival": 0.87890625,
+          "split_pupil": {
+            "centroid_mm": [
+              3.188670178380203e-16,
+              -1.0311606154992579
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              11.18760732777011,
+              9.283209242354927
+            ],
+            "axis_ratio": 1.2051443671792195,
+            "equivalent_area_mm2": 326.27607326348226,
+            "max_radius_from_axis_mm": 10.614895661102747
+          },
+          "image_centroid_mm": [
+            2.3911599723577987e-16,
+            4.1236755960658655
+          ],
+          "image_rms_radius_um": 7.538405131042712,
+          "image_r80_radius_um": 9.557703247498074
+        },
+        {
+          "field": "+y",
+          "normalized_field": [
+            0.0,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.87890625,
+          "image_survival": 0.87890625,
+          "split_pupil": {
+            "centroid_mm": [
+              3.188670178380203e-16,
+              -1.0311606154992579
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              11.18760732777011,
+              9.283209242354927
+            ],
+            "axis_ratio": 1.2051443671792195,
+            "equivalent_area_mm2": 326.27607326348226,
+            "max_radius_from_axis_mm": 10.614895661102747
+          },
+          "image_centroid_mm": [
+            2.3911599723577987e-16,
+            4.1236755960658655
+          ],
+          "image_rms_radius_um": 7.538405131042712,
+          "image_r80_radius_um": 9.557703247498074
+        },
+        {
+          "field": "+y",
+          "normalized_field": [
+            0.0,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.87890625,
+          "image_survival": 0.87890625,
+          "split_pupil": {
+            "centroid_mm": [
+              3.188670178380203e-16,
+              -1.0311606154992579
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              11.18760732777011,
+              9.283209242354927
+            ],
+            "axis_ratio": 1.2051443671792195,
+            "equivalent_area_mm2": 326.27607326348226,
+            "max_radius_from_axis_mm": 10.614895661102747
+          },
+          "image_centroid_mm": [
+            2.3911599723577987e-16,
+            4.1236755960658655
+          ],
+          "image_rms_radius_um": 7.538405131042712,
+          "image_r80_radius_um": 9.557703247498074
+        },
+        {
+          "field": "-y",
+          "normalized_field": [
+            0.0,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.87890625,
+          "image_survival": 0.87890625,
+          "split_pupil": {
+            "centroid_mm": [
+              -5.83346813926502e-17,
+              1.031160615499254
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              11.187607327770106,
+              9.283209242354928
+            ],
+            "axis_ratio": 1.2051443671792188,
+            "equivalent_area_mm2": 326.2760732634822,
+            "max_radius_from_axis_mm": 10.614895661102738
+          },
+          "image_centroid_mm": [
+            -1.185608538642914e-17,
+            -4.123675596065865
+          ],
+          "image_rms_radius_um": 7.538405131043142,
+          "image_r80_radius_um": 9.557703247452732
+        },
+        {
+          "field": "-y",
+          "normalized_field": [
+            0.0,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.87890625,
+          "image_survival": 0.87890625,
+          "split_pupil": {
+            "centroid_mm": [
+              -5.83346813926502e-17,
+              1.031160615499254
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              11.187607327770106,
+              9.283209242354928
+            ],
+            "axis_ratio": 1.2051443671792188,
+            "equivalent_area_mm2": 326.2760732634822,
+            "max_radius_from_axis_mm": 10.614895661102738
+          },
+          "image_centroid_mm": [
+            -1.185608538642914e-17,
+            -4.123675596065865
+          ],
+          "image_rms_radius_um": 7.538405131043142,
+          "image_r80_radius_um": 9.557703247452732
+        },
+        {
+          "field": "-y",
+          "normalized_field": [
+            0.0,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.87890625,
+          "image_survival": 0.87890625,
+          "split_pupil": {
+            "centroid_mm": [
+              -5.83346813926502e-17,
+              1.031160615499254
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              11.187607327770106,
+              9.283209242354928
+            ],
+            "axis_ratio": 1.2051443671792188,
+            "equivalent_area_mm2": 326.2760732634822,
+            "max_radius_from_axis_mm": 10.614895661102738
+          },
+          "image_centroid_mm": [
+            -1.185608538642914e-17,
+            -4.123675596065865
+          ],
+          "image_rms_radius_um": 7.538405131043142,
+          "image_r80_radius_um": 9.557703247452732
+        },
+        {
+          "field": "corner++",
+          "normalized_field": [
+            0.8067533416064588,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              1.1964401635272726,
+              0.8779710103642394
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.85723852466453,
+              8.955181001982433
+            ],
+            "axis_ratio": 1.2123974403488922,
+            "equivalent_area_mm2": 305.45245495117376,
+            "max_radius_from_axis_mm": 10.70155024800264
+          },
+          "image_centroid_mm": [
+            5.658001406378359,
+            4.144038956996041
+          ],
+          "image_rms_radius_um": 21.318903723807487,
+          "image_r80_radius_um": 26.79046691659221
+        },
+        {
+          "field": "corner++",
+          "normalized_field": [
+            0.8067533416064588,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              1.1964401635272726,
+              0.8779710103642394
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.85723852466453,
+              8.955181001982433
+            ],
+            "axis_ratio": 1.2123974403488922,
+            "equivalent_area_mm2": 305.45245495117376,
+            "max_radius_from_axis_mm": 10.70155024800264
+          },
+          "image_centroid_mm": [
+            5.658001406378359,
+            4.144038956996041
+          ],
+          "image_rms_radius_um": 21.318903723807487,
+          "image_r80_radius_um": 26.79046691659221
+        },
+        {
+          "field": "corner++",
+          "normalized_field": [
+            0.8067533416064588,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              1.1964401635272726,
+              0.8779710103642394
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.85723852466453,
+              8.955181001982433
+            ],
+            "axis_ratio": 1.2123974403488922,
+            "equivalent_area_mm2": 305.45245495117376,
+            "max_radius_from_axis_mm": 10.70155024800264
+          },
+          "image_centroid_mm": [
+            5.658001406378359,
+            4.144038956996041
+          ],
+          "image_rms_radius_um": 21.318903723807487,
+          "image_r80_radius_um": 26.79046691659221
+        },
+        {
+          "field": "corner+-",
+          "normalized_field": [
+            0.8067533416064588,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              1.1964401635272741,
+              -0.877971010364243
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664526,
+              8.955181001982439
+            ],
+            "axis_ratio": 1.212397440348891,
+            "equivalent_area_mm2": 305.4524549511738,
+            "max_radius_from_axis_mm": 10.70155024800266
+          },
+          "image_centroid_mm": [
+            5.658001406378365,
+            -4.144038956996039
+          ],
+          "image_rms_radius_um": 21.31890372380731,
+          "image_r80_radius_um": 26.790466916593537
+        },
+        {
+          "field": "corner+-",
+          "normalized_field": [
+            0.8067533416064588,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              1.1964401635272741,
+              -0.877971010364243
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664526,
+              8.955181001982439
+            ],
+            "axis_ratio": 1.212397440348891,
+            "equivalent_area_mm2": 305.4524549511738,
+            "max_radius_from_axis_mm": 10.70155024800266
+          },
+          "image_centroid_mm": [
+            5.658001406378365,
+            -4.144038956996039
+          ],
+          "image_rms_radius_um": 21.31890372380731,
+          "image_r80_radius_um": 26.790466916593537
+        },
+        {
+          "field": "corner+-",
+          "normalized_field": [
+            0.8067533416064588,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              1.1964401635272741,
+              -0.877971010364243
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664526,
+              8.955181001982439
+            ],
+            "axis_ratio": 1.212397440348891,
+            "equivalent_area_mm2": 305.4524549511738,
+            "max_radius_from_axis_mm": 10.70155024800266
+          },
+          "image_centroid_mm": [
+            5.658001406378365,
+            -4.144038956996039
+          ],
+          "image_rms_radius_um": 21.31890372380731,
+          "image_r80_radius_um": 26.790466916593537
+        },
+        {
+          "field": "corner-+",
+          "normalized_field": [
+            -0.8067533416064588,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.1964401635272741,
+              0.8779710103642424
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664528,
+              8.955181001982439
+            ],
+            "axis_ratio": 1.2123974403488913,
+            "equivalent_area_mm2": 305.4524549511739,
+            "max_radius_from_axis_mm": 10.701550248002647
+          },
+          "image_centroid_mm": [
+            -5.65800140637836,
+            4.1440389569960425
+          ],
+          "image_rms_radius_um": 21.31890372380729,
+          "image_r80_radius_um": 26.79046691659388
+        },
+        {
+          "field": "corner-+",
+          "normalized_field": [
+            -0.8067533416064588,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.1964401635272741,
+              0.8779710103642424
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664528,
+              8.955181001982439
+            ],
+            "axis_ratio": 1.2123974403488913,
+            "equivalent_area_mm2": 305.4524549511739,
+            "max_radius_from_axis_mm": 10.701550248002647
+          },
+          "image_centroid_mm": [
+            -5.65800140637836,
+            4.1440389569960425
+          ],
+          "image_rms_radius_um": 21.31890372380729,
+          "image_r80_radius_um": 26.79046691659388
+        },
+        {
+          "field": "corner-+",
+          "normalized_field": [
+            -0.8067533416064588,
+            0.59088835308103
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.1964401635272741,
+              0.8779710103642424
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664528,
+              8.955181001982439
+            ],
+            "axis_ratio": 1.2123974403488913,
+            "equivalent_area_mm2": 305.4524549511739,
+            "max_radius_from_axis_mm": 10.701550248002647
+          },
+          "image_centroid_mm": [
+            -5.65800140637836,
+            4.1440389569960425
+          ],
+          "image_rms_radius_um": 21.31890372380729,
+          "image_r80_radius_um": 26.79046691659388
+        },
+        {
+          "field": "corner--",
+          "normalized_field": [
+            -0.8067533416064588,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.43,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.1964401635272714,
+              -0.8779710103642409
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664531,
+              8.955181001982442
+            ],
+            "axis_ratio": 1.212397440348891,
+            "equivalent_area_mm2": 305.45245495117416,
+            "max_radius_from_axis_mm": 10.70155024800266
+          },
+          "image_centroid_mm": [
+            -5.658001406378368,
+            -4.144038956996041
+          ],
+          "image_rms_radius_um": 21.31890372380648,
+          "image_r80_radius_um": 26.790466916593946
+        },
+        {
+          "field": "corner--",
+          "normalized_field": [
+            -0.8067533416064588,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.55,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.1964401635272714,
+              -0.8779710103642409
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664531,
+              8.955181001982442
+            ],
+            "axis_ratio": 1.212397440348891,
+            "equivalent_area_mm2": 305.45245495117416,
+            "max_radius_from_axis_mm": 10.70155024800266
+          },
+          "image_centroid_mm": [
+            -5.658001406378368,
+            -4.144038956996041
+          ],
+          "image_rms_radius_um": 21.31890372380648,
+          "image_r80_radius_um": 26.790466916593946
+        },
+        {
+          "field": "corner--",
+          "normalized_field": [
+            -0.8067533416064588,
+            -0.59088835308103
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.8728298611111112,
+          "image_survival": 0.8728298611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.1964401635272714,
+              -0.8779710103642409
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              10.857238524664531,
+              8.955181001982442
+            ],
+            "axis_ratio": 1.212397440348891,
+            "equivalent_area_mm2": 305.45245495117416,
+            "max_radius_from_axis_mm": 10.70155024800266
+          },
+          "image_centroid_mm": [
+            -5.658001406378368,
+            -4.144038956996041
+          ],
+          "image_rms_radius_um": 21.31890372380648,
+          "image_r80_radius_um": 26.790466916593946
+        }
+      ],
+      "diffraction": [
+        {
+          "field": "center",
+          "wavelength_um": 0.55,
+          "pupil_grid": 128,
+          "transmitted_grid_fraction": 0.7057893071812718,
+          "opd_rms_waves": 6.1969589813714e-10,
+          "actual": {
+            "mtf_frequencies_lpmm": [
+              50.0,
+              100.0,
+              150.0,
+              182.482
+            ],
+            "mtf_x": [
+              0.5305387718511877,
+              0.24620192738682203,
+              0.1952127969520394,
+              0.21517479134020615
+            ],
+            "mtf_y": [
+              0.5305387718511878,
+              0.24620192738682203,
+              0.1952127969520394,
+              0.21517479134020615
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.2534882081592803,
+              0.4254277131863528,
+              0.5086472640848945
+            ]
+          },
+          "matched_obscured_pupil_limit": {
+            "mtf_frequencies_lpmm": [
+              50.0,
+              100.0,
+              150.0,
+              182.482
+            ],
+            "mtf_x": [
+              0.5305387718511878,
+              0.24620192738682203,
+              0.19521279695203944,
+              0.21517479134020623
+            ],
+            "mtf_y": [
+              0.5305387718511879,
+              0.2462019273868221,
+              0.19521279695203947,
+              0.21517479134020615
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.2534882081592803,
+              0.42542771318635275,
+              0.5086472640848942
+            ]
+          }
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 0.55,
+          "pupil_grid": 128,
+          "transmitted_grid_fraction": 0.981651376146789,
+          "opd_rms_waves": 1.2052818054075962,
+          "actual": {
+            "mtf_frequencies_lpmm": [
+              50.0,
+              100.0,
+              150.0,
+              182.482
+            ],
+            "mtf_x": [
+              0.13153652492596696,
+              0.04681310880653363,
+              0.018825478474247592,
+              0.008683442990193647
+            ],
+            "mtf_y": [
+              0.08537784041224027,
+              0.05006520476886382,
+              0.01865270677021898,
+              0.014270989193027817
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.005326192632744551,
+              0.01912320860511908,
+              0.04184741318152281
+            ]
+          },
+          "matched_obscured_pupil_limit": {
+            "mtf_frequencies_lpmm": [
+              50.0,
+              100.0,
+              150.0,
+              182.482
+            ],
+            "mtf_x": [
+              0.7801852239767967,
+              0.5664808250080567,
+              0.3662862552368675,
+              0.247925558008379
+            ],
+            "mtf_y": [
+              0.7838570335159523,
+              0.5851724137931034,
+              0.3849778440219142,
+              0.26661714679342563
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.3828190147906053,
+              0.7769418361742472,
+              0.8417915042943489
+            ]
+          }
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 0.55,
+          "pupil_grid": 128,
+          "transmitted_grid_fraction": 0.8729041442581461,
+          "opd_rms_waves": 1.0734132487301258,
+          "actual": {
+            "mtf_frequencies_lpmm": [
+              50.0,
+              100.0,
+              150.0,
+              182.482
+            ],
+            "mtf_x": [
+              0.11917307868081212,
+              0.037734736594171474,
+              0.01023601447027782,
+              0.004363145485992312
+            ],
+            "mtf_y": [
+              0.05013389291330629,
+              0.015753335376688115,
+              0.007273688700578705,
+              0.004951390842400656
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.002534179546409945,
+              0.010635192499902205,
+              0.023801955982081485
+            ]
+          },
+          "matched_obscured_pupil_limit": {
+            "mtf_frequencies_lpmm": [
+              50.0,
+              100.0,
+              150.0,
+              182.482
+            ],
+            "mtf_x": [
+              0.7552432273262665,
+              0.52399284225786,
+              0.31601979704629884,
+              0.19875547903415788
+            ],
+            "mtf_y": [
+              0.7650527317205763,
+              0.543702455377367,
+              0.34346217269185464,
+              0.2289292110029899
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.34851153149314035,
+              0.7488469022906119,
+              0.8385849535072071
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "minimum_geometric_survival": 0.7083333333333334,
+        "maximum_image_rms_radius_um": 21.318903723807487,
+        "center_image_rms_radius_um": 4.073217797869633e-11,
+        "corner_image_rms_radius_um": 21.318903723807487,
+        "corner_distortion_percent": 0.8271066685561657,
+        "maximum_split_pupil_axis_ratio": 1.2123974403488922,
+        "maximum_split_pupil_centroid_walk_mm": 1.4840155524593333,
+        "corner_midwave_opd_rms_waves": 1.0734132487301258,
+        "corner_best_focus_shift_mm": -0.3999999999999999,
+        "corner_best_focus_rms_radius_um": 0.2767071624147263
+      },
+      "field_focus_sweep": [
+        {
+          "field": "center",
+          "best_focus_shift_mm": 0.0,
+          "best_focus_rms_radius_um": 3.625906975889414e-11,
+          "nominal_focus_rms_radius_um": 3.625906975889414e-11,
+          "focus_scan_span_mm": [
+            -1.5,
+            1.5
+          ]
+        },
+        {
+          "field": "+x",
+          "best_focus_shift_mm": -0.2999999999999998,
+          "best_focus_rms_radius_um": 2.349958422022085,
+          "nominal_focus_rms_radius_um": 14.49293951140085,
+          "focus_scan_span_mm": [
+            -1.5,
+            1.5
+          ]
+        },
+        {
+          "field": "+y",
+          "best_focus_shift_mm": -0.09999999999999987,
+          "best_focus_rms_radius_um": 2.0445816685278904,
+          "nominal_focus_rms_radius_um": 7.549123553302016,
+          "focus_scan_span_mm": [
+            -1.5,
+            1.5
+          ]
+        },
+        {
+          "field": "corner++",
+          "best_focus_shift_mm": -0.3999999999999999,
+          "best_focus_rms_radius_um": 0.2767071624147263,
+          "nominal_focus_rms_radius_um": 21.301652970198216,
+          "focus_scan_span_mm": [
+            -1.5,
+            1.5
+          ]
+        }
+      ]
+    },
+    {
+      "channel": {
+        "name": "SWIR",
+        "efl_mm": 1930.5019305019307,
+        "pupil_mm": 311.3712791132146,
+        "pixel_pitch_mm": 0.01,
+        "half_field_x_deg": 0.18994627237240952,
+        "half_field_y_deg": 0.15195721830745776,
+        "diagonal_half_field_deg": 0.24325004128245067,
+        "hx": 0.7808684075488098,
+        "hy": 0.6246955499218686,
+        "wavelengths_um": [
+          0.8,
+          1.2,
+          1.8
+        ]
+      },
+      "paraxial": {
+        "entrance_pupil_location_mm": 12960.470834890239,
+        "entrance_pupil_diameter_mm": 311.3712791132146,
+        "exit_pupil_location_mm": -321.75032175032186,
+        "exit_pupil_diameter_mm": 51.89521318553557,
+        "effective_focal_length_mm": 1930.5019305019312
+      },
+      "rows": [
+        {
+          "field": "center",
+          "normalized_field": [
+            0.0,
+            0.0
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.9583333333333334,
+          "image_survival": 0.9583333333333334,
+          "split_pupil": {
+            "centroid_mm": [
+              4.827056628805028e-17,
+              -1.0813863894520348e-15
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.456182417733014,
+              26.456182417733014
+            ],
+            "axis_ratio": 1.0,
+            "equivalent_area_mm2": 2198.89365206907,
+            "max_radius_from_axis_mm": 25.786296917440165
+          },
+          "image_centroid_mm": [
+            5.663557887565004e-16,
+            -1.4456846046371498e-15
+          ],
+          "image_rms_radius_um": 1.839873454031049e-10,
+          "image_r80_radius_um": 2.1880888398426898e-10
+        },
+        {
+          "field": "center",
+          "normalized_field": [
+            0.0,
+            0.0
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.9583333333333334,
+          "image_survival": 0.9583333333333334,
+          "split_pupil": {
+            "centroid_mm": [
+              4.827056628805028e-17,
+              -1.0813863894520348e-15
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.456182417733014,
+              26.456182417733014
+            ],
+            "axis_ratio": 1.0,
+            "equivalent_area_mm2": 2198.89365206907,
+            "max_radius_from_axis_mm": 25.786296917440165
+          },
+          "image_centroid_mm": [
+            5.663557887565004e-16,
+            -1.4456846046371498e-15
+          ],
+          "image_rms_radius_um": 1.839873454031049e-10,
+          "image_r80_radius_um": 2.1880888398426898e-10
+        },
+        {
+          "field": "center",
+          "normalized_field": [
+            0.0,
+            0.0
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.9583333333333334,
+          "image_survival": 0.9583333333333334,
+          "split_pupil": {
+            "centroid_mm": [
+              4.827056628805028e-17,
+              -1.0813863894520348e-15
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.456182417733014,
+              26.456182417733014
+            ],
+            "axis_ratio": 1.0,
+            "equivalent_area_mm2": 2198.89365206907,
+            "max_radius_from_axis_mm": 25.786296917440165
+          },
+          "image_centroid_mm": [
+            5.663557887565004e-16,
+            -1.4456846046371498e-15
+          ],
+          "image_rms_radius_um": 1.839873454031049e-10,
+          "image_r80_radius_um": 2.1880888398426898e-10
+        },
+        {
+          "field": "+x",
+          "normalized_field": [
+            0.7808684075488098,
+            0.0
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7799479166666666,
+          "image_survival": 0.7799479166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.2857709851243757,
+              -8.776136930885002e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.861238256198533,
+              22.812483511699376
+            ],
+            "axis_ratio": 1.133644140189103,
+            "equivalent_area_mm2": 1853.411084351362,
+            "max_radius_from_axis_mm": 25.82622277498366
+          },
+          "image_centroid_mm": [
+            6.404693845527707,
+            -5.993165526085883e-16
+          ],
+          "image_rms_radius_um": 17.677290970867432,
+          "image_r80_radius_um": 21.83671628773247
+        },
+        {
+          "field": "+x",
+          "normalized_field": [
+            0.7808684075488098,
+            0.0
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.7799479166666666,
+          "image_survival": 0.7799479166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.2857709851243757,
+              -8.776136930885002e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.861238256198533,
+              22.812483511699376
+            ],
+            "axis_ratio": 1.133644140189103,
+            "equivalent_area_mm2": 1853.411084351362,
+            "max_radius_from_axis_mm": 25.82622277498366
+          },
+          "image_centroid_mm": [
+            6.404693845527707,
+            -5.993165526085883e-16
+          ],
+          "image_rms_radius_um": 17.677290970867432,
+          "image_r80_radius_um": 21.83671628773247
+        },
+        {
+          "field": "+x",
+          "normalized_field": [
+            0.7808684075488098,
+            0.0
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.7799479166666666,
+          "image_survival": 0.7799479166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.2857709851243757,
+              -8.776136930885002e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.861238256198533,
+              22.812483511699376
+            ],
+            "axis_ratio": 1.133644140189103,
+            "equivalent_area_mm2": 1853.411084351362,
+            "max_radius_from_axis_mm": 25.82622277498366
+          },
+          "image_centroid_mm": [
+            6.404693845527707,
+            -5.993165526085883e-16
+          ],
+          "image_rms_radius_um": 17.677290970867432,
+          "image_r80_radius_um": 21.83671628773247
+        },
+        {
+          "field": "-x",
+          "normalized_field": [
+            -0.7808684075488098,
+            0.0
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7799479166666666,
+          "image_survival": 0.7799479166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.28577098512438,
+              -8.817530888953942e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.861238256198533,
+              22.81248351169937
+            ],
+            "axis_ratio": 1.1336441401891035,
+            "equivalent_area_mm2": 1853.4110843513615,
+            "max_radius_from_axis_mm": 25.826222774983655
+          },
+          "image_centroid_mm": [
+            -6.404693845527708,
+            -1.43352837175167e-15
+          ],
+          "image_rms_radius_um": 17.677290970869745,
+          "image_r80_radius_um": 21.836716287764265
+        },
+        {
+          "field": "-x",
+          "normalized_field": [
+            -0.7808684075488098,
+            0.0
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.7799479166666666,
+          "image_survival": 0.7799479166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.28577098512438,
+              -8.817530888953942e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.861238256198533,
+              22.81248351169937
+            ],
+            "axis_ratio": 1.1336441401891035,
+            "equivalent_area_mm2": 1853.4110843513615,
+            "max_radius_from_axis_mm": 25.826222774983655
+          },
+          "image_centroid_mm": [
+            -6.404693845527708,
+            -1.43352837175167e-15
+          ],
+          "image_rms_radius_um": 17.677290970869745,
+          "image_r80_radius_um": 21.836716287764265
+        },
+        {
+          "field": "-x",
+          "normalized_field": [
+            -0.7808684075488098,
+            0.0
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.7799479166666666,
+          "image_survival": 0.7799479166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.28577098512438,
+              -8.817530888953942e-16
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.861238256198533,
+              22.81248351169937
+            ],
+            "axis_ratio": 1.1336441401891035,
+            "equivalent_area_mm2": 1853.4110843513615,
+            "max_radius_from_axis_mm": 25.826222774983655
+          },
+          "image_centroid_mm": [
+            -6.404693845527708,
+            -1.43352837175167e-15
+          ],
+          "image_rms_radius_um": 17.677290970869745,
+          "image_r80_radius_um": 21.836716287764265
+        },
+        {
+          "field": "+y",
+          "normalized_field": [
+            0.0,
+            0.6246955499218686
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.8181423611111112,
+          "image_survival": 0.8181423611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.3070593826250119e-15,
+              2.586784251317074
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.02586258022844,
+              23.588768585511673
+            ],
+            "axis_ratio": 1.1033158634746896,
+            "equivalent_area_mm2": 1928.6804346656797,
+            "max_radius_from_axis_mm": 25.826879909652042
+          },
+          "image_centroid_mm": [
+            -1.15162815917749e-15,
+            5.1224304920154164
+          ],
+          "image_rms_radius_um": 11.511353292890744,
+          "image_r80_radius_um": 14.239489197105208
+        },
+        {
+          "field": "+y",
+          "normalized_field": [
+            0.0,
+            0.6246955499218686
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.8181423611111112,
+          "image_survival": 0.8181423611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.3070593826250119e-15,
+              2.586784251317074
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.02586258022844,
+              23.588768585511673
+            ],
+            "axis_ratio": 1.1033158634746896,
+            "equivalent_area_mm2": 1928.6804346656797,
+            "max_radius_from_axis_mm": 25.826879909652042
+          },
+          "image_centroid_mm": [
+            -1.15162815917749e-15,
+            5.1224304920154164
+          ],
+          "image_rms_radius_um": 11.511353292890744,
+          "image_r80_radius_um": 14.239489197105208
+        },
+        {
+          "field": "+y",
+          "normalized_field": [
+            0.0,
+            0.6246955499218686
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.8181423611111112,
+          "image_survival": 0.8181423611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.3070593826250119e-15,
+              2.586784251317074
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.02586258022844,
+              23.588768585511673
+            ],
+            "axis_ratio": 1.1033158634746896,
+            "equivalent_area_mm2": 1928.6804346656797,
+            "max_radius_from_axis_mm": 25.826879909652042
+          },
+          "image_centroid_mm": [
+            -1.15162815917749e-15,
+            5.1224304920154164
+          ],
+          "image_rms_radius_um": 11.511353292890744,
+          "image_r80_radius_um": 14.239489197105208
+        },
+        {
+          "field": "-y",
+          "normalized_field": [
+            0.0,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.8181423611111112,
+          "image_survival": 0.8181423611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.014926427604281e-15,
+              -2.586784251317073
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.025862580228434,
+              23.588768585511666
+            ],
+            "axis_ratio": 1.1033158634746896,
+            "equivalent_area_mm2": 1928.6804346656784,
+            "max_radius_from_axis_mm": 25.826879909652042
+          },
+          "image_centroid_mm": [
+            -2.836516756814193e-16,
+            -5.122430492015426
+          ],
+          "image_rms_radius_um": 11.511353292891572,
+          "image_r80_radius_um": 14.239489197139342
+        },
+        {
+          "field": "-y",
+          "normalized_field": [
+            0.0,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.8181423611111112,
+          "image_survival": 0.8181423611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.014926427604281e-15,
+              -2.586784251317073
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.025862580228434,
+              23.588768585511666
+            ],
+            "axis_ratio": 1.1033158634746896,
+            "equivalent_area_mm2": 1928.6804346656784,
+            "max_radius_from_axis_mm": 25.826879909652042
+          },
+          "image_centroid_mm": [
+            -2.836516756814193e-16,
+            -5.122430492015426
+          ],
+          "image_rms_radius_um": 11.511353292891572,
+          "image_r80_radius_um": 14.239489197139342
+        },
+        {
+          "field": "-y",
+          "normalized_field": [
+            0.0,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.8181423611111112,
+          "image_survival": 0.8181423611111112,
+          "split_pupil": {
+            "centroid_mm": [
+              -1.014926427604281e-15,
+              -2.586784251317073
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              26.025862580228434,
+              23.588768585511666
+            ],
+            "axis_ratio": 1.1033158634746896,
+            "equivalent_area_mm2": 1928.6804346656784,
+            "max_radius_from_axis_mm": 25.826879909652042
+          },
+          "image_centroid_mm": [
+            -2.836516756814193e-16,
+            -5.122430492015426
+          ],
+          "image_rms_radius_um": 11.511353292891572,
+          "image_r80_radius_um": 14.239489197139342
+        },
+        {
+          "field": "corner++",
+          "normalized_field": [
+            0.7808684075488098,
+            0.6246955499218686
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.30204766087346,
+              2.6319673489364837
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.50803387930493,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.1765681222432742,
+            "equivalent_area_mm2": 1737.3477872699157,
+            "max_radius_from_axis_mm": 25.820897194424273
+          },
+          "image_centroid_mm": [
+            6.407673726418382,
+            5.126155252875424
+          ],
+          "image_rms_radius_um": 28.19551493157226,
+          "image_r80_radius_um": 34.76887600672378
+        },
+        {
+          "field": "corner++",
+          "normalized_field": [
+            0.7808684075488098,
+            0.6246955499218686
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.30204766087346,
+              2.6319673489364837
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.50803387930493,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.1765681222432742,
+            "equivalent_area_mm2": 1737.3477872699157,
+            "max_radius_from_axis_mm": 25.820897194424273
+          },
+          "image_centroid_mm": [
+            6.407673726418382,
+            5.126155252875424
+          ],
+          "image_rms_radius_um": 28.19551493157226,
+          "image_r80_radius_um": 34.76887600672378
+        },
+        {
+          "field": "corner++",
+          "normalized_field": [
+            0.7808684075488098,
+            0.6246955499218686
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.30204766087346,
+              2.6319673489364837
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.50803387930493,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.1765681222432742,
+            "equivalent_area_mm2": 1737.3477872699157,
+            "max_radius_from_axis_mm": 25.820897194424273
+          },
+          "image_centroid_mm": [
+            6.407673726418382,
+            5.126155252875424
+          ],
+          "image_rms_radius_um": 28.19551493157226,
+          "image_r80_radius_um": 34.76887600672378
+        },
+        {
+          "field": "corner+-",
+          "normalized_field": [
+            0.7808684075488098,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.3020476608734626,
+              -2.6319673489364885
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304925,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.176568122243274,
+            "equivalent_area_mm2": 1737.3477872699152,
+            "max_radius_from_axis_mm": 25.820897194424212
+          },
+          "image_centroid_mm": [
+            6.40767372641839,
+            -5.126155252875427
+          ],
+          "image_rms_radius_um": 28.195514931576106,
+          "image_r80_radius_um": 34.76887600678042
+        },
+        {
+          "field": "corner+-",
+          "normalized_field": [
+            0.7808684075488098,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.3020476608734626,
+              -2.6319673489364885
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304925,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.176568122243274,
+            "equivalent_area_mm2": 1737.3477872699152,
+            "max_radius_from_axis_mm": 25.820897194424212
+          },
+          "image_centroid_mm": [
+            6.40767372641839,
+            -5.126155252875427
+          ],
+          "image_rms_radius_um": 28.195514931576106,
+          "image_r80_radius_um": 34.76887600678042
+        },
+        {
+          "field": "corner+-",
+          "normalized_field": [
+            0.7808684075488098,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              3.3020476608734626,
+              -2.6319673489364885
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304925,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.176568122243274,
+            "equivalent_area_mm2": 1737.3477872699152,
+            "max_radius_from_axis_mm": 25.820897194424212
+          },
+          "image_centroid_mm": [
+            6.40767372641839,
+            -5.126155252875427
+          ],
+          "image_rms_radius_um": 28.195514931576106,
+          "image_r80_radius_um": 34.76887600678042
+        },
+        {
+          "field": "corner-+",
+          "normalized_field": [
+            -0.7808684075488098,
+            0.6246955499218686
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.302047660873462,
+              2.631967348936489
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304925,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.176568122243274,
+            "equivalent_area_mm2": 1737.3477872699152,
+            "max_radius_from_axis_mm": 25.820897194424283
+          },
+          "image_centroid_mm": [
+            -6.407673726418392,
+            5.126155252875431
+          ],
+          "image_rms_radius_um": 28.19551493157487,
+          "image_r80_radius_um": 34.7688760067324
+        },
+        {
+          "field": "corner-+",
+          "normalized_field": [
+            -0.7808684075488098,
+            0.6246955499218686
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.302047660873462,
+              2.631967348936489
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304925,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.176568122243274,
+            "equivalent_area_mm2": 1737.3477872699152,
+            "max_radius_from_axis_mm": 25.820897194424283
+          },
+          "image_centroid_mm": [
+            -6.407673726418392,
+            5.126155252875431
+          ],
+          "image_rms_radius_um": 28.19551493157487,
+          "image_r80_radius_um": 34.7688760067324
+        },
+        {
+          "field": "corner-+",
+          "normalized_field": [
+            -0.7808684075488098,
+            0.6246955499218686
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.302047660873462,
+              2.631967348936489
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304925,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.176568122243274,
+            "equivalent_area_mm2": 1737.3477872699152,
+            "max_radius_from_axis_mm": 25.820897194424283
+          },
+          "image_centroid_mm": [
+            -6.407673726418392,
+            5.126155252875431
+          ],
+          "image_rms_radius_um": 28.19551493157487,
+          "image_r80_radius_um": 34.7688760067324
+        },
+        {
+          "field": "corner--",
+          "normalized_field": [
+            -0.7808684075488098,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 0.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.3020476608734617,
+              -2.631967348936484
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304918,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.1765681222432738,
+            "equivalent_area_mm2": 1737.3477872699148,
+            "max_radius_from_axis_mm": 25.82089719442427
+          },
+          "image_centroid_mm": [
+            -6.407673726418387,
+            -5.126155252875432
+          ],
+          "image_rms_radius_um": 28.19551493157627,
+          "image_r80_radius_um": 34.76887600689646
+        },
+        {
+          "field": "corner--",
+          "normalized_field": [
+            -0.7808684075488098,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 1.2,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.3020476608734617,
+              -2.631967348936484
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304918,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.1765681222432738,
+            "equivalent_area_mm2": 1737.3477872699148,
+            "max_radius_from_axis_mm": 25.82089719442427
+          },
+          "image_centroid_mm": [
+            -6.407673726418387,
+            -5.126155252875432
+          ],
+          "image_rms_radius_um": 28.19551493157627,
+          "image_r80_radius_um": 34.76887600689646
+        },
+        {
+          "field": "corner--",
+          "normalized_field": [
+            -0.7808684075488098,
+            -0.6246955499218686
+          ],
+          "wavelength_um": 1.8,
+          "split_survival": 0.7330729166666666,
+          "image_survival": 0.7330729166666666,
+          "split_pupil": {
+            "centroid_mm": [
+              -3.3020476608734617,
+              -2.631967348936484
+            ],
+            "equivalent_rms_ellipse_semiaxes_mm": [
+              25.508033879304918,
+              21.68003143810379
+            ],
+            "axis_ratio": 1.1765681222432738,
+            "equivalent_area_mm2": 1737.3477872699148,
+            "max_radius_from_axis_mm": 25.82089719442427
+          },
+          "image_centroid_mm": [
+            -6.407673726418387,
+            -5.126155252875432
+          ],
+          "image_rms_radius_um": 28.19551493157627,
+          "image_r80_radius_um": 34.76887600689646
+        }
+      ],
+      "diffraction": [
+        {
+          "field": "center",
+          "wavelength_um": 1.2,
+          "pupil_grid": 128,
+          "transmitted_grid_fraction": 0.9500158177791838,
+          "opd_rms_waves": 2.4205147484371566e-10,
+          "actual": {
+            "mtf_frequencies_lpmm": [
+              25.0,
+              50.0
+            ],
+            "mtf_x": [
+              0.7040392940392939,
+              0.4606400266400265
+            ],
+            "mtf_y": [
+              0.7040392940392939,
+              0.4606400266400265
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.6471673278398601,
+              0.7828723988071464,
+              0.8943077833349461
+            ]
+          },
+          "matched_obscured_pupil_limit": {
+            "mtf_frequencies_lpmm": [
+              25.0,
+              50.0
+            ],
+            "mtf_x": [
+              0.704039294039294,
+              0.4606400266400265
+            ],
+            "mtf_y": [
+              0.704039294039294,
+              0.4606400266400266
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.6471673278398603,
+              0.7828723988071465,
+              0.8943077833349463
+            ]
+          }
+        },
+        {
+          "field": "+x",
+          "wavelength_um": 1.2,
+          "pupil_grid": 128,
+          "transmitted_grid_fraction": 0.7817146472635242,
+          "opd_rms_waves": 0.36711128218611705,
+          "actual": {
+            "mtf_frequencies_lpmm": [
+              25.0,
+              50.0
+            ],
+            "mtf_x": [
+              0.2448538310815195,
+              0.11555156256732656
+            ],
+            "mtf_y": [
+              0.09477817837445732,
+              0.13822551825192916
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.1255112119723248,
+              0.2889444878887437,
+              0.406797286025921
+            ]
+          },
+          "matched_obscured_pupil_limit": {
+            "mtf_frequencies_lpmm": [
+              25.0,
+              50.0
+            ],
+            "mtf_x": [
+              0.645225414811817,
+              0.40064670174018613
+            ],
+            "mtf_y": [
+              0.681150748684743,
+              0.427378794010522
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.5909471785261835,
+              0.754312010515565,
+              0.8719053448732115
+            ]
+          }
+        },
+        {
+          "field": "corner++",
+          "wavelength_um": 1.2,
+          "pupil_grid": 128,
+          "transmitted_grid_fraction": 0.7329958873774122,
+          "opd_rms_waves": 0.4501054996255225,
+          "actual": {
+            "mtf_frequencies_lpmm": [
+              25.0,
+              50.0
+            ],
+            "mtf_x": [
+              0.13867743747571304,
+              0.056844379785151
+            ],
+            "mtf_y": [
+              0.08972020288594496,
+              0.018520947425681143
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.08612315265387041,
+              0.20449002377218176,
+              0.30979577848599565
+            ]
+          },
+          "matched_obscured_pupil_limit": {
+            "mtf_frequencies_lpmm": [
+              25.0,
+              50.0
+            ],
+            "mtf_x": [
+              0.6506264566249461,
+              0.41216745791972376
+            ],
+            "mtf_y": [
+              0.6598504531722055,
+              0.4232783772119119
+            ],
+            "ensquared_energy_1_2_3_pixels": [
+              0.5728027773235749,
+              0.7453384090620353,
+              0.8572839155640459
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "minimum_geometric_survival": 0.7330729166666666,
+        "maximum_image_rms_radius_um": 28.19551493157627,
+        "center_image_rms_radius_um": 1.839873454031049e-10,
+        "corner_image_rms_radius_um": 28.19551493157226,
+        "corner_distortion_percent": 0.11973972187391269,
+        "maximum_split_pupil_axis_ratio": 1.1765681222432742,
+        "maximum_split_pupil_centroid_walk_mm": 4.222649746373439,
+        "corner_midwave_opd_rms_waves": 0.4501054996255225,
+        "corner_best_focus_shift_mm": -0.5333333333333332,
+        "corner_best_focus_rms_radius_um": 0.42023073866977806
+      },
+      "field_focus_sweep": [
+        {
+          "field": "center",
+          "best_focus_shift_mm": 0.0,
+          "best_focus_rms_radius_um": 2.0125583079238115e-10,
+          "nominal_focus_rms_radius_um": 2.0125583079238115e-10,
+          "focus_scan_span_mm": [
+            -4.0,
+            4.0
+          ]
+        },
+        {
+          "field": "+x",
+          "best_focus_shift_mm": -0.2666666666666666,
+          "best_focus_rms_radius_um": 3.376263644155702,
+          "nominal_focus_rms_radius_um": 17.694982844967793,
+          "focus_scan_span_mm": [
+            -4.0,
+            4.0
+          ]
+        },
+        {
+          "field": "+y",
+          "best_focus_shift_mm": -0.2666666666666666,
+          "best_focus_rms_radius_um": 3.0566708970398113,
+          "nominal_focus_rms_radius_um": 11.520513451981119,
+          "focus_scan_span_mm": [
+            -4.0,
+            4.0
+          ]
+        },
+        {
+          "field": "corner++",
+          "best_focus_shift_mm": -0.5333333333333332,
+          "best_focus_rms_radius_um": 0.42023073866977806,
+          "nominal_focus_rms_radius_um": 28.21892049076449,
+          "focus_scan_span_mm": [
+            -4.0,
+            4.0
+          ]
+        }
+      ]
+    }
+  ],
+  "three_power_pupil_control_probe": [
+    {
+      "extra_power_focal_length_mm": -200.0,
+      "paraxial": {
+        "entrance_pupil_location_mm": 12960.470834890239,
+        "entrance_pupil_diameter_mm": 128.09724170172979,
+        "exit_pupil_location_mm": -189.68932549067173,
+        "exit_pupil_diameter_mm": 30.59505249849535,
+        "effective_focal_length_mm": 1475.763016157991
+      },
+      "corner_survival": 0.873046875,
+      "corner_rms_um": 4635.03408392011,
+      "interpretation": "ideal degree-of-freedom probe only; not a candidate prescription"
+    },
+    {
+      "extra_power_focal_length_mm": 200.0,
+      "paraxial": {
+        "entrance_pupil_location_mm": 12960.470834890239,
+        "entrance_pupil_diameter_mm": 128.09724170172979,
+        "exit_pupil_location_mm": -189.68932549067173,
+        "exit_pupil_diameter_mm": 30.595052498495352,
+        "effective_focal_length_mm": 543.2914738929285
+      },
+      "corner_survival": 0.873046875,
+      "corner_rms_um": 4677.660161423699,
+      "interpretation": "ideal degree-of-freedom probe only; not a candidate prescription"
+    }
+  ]
+}
