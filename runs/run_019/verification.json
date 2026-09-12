@@ -1,0 +1,10 @@
+{
+  "convergence_passed": true,
+  "all_minimum_clearances_positive": true,
+  "all_full_field_survival_one": true,
+  "primary_covers_required_pupil": true,
+  "requirements_copy_matches": true,
+  "historical_runs_modified": false,
+  "reference_accessed": false,
+  "passed": true
+}

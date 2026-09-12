@@ -1,0 +1,65 @@
+{
+  "surface_class": "two off-axis conic segments; final conics remain near paraboloids; no freeforms",
+  "variant_rows": [
+    {
+      "name": "A4_F1p2_O289",
+      "illuminated_clear_mm": 311.3712791132146,
+      "physical_segment_mm": 315.3712791132146,
+      "parent_envelope_mm": 893.3712791132145,
+      "outer_slope_deg": 30.86844245322735,
+      "direct_segment_solid_proxy_kg": 5.419746590997802,
+      "full_parent_solid_proxy_kg": 123.19937965234442,
+      "large_optics_over_100mm": 5
+    },
+    {
+      "name": "A6_F1p0_O250",
+      "illuminated_clear_mm": 311.3712791132146,
+      "physical_segment_mm": 315.3712791132146,
+      "parent_envelope_mm": 815.3712791132145,
+      "outer_slope_deg": 33.21122878027903,
+      "direct_segment_solid_proxy_kg": 5.419746590997802,
+      "full_parent_solid_proxy_kg": 93.66531352756965,
+      "large_optics_over_100mm": 3
+    },
+    {
+      "name": "A6_F1p4_O256",
+      "illuminated_clear_mm": 311.3712791132146,
+      "physical_segment_mm": 315.3712791132146,
+      "parent_envelope_mm": 827.3712791132145,
+      "outer_slope_deg": 25.384219216718883,
+      "direct_segment_solid_proxy_kg": 5.419746590997802,
+      "full_parent_solid_proxy_kg": 97.86195447000588,
+      "large_optics_over_100mm": 5
+    },
+    {
+      "name": "A8_F1p0_O237",
+      "illuminated_clear_mm": 311.3712791132146,
+      "physical_segment_mm": 315.3712791132146,
+      "parent_envelope_mm": 789.3712791132145,
+      "outer_slope_deg": 32.36595883123988,
+      "direct_segment_solid_proxy_kg": 5.419746590997802,
+      "full_parent_solid_proxy_kg": 84.9877877194126,
+      "large_optics_over_100mm": 3
+    },
+    {
+      "name": "A4_F1p2_O289_R",
+      "illuminated_clear_mm": 311.3712791132146,
+      "physical_segment_mm": 315.3712791132146,
+      "parent_envelope_mm": 893.3712791132145,
+      "outer_slope_deg": 30.877712931436367,
+      "direct_segment_solid_proxy_kg": 5.419746590997802,
+      "full_parent_solid_proxy_kg": 123.19937965234442,
+      "large_optics_over_100mm": 5
+    }
+  ],
+  "assessment": "direct segment fabrication avoids buying a full parent blank but still requires a roughly 0.78-0.89 m parent-axis figure/metrology reference, off-axis datum control, and small pre-cell beam gaps; a full-parent blank is an upper branch, not assumed procurement.",
+  "unresolved": [
+    "direct-segment lightweighting and mount",
+    "null/CGH or sub-aperture metrology",
+    "surface figure and mid-spatial allocation",
+    "cell/baffle clearance beyond 1.5-3.6 mm optical gaps",
+    "real dichroic/fold tilt and cameras",
+    "thermo-elastic LOS stability",
+    "stray light and polarization"
+  ]
+}

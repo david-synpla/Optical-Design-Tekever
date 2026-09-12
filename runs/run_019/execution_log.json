@@ -1,0 +1,23 @@
+{
+  "authoritative": {
+    "architecture_points": 4,
+    "sensitivity_aware_optimizer_invocations": 1,
+    "optimizer_evaluations": 5,
+    "dense_replays": 2
+  },
+  "debug_and_correction": {
+    "optimizer_replays": 2,
+    "optimizer_evaluations": 10,
+    "causes": [
+      "primary minimum-clear sizing correction",
+      "union-of-footprint circular enclosure correction"
+    ],
+    "no_optimizer_probes": 3
+  },
+  "total_optimizer_invocations": 3,
+  "total_optimizer_evaluations": 15,
+  "observed_WSL_process_seconds_approx": 145.0,
+  "dependency_installations": 0,
+  "plateau_counter": 0,
+  "resource_interpretation": "bounded architecture screen; correction replays are disclosed and are not additional architecture searches"
+}

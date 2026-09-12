@@ -1,7 +1,7 @@
 # Current Design State
 
 Track: C — complete simultaneous co-boresighted EO+SWIR payload engineering development
-Stage: C0 COMPLETE; Stage C1 Run 018 established a compact common-bench C01 UAV comparator, retained optical/compact/stretch points, and prioritizes a bounded C03 test next
+Stage: C0 COMPLETE; Stage C1 Run 019 parks the screened minimum-complexity C03 lane and prioritizes the bounded C04 economic/COTS investigation next
 Authoritative requirements: `requirements/eo_swir_system_requirements.yaml`
 Track A: FROZEN and immutable at `b06af2c3b6c3e7bec4e4bf5b57f9249207d8a875`; tag `track-a-frozen`; classified as autonomous EO-only work against the legacy baseline.
 Track B: PRESERVED as research-informed EO-only engineering evidence against the legacy baseline; its former B09-only next action is superseded by Track C.
@@ -13,13 +13,29 @@ Contamination state: `reference/` remains unread. The known TEKEVER/team prescri
 |---|---|---|---|---|
 | C01 | Separate optics on an integrated common bench/shell | ACTIVE — non-dominated; B05-1/S16 preferred C01 UAV comparator, S20 performance and S14 stretch retained | Proven B05 EO reuse, compact shared structure, 90–95% traced SWIR pupil survival, no splitter/complex SWIR camera | 470 mm screened front span, two large optics, two focusers and relative-boresight calibration; real CAD/thermal structure absent |
 | C02 | Common coaxial reflective fore-telescope plus independent EO/SWIR relays | CONDITIONAL ACTIVE through C02-A6F1; direct form and two-element backends PARKED | Curved-field common front is near its matched obscured-pupil diffraction limit; one frontal aperture/common LOS | 313 mm f/1 annular primary, 26–29% geometric pupil loss and at least triplet-like flat-field cameras; defer more backend work until broader comparison |
-| C03 | Common off-axis afocal/TMA front end plus modular relays | ACTIVE — recommend C1 | Unobscured common LOS and modular high-performance potential | Highest conventional off-axis alignment/metrology/NRE; prove minimum-complexity seed and clearance |
+| C03 | Common off-axis afocal/TMA front end plus modular relays | PARKED after bounded C1; reopen only with a justified three-power derivative plus strict package allocation or new fabrication evidence | Unobscured common LOS, 100% modeled geometric survival and modular relay potential | Screened conic forms trade 76.8–141.4 L package against 43.7–13.8 um SWIR ideal-camera RMS; 0.79–0.89 m parent-axis metrology envelope and small cell gaps |
 | C04 | Cost/COTS-maximized dual-channel branch | ACTIVE — recommend C1 economic lane | Lowest procurement/NRE hypothesis; B09 process reuse | 300/305 mm donors miss exact SWIR f/6.2; verify >=311.371 mm clear donor, coatings, substrates and qualification economics |
 | C05 | Compact folded/freeform shared architecture | PARKED after C0 | Distinct aggressive volume-compression hypothesis | Reopen only if C01-C04 packaging is unattractive or supplier evidence lowers freeform/metrology risk |
 
-No Track C candidate has been frozen or selected. Run 018 is a bounded system-integration comparator, not detailed prescription/tolerance optimization or CAD; its package, mass, CG and inertia numbers are continuous engineering proxies. Run 016's physical C02 doublets remain parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
+No Track C candidate has been frozen or selected. Run 019 is a bounded architecture experiment, not detailed prescription/tolerance optimization or CAD; its package, mass, sensitivity and parent-envelope numbers are continuous engineering proxies. Run 016's physical C02 doublets remain parked. Run 014 package ranges and ordinal risk classes remain engineering hypotheses, not customer requirements, CAD results or quotations.
 
 Persistent Track C governance: because this is a UAV payload, every substantive C-series run co-optimizes and reports optical performance together with largest aperture/optic, optical and folded length, bounding box/volume, major-optic mass proxy, large-optic count, shared/duplicated structure, mechanism count, structural/gimbal consequences and manufacturing/cost. SWaP is continuous Pareto evidence; no unsupplied hard mass or volume limit may be invented. C01 is the practical comparator/fallback, not the presumed overall leader.
+
+## Latest C03 sensitivity-aware architecture evidence — Run 019
+
+Run 019 tested the minimum-complexity unobscured C03 form: a two-confocal-conic common afocal front, dichroic, ideal EO/SWIR cameras and one passive branch fold. Four 4x/6x/8x geometries varied primary speed, mirror spacing and off-axis magnitude. Representative +/-10 um X/Y decenter and +/-100 urad X/Y tilt response was evaluated from the initial screen without compensation; one final conic/focus solve combined nominal and perturbation residuals rather than optimizing nominal image quality first. No freeform was introduced.
+
+All final points retain 100% modeled full-field geometric pupil survival and positive 2.46–3.65 mm circle clearance before cells/baffles. The compact A8 point is about 494 x 429 x 362 mm (76.8 L) but has 77.86/43.67 um EO/SWIR worst RMS radius even with ideal cameras. The best-nominal refined A4 point is 18.70/13.75 um but expands to about 852 x 448 x 370 mm (141.4 L). The slow/wider-spaced A6 reduces EO/SWIR composite perturbation response to 57.8%/57.5% of compact A6, qualitatively confirming that spacing/off-axis geometry must be traded early, but costs 35.7% package volume and reaches 124.3 L. The literature's approximately 60% example is guidance, not a transferred target.
+
+The sensitivity-aware A4 solve improves nominal EO/SWIR RMS by 31.5%/11.1% but improves the perturbation response by only 0.41%/0.45%; final conics remain near paraboloids. Nominal surface refinement therefore does not rescue the architecture, and freeforms are not justified on present evidence. Dense 24x72 pupil replays of the compact and best-nominal endpoints reproduce RMS within 0.001% and retain 100% survival.
+
+The illuminated aperture is 311.37 mm and the physical primary segment is 315.37 mm, but the parent-axis figure/metrology envelope is approximately 789–893 mm. Common primary-plus-secondary solid proxies are 5.44–5.53 kg; full-parent-disk values are explicitly an upper fabrication branch, not assumed procurement. Compact points still need three optics over 100 mm once the tilted dichroic/fold are counted; slower/lower-compression points need five. Two focus mechanisms and independent cameras remain. The neutral two-mirror-plus-splitter path coefficient is 0.729 before cameras/windows/QE: better than C02 after obscuration, but below a comparable no-splitter two-mirror path.
+
+Pareto consequence: no screened C03 point combines C01 B05-1/S16's 68.2 L complete-channel practicality and optical maturity or C02's approximately 79.7 L same-allowance common-front economy with acceptable nominal image, sensitivity and off-axis fabrication burden. C03 is PARKED after bounded C1. A true three-powered-element/TMA derivative may be reconsidered only with a strict package allocation or new manufacturing evidence; it is not the next development task.
+
+Run 019 used four geometry points and one authoritative joint sensitivity-aware solve (five evaluations). Two pre-closure aperture-sizing corrections replayed the solve, giving three optimizer invocations and fifteen evaluations total, plus three no-optimizer probes and two dense replays. Observed WSL process time was approximately 145 s plus deterministic reporting/integrity work. No dependency was installed and no plateau occurred. `reference/` remained unread and historical evidence was unchanged.
+
+Next recommended action, only after new instruction: execute the bounded C04 cost/COTS-maximized C1 economic lane. Do not begin C03 freeform/TMA escalation, detailed tolerancing or production design without new instruction.
 
 ## Latest C01 system-integration evidence — Run 018
 

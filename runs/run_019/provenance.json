@@ -1,0 +1,9 @@
+{
+  "requirements": {
+    "path": "requirements/eo_swir_system_requirements.yaml",
+    "sha256": "97c2a5d2874499f43e889a6a9156a883f3a42bbb645d5a80bda9c103e0e6e81d"
+  },
+  "guidance": "Wang et al., Optics Communications 575 (2025) 131228, DOI 10.1016/j.optcom.2024.131228; sensitivity-aware architecture screening, no transferred target",
+  "historical_files_modified": false,
+  "contamination_control": "reference/ not accessed"
+}

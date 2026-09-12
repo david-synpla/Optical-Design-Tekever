@@ -1,0 +1,86 @@
+{
+  "answer": "No screened minimum-complexity C03 form is a better current UAV Pareto point than both C01 and C02.",
+  "architecture_status": "PARKED after bounded C1; retain evidence and reopen only for a justified three-powered-element derivative with a strict package allocation or new fabrication evidence.",
+  "screened_forms": {
+    "compact_endpoint": {
+      "name": "A8_F1p0_O237",
+      "package_l": 76.83955441636385,
+      "dimensions_mm": [
+        494.316659970769,
+        428.875900196412,
+        362.44986922406275
+      ],
+      "EO_SWIR_worst_rms_um": [
+        77.85758929836972,
+        43.66660923526074
+      ],
+      "minimum_clearance_mm": 2.9024496030608873
+    },
+    "best_nominal_endpoint": {
+      "name": "A4_F1p2_O289_R",
+      "package_l": 141.36664567713552,
+      "dimensions_mm": [
+        851.9372158550788,
+        448.1907472601706,
+        370.2341512018931
+      ],
+      "EO_SWIR_worst_rms_um": [
+        18.697035431961403,
+        13.752644353828362
+      ],
+      "minimum_clearance_mm": 3.645419853779998
+    },
+    "lower_sensitivity_endpoint": {
+      "name": "A6_F1p4_O256",
+      "package_l": 124.27459713318555,
+      "dimensions_mm": [
+        620.501274852026,
+        441.8614066411007,
+        453.26649229875034
+      ],
+      "relative_sensitivity_percent_of_compact_A6": {
+        "EO": 57.75498638446286,
+        "SWIR": 57.474655544515635
+      },
+      "package_increase_percent_vs_compact_A6": 35.730681717838486
+    }
+  },
+  "sensitivity_aware_solve": {
+    "nominal_RMS_improvement_percent": {
+      "EO": 31.51342890955805,
+      "SWIR": 11.052645017219387
+    },
+    "sensitivity_response_improvement_percent": {
+      "EO": 0.4110339715157618,
+      "SWIR": 0.4482056766161535
+    },
+    "interpretation": "two conic constants and two channel focus offsets improve nominal imaging but do not materially desensitize the architecture; spacing/off-axis geometry is the effective early trade."
+  },
+  "physical_optics": {
+    "geometric_survival": 1.0,
+    "neutral_two_mirror_plus_splitter_path": 0.729,
+    "largest_clear_segment_mm": 315.3712791132146,
+    "full_parent_diameter_range_mm": [
+      789.3712791132145,
+      893.3712791132145
+    ],
+    "common_mirror_solid_proxy_range_kg": [
+      5.439080634408157,
+      5.53042157430627
+    ],
+    "minimum_clearance_range_mm": [
+      2.4615813732855827,
+      3.645419853779998
+    ]
+  },
+  "comparators": {
+    "C01_preferred_volume_l": 68.1954787041315,
+    "C01_maximum_dimension_mm": 470.3712791132146,
+    "C01_mirror_blank_proxy_kg": 5.740798404023658,
+    "C02_same_allowance_volume_l": 79.7357088741447,
+    "C02_mirror_proxy_kg": 5.09227711842174,
+    "interpretation": "C03 removes geometric obscuration and inter-aperture parallax, but no screened point combines C01-like volume and optical maturity or C02-like frontal/package economy with acceptable nominal/sensitivity/manufacturing burden."
+  },
+  "freeform_decision": "not introduced: near-parabolic conic refinement did not materially reduce alignment response, while package/parent-envelope burden already gates the family.",
+  "recommended_next_experiment": "bounded C04 cost/COTS-maximized C1 economic lane; do not proceed to C03 freeforms or detailed tolerancing without new instruction."
+}

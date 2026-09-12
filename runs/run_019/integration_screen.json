@@ -1,0 +1,186 @@
+{
+  "coordinate_note": "box axes are camera-fold lateral, off-axis-mirror transverse, and depth; CG reports transverse/depth only",
+  "variants": [
+    {
+      "name": "A4_F1p2_O289",
+      "passive_folded_dimensions_mm": [
+        851.9826452167113,
+        448.14874516230213,
+        370.2341512018931
+      ],
+      "bounding_box_volume_l": 141.36093517118195,
+      "largest_dimension_mm": 851.9826452167113,
+      "mirror_proxy_CG_from_box_low_y_low_z_mm": [
+        276.1265883302226,
+        277.62609590447704
+      ],
+      "mirror_proxy_CG_offset_from_box_center_y_z_mm": [
+        52.052215749071536,
+        92.50902030353049
+      ],
+      "two_mirror_point_mass_pitch_inertia_proxy_kg_m2": 0.013610459548082971,
+      "uniform_box_specific_inertia_m2_per_unit_mass": {
+        "about_vertical_axis": 0.0719123128722209,
+        "about_optical_axis": 0.07722597712841754
+      },
+      "shared": [
+        "primary",
+        "secondary",
+        "fore-optic metering structure",
+        "front baffle and line of sight"
+      ],
+      "duplicated": [
+        "EO/SWIR cameras",
+        "detector interfaces",
+        "focus compensation",
+        "channel coatings/windows"
+      ],
+      "limitations": "mirror-only CG/inertia proxy; dichroic, fold, cameras, cells, electronics, shell and gimbal excluded"
+    },
+    {
+      "name": "A6_F1p0_O250",
+      "passive_folded_dimensions_mm": [
+        608.2744543268574,
+        430.71234297922217,
+        349.47606592767886
+      ],
+      "bounding_box_volume_l": 91.55969421234602,
+      "largest_dimension_mm": 608.2744543268574,
+      "mirror_proxy_CG_from_box_low_y_low_z_mm": [
+        261.5596514590957,
+        260.6482406219608
+      ],
+      "mirror_proxy_CG_offset_from_box_center_y_z_mm": [
+        46.20347996948459,
+        85.91020765812135
+      ],
+      "two_mirror_point_mass_pitch_inertia_proxy_kg_m2": 0.004226354951628812,
+      "uniform_box_specific_inertia_m2_per_unit_mass": {
+        "about_vertical_axis": 0.041010944370243614,
+        "about_optical_axis": 0.0462925778484406
+      },
+      "shared": [
+        "primary",
+        "secondary",
+        "fore-optic metering structure",
+        "front baffle and line of sight"
+      ],
+      "duplicated": [
+        "EO/SWIR cameras",
+        "detector interfaces",
+        "focus compensation",
+        "channel coatings/windows"
+      ],
+      "limitations": "mirror-only CG/inertia proxy; dichroic, fold, cameras, cells, electronics, shell and gimbal excluded"
+    },
+    {
+      "name": "A6_F1p4_O256",
+      "passive_folded_dimensions_mm": [
+        620.501274852026,
+        441.8614066411007,
+        453.26649229875034
+      ],
+      "bounding_box_volume_l": 124.27459713318555,
+      "largest_dimension_mm": 620.501274852026,
+      "mirror_proxy_CG_from_box_low_y_low_z_mm": [
+        272.5362897815342,
+        363.4741343749735
+      ],
+      "mirror_proxy_CG_offset_from_box_center_y_z_mm": [
+        51.60558646098386,
+        136.84088822559835
+      ],
+      "two_mirror_point_mass_pitch_inertia_proxy_kg_m2": 0.007392780741579619,
+      "uniform_box_specific_inertia_m2_per_unit_mass": {
+        "about_vertical_axis": 0.04920602876115021,
+        "about_optical_axis": 0.048355277897653474
+      },
+      "shared": [
+        "primary",
+        "secondary",
+        "fore-optic metering structure",
+        "front baffle and line of sight"
+      ],
+      "duplicated": [
+        "EO/SWIR cameras",
+        "detector interfaces",
+        "focus compensation",
+        "channel coatings/windows"
+      ],
+      "limitations": "mirror-only CG/inertia proxy; dichroic, fold, cameras, cells, electronics, shell and gimbal excluded"
+    },
+    {
+      "name": "A8_F1p0_O237",
+      "passive_folded_dimensions_mm": [
+        494.316659970769,
+        428.875900196412,
+        362.44986922406275
+      ],
+      "bounding_box_volume_l": 76.83955441636385,
+      "largest_dimension_mm": 494.316659970769,
+      "mirror_proxy_CG_from_box_low_y_low_z_mm": [
+        260.4533610924624,
+        274.4814045233557
+      ],
+      "mirror_proxy_CG_offset_from_box_center_y_z_mm": [
+        46.0154109942564,
+        93.25646991132433
+      ],
+      "two_mirror_point_mass_pitch_inertia_proxy_kg_m2": 0.002257982988302058,
+      "uniform_box_specific_inertia_m2_per_unit_mass": {
+        "about_vertical_axis": 0.03130990566876642,
+        "about_optical_axis": 0.0356902915078283
+      },
+      "shared": [
+        "primary",
+        "secondary",
+        "fore-optic metering structure",
+        "front baffle and line of sight"
+      ],
+      "duplicated": [
+        "EO/SWIR cameras",
+        "detector interfaces",
+        "focus compensation",
+        "channel coatings/windows"
+      ],
+      "limitations": "mirror-only CG/inertia proxy; dichroic, fold, cameras, cells, electronics, shell and gimbal excluded"
+    },
+    {
+      "name": "A4_F1p2_O289_R",
+      "passive_folded_dimensions_mm": [
+        851.9372158550788,
+        448.1907472601706,
+        370.2341512018931
+      ],
+      "bounding_box_volume_l": 141.36664567713552,
+      "largest_dimension_mm": 851.9372158550788,
+      "mirror_proxy_CG_from_box_low_y_low_z_mm": [
+        276.17987573547276,
+        277.64249972009725
+      ],
+      "mirror_proxy_CG_offset_from_box_center_y_z_mm": [
+        52.08450210538746,
+        92.5254241191507
+      ],
+      "two_mirror_point_mass_pitch_inertia_proxy_kg_m2": 0.01357393541190069,
+      "uniform_box_specific_inertia_m2_per_unit_mass": {
+        "about_vertical_axis": 0.07190586220625744,
+        "about_optical_axis": 0.07722266380737776
+      },
+      "shared": [
+        "primary",
+        "secondary",
+        "fore-optic metering structure",
+        "front baffle and line of sight"
+      ],
+      "duplicated": [
+        "EO/SWIR cameras",
+        "detector interfaces",
+        "focus compensation",
+        "channel coatings/windows"
+      ],
+      "limitations": "mirror-only CG/inertia proxy; dichroic, fold, cameras, cells, electronics, shell and gimbal excluded"
+    }
+  ],
+  "gimbal_assessment": "compact A8 is near comparator volume but wider than C01 and has poor ideal-camera imaging; lower-sensitivity and best-nominal points create 621-852 mm lateral arms. Real component placement is needed before balance or actuator sizing."
+}

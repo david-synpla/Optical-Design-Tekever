@@ -1,0 +1,61 @@
+{
+  "purpose": "dense pupil replay of the compact-volume and best-nominal endpoints; not an added architecture attempt",
+  "checks": [
+    {
+      "variant": "A8_F1p0_O237",
+      "sampling": {
+        "screen": [
+          16,
+          48
+        ],
+        "dense": [
+          24,
+          72
+        ]
+      },
+      "channels": {
+        "EO": {
+          "screen_worst_rms_um": 77.85758929836972,
+          "dense_worst_rms_um": 77.85760289066624,
+          "relative_change_percent": 1.745789543207537e-05,
+          "dense_minimum_survival": 1.0
+        },
+        "SWIR": {
+          "screen_worst_rms_um": 43.66660923526074,
+          "dense_worst_rms_um": 43.66661096432209,
+          "relative_change_percent": 3.959687695113864e-06,
+          "dense_minimum_survival": 1.0
+        }
+      }
+    },
+    {
+      "variant": "A4_F1p2_O289_R",
+      "sampling": {
+        "screen": [
+          16,
+          48
+        ],
+        "dense": [
+          24,
+          72
+        ]
+      },
+      "channels": {
+        "EO": {
+          "screen_worst_rms_um": 18.697035431961403,
+          "dense_worst_rms_um": 18.697104927583574,
+          "relative_change_percent": 0.00037169326882665027,
+          "dense_minimum_survival": 1.0
+        },
+        "SWIR": {
+          "screen_worst_rms_um": 13.752644353828362,
+          "dense_worst_rms_um": 13.752780153810887,
+          "relative_change_percent": 0.0009874463341814242,
+          "dense_minimum_survival": 1.0
+        }
+      }
+    }
+  ],
+  "pass_criterion": "absolute RMS replay change below 2%; physical survival at least 0.995 (finite quadrature versus 2 mm sizing margin)",
+  "passed": true
+}
