@@ -1,0 +1,105 @@
+{
+  "classification": "ordinal engineering evidence and current retail anchors; not quotations, production cost, schedule or yield",
+  "catalogue_anchors": {
+    "Orion_350_primary_page_GBP_ex_VAT_range": [
+      1264.92,
+      1840.32
+    ],
+    "Orion_63_75_82_flat_GBP_ex_VAT": [
+      116,
+      148,
+      186
+    ],
+    "Edmund_317p5_donor": "excluded: 286 mm specified clear aperture",
+    "corrector_cost": "no quote",
+    "large_donor_SWIR_coating_cost": "no quote"
+  },
+  "clear_aperture_gate": {
+    "required_mm": 311.3712791132146,
+    "Orion_nominal_diameter_mm": 353,
+    "Orion_guaranteed_clear_aperture": "not published on reviewed pages; written >=311.371 mm figure/edge-zone guarantee required"
+  },
+  "coating_branches": [
+    {
+      "branch": "fully stock Hilux-coated figures",
+      "status": "NOT VERIFIED for SWIR",
+      "reason": "supplier describes high visible reflectance but no reviewed 0.8-1.8 um spectral guarantee"
+    },
+    {
+      "branch": "stock figured substrate plus qualified protected-gold coating",
+      "status": "PREFERRED C04 HYPOTHESIS",
+      "evidence": "protected-gold class >96% average at 700-2000 nm exists",
+      "risks": [
+        "stripping/surface damage",
+        "figure re-verification",
+        "large-chamber availability",
+        "adhesion/environment qualification",
+        "witness coupons",
+        "supplier/warranty dependence"
+      ]
+    },
+    {
+      "branch": "factory uncoated or factory SWIR-coated donor",
+      "status": "BEST PROCUREMENT ROUTE IF QUOTED",
+      "risk": "availability, aperture and coating performance unconfirmed"
+    }
+  ],
+  "relative_matrix": [
+    {
+      "point": "C04-N1400 + B09 EO",
+      "procurement": "potentially moderate: catalogue large figures, but no complete BOM",
+      "custom_optics_NRE": "moderate: four small spherical powered surfaces plus coatings",
+      "coating_risk": "high until large-donor SWIR process is qualified",
+      "alignment": "moderate/high: long Newtonian, flat and two-lens centration",
+      "supplier_concentration": "high: one identified 350/1600 donor source",
+      "qualification": "high: astronomy substrate/figure, coating and 1.455 m flight structure",
+      "recurring_complexity": "moderate/high",
+      "status": "CONDITIONAL ACTIVE economic point"
+    },
+    {
+      "point": "C04-N1400 + B05-1 EO",
+      "procurement": "higher EO custom content than B09; same donor uncertainty",
+      "custom_optics_NRE": "moderate/high",
+      "coating_risk": "high until donor route is qualified",
+      "alignment": "moderate/high",
+      "supplier_concentration": "high",
+      "qualification": "high",
+      "recurring_complexity": "high",
+      "status": "preserved module option; not preferred economic baseline"
+    },
+    {
+      "point": "C04-C350 custom secondary + B09 EO",
+      "procurement": "stock primary plus custom 158 mm hyperbolic secondary",
+      "custom_optics_NRE": "high; K=-133 secondary and primary-hole/side-fold integration",
+      "coating_risk": "high",
+      "alignment": "high",
+      "supplier_concentration": "high",
+      "qualification": "high",
+      "recurring_complexity": "high",
+      "status": "PARKED"
+    },
+    {
+      "point": "C01 B05-1/S16",
+      "procurement": "custom EO and SWIR optical sets",
+      "custom_optics_NRE": "moderate/high",
+      "coating_risk": "moderate, channel-specific",
+      "alignment": "moderate; compact coaxial channels",
+      "supplier_concentration": "quotation needed",
+      "qualification": "moderate/high",
+      "recurring_complexity": "moderate/high",
+      "status": "ACTIVE practical comparator"
+    },
+    {
+      "point": "C02-A6F1",
+      "procurement": "custom annular primary plus two multi-element cameras",
+      "custom_optics_NRE": "high",
+      "coating_risk": "high broadband common mirrors/dichroic",
+      "alignment": "high coupled common front",
+      "supplier_concentration": "quotation needed",
+      "qualification": "high",
+      "recurring_complexity": "high",
+      "status": "CONDITIONAL ACTIVE"
+    }
+  ],
+  "interpretation": "C04 plausibly lowers large-powered-figure NRE, but the corrector, SWIR recoating, long precision structure and flight qualification prevent calling it a low-cost product without RFQ evidence."
+}

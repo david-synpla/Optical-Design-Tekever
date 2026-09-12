@@ -1,0 +1,35 @@
+{
+  "retained_newtonian_extender": {
+    "variant": "N1400_F63_L50",
+    "screen_sampling": [
+      10,
+      40
+    ],
+    "dense_sampling": [
+      16,
+      64
+    ],
+    "screen_worst_rms_um": 9.179617598595323,
+    "dense_worst_rms_um": 9.219889304730318,
+    "relative_change_percent": 0.43870788409701156,
+    "dense_minimum_survival": 0.935546875,
+    "infinity_to_800m_detector_refocus_mm": 4.647614694341727,
+    "finite_800m_worst_rms_um": 7.8188823892343455,
+    "focus_evaluations": 16
+  },
+  "custom_secondary_derivative": {
+    "screen_sampling": [
+      18,
+      48
+    ],
+    "dense_sampling": [
+      24,
+      64
+    ],
+    "screen_worst_rms_um": 10.123363075825859,
+    "dense_worst_rms_um": 10.079947052698492,
+    "relative_change_percent": -0.42886956441424706,
+    "dense_minimum_survival": 0.74609375
+  },
+  "passed": true
+}

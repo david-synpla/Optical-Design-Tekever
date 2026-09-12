@@ -1,0 +1,11 @@
+{
+  "convergence_passed": true,
+  "requirements_copy_exact": true,
+  "selected_EFL_error_below_0p01mm": true,
+  "selected_f_number_error_below_1e_5": true,
+  "selected_flat_margin_positive": true,
+  "selected_lens_edges_above_0p8mm": true,
+  "historical_files_modified": false,
+  "reference_accessed": false,
+  "passed": true
+}

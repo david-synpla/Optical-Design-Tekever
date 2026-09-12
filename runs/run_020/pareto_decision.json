@@ -1,0 +1,27 @@
+{
+  "answer": "C04 produces one conditionally non-dominated economic hypothesis, not an unconditional UAV product point.",
+  "retained": "C04-N1400/B09: 353 mm donor primary stopped to 311.371 mm, stock 63 mm flat, two custom 50 mm spherical SWIR elements, custom SWIR coating, and preserved B09 EO on a common UAV bench.",
+  "why_non_dominated": "It is the only modeled point combining exact SWIR first order, about 9.22 um dense RMS, about 93.6% sampled survival, catalogue large-mirror figures and only small custom spherical powered surfaces. Its potential procurement/NRE advantage is distinct from C01/C02, despite much worse package and mass.",
+  "conditional_gates": [
+    "written >=311.371 mm guaranteed clear aperture/edge-zone figure",
+    "substrate/lot/figure/roughness documentation",
+    "uncoated or qualified 0.8-1.8 um coating route and environmental coupon",
+    "common-quantity corrector quote and tolerances",
+    "credible lightweight 1.4 m metering-structure/gimbal concept"
+  ],
+  "other_points": {
+    "N1300_F75_L60": "preserve as a 7% shorter-volume placement checkpoint; 10.18 um RMS, 90% sampled survival and 0.16 mm first-order miss need closure before promotion",
+    "N1220_F82_L70": "PARKED: nominal 82 mm flat is 2.31 mm undersized by the physical field/beam screen",
+    "single_lens": "PARKED: 24.26 um RMS with no package benefit",
+    "custom_secondary": "PARKED: 158 mm K=-133 secondary, 72-75% survival, donor perforation/fold burden and 183 L package compromise the COTS premise",
+    "large_midpath_fold": "PARKED: increases volume and adds approximately 262 mm / 3.11 kg solid-proxy qualified optic"
+  },
+  "portfolio_status": {
+    "C01": "ACTIVE practical comparator",
+    "C02": "CONDITIONAL ACTIVE",
+    "C03": "PARKED",
+    "C04": "CONDITIONAL ACTIVE economic lane through N1400/B09",
+    "C05": "PARKED"
+  },
+  "recommended_next": "Before C2 prescription optimization, execute one cross-portfolio C1 closure/RFQ-readiness run: normalize C01/C02/C04 detector-window, coating, structure and quantity assumptions and prepare supplier questions. If optical development is then justified, C02-A6F1 real three-element backends/folded package are the highest-value C2 uncertainty."
+}

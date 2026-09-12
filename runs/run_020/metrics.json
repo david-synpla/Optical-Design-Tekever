@@ -1,0 +1,1087 @@
+{
+  "donor_hypothesis": {
+    "nominal_diameter_mm": 353.0,
+    "nominal_focal_length_mm": 1600.0,
+    "catalog_mass_kg": 8.28,
+    "guaranteed_clear_aperture_status": "not published on reviewed supplier pages; >=311.371 mm supplier confirmation required"
+  },
+  "variants": [
+    {
+      "geometry": {
+        "name": "N1220_F82_L70",
+        "flat_distance_mm": 1220,
+        "flat_minor_mm": 82,
+        "lens_diameter_mm": 70,
+        "donor_nominal_diameter_mm": 353.0,
+        "primary_focal_mm": 1600.0
+      },
+      "parameters": [
+        0.00554391979042987,
+        0.0037668322538552393,
+        0.0024269619167395446,
+        0.008161563107204938,
+        1465.3409639752256,
+        5.028962924325392,
+        143.85545849858428
+      ],
+      "effective_focal_length_mm": 1930.487924887333,
+      "f_number": 6.199955019568159,
+      "worst_rms_radius_um": 13.832358655688735,
+      "minimum_survival": 0.89,
+      "traces": [
+        {
+          "field": "center",
+          "wave_um": 0.8,
+          "survival": 0.9,
+          "rms_radius_um": 5.707216571122184,
+          "centroid_mm": [
+            -3.0407775063344566e-16,
+            -2.823358830678697e-16
+          ]
+        },
+        {
+          "field": "center",
+          "wave_um": 1.2,
+          "survival": 0.9,
+          "rms_radius_um": 1.843549587783537,
+          "centroid_mm": [
+            -3.3800123194143653e-16,
+            -1.0562538498169892e-16
+          ]
+        },
+        {
+          "field": "center",
+          "wave_um": 1.8,
+          "survival": 0.9,
+          "rms_radius_um": 1.8415553124446473,
+          "centroid_mm": [
+            -2.807939066447792e-16,
+            -1.506510965359414e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 0.8,
+          "survival": 0.9,
+          "rms_radius_um": 10.918883502703965,
+          "centroid_mm": [
+            6.418565483511946,
+            -3.0531133177191805e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 1.2,
+          "survival": 0.9,
+          "rms_radius_um": 10.611127319129826,
+          "centroid_mm": [
+            6.41551043694203,
+            -1.8411198491700514e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 1.8,
+          "survival": 0.9,
+          "rms_radius_um": 10.66796162352818,
+          "centroid_mm": [
+            6.415068050597702,
+            -1.697716041822635e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 0.8,
+          "survival": 0.9,
+          "rms_radius_um": 10.918883502703917,
+          "centroid_mm": [
+            -6.418565483511949,
+            -6.277386018401406e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 1.2,
+          "survival": 0.9,
+          "rms_radius_um": 10.61112731912957,
+          "centroid_mm": [
+            -6.415510436942031,
+            -3.9382077845731245e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 1.8,
+          "survival": 0.9,
+          "rms_radius_um": 10.667961623527813,
+          "centroid_mm": [
+            -6.415068050597702,
+            -5.409253292201457e-16
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 0.8,
+          "survival": 0.9,
+          "rms_radius_um": 9.266131180172959,
+          "centroid_mm": [
+            -1.4031985450123506e-16,
+            5.134630484809451
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 1.2,
+          "survival": 0.9,
+          "rms_radius_um": 8.433120206200499,
+          "centroid_mm": [
+            -8.974302782386682e-17,
+            5.132187660349221
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 1.8,
+          "survival": 0.9,
+          "rms_radius_um": 8.478485133094232,
+          "centroid_mm": [
+            -1.1318106945484234e-16,
+            5.131834485229102
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 0.8,
+          "survival": 0.9,
+          "rms_radius_um": 9.266131180172568,
+          "centroid_mm": [
+            -1.1472304587793285e-16,
+            -5.134630484809448
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 1.2,
+          "survival": 0.9,
+          "rms_radius_um": 8.433120206200627,
+          "centroid_mm": [
+            -1.4957171303977803e-17,
+            -5.132187660349221
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 1.8,
+          "survival": 0.9,
+          "rms_radius_um": 8.478485133094178,
+          "centroid_mm": [
+            2.7292982688701764e-17,
+            -5.131834485229102
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 0.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.312553864056982,
+          "centroid_mm": [
+            6.418802293064757,
+            5.135067660076389
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 1.2,
+          "survival": 0.89,
+          "rms_radius_um": 13.750922518478587,
+          "centroid_mm": [
+            6.41580645467393,
+            5.132666431861343
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 1.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.832358655688676,
+          "centroid_mm": [
+            6.415366389388405,
+            5.132314089483548
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 0.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.312553864057204,
+          "centroid_mm": [
+            6.418802293064756,
+            -5.135067660076391
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 1.2,
+          "survival": 0.89,
+          "rms_radius_um": 13.750922518478994,
+          "centroid_mm": [
+            6.415806454673931,
+            -5.132666431861343
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 1.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.832358655688735,
+          "centroid_mm": [
+            6.415366389388405,
+            -5.132314089483547
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 0.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.312553864057179,
+          "centroid_mm": [
+            -6.418802293064756,
+            5.135067660076392
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 1.2,
+          "survival": 0.89,
+          "rms_radius_um": 13.750922518478383,
+          "centroid_mm": [
+            -6.41580645467393,
+            5.132666431861343
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 1.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.832358655688191,
+          "centroid_mm": [
+            -6.415366389388402,
+            5.132314089483545
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 0.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.312553864056957,
+          "centroid_mm": [
+            -6.418802293064756,
+            -5.135067660076394
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 1.2,
+          "survival": 0.89,
+          "rms_radius_um": 13.75092251847869,
+          "centroid_mm": [
+            -6.415806454673926,
+            -5.132666431861343
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 1.8,
+          "survival": 0.89,
+          "rms_radius_um": 13.832358655688243,
+          "centroid_mm": [
+            -6.4153663893884065,
+            -5.132314089483546
+          ]
+        }
+      ],
+      "physical": {
+        "lens_edge_thickness_mm": [
+          4.889069424025337,
+          8.616114739901118
+        ],
+        "air_gap_edge_mm": 4.20086981528703,
+        "beam_at_flat_including_field_mm": 84.30979549580158,
+        "flat_clear_margin_mm": -2.3097954958015805,
+        "side_exit_track_mm": 405.22538539813536,
+        "straight_dimensions_mm": [
+          512.0,
+          367.0,
+          1275
+        ],
+        "straight_volume_l": 239.5776,
+        "one_large_fold_dimensions_mm": [
+          1095.2253853981354,
+          367.0,
+          685.0
+        ],
+        "one_large_fold_volume_l": 275.3341857621642,
+        "large_fold_clear_mm": 285.7887710432156,
+        "large_fold_solid_proxy_kg": 4.033184085365578,
+        "donor_primary_catalog_mass_kg": 8.28,
+        "donor_primary_solid_proxy_kg": 7.600404008825276,
+        "focus_mechanisms_complete_payload": 2,
+        "large_optics_over_100mm_straight": 2,
+        "large_optics_over_100mm_large_fold": 3,
+        "limitations": "box includes integrated 141 mm EO cell proxy; cells/electronics/gimbal excluded; large fold is a new qualified optic"
+      },
+      "optimization": {
+        "nfev": 60,
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "seed": [
+          0.0014708011303232681,
+          0.0066647349233007296,
+          9.244298233016996e-05,
+          -0.002494537542713455,
+          1429.3898508330442,
+          7.425686684564042,
+          190.71869799490693
+        ],
+        "bounds": [
+          [
+            -0.025,
+            -0.025,
+            -0.025,
+            -0.025,
+            1245,
+            1,
+            40
+          ],
+          [
+            0.025,
+            0.025,
+            0.025,
+            0.025,
+            1560,
+            40,
+            350
+          ]
+        ]
+      }
+    },
+    {
+      "geometry": {
+        "name": "N1300_F75_L60",
+        "flat_distance_mm": 1300,
+        "flat_minor_mm": 75,
+        "lens_diameter_mm": 60,
+        "donor_nominal_diameter_mm": 353.0,
+        "primary_focal_mm": 1600.0
+      },
+      "parameters": [
+        0.003952968177849335,
+        0.0017369997442062504,
+        0.003717715874121567,
+        0.009642413844962748,
+        1456.165089488319,
+        4.7190430809385475,
+        154.8969341468174
+      ],
+      "effective_focal_length_mm": 1930.3417098464522,
+      "f_number": 6.199485435342866,
+      "worst_rms_radius_um": 10.182798104939721,
+      "minimum_survival": 0.9,
+      "traces": [
+        {
+          "field": "center",
+          "wave_um": 0.8,
+          "survival": 0.9,
+          "rms_radius_um": 3.009837060368198,
+          "centroid_mm": [
+            -6.405370061517917e-16,
+            -2.9420910152566647e-16
+          ]
+        },
+        {
+          "field": "center",
+          "wave_um": 1.2,
+          "survival": 0.9,
+          "rms_radius_um": 3.4304006194970906,
+          "centroid_mm": [
+            -6.084638965515094e-16,
+            -8.434611034305008e-17
+          ]
+        },
+        {
+          "field": "center",
+          "wave_um": 1.8,
+          "survival": 0.9,
+          "rms_radius_um": 2.7258058310710096,
+          "centroid_mm": [
+            -7.03758039498502e-16,
+            -2.0940039825568924e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 0.8,
+          "survival": 0.93,
+          "rms_radius_um": 7.155953021128014,
+          "centroid_mm": [
+            6.410552706241859,
+            -2.7904799140444125e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 1.2,
+          "survival": 0.93,
+          "rms_radius_um": 8.028622312061477,
+          "centroid_mm": [
+            6.408548769743363,
+            -5.903282641689677e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 1.8,
+          "survival": 0.93,
+          "rms_radius_um": 7.2160536111652664,
+          "centroid_mm": [
+            6.40982997838151,
+            -4.543856330623121e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 0.8,
+          "survival": 0.93,
+          "rms_radius_um": 7.1559530211279405,
+          "centroid_mm": [
+            -6.4105527062418535,
+            6.618063325554528e-17
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 1.2,
+          "survival": 0.93,
+          "rms_radius_um": 8.028622312061001,
+          "centroid_mm": [
+            -6.408548769743362,
+            -5.4988868894404595e-17
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 1.8,
+          "survival": 0.93,
+          "rms_radius_um": 7.216053611164931,
+          "centroid_mm": [
+            -6.409829978381506,
+            4.7378469128828926e-17
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 0.8,
+          "survival": 0.92,
+          "rms_radius_um": 5.890855443075514,
+          "centroid_mm": [
+            -3.497353373088893e-16,
+            5.128053435625229
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 1.2,
+          "survival": 0.92,
+          "rms_radius_um": 6.651834655442728,
+          "centroid_mm": [
+            -4.016261960685434e-16,
+            5.126450372625942
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 1.8,
+          "survival": 0.92,
+          "rms_radius_um": 5.890567511459144,
+          "centroid_mm": [
+            -4.486899981993924e-16,
+            5.1274784114859475
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 0.8,
+          "survival": 0.92,
+          "rms_radius_um": 5.890855443075309,
+          "centroid_mm": [
+            -1.0981553830531439e-16,
+            -5.128053435625229
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 1.2,
+          "survival": 0.92,
+          "rms_radius_um": 6.651834655443626,
+          "centroid_mm": [
+            -3.952906842432368e-16,
+            -5.1264503726259445
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 1.8,
+          "survival": 0.92,
+          "rms_radius_um": 5.8905675114591896,
+          "centroid_mm": [
+            -2.1721754829622628e-16,
+            -5.127478411485948
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 0.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.143567104154597,
+          "centroid_mm": [
+            6.411534526391191,
+            5.1292317491535755
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 1.2,
+          "survival": 0.935,
+          "rms_radius_um": 10.182798104939652,
+          "centroid_mm": [
+            6.4095230388735205,
+            5.127620530505888
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 1.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.272115224204162,
+          "centroid_mm": [
+            6.41080472718402,
+            5.128647499256076
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 0.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.143567104154672,
+          "centroid_mm": [
+            6.411534526391193,
+            -5.129231749153578
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 1.2,
+          "survival": 0.935,
+          "rms_radius_um": 10.18279810493969,
+          "centroid_mm": [
+            6.409523038873519,
+            -5.127620530505886
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 1.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.27211522420364,
+          "centroid_mm": [
+            6.410804727184021,
+            -5.128647499256076
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 0.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.143567104154355,
+          "centroid_mm": [
+            -6.4115345263911925,
+            5.129231749153574
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 1.2,
+          "survival": 0.935,
+          "rms_radius_um": 10.182798104939433,
+          "centroid_mm": [
+            -6.409523038873524,
+            5.127620530505887
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 1.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.272115224203992,
+          "centroid_mm": [
+            -6.410804727184021,
+            5.1286474992560755
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 0.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.143567104154963,
+          "centroid_mm": [
+            -6.4115345263911925,
+            -5.129231749153576
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 1.2,
+          "survival": 0.935,
+          "rms_radius_um": 10.182798104939721,
+          "centroid_mm": [
+            -6.409523038873517,
+            -5.1276205305058875
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 1.8,
+          "survival": 0.935,
+          "rms_radius_um": 9.272115224204029,
+          "centroid_mm": [
+            -6.410804727184018,
+            -5.1286474992560755
+          ]
+        }
+      ],
+      "physical": {
+        "lens_edge_thickness_mm": [
+          4.9970470899706285,
+          7.755659803059393
+        ],
+        "air_gap_edge_mm": 5.615069235094074,
+        "beam_at_flat_including_field_mm": 69.42051788154498,
+        "flat_clear_margin_mm": 5.579482118455019,
+        "side_exit_track_mm": 326.78106671607475,
+        "straight_dimensions_mm": [
+          512.0,
+          367.0,
+          1355
+        ],
+        "straight_volume_l": 254.60992,
+        "one_large_fold_dimensions_mm": [
+          1056.7810667160747,
+          367.0,
+          725.0
+        ],
+        "one_large_fold_volume_l": 281.1830223264796,
+        "large_fold_clear_mm": 275.2604618752057,
+        "large_fold_solid_proxy_kg": 3.603662122525776,
+        "donor_primary_catalog_mass_kg": 8.28,
+        "donor_primary_solid_proxy_kg": 7.600404008825276,
+        "focus_mechanisms_complete_payload": 2,
+        "large_optics_over_100mm_straight": 2,
+        "large_optics_over_100mm_large_fold": 3,
+        "limitations": "box includes integrated 141 mm EO cell proxy; cells/electronics/gimbal excluded; large fold is a new qualified optic"
+      },
+      "optimization": {
+        "nfev": 60,
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "seed": [
+          0.0014708011303232681,
+          0.0066647349233007296,
+          9.244298233016996e-05,
+          -0.002494537542713455,
+          1429.3898508330442,
+          7.425686684564042,
+          190.71869799490693
+        ],
+        "bounds": [
+          [
+            -0.025,
+            -0.025,
+            -0.025,
+            -0.025,
+            1325,
+            1,
+            40
+          ],
+          [
+            0.025,
+            0.025,
+            0.025,
+            0.025,
+            1560,
+            40,
+            350
+          ]
+        ]
+      }
+    },
+    {
+      "geometry": {
+        "name": "N1400_F63_L50",
+        "flat_distance_mm": 1400,
+        "flat_minor_mm": 63,
+        "lens_diameter_mm": 50,
+        "donor_nominal_diameter_mm": 353.0,
+        "primary_focal_mm": 1600.0
+      },
+      "parameters": [
+        0.002569922544363316,
+        0.0002156124157827645,
+        0.0028995416180971944,
+        0.009001458588782842,
+        1460.2571113867218,
+        5.161171890823233,
+        149.95287493443405
+      ],
+      "effective_focal_length_mm": 1930.501840293657,
+      "f_number": 6.199999710287109,
+      "worst_rms_radius_um": 9.179617598595323,
+      "minimum_survival": 0.965,
+      "traces": [
+        {
+          "field": "center",
+          "wave_um": 0.8,
+          "survival": 1.0,
+          "rms_radius_um": 5.18359885885244,
+          "centroid_mm": [
+            -3.224503997145689e-16,
+            -1.1012024625500771e-16
+          ]
+        },
+        {
+          "field": "center",
+          "wave_um": 1.2,
+          "survival": 1.0,
+          "rms_radius_um": 3.495083992728968,
+          "centroid_mm": [
+            -3.7490843762810756e-16,
+            1.582067810090848e-17
+          ]
+        },
+        {
+          "field": "center",
+          "wave_um": 1.8,
+          "survival": 1.0,
+          "rms_radius_um": 4.546146954240352,
+          "centroid_mm": [
+            -4.2091330421101245e-16,
+            -2.0261570199409106e-17
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 0.8,
+          "survival": 0.97,
+          "rms_radius_um": 6.284636180640998,
+          "centroid_mm": [
+            6.406846906270183,
+            -2.7247677195858384e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 1.2,
+          "survival": 0.97,
+          "rms_radius_um": 6.809395243023824,
+          "centroid_mm": [
+            6.404896628268004,
+            -2.6539480807727646e-16
+          ]
+        },
+        {
+          "field": "+x",
+          "wave_um": 1.8,
+          "survival": 0.97,
+          "rms_radius_um": 6.255674058704815,
+          "centroid_mm": [
+            6.406297630712171,
+            -3.200475394441334e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 0.8,
+          "survival": 0.97,
+          "rms_radius_um": 6.284636180641205,
+          "centroid_mm": [
+            -6.40684690627018,
+            -1.5487325053566133e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 1.2,
+          "survival": 0.97,
+          "rms_radius_um": 6.809395243023986,
+          "centroid_mm": [
+            -6.404896628268007,
+            -1.30551354377636e-16
+          ]
+        },
+        {
+          "field": "-x",
+          "wave_um": 1.8,
+          "survival": 0.97,
+          "rms_radius_um": 6.255674058705123,
+          "centroid_mm": [
+            -6.406297630712171,
+            -2.935795936251058e-16
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 0.8,
+          "survival": 0.985,
+          "rms_radius_um": 5.610519447564639,
+          "centroid_mm": [
+            -3.6138604799029523e-17,
+            5.125081234249724
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 1.2,
+          "survival": 0.985,
+          "rms_radius_um": 5.520906276760628,
+          "centroid_mm": [
+            -6.727557033737465e-17,
+            5.123516094673232
+          ]
+        },
+        {
+          "field": "+y",
+          "wave_um": 1.8,
+          "survival": 0.985,
+          "rms_radius_um": 5.392465084006591,
+          "centroid_mm": [
+            -4.0999352812934083e-17,
+            5.124639678776218
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 0.8,
+          "survival": 0.985,
+          "rms_radius_um": 5.61051944756445,
+          "centroid_mm": [
+            -1.1975755976286588e-17,
+            -5.12508123424973
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 1.2,
+          "survival": 0.985,
+          "rms_radius_um": 5.520906276760306,
+          "centroid_mm": [
+            1.4744268975510486e-16,
+            -5.123516094673233
+          ]
+        },
+        {
+          "field": "-y",
+          "wave_um": 1.8,
+          "survival": 0.985,
+          "rms_radius_um": 5.392465084006594,
+          "centroid_mm": [
+            -1.1207898681336447e-16,
+            -5.124639678776219
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 0.8,
+          "survival": 0.965,
+          "rms_radius_um": 7.973954556545907,
+          "centroid_mm": [
+            6.407651584936216,
+            5.126123282156306
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 1.2,
+          "survival": 0.965,
+          "rms_radius_um": 9.179617598595323,
+          "centroid_mm": [
+            6.405697508791126,
+            5.124557471024448
+          ]
+        },
+        {
+          "field": "corner++",
+          "wave_um": 1.8,
+          "survival": 0.965,
+          "rms_radius_um": 8.16108121035984,
+          "centroid_mm": [
+            6.407099655033825,
+            5.1256808099313425
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 0.8,
+          "survival": 0.965,
+          "rms_radius_um": 7.973954556545611,
+          "centroid_mm": [
+            6.407651584936216,
+            -5.126123282156305
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 1.2,
+          "survival": 0.965,
+          "rms_radius_um": 9.179617598595089,
+          "centroid_mm": [
+            6.405697508791123,
+            -5.124557471024446
+          ]
+        },
+        {
+          "field": "corner+-",
+          "wave_um": 1.8,
+          "survival": 0.965,
+          "rms_radius_um": 8.161081210359553,
+          "centroid_mm": [
+            6.407099655033823,
+            -5.125680809931344
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 0.8,
+          "survival": 0.9675,
+          "rms_radius_um": 7.970822738028311,
+          "centroid_mm": [
+            -6.407645482842432,
+            5.126107187347729
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 1.2,
+          "survival": 0.9675,
+          "rms_radius_um": 9.174663423886575,
+          "centroid_mm": [
+            -6.405688286890269,
+            5.124541867209524
+          ]
+        },
+        {
+          "field": "corner-+",
+          "wave_um": 1.8,
+          "survival": 0.9675,
+          "rms_radius_um": 8.158071432252429,
+          "centroid_mm": [
+            -6.40709227811867,
+            5.125664555900577
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 0.8,
+          "survival": 0.9675,
+          "rms_radius_um": 7.970822738028592,
+          "centroid_mm": [
+            -6.407645482842432,
+            -5.126107187347729
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 1.2,
+          "survival": 0.9675,
+          "rms_radius_um": 9.17466342388709,
+          "centroid_mm": [
+            -6.405688286890275,
+            -5.1245418672095235
+          ]
+        },
+        {
+          "field": "corner--",
+          "wave_um": 1.8,
+          "survival": 0.9675,
+          "rms_radius_um": 8.158071432253012,
+          "centroid_mm": [
+            -6.407092278118667,
+            -5.125664555900577
+          ]
+        }
+      ],
+      "physical": {
+        "lens_edge_thickness_mm": [
+          5.2634480967304444,
+          6.942199963083333
+        ],
+        "air_gap_edge_mm": 6.001092719230879,
+        "beam_at_flat_including_field_mm": 50.80892086372423,
+        "flat_clear_margin_mm": 12.191079136275768,
+        "side_exit_track_mm": 226.37115821197904,
+        "straight_dimensions_mm": [
+          512.0,
+          367.0,
+          1455
+        ],
+        "straight_volume_l": 273.40032,
+        "one_large_fold_dimensions_mm": [
+          1006.371158211979,
+          367.0,
+          775.0
+        ],
+        "one_large_fold_volume_l": 286.2371166744422,
+        "large_fold_clear_mm": 262.1000754151934,
+        "large_fold_solid_proxy_kg": 3.1111002082031067,
+        "donor_primary_catalog_mass_kg": 8.28,
+        "donor_primary_solid_proxy_kg": 7.600404008825276,
+        "focus_mechanisms_complete_payload": 2,
+        "large_optics_over_100mm_straight": 2,
+        "large_optics_over_100mm_large_fold": 3,
+        "limitations": "box includes integrated 141 mm EO cell proxy; cells/electronics/gimbal excluded; large fold is a new qualified optic"
+      },
+      "optimization": {
+        "nfev": 60,
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "seed": [
+          0.0014708011303232681,
+          0.0066647349233007296,
+          9.244298233016996e-05,
+          -0.002494537542713455,
+          1445.0,
+          7.425686684564042,
+          190.71869799490693
+        ],
+        "bounds": [
+          [
+            -0.025,
+            -0.025,
+            -0.025,
+            -0.025,
+            1425,
+            1,
+            40
+          ],
+          [
+            0.025,
+            0.025,
+            0.025,
+            0.025,
+            1560,
+            40,
+            350
+          ]
+        ]
+      }
+    }
+  ]
+}

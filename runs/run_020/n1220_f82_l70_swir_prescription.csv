@@ -1,0 +1,10 @@
+surface,radius_mm,conic,thickness_mm,material_post,is_stop
+0,infinity,,infinity,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2c2f0>,False
+1,infinity,,18.0,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2c4b0>,True
+2,-3200.0,-1.0,-1220.0,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2c4b0>,False
+3,infinity,,-245.34096397522558,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2c670>,False
+4,-180.37779004779958,0.0,-6.0,"Material(name='fused_silica', λ=[0.21µm, 6.70µm])",False
+5,-265.4750550615919,0.0,-5.028962924325392,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2f070>,False
+6,-412.0377798690104,0.0,-5.0,"Material(name='LITHOTEC-CAF2', λ=[0.25µm, 2.50µm])",False
+7,-122.52554894995679,0.0,-143.85545849858428,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2f4d0>,False
+8,infinity,,0.0,<optiland.materials.ideal.IdealMaterial object at 0x784f9cb2f460>,False

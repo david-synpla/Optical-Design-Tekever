@@ -1,0 +1,38 @@
+{
+  "materially_distinct_attempts": 5,
+  "optimizer_invocations": 5,
+  "optimizer_evaluations": 249,
+  "attempts": [
+    {
+      "name": "N1220_F82_L70",
+      "nfev": 60,
+      "success": false
+    },
+    {
+      "name": "N1300_F75_L60",
+      "nfev": 60,
+      "success": false
+    },
+    {
+      "name": "N1400_F63_L50",
+      "nfev": 60,
+      "success": false
+    },
+    {
+      "name": "C350_CAS_B80",
+      "nfev": 9,
+      "success": true
+    },
+    {
+      "name": "N1400_F63_SINGLE_FS",
+      "nfev": 60,
+      "success": false
+    }
+  ],
+  "finite_focus_evaluations": 16,
+  "dense_replays": 2,
+  "observed_WSL_process_seconds_approx": 180,
+  "plateau_counter": 0,
+  "dependency_installations": 0,
+  "stopping_reason": "normal five-attempt cap reached; economic question answered without repeated rescue optimization"
+}

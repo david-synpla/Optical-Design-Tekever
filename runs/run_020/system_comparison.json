@@ -1,0 +1,95 @@
+{
+  "retained_system": "C04-N1400/B09",
+  "architecture": "separate but common-bench donor-optics EO+SWIR; purpose-built UAV structure, not astronomy OTA",
+  "EO": {
+    "source": "preserved B09",
+    "efl_mm": 794.2025406087239,
+    "f_number": 6.19999720570095,
+    "worst_dense_RMS_um": 7.972366517258506
+  },
+  "SWIR": {
+    "source": "N1400_F63_L50",
+    "efl_mm": 1930.501840293657,
+    "efl_error_mm": -9.020827292260947e-05,
+    "f_number": 6.199999710287109,
+    "pupil_mm": 311.3712791132146,
+    "worst_dense_RMS_um": 9.219889304730318,
+    "minimum_dense_survival": 0.935546875,
+    "800m_refocus_mm": 4.647614694341727
+  },
+  "package": {
+    "front_face_mm": [
+      512.0,
+      367.0
+    ],
+    "dimensions_mm": [
+      512.0,
+      367.0,
+      1455
+    ],
+    "volume_l": 273.40032,
+    "largest_dimension_mm": 1455,
+    "one_large_fold_dimensions_mm": [
+      1006.371158211979,
+      367.0,
+      775.0
+    ],
+    "one_large_fold_volume_l": 286.2371166744422,
+    "large_fold_clear_mm": 262.1000754151934,
+    "large_fold_mass_proxy_kg": 3.1111002082031067,
+    "fold_decision": "not retained; one large mid-path flat increases bounding volume and adds a 262 mm / 3.11 kg solid proxy optic"
+  },
+  "mass_structure_gimbal": {
+    "catalog_SWIR_primary_kg": 8.28,
+    "mixed_major_optic_mass_estimate_kg": 8.844784578811975,
+    "mass_basis": "catalog primary mass plus geometric flat/lens and B09 mirror solid proxies; excludes cells, focus, detectors, electronics and structure",
+    "structure_area_proxy_m2_range": [
+      0.959627173594501,
+      1.2951398442199302
+    ],
+    "uniform_box_specific_inertia_m2_per_unit_mass": {
+      "about_vertical_axis": 0.19826408333333337,
+      "about_optical_axis": 0.033069416666666664
+    },
+    "CG_implication": "8.28 kg SWIR primary at one end of a 1.455 m structure dominates balance; detector/electronics placement or counterbalancing is required before gimbal sizing"
+  },
+  "components": {
+    "COTS_figures": [
+      "353 mm / 1600 mm parabolic primary donor hypothesis",
+      "63 mm elliptical flat",
+      "B09 EO stock-nominal primary/flat"
+    ],
+    "custom": [
+      "two 50 mm spherical SWIR elements (fused silica/CaF2)",
+      "SWIR AR coatings",
+      "qualified SWIR mirror coatings",
+      "UAV cells/common bench/baffles"
+    ],
+    "large_optics_over_100mm": 2,
+    "focus_mechanisms": 2,
+    "complete_independent_housings": 0,
+    "separate_optical_cells": 2,
+    "shared_outer_structure": true
+  },
+  "scene_overlap_800m": {
+    "axis_baseline_mm": 258.0,
+    "angular_parallax_urad": 322.5,
+    "pixel_shift": {
+      "EO": 93.47826086956523,
+      "SWIR": 62.25868725868726
+    },
+    "EO_footprint_m": [
+      11.30496,
+      8.28
+    ],
+    "SWIR_footprint_m": [
+      5.30432,
+      4.243455999999999
+    ],
+    "intersection_m": [
+      5.30432,
+      4.243455999999999
+    ],
+    "SWIR_area_overlap_fraction": 1.0
+  }
+}

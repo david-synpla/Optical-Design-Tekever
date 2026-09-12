@@ -1,0 +1,8 @@
+surface,radius_mm,conic,thickness_mm,material_post,is_stop
+0,infinity,,infinity,<optiland.materials.ideal.IdealMaterial object at 0x7aa9991b0600>,False
+1,infinity,,18.0,<optiland.materials.ideal.IdealMaterial object at 0x7aa9991b2900>,True
+2,-3200.0,-1.0,-1400.0,<optiland.materials.ideal.IdealMaterial object at 0x7aa9991b2900>,False
+3,infinity,,-129.0478172846599,<optiland.materials.ideal.IdealMaterial object at 0x7aa9991b2740>,False
+4,-339.8918794622813,0.0,-6.0,"Material(name='fused_silica', λ=[0.21µm, 6.70µm])",False
+5,-112.41990796890761,0.0,-80.14602619310372,<optiland.materials.ideal.IdealMaterial object at 0x7aa9991b32a0>,False
+6,infinity,,0.0,<optiland.materials.ideal.IdealMaterial object at 0x7aa9991b34d0>,False

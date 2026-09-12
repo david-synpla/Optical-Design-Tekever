@@ -1,0 +1,19 @@
+{
+  "track": "C",
+  "run_id": "020",
+  "candidate_ids": [
+    "C04"
+  ],
+  "parent_run": "run_019",
+  "development_stage": "C1 bounded cost/COTS experiment",
+  "start_time_utc": "2026-09-12T19:33:48.694100+00:00",
+  "end_time_utc": "2026-09-12T19:35:06.923029+00:00",
+  "script_wall_seconds": 78.228932418,
+  "materially_distinct_attempts": 5,
+  "optimizer_invocations": 5,
+  "optimizer_evaluations": 249,
+  "plateau_counter": 0,
+  "stopping_reason": "five-attempt cap reached after three Newtonian/extender placements, one custom-secondary derivative and one one-lens economy derivative",
+  "finite_focus_evaluations": 16,
+  "resource_accounting_file": "execution_log.json"
+}

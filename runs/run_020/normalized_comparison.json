@@ -1,0 +1,35 @@
+{
+  "C04": {
+    "dimensions_mm": [
+      512.0,
+      367.0,
+      1455
+    ],
+    "volume_l": 273.40032,
+    "largest_mm": 1455,
+    "optic_mass_mixed_kg": 8.844784578811975,
+    "vertical_specific_inertia": 0.19826408333333337
+  },
+  "C01": {
+    "dimensions_mm": [
+      470.3712791132146,
+      325.3712791132146,
+      445.59013959013964
+    ],
+    "volume_l": 68.1954787041315,
+    "largest_mm": 470.3712791132146,
+    "mirror_proxy_kg": 5.740798404023658,
+    "vertical_specific_inertia": 0.03498330939288014
+  },
+  "C02": {
+    "dimensions_mm": [
+      337.49872482833655,
+      337.49872482833655,
+      700.017
+    ],
+    "volume_l": 79.7357088741447,
+    "mirror_proxy_kg": 5.09227711842174,
+    "vertical_specific_inertia": 0.05032743246247943
+  },
+  "warning": "C04 uses actual catalog primary mass plus proxies; C01/C02 are solid-blank proxies. Compare directionally, not as a flight BOM."
+}

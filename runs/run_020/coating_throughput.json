@@ -1,0 +1,6 @@
+{
+  "N1400_geometric_dense": 0.935546875,
+  "qualified_gold_two_mirror_lower_class_proxy": 0.8622,
+  "excludes": "four corrector surfaces, glass absorption, AR coatings, window, detector QE, scatter and coating angle/environment effects",
+  "stock_Hilux_SWIR": "unscored; visible marketing data cannot be extrapolated to 1.8 um"
+}
