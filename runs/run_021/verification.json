@@ -1,0 +1,10 @@
+{
+  "requirements_snapshot_exact": true,
+  "all_unknowns_classified_1_2_or_3": true,
+  "prescriptions_modified": false,
+  "historical_runs_modified": false,
+  "reference_accessed": false,
+  "no_weighted_score": true,
+  "optical_optimization_performed": false,
+  "passed": true
+}

@@ -1,0 +1,17 @@
+{
+  "question": "Is there enough evidence to select one architecture for C2, or should C2 retain two architectures until a small number of supplier and engineering gates are answered?",
+  "answer": "Retain C01 and C02 through a small gated C2 comparison; do not select a sole architecture yet.",
+  "C01": "ADVANCE as preferred C2 reference/fallback",
+  "C02_A6F1": "ADVANCE CONDITIONALLY as common-LOS challenger, subject to annular-primary, dichroic and real-camera/fold gates",
+  "C04_N1400_B09": "RETAIN as procurement-risk hedge; do not spend another optical optimization run unless supplier evidence changes the heavy/long implementation",
+  "C03": "PARKED unchanged",
+  "C05": "PARKED unchanged",
+  "blocking_gates_before_sole_commitment": [
+    "common detector/dewar/window/electronics interfaces and payload accounting boundary",
+    "C01 concept CAD/thermal/boresight mass and gimbal estimate",
+    "C02 quoteable annular-primary fabrication, metrology, support and finished mass",
+    "C02 finite dichroic transition allocation and vendor feasibility",
+    "C02 real three-element cameras plus physical folded package"
+  ],
+  "next_action": "Issue common-basis budgetary RFQs and obtain detector/environment interfaces; if C02 supplier gates are credible, authorize one bounded three-element-backend and fold run."
+}

@@ -1,0 +1,6 @@
+{
+  "new_dependencies_installed": 0,
+  "optical_model_executed": false,
+  "tools": ["PowerShell", "Git"],
+  "note": "Run 021 is document and evidence normalization; no optical software or optimizer was invoked."
+}

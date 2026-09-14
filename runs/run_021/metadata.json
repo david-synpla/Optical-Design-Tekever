@@ -1,0 +1,17 @@
+{
+  "track": "C",
+  "run_id": "021",
+  "candidate_ids": ["C01", "C02", "C04"],
+  "parent_run": "run_020",
+  "development_stage": "C1 cross-portfolio closure and RFQ readiness",
+  "purpose": "normalize portfolio evidence, classify ranking unknowns, prepare quote-ready supplier questions and define the C2 decision gate",
+  "start_time_utc": "2026-09-14T10:48:00Z",
+  "end_time_utc": "2026-09-14T11:06:18Z",
+  "materially_distinct_attempts": 0,
+  "optimizer_invocations": 0,
+  "optimizer_evaluations": 0,
+  "substantial_computational_searches": 0,
+  "plateau_counter": 0,
+  "stopping_reason": "bounded closure question answered without prescription modification or optical search",
+  "resource_accounting_file": "execution_log.json"
+}

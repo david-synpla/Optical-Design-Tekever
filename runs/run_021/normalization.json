@@ -1,0 +1,67 @@
+{
+  "classification": "cross-portfolio C1 closure; normalized evidence and quote basis, not CAD, payload mass, production cost or acceptance specification",
+  "architectures": ["C01-B05-1/S16", "C02-A6F1", "C04-N1400/B09"],
+  "common_accounting_boundary": {
+    "detector_interfaces": "same EO module and same SWIR detector/dewar module charged to every architecture; absent CAD/mass is left unquantified",
+    "windows": "same unknown channel windows; not credited in throughput or prescriptions; C02 camera study must sweep zero, 0.5 and 1.0 mm optical thickness",
+    "electronics": "same channel electronics and harness allowances; absent values are not invented",
+    "focus": "two independent channel focus functions for all architectures; range travel known first-order, thermal/mechanism allowance open",
+    "cells_baffles_structure": "existing geometry and scalable area proxies retained; local cells, baffles and flight margins absent from all complete-mass claims",
+    "qualification": "-25 to +50 C operating requirement retained; other flight environments unspecified and requested before quotation",
+    "pricing_scenarios": [1, 5, 10, 25],
+    "pricing_note": "comparison breakpoints only, not forecast quantities; NRE and recurring price must be separated"
+  },
+  "coating_count_sensitivity": {
+    "mirror_reflectance_assumption": 0.9,
+    "useful_splitter_port_assumption": 0.9,
+    "two_mirror_no_split": 0.81,
+    "two_mirror_plus_split": 0.729,
+    "limitations": "excludes refractive surfaces, windows, absorption, scatter, polarization, QE and spectral transition"
+  },
+  "evidence": {
+    "C01-B05-1/S16": {
+      "box_mm": [470.3712791132146, 325.3712791132146, 445.59013959013964],
+      "volume_l": 68.1954787041315,
+      "solid_mirror_blank_proxy_kg": 5.740798404023658,
+      "structure_area_proxy_m2": [0.4549354906871229, 0.6021411027478467],
+      "large_optics_over_100mm": 2,
+      "focus_mechanisms": 2,
+      "worst_dense_rms_um": {"EO": 0.8, "SWIR": 8.772259375943083},
+      "SWIR_geometric_survival": 0.95,
+      "parallax_800m_urad": 296.4820407586769,
+      "SWIR_scene_overlap_fraction": 1.0
+    },
+    "C02-A6F1": {
+      "same_allowance_straight_box_mm": [337.49872482833655, 337.49872482833655, 700.017],
+      "volume_l": 79.7357088741447,
+      "solid_mirror_blank_proxy_kg": 5.09227711842174,
+      "structure_area_proxy_m2_before_branches": 0.7422164849813844,
+      "large_optics_over_100mm": 1,
+      "focus_mechanisms": 2,
+      "minimum_geometric_survival": {"EO": 0.7083333333333334, "SWIR": 0.7330729166666666},
+      "physical_doublet_worst_rms_um": {"EO": 33.93389492787633, "SWIR": 37.47434419706621},
+      "parallax": "common fore-optic LOS",
+      "missing_from_box": "real dichroic branch, triplet-like cameras, detector/dewar and fold"
+    },
+    "C04-N1400/B09": {
+      "box_mm": [512.0, 367.0, 1455.0],
+      "volume_l": 273.40032,
+      "mixed_optical_mass_estimate_kg": 8.844784578811975,
+      "catalog_primary_mass_kg": 8.28,
+      "structure_area_proxy_m2": [0.959627173594501, 1.2951398442199302],
+      "large_optics_over_100mm": 2,
+      "focus_mechanisms": 2,
+      "worst_dense_rms_um": {"EO": 7.972366517258506, "SWIR": 9.219889304730318},
+      "SWIR_geometric_survival": 0.935546875,
+      "parallax_800m_urad": 322.5,
+      "SWIR_scene_overlap_fraction": 1.0
+    }
+  },
+  "decision": {
+    "sole_C2_selection_supported": false,
+    "preferred_reference": "C01-B05-1/S16",
+    "conditional_challenger": "C02-A6F1",
+    "procurement_hedge": "C04-N1400/B09",
+    "next_optical_run_if_supplier_gates_pass": "one bounded real three-element C02-A6F1 EO/SWIR backend plus physically folded package"
+  }
+}
